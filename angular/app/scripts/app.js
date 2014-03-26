@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularApp', [
+angular.module('VisaCreatorApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
@@ -11,6 +11,10 @@ angular.module('angularApp', [
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
+      })
+      .when('/JapanVisaForm', {
+        templateUrl: 'views/japanVisaForm.html',
+        controller: 'japanVisaFormCtrl'
       })
       .otherwise({
         redirectTo: '/'

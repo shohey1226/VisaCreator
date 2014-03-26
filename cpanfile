@@ -1,3 +1,5 @@
 requires "Mojolicious";
-#requires "CAM::PDF";
 requires "PDF::API2";
+requires "Mojolicious::Plugin::Web::Auth";
+requires "Plack::Session";
+requires "Moo";
