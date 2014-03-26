@@ -539,6 +539,18 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.52
       Test::More 0.82
       perl 5.00503
+  Log-Minimal-0.18
+    pathname: K/KA/KAZEBURO/Log-Minimal-0.18.tar.gz
+    provides:
+      Log::Minimal 0.18
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      Data::Dumper 0
+      ExtUtils::CBuilder 0
+      Module::Build 0.38
+      Scalar::Util 0
+      Term::ANSIColor 0
   Module-Build-Tiny-0.035
     pathname: L/LE/LEONT/Module-Build-Tiny-0.035.tar.gz
     provides:

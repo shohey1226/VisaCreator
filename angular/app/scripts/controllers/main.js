@@ -3,8 +3,11 @@
 angular.module('VisaCreatorApp')
   .controller('japanVisaFormCtrl', function ($scope, japanVisaService) {
     $scope.save = function(user){
-      japanVisaService.post(user);
+      japanVisaService.saveForm(user);
     };
+  })
+  .controller('TopCtrl', function ($scope) {
+      console.log("abc");
   })
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [

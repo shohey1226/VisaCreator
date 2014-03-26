@@ -9,11 +9,15 @@ angular.module('VisaCreatorApp', [
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
+        templateUrl: 'views/top.html',
+        controller: 'TopCtrl'
+      })
+      .when('/main', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/JapanVisaForm', {
-        templateUrl: 'views/japanVisaForm.html',
+      .when('/japan-visa-form', {
+        templateUrl: 'views/japan-visa-form.html',
         controller: 'japanVisaFormCtrl'
       })
       .otherwise({

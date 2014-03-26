@@ -1,13 +1,13 @@
 'use strict';
 
 angular.module('VisaCreatorApp')
-.factory('japanVisaService', function ($http, $rootScope, $q) {
+.factory('japanVisaService', function ($resource) {
+
   return {
-    post: function(user){
-      console.log(user);
+    saveForm: function(user){
+      $resource('/api/japan/form').save(user);
     },
     get: function(){
-
     }
   }
 });

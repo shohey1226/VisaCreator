@@ -19,7 +19,8 @@ sub startup {
   push @{$r->namespaces}, 'VisaCreator::Controllers';
   # Normal route to controller
   $r->get('/')->to('Index#serve_root');
-  $r->post('/japan/form')->to('Japan#save_form');
+  $r->post('/api/japan/form')->to('Japan#save_form');
+
 }
 
 1;

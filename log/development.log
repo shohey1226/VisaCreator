@@ -101,3 +101,158 @@
 [Wed Mar 26 15:13:18 2014] [debug] GET "/".
 [Wed Mar 26 15:13:18 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
 [Wed Mar 26 15:13:18 2014] [debug] 200 OK (0.002185s, 457.666/s).
+[Wed Mar 26 15:20:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Mar 26 15:20:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Mar 26 15:20:15 2014] [debug] GET "/".
+[Wed Mar 26 15:20:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Mar 26 15:20:15 2014] [debug] 200 OK (0.001771s, 564.653/s).
+[Wed Mar 26 15:23:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Mar 26 17:06:47 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Mar 26 17:07:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Mar 26 17:07:02 2014] [debug] GET "/".
+[Wed Mar 26 17:07:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Mar 26 17:07:02 2014] [debug] 200 OK (0.002977s, 335.909/s).
+[Wed Mar 26 17:12:26 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Mar 26 17:12:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Mar 26 17:12:37 2014] [debug] GET "/".
+[Wed Mar 26 17:12:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Mar 26 17:12:37 2014] [debug] 200 OK (0.003302s, 302.847/s).
+[Wed Mar 26 17:12:44 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:12:44 2014] [error] Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 7, <DATA> line 231.
+Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 8, <DATA> line 231.
+Compilation failed in require at (eval 298) line 1, <DATA> line 231.
+
+[Wed Mar 26 17:12:44 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Mar 26 17:12:44 2014] [debug] Template "exception.html.ep" not found.
+[Wed Mar 26 17:12:44 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Mar 26 17:12:44 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Mar 26 17:12:44 2014] [debug] 500 Internal Server Error (0.039357s, 25.408/s).
+[Wed Mar 26 17:16:38 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Mar 26 17:16:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Mar 26 17:16:44 2014] [debug] GET "/".
+[Wed Mar 26 17:16:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Mar 26 17:16:44 2014] [debug] 304 Not Modified (0.003223s, 310.270/s).
+[Wed Mar 26 17:16:49 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:16:49 2014] [error] Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 7, <DATA> line 231.
+Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 8, <DATA> line 231.
+Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 9, <DATA> line 231.
+Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 10, <DATA> line 231.
+Compilation failed in require at (eval 298) line 1, <DATA> line 231.
+
+[Wed Mar 26 17:16:49 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Mar 26 17:16:49 2014] [debug] Template "exception.html.ep" not found.
+[Wed Mar 26 17:16:49 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Mar 26 17:16:49 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Mar 26 17:16:49 2014] [debug] 500 Internal Server Error (0.037346s, 26.777/s).
+[Wed Mar 26 17:17:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Mar 26 17:17:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Mar 26 17:17:46 2014] [debug] GET "/".
+[Wed Mar 26 17:17:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Mar 26 17:17:46 2014] [debug] 304 Not Modified (0.002982s, 335.345/s).
+[Wed Mar 26 17:17:50 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:17:50 2014] [error] Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 7, <DATA> line 231.
+Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 8, <DATA> line 231.
+Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 9, <DATA> line 231.
+Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 11, <DATA> line 231.
+Compilation failed in require at (eval 298) line 1, <DATA> line 231.
+
+[Wed Mar 26 17:17:50 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Mar 26 17:17:50 2014] [debug] Template "exception.html.ep" not found.
+[Wed Mar 26 17:17:50 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Mar 26 17:17:50 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Mar 26 17:17:50 2014] [debug] 500 Internal Server Error (0.035568s, 28.115/s).
+[Wed Mar 26 17:19:25 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:19:25 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Wed Mar 26 17:19:25 2014] [debug] Action not found in controller.
+[Wed Mar 26 17:19:25 2014] [debug] Template "japan/save_form.html.ep" not found.
+[Wed Mar 26 17:19:25 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Mar 26 17:19:25 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Mar 26 17:19:25 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Mar 26 17:19:25 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Wed Mar 26 17:19:25 2014] [debug] 404 Not Found (0.008930s, 111.982/s).
+[Wed Mar 26 17:20:32 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Mar 26 17:20:38 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Mar 26 17:20:38 2014] [debug] GET "/".
+[Wed Mar 26 17:20:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Mar 26 17:20:38 2014] [debug] 304 Not Modified (0.003075s, 325.203/s).
+[Wed Mar 26 17:20:42 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:20:42 2014] [error] Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 7, <DATA> line 231.
+Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 8, <DATA> line 231.
+Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 9, <DATA> line 231.
+Global symbol "$self" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 11, <DATA> line 231.
+Compilation failed in require at (eval 298) line 1, <DATA> line 231.
+
+[Wed Mar 26 17:20:42 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Mar 26 17:20:42 2014] [debug] Template "exception.html.ep" not found.
+[Wed Mar 26 17:20:42 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Mar 26 17:20:42 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Mar 26 17:20:42 2014] [debug] 500 Internal Server Error (0.039987s, 25.008/s).
+[Wed Mar 26 17:21:29 2014] [debug] GET "/".
+[Wed Mar 26 17:21:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Mar 26 17:21:29 2014] [debug] 304 Not Modified (0.001085s, 921.659/s).
+[Wed Mar 26 17:21:32 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:21:32 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Wed Mar 26 17:21:32 2014] [debug] Action not found in controller.
+[Wed Mar 26 17:21:32 2014] [debug] Template "japan/save_form.html.ep" not found.
+[Wed Mar 26 17:21:32 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Mar 26 17:21:32 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Mar 26 17:21:32 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Mar 26 17:21:32 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Wed Mar 26 17:21:32 2014] [debug] 404 Not Found (0.012182s, 82.088/s).
+[Wed Mar 26 17:21:34 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:21:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Wed Mar 26 17:21:34 2014] [debug] Action not found in controller.
+[Wed Mar 26 17:21:34 2014] [debug] Template "japan/save_form.html.ep" not found.
+[Wed Mar 26 17:21:34 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Mar 26 17:21:34 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Mar 26 17:21:34 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Mar 26 17:21:34 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Wed Mar 26 17:21:34 2014] [debug] 404 Not Found (0.008506s, 117.564/s).
+[Wed Mar 26 17:22:55 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:22:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Wed Mar 26 17:22:55 2014] [debug] Action not found in controller.
+[Wed Mar 26 17:22:55 2014] [debug] Template "japan/save_form.html.ep" not found.
+[Wed Mar 26 17:22:55 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Mar 26 17:22:55 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Mar 26 17:22:55 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Mar 26 17:22:55 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Wed Mar 26 17:22:55 2014] [debug] 404 Not Found (0.006992s, 143.021/s).
+[Wed Mar 26 17:31:42 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Mar 26 17:31:49 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Mar 26 17:31:49 2014] [debug] GET "/".
+[Wed Mar 26 17:31:49 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Mar 26 17:31:49 2014] [debug] 304 Not Modified (0.002373s, 421.408/s).
+[Wed Mar 26 17:31:53 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:31:53 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Wed Mar 26 17:31:53 2014] [debug] Template "japan/save_form.html.ep" not found.
+[Wed Mar 26 17:31:53 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Mar 26 17:31:53 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Mar 26 17:31:53 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Mar 26 17:31:53 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Mar 26 17:31:53 2014] [debug] 404 Not Found (0.064952s, 15.396/s).
+[Wed Mar 26 17:32:16 2014] [debug] GET "/".
+[Wed Mar 26 17:32:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Mar 26 17:32:16 2014] [debug] 304 Not Modified (0.001005s, 995.025/s).
+[Wed Mar 26 17:32:20 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:32:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Wed Mar 26 17:32:20 2014] [debug] Template "japan/save_form.html.ep" not found.
+[Wed Mar 26 17:32:20 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Mar 26 17:32:20 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Mar 26 17:32:20 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Mar 26 17:32:20 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Wed Mar 26 17:32:20 2014] [debug] 404 Not Found (0.036528s, 27.376/s).
+[Wed Mar 26 17:32:32 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Mar 26 17:32:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Mar 26 17:32:35 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:32:35 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Wed Mar 26 17:32:35 2014] [debug] Template "japan/save_form.html.ep" not found.
+[Wed Mar 26 17:32:35 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Mar 26 17:32:35 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Mar 26 17:32:35 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Mar 26 17:32:35 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Mar 26 17:32:35 2014] [debug] 404 Not Found (0.032276s, 30.983/s).
+[Wed Mar 26 17:33:56 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Mar 26 17:34:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Mar 26 17:34:01 2014] [debug] POST "/api/japan/form".
+[Wed Mar 26 17:34:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Wed Mar 26 17:34:01 2014] [debug] 200 OK (0.001979s, 505.306/s).
