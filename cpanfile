@@ -4,3 +4,6 @@ requires "Mojolicious::Plugin::Web::Auth";
 requires "Plack::Session";
 requires "Moo";
 requires "Log::Minimal";
+requires "Teng";
+requires "DateTime::Format::MySQL";
+requires "DBD::mysql";

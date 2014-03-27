@@ -256,3 +256,166 @@ Compilation failed in require at (eval 298) line 1, <DATA> line 231.
 [Wed Mar 26 17:34:01 2014] [debug] POST "/api/japan/form".
 [Wed Mar 26 17:34:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
 [Wed Mar 26 17:34:01 2014] [debug] 200 OK (0.001979s, 505.306/s).
+[Thu Mar 27 10:01:33 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:02:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 10:02:04 2014] [debug] GET "/".
+[Thu Mar 27 10:02:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Mar 27 10:02:04 2014] [debug] 304 Not Modified (0.001730s, 578.035/s).
+[Thu Mar 27 10:02:42 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:02:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 10:02:45 2014] [debug] GET "/".
+[Thu Mar 27 10:02:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Mar 27 10:02:45 2014] [debug] 304 Not Modified (0.002625s, 380.952/s).
+[Thu Mar 27 10:05:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:06:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 10:06:04 2014] [debug] POST "/api/japan/form".
+[Thu Mar 27 10:06:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Thu Mar 27 10:06:04 2014] [error] 'dbh' or 'connect_info' is required. at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 21.
+
+[Thu Mar 27 10:06:04 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Mar 27 10:06:04 2014] [debug] Template "exception.html.ep" not found.
+[Thu Mar 27 10:06:04 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Mar 27 10:06:04 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Mar 27 10:06:04 2014] [debug] 500 Internal Server Error (0.244881s, 4.084/s).
+[Thu Mar 27 10:08:49 2014] [debug] POST "/api/japan/form".
+[Thu Mar 27 10:08:49 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Thu Mar 27 10:08:49 2014] [error] 'dbh' or 'connect_info' is required. at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 21.
+
+[Thu Mar 27 10:08:49 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Mar 27 10:08:49 2014] [debug] Template "exception.html.ep" not found.
+[Thu Mar 27 10:08:49 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Mar 27 10:08:49 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Thu Mar 27 10:08:49 2014] [debug] 500 Internal Server Error (0.009893s, 101.082/s).
+[Thu Mar 27 10:09:12 2014] [debug] POST "/api/japan/form".
+[Thu Mar 27 10:09:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Thu Mar 27 10:09:12 2014] [error] 'dbh' or 'connect_info' is required. at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 21.
+
+[Thu Mar 27 10:09:12 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Mar 27 10:09:12 2014] [debug] Template "exception.html.ep" not found.
+[Thu Mar 27 10:09:12 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Mar 27 10:09:12 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Thu Mar 27 10:09:12 2014] [debug] 500 Internal Server Error (0.011575s, 86.393/s).
+[Thu Mar 27 10:09:21 2014] [debug] GET "/api/japan/form".
+[Thu Mar 27 10:09:21 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Mar 27 10:09:21 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Mar 27 10:09:21 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Mar 27 10:09:21 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Mar 27 10:09:21 2014] [debug] 404 Not Found (0.037882s, 26.398/s).
+[Thu Mar 27 10:12:28 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:12:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 10:12:57 2014] [debug] GET "/".
+[Thu Mar 27 10:12:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Mar 27 10:12:57 2014] [debug] 304 Not Modified (0.001992s, 502.008/s).
+[Thu Mar 27 10:13:06 2014] [debug] POST "/api/japan/form".
+[Thu Mar 27 10:13:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Thu Mar 27 10:13:06 2014] [error] 'dbh' or 'connect_info' is required. at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 21.
+
+[Thu Mar 27 10:13:06 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Mar 27 10:13:06 2014] [debug] Template "exception.html.ep" not found.
+[Thu Mar 27 10:13:06 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Mar 27 10:13:06 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Mar 27 10:13:06 2014] [debug] 500 Internal Server Error (0.244773s, 4.085/s).
+[Thu Mar 27 10:17:04 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:17:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 10:17:12 2014] [debug] GET "/".
+[Thu Mar 27 10:17:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Mar 27 10:17:12 2014] [debug] 304 Not Modified (0.002712s, 368.732/s).
+[Thu Mar 27 10:17:16 2014] [debug] POST "/api/japan/form".
+[Thu Mar 27 10:17:17 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Thu Mar 27 10:17:17 2014] [error] Can't use string ("visa_test") as a HASH ref while "strict refs" in use at /Users/kamesho/git/VisaCreator/local/lib/perl5/Teng.pm line 123, <DATA> line 231.
+
+[Thu Mar 27 10:17:17 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Mar 27 10:17:17 2014] [debug] Template "exception.html.ep" not found.
+[Thu Mar 27 10:17:17 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Mar 27 10:17:17 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Mar 27 10:17:17 2014] [debug] 500 Internal Server Error (0.320437s, 3.121/s).
+[Thu Mar 27 10:18:23 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:18:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 10:18:29 2014] [debug] GET "/".
+[Thu Mar 27 10:18:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Mar 27 10:18:29 2014] [debug] 304 Not Modified (0.001927s, 518.941/s).
+[Thu Mar 27 10:18:33 2014] [debug] POST "/api/japan/form".
+[Thu Mar 27 10:18:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Thu Mar 27 10:18:34 2014] [error] Connection error: install_driver(mysql) failed: Can't locate DBD/mysql.pm in @INC (you may need to install the DBD::mysql module) (@INC contains: /Users/kamesho/git/VisaCreator/script/../lib /Users/kamesho/git/VisaCreator/local/lib/perl5/darwin-2level /Users/kamesho/git/VisaCreator/local/lib/perl5 /Users/kamesho/perl5/perlbrew/perls/perl-5.18.2/lib/site_perl/5.18.2/darwin-2level /Users/kamesho/perl5/perlbrew/perls/perl-5.18.2/lib/site_perl/5.18.2 /Users/kamesho/perl5/perlbrew/perls/perl-5.18.2/lib/5.18.2/darwin-2level /Users/kamesho/perl5/perlbrew/perls/perl-5.18.2/lib/5.18.2 .) at (eval 368) line 3, <DATA> line 231.
+Perhaps the DBD::mysql perl module hasn't been fully installed,
+or perhaps the capitalisation of 'mysql' isn't right.
+Available drivers: DBM, ExampleP, File, Gofer, Proxy, Sponge.
+ at /Users/kamesho/git/VisaCreator/local/lib/perl5/Teng.pm line 126.
+ at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 21.
+
+[Thu Mar 27 10:18:34 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Mar 27 10:18:34 2014] [debug] Template "exception.html.ep" not found.
+[Thu Mar 27 10:18:34 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Mar 27 10:18:34 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Mar 27 10:18:34 2014] [debug] 500 Internal Server Error (0.237922s, 4.203/s).
+[Thu Mar 27 10:19:10 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:19:26 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 10:19:26 2014] [debug] GET "/".
+[Thu Mar 27 10:19:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Mar 27 10:19:26 2014] [debug] 304 Not Modified (0.002163s, 462.321/s).
+[Thu Mar 27 10:22:57 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:22:59 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 10:22:59 2014] [debug] GET "/".
+[Thu Mar 27 10:22:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Mar 27 10:22:59 2014] [debug] 304 Not Modified (0.002386s, 419.111/s).
+[Thu Mar 27 10:23:04 2014] [debug] POST "/api/japan/form".
+[Thu Mar 27 10:23:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Thu Mar 27 10:23:05 2014] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Unknown column 'ceated_at' in 'field list' at /Users/kamesho/git/VisaCreator/local/lib/perl5/Teng.pm line 272, <DATA> line 231.
+
+SQL     : SELECT `id`, `surname`, `facebook_id`, `ceated_at`, `updated_at`
+          FROM `user`
+          WHERE (`id` = ?)
+          LIMIT 1
+BIND    : $VAR1 = [
+          '1'
+        ];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 14.
+
+[Thu Mar 27 10:23:05 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Mar 27 10:23:05 2014] [debug] Template "exception.html.ep" not found.
+[Thu Mar 27 10:23:05 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Mar 27 10:23:05 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Mar 27 10:23:05 2014] [debug] 500 Internal Server Error (0.375949s, 2.660/s).
+[Thu Mar 27 10:34:04 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:34:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:35:02 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:35:31 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:37:31 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:37:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 10:37:36 2014] [debug] GET "/".
+[Thu Mar 27 10:37:36 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Mar 27 10:37:36 2014] [debug] 304 Not Modified (0.002759s, 362.450/s).
+[Thu Mar 27 10:37:40 2014] [debug] POST "/api/japan/form".
+[Thu Mar 27 10:37:40 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Thu Mar 27 10:37:41 2014] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Unknown column 'ceated_at' in 'field list' at /Users/kamesho/git/VisaCreator/local/lib/perl5/Teng.pm line 272, <DATA> line 231.
+
+SQL     : SELECT `id`, `surname`, `facebook_id`, `ceated_at`, `updated_at`
+          FROM `user`
+          WHERE (`id` = ?)
+          LIMIT 1
+BIND    : $VAR1 = [
+          '2'
+        ];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 14.
+
+[Thu Mar 27 10:37:41 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Mar 27 10:37:41 2014] [debug] Template "exception.html.ep" not found.
+[Thu Mar 27 10:37:41 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Mar 27 10:37:41 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Mar 27 10:37:41 2014] [debug] 500 Internal Server Error (0.397342s, 2.517/s).
+[Thu Mar 27 10:38:32 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 10:38:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 10:38:35 2014] [debug] GET "/".
+[Thu Mar 27 10:38:35 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Mar 27 10:38:35 2014] [debug] 304 Not Modified (0.002135s, 468.384/s).
+[Thu Mar 27 10:38:41 2014] [debug] POST "/api/japan/form".
+[Thu Mar 27 10:38:41 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Thu Mar 27 10:38:41 2014] [debug] 200 OK (0.337419s, 2.964/s).

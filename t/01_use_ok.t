@@ -12,6 +12,10 @@ BEGIN {
     #use_ok( 'VisaCreator::View::Xslate' ); 
     use_ok( 'VisaCreator::Controllers::Index' ); 
     use_ok( 'VisaCreator::Controllers::Japan' ); 
+    use_ok( 'VisaCreator::Service::PDFMaker' ); 
+    use_ok( 'VisaCreator::DB' ); 
+    use_ok( 'VisaCreator::DB::Schema' ); 
+    use_ok( 'VisaCreator::Role::PDF' ); 
     #use_ok( 'VisaCreator::Util' ); 
     #use_ok( 'VisaCreator::Service::User' ); 
     #use_ok( 'VisaCreator::Service::Theme' ); 
