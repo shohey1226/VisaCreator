@@ -1911,6 +1911,14 @@ DISTRIBUTIONS
       ojo undef
     requirements:
       ExtUtils::MakeMaker 0
+  Mojolicious-Plugin-RenderFile-0.07
+    pathname: K/KO/KOORCHIK/Mojolicious-Plugin-RenderFile-0.07.tar.gz
+    provides:
+      Mojolicious::Plugin::RenderFile 0.07
+    requirements:
+      ExtUtils::MakeMaker 0
+      Mojolicious 3.90
+      perl 5.01
   Mojolicious-Plugin-Web-Auth-0.08
     pathname: H/HA/HAYAJO/Mojolicious-Plugin-Web-Auth-0.08.tar.gz
     provides:

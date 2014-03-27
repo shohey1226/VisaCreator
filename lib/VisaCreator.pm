@@ -9,6 +9,9 @@ use Data::Dumper;
 sub startup {
   my $self = shift;
 
+  # To download files
+  $self->plugin('RenderFile');
+
   # Load config and instantiate Model which can be used anywhere through helper
   my $config = $self->plugin('Config', {file => "$Bin/../etc/visa_creator.conf"});
   my $m = VisaCreator::Model->new(config => $config);
@@ -20,6 +23,7 @@ sub startup {
   # Normal route to controller
   $r->get('/')->to('Index#serve_root');
   $r->post('/api/japan/form')->to('Japan#save_form');
+  $r->get('/japan/form/download/:id')->to('Japan#download_form');
 
 }
 

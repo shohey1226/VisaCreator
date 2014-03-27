@@ -29,4 +29,10 @@ sub _build_db {
     );
 }
 
+sub get_form_data {
+    my ($self, $id) = @_;
+    my $row = $self->db->single('user', { id => $id } );
+    return $row->get_columns;
+}
+
 1;

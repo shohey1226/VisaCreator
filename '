@@ -1,0 +1,34 @@
+package VisaCreator::Service::PDFMaker;
+
+use Moo;
+use PDF::API2;
+use Data::Dumper;
+use FindBin qw($Bin);
+
+sub create_form {
+    my ($self, $data ) = @_;
+    my $infile  = "$Bin/../../../etc/application1-1.pdf";
+    my $pdf = PDF::API2->open($infile);
+    my $page = $pdf->openpage(1);
+    my $font = $pdf->corefont('Helvetica-Bold');
+
+
+
+}
+
+ 
+## Create a blank PDF file
+#my $pdf = PDF::API2->new();
+# 
+#
+## Open an existing PDF file
+#my $text = $page->text();
+#$text->font($font, 20);
+#$text->translate(200, 700);
+#$text->text('Hello World!');
+#
+#$pdf->saveas('new.pdf');
+
+
+
+1;
