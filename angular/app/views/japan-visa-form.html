@@ -313,7 +313,130 @@
 <input type="text" class="form-control" id="partner" placeholder="" ng-model="user.partner">
 <br>
 
+<strong>Guarantor or reference in Japan</strong><br>
+(Please provide details of the guarantor or the person to be visited in Japan)<br>
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="guarantorName">Guarantor Name</label>
+    <input type="text" class="form-control" id="guarantorName" placeholder="" ng-model="user.guarantorName">
+  </div>
 
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="guarantorTel">Guarantor Tel.</label>
+    <input type="text" class="form-control" id="guarantorTel" placeholder="" ng-model="user.gurantorTel">
+  </div>
+</div>
+
+<br>
+<label for="guarantorAddress">Guarantor Address</label>
+<input type="text" class="form-control" id="guarantorAddress" placeholder="" ng-model="user.guarantorAddress">
+<br>
+
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="guarantorDateOfBirth">Date of birth</label>
+    <input type="text" class="form-control" id="guarantoDateOfBirth" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="user.guarantoDateOfBirth">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <strong>Sex</strong>
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="sex" id="male" value="male" ng-model="user.guarantoGender">
+          Male 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="sex" id="female" value="female" ng-model="user.guarantoGender">
+          Female
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<label for="guarantorRelationship">Relationship to applicant</label>
+<input type="text" class="form-control" id="guarantorRelationship" placeholder="" ng-model="user.guarantorRelationship">
+
+<br>
+<label for="guarantorProfession">Profession or occupation and position</label>
+<input type="text" class="form-control" id="guarantorProfession" placeholder="" ng-model="user.guarantorProfession">
+
+<br>
+<label for="guarantorNationality">Nationality and immigration status</label>
+<input type="text" class="form-control" id="guarantorNationality" placeholder="" ng-model="user.guarantorNationality">
+
+<br>
+<strong>Inviter in Japan</strong><br>
+(Please write 'same as above' if the inviting person and the guarantor are the same)
+<br>
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="inviterName">inviter Name</label>
+    <input type="text" class="form-control" id="inviterName" placeholder="" ng-model="user.inviterName">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="inviterTel">inviter Tel.</label>
+    <input type="text" class="form-control" id="inviterTel" placeholder="" ng-model="user.gurantorTel">
+  </div>
+</div>
+
+<br>
+<label for="inviterAddress">inviter Address</label>
+<input type="text" class="form-control" id="inviterAddress" placeholder="" ng-model="user.inviterAddress">
+<br>
+
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="inviterDateOfBirth">Date of birth</label>
+    <input type="text" class="form-control" id="guarantoDateOfBirth" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="user.guarantoDateOfBirth">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <strong>Sex</strong>
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="sex" id="male" value="male" ng-model="user.guarantoGender">
+          Male 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="sex" id="female" value="female" ng-model="user.guarantoGender">
+          Female
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<label for="inviterRelationship">Relationship to applicant</label>
+<input type="text" class="form-control" id="inviterRelationship" placeholder="" ng-model="user.inviterRelationship">
+
+<br>
+<label for="inviterProfession">Profession or occupation and position</label>
+<input type="text" class="form-control" id="inviterProfession" placeholder="" ng-model="user.inviterProfession">
+
+<br>
+<label for="inviterNationality">Nationality and immigration status</label>
+<input type="text" class="form-control" id="inviterNationality" placeholder="" ng-model="user.inviterNationality">
+
+<br>
+<label for="remarks">*Remarks/Special circumstances, if any</label>
+<input type="text" class="form-control" id="remarks" placeholder="" ng-model="user.remarks">
+
+
+<br><br>
+
+<button id="save" type="button" class="btn btn-primary btn-lg btn-block" ng-click="save(user)">Save</button>
 
 
 <br><br>
