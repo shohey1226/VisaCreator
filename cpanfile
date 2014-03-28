@@ -8,3 +8,4 @@ requires "Teng";
 requires "DateTime::Format::MySQL";
 requires "DBD::mysql";
 requires "Mojolicious::Plugin::RenderFile";
+requires "Data::Printer";

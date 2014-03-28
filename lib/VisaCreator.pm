@@ -14,8 +14,19 @@ sub startup {
 
   # Load config and instantiate Model which can be used anywhere through helper
   my $config = $self->plugin('Config', {file => "$Bin/../etc/visa_creator.conf"});
+  $self->helper(config => sub {$config });
+  #$self->helper(
+  #    config => sub {
+  #      my $self = shift;
+  #      return $config unless @_;
+  #      $config->{$_[0]};
+  #    }
+  #);
+
   my $m = VisaCreator::Model->new(config => $config);
   $self->helper(model => sub { $m });
+
+
 
   # Router
   my $r = $self->routes;

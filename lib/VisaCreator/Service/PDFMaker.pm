@@ -2,22 +2,41 @@ package VisaCreator::Service::PDFMaker;
 
 use Moo;
 use PDF::API2;
-use Data::Dumper;
 use FindBin qw($Bin);
+use Log::Minimal;
+use Data::Printer;
 
-sub create_form {
-    my ($self, $data ) = @_;
-    print Dumper $data;
-    my $infile  = "$Bin/../etc/application1-1.pdf";
+has y_max => (
+    is => 'ro',
+    default => 842
+);
+
+sub create {
+    my ($self, $country, $form_type, $config, $data ) = @_;
+
+    debugf p $data;
+    debugf p $config;
+    my $infile  = "$Bin/../etc/" . $country . "/" . $config->{$country}->{$form_type}->{base};
     my $pdf = PDF::API2->open($infile);
-    my $page = $pdf->openpage(1);
-    my $font = $pdf->corefont('Helvetica-Bold');
-    my $text = $page->text();
-    $text->font($font, 10); 
-    $text->translate(226, 605);
-    $text->text($data->{surname});
-    $pdf->saveas('/tmp/new.pdf');
-    return '/tmp/new.pdf';
+    debugf "loading $infile ...";
+
+    for my $field ( keys %{ $config->{$country}->{$form_type}->{positions} }){
+        my $page = $pdf->openpage($config->{$country}->{$form_type}->{positions}->{$field}->{page});
+        my $font = $pdf->corefont($config->{font});
+        my $text = $page->text();
+        $text->font($font, $config->{$country}->{$form_type}->{positions}->{$field}->{font_size}); 
+        $text->translate(
+            $config->{$country}->{$form_type}->{positions}->{$field}->{x}, 
+            $self->y_max - $config->{$country}->{$form_type}->{positions}->{$field}->{y} 
+        );
+        $text->text($data->{$field});
+    }
+
+    my $outfile = "/tmp/" . $country . "_" . $form_type . '_' . $data->{id} . ".pdf";
+    $pdf->saveas($outfile);
+    debugf "output $outfile ...\n";
+    return $outfile;
+    
 }
 
 

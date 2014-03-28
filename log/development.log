@@ -517,3 +517,310 @@ BIND    : $VAR1 = [
 [Thu Mar 27 13:01:10 2014] [debug] 200 OK (0.330827s, 3.023/s).
 [Thu Mar 27 13:02:08 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
 [Thu Mar 27 13:02:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 14:01:15 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Mar 27 14:01:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 14:01:28 2014] [debug] GET "/".
+[Thu Mar 27 14:01:28 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Mar 27 14:01:28 2014] [debug] 304 Not Modified (0.002492s, 401.284/s).
+[Thu Mar 27 14:02:40 2014] [debug] POST "/api/japan/form".
+[Thu Mar 27 14:02:40 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "save_form".
+[Thu Mar 27 14:02:40 2014] [debug] 200 OK (0.255131s, 3.920/s).
+[Thu Mar 27 14:02:45 2014] [debug] GET "/japan/form/download/1".
+[Thu Mar 27 14:02:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Mar 27 14:02:45 2014] [debug] 200 OK (0.033466s, 29.881/s).
+[Fri Mar 28 09:33:38 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 09:34:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 09:34:13 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 09:34:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 09:34:14 2014] [debug] 200 OK (0.325365s, 3.073/s).
+[Fri Mar 28 09:34:49 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 09:34:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 09:34:54 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 09:34:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 09:34:54 2014] [debug] 200 OK (0.347018s, 2.882/s).
+[Fri Mar 28 10:25:08 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:25:08 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:25:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 10:25:32 2014] [debug] GET "/".
+[Fri Mar 28 10:25:32 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Mar 28 10:25:32 2014] [debug] 304 Not Modified (0.002153s, 464.468/s).
+[Fri Mar 28 10:25:36 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:25:36 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:25:36 2014] [error] Can't locate object method "create" via package "VisaCreator::Service::PDFMaker" at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 27, <DATA> line 231.
+
+[Fri Mar 28 10:25:36 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:25:36 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:25:36 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:25:36 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:25:36 2014] [debug] 500 Internal Server Error (0.393568s, 2.541/s).
+[Fri Mar 28 10:25:48 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:25:48 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:25:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 10:25:54 2014] [debug] GET "/".
+[Fri Mar 28 10:25:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Mar 28 10:25:54 2014] [debug] 304 Not Modified (0.001777s, 562.746/s).
+[Fri Mar 28 10:25:56 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:25:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:25:57 2014] [error] Can't locate object method "create" via package "VisaCreator::Service::PDFMaker" at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Controllers/Japan.pm line 27, <DATA> line 231.
+
+[Fri Mar 28 10:25:57 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:25:57 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:25:57 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:25:57 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:25:57 2014] [debug] 500 Internal Server Error (0.378473s, 2.642/s).
+[Fri Mar 28 10:26:16 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:26:16 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:26:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 10:26:22 2014] [debug] GET "/".
+[Fri Mar 28 10:26:22 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Mar 28 10:26:22 2014] [debug] 304 Not Modified (0.001550s, 645.161/s).
+[Fri Mar 28 10:26:24 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:26:25 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:26:25 2014] [error] Can't locate object method "config" via package "VisaCreator::Service::PDFMaker" at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Service/PDFMaker.pm line 11, <DATA> line 231.
+
+[Fri Mar 28 10:26:25 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:26:25 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:26:25 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:26:25 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:26:25 2014] [debug] 500 Internal Server Error (0.267161s, 3.743/s).
+[Fri Mar 28 10:28:02 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:28:02 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:28:02 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 10:28:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 10:28:09 2014] [debug] GET "/".
+[Fri Mar 28 10:28:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Mar 28 10:28:09 2014] [debug] 304 Not Modified (0.001645s, 607.903/s).
+[Fri Mar 28 10:28:11 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:28:11 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:28:11 2014] [error] Can't locate object method "config" via package "VisaCreator::Service::PDFMaker" at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Service/PDFMaker.pm line 11, <DATA> line 231.
+
+[Fri Mar 28 10:28:11 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:28:11 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:28:11 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:28:11 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:28:11 2014] [debug] 500 Internal Server Error (0.264443s, 3.782/s).
+[Fri Mar 28 10:28:59 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:28:59 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:28:59 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 10:29:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 10:29:04 2014] [debug] GET "/".
+[Fri Mar 28 10:29:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Mar 28 10:29:04 2014] [debug] 304 Not Modified (0.001750s, 571.429/s).
+[Fri Mar 28 10:29:06 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:29:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:29:06 2014] [error] Can't locate object method "config" via package "VisaCreator::Service::PDFMaker" at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Service/PDFMaker.pm line 11, <DATA> line 231.
+
+[Fri Mar 28 10:29:06 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:29:06 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:29:06 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:29:06 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:29:06 2014] [debug] 500 Internal Server Error (0.276197s, 3.621/s).
+[Fri Mar 28 10:36:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:36:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:36:55 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 10:37:00 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:37:00 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:37:00 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 10:37:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 10:37:09 2014] [debug] GET "/".
+[Fri Mar 28 10:37:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Mar 28 10:37:09 2014] [debug] 304 Not Modified (0.001613s, 619.963/s).
+[Fri Mar 28 10:37:11 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:37:11 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:37:11 2014] [error] Can't locate object method "config" via package "VisaCreator::Service::PDFMaker" at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Service/PDFMaker.pm line 11, <DATA> line 231.
+
+[Fri Mar 28 10:37:11 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:37:11 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:37:11 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:37:11 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:37:11 2014] [debug] 500 Internal Server Error (0.266956s, 3.746/s).
+[Fri Mar 28 10:37:20 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:37:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:37:20 2014] [error] Can't locate object method "config" via package "VisaCreator::Service::PDFMaker" at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Service/PDFMaker.pm line 11.
+
+[Fri Mar 28 10:37:20 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:37:20 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:37:20 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:37:20 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:37:20 2014] [debug] 500 Internal Server Error (0.010585s, 94.473/s).
+[Fri Mar 28 10:37:56 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:37:56 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:37:56 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 10:38:00 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 10:38:00 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:38:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:38:00 2014] [error] File '/Users/kamesho/git/VisaCreator/script/../etc/application1-1.pdf' does not exist. at /Users/kamesho/git/VisaCreator/local/lib/perl5/PDF/API2.pm line 148, <DATA> line 231.
+
+[Fri Mar 28 10:38:00 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:38:00 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:38:00 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:38:00 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:38:00 2014] [debug] 500 Internal Server Error (0.268197s, 3.729/s).
+[Fri Mar 28 10:38:08 2014] [debug] GET "/".
+[Fri Mar 28 10:38:08 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Mar 28 10:38:08 2014] [debug] 304 Not Modified (0.002099s, 476.417/s).
+[Fri Mar 28 10:38:09 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:38:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:38:09 2014] [error] File '/Users/kamesho/git/VisaCreator/script/../etc/application1-1.pdf' does not exist. at /Users/kamesho/git/VisaCreator/local/lib/perl5/PDF/API2.pm line 148.
+
+[Fri Mar 28 10:38:09 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:38:09 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:38:09 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:38:09 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:38:09 2014] [debug] 500 Internal Server Error (0.013393s, 74.666/s).
+[Fri Mar 28 10:40:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:40:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:40:20 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 10:40:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 10:40:33 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:40:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:40:33 2014] [error] File '/Users/kamesho/git/VisaCreator/script/../etc/application1-1.pdf' does not exist. at /Users/kamesho/git/VisaCreator/local/lib/perl5/PDF/API2.pm line 148, <DATA> line 231.
+
+[Fri Mar 28 10:40:33 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:40:33 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:40:33 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:40:33 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:40:33 2014] [debug] 500 Internal Server Error (0.271362s, 3.685/s).
+[Fri Mar 28 10:40:37 2014] [debug] GET "/".
+[Fri Mar 28 10:40:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Mar 28 10:40:37 2014] [debug] 304 Not Modified (0.001584s, 631.313/s).
+[Fri Mar 28 10:40:40 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:40:40 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:40:40 2014] [error] File '/Users/kamesho/git/VisaCreator/script/../etc/application1-1.pdf' does not exist. at /Users/kamesho/git/VisaCreator/local/lib/perl5/PDF/API2.pm line 148.
+
+[Fri Mar 28 10:40:40 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:40:40 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:40:40 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:40:40 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:40:40 2014] [debug] 500 Internal Server Error (0.014498s, 68.975/s).
+[Fri Mar 28 10:50:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:50:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:50:41 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 10:50:52 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 10:50:52 2014] [debug] GET "/".
+[Fri Mar 28 10:50:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Mar 28 10:50:52 2014] [debug] 304 Not Modified (0.001513s, 660.939/s).
+[Fri Mar 28 10:50:54 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:50:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:50:54 2014] [error] File '/Users/kamesho/git/VisaCreator/script/../etc/application1-1.pdf' does not exist. at /Users/kamesho/git/VisaCreator/local/lib/perl5/PDF/API2.pm line 148, <DATA> line 231.
+
+[Fri Mar 28 10:50:54 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:50:54 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:50:54 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:50:54 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:50:54 2014] [debug] 500 Internal Server Error (0.275599s, 3.628/s).
+[Fri Mar 28 10:57:17 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:57:17 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:57:17 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 10:57:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 10:57:22 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:57:22 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:57:22 2014] [error] File '/Users/kamesho/git/VisaCreator/script/../etc/application1-1.pdf' does not exist. at /Users/kamesho/git/VisaCreator/local/lib/perl5/PDF/API2.pm line 148, <DATA> line 231.
+
+[Fri Mar 28 10:57:22 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:57:22 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:57:22 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:57:22 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:57:22 2014] [debug] 500 Internal Server Error (0.384091s, 2.604/s).
+[Fri Mar 28 10:58:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 10:58:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 10:58:14 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 10:58:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 10:58:16 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 10:58:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 10:58:16 2014] [error] File '/Users/kamesho/git/VisaCreator/script/../etc/application1-1.pdf' does not exist. at /Users/kamesho/git/VisaCreator/local/lib/perl5/PDF/API2.pm line 148, <DATA> line 231.
+
+[Fri Mar 28 10:58:16 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 10:58:16 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 10:58:16 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 10:58:16 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 10:58:16 2014] [debug] 500 Internal Server Error (0.276206s, 3.620/s).
+[Fri Mar 28 11:01:43 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 11:01:43 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 11:01:43 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 11:02:06 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 11:02:06 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 11:02:06 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 11:02:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 11:02:29 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 11:02:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 11:02:29 2014] [error] File '/Users/kamesho/git/VisaCreator/script/../etc/application1-1.pdf' does not exist. at /Users/kamesho/git/VisaCreator/local/lib/perl5/PDF/API2.pm line 148, <DATA> line 231.
+
+[Fri Mar 28 11:02:29 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 11:02:29 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 11:02:29 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 11:02:29 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 11:02:29 2014] [debug] 500 Internal Server Error (0.372213s, 2.687/s).
+[Fri Mar 28 11:02:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 11:02:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 11:02:55 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 11:02:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 11:02:58 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 11:02:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 11:02:59 2014] [error] File '/Users/kamesho/git/VisaCreator/script/../etc/application1-1.pdf' does not exist. at /Users/kamesho/git/VisaCreator/local/lib/perl5/PDF/API2.pm line 148, <DATA> line 231.
+
+[Fri Mar 28 11:02:59 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 11:02:59 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 11:02:59 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 11:02:59 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 11:02:59 2014] [debug] 500 Internal Server Error (0.282939s, 3.534/s).
+[Fri Mar 28 11:04:48 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 11:04:48 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 11:04:48 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 11:04:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 11:04:50 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 11:04:50 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 11:04:50 2014] [error] File '/Users/kamesho/git/VisaCreator/script/../etc/application1-1.pdf' does not exist. at /Users/kamesho/git/VisaCreator/local/lib/perl5/PDF/API2.pm line 148, <DATA> line 231.
+
+[Fri Mar 28 11:04:50 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 11:04:50 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 11:04:50 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 11:04:50 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 11:04:50 2014] [debug] 500 Internal Server Error (0.280168s, 3.569/s).
+[Fri Mar 28 11:07:34 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 11:07:34 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 11:07:34 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 11:07:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 11:07:37 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 11:07:37 2014] [error] Global symbol "$contry" requires explicit package name at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Service/PDFMaker.pm line 17, <DATA> line 231.
+Compilation failed in require at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Role/PDF.pm line 4, <DATA> line 231.
+BEGIN failed--compilation aborted at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Role/PDF.pm line 4, <DATA> line 231.
+Compilation failed in require at /Users/kamesho/git/VisaCreator/local/lib/perl5/Module/Runtime.pm line 317, <DATA> line 231.
+Compilation failed in require at (eval 313) line 1.
+
+[Fri Mar 28 11:07:37 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Mar 28 11:07:37 2014] [debug] Template "exception.html.ep" not found.
+[Fri Mar 28 11:07:37 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Mar 28 11:07:37 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Mar 28 11:07:37 2014] [debug] 500 Internal Server Error (0.173711s, 5.757/s).
+[Fri Mar 28 11:08:03 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 11:08:03 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 11:08:03 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 11:08:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 11:08:06 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 11:08:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 11:08:06 2014] [debug] 200 OK (0.372013s, 2.688/s).
+[Fri Mar 28 11:38:35 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 11:38:35 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 11:38:35 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 11:38:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 11:38:43 2014] [debug] GET "/".
+[Fri Mar 28 11:38:43 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Mar 28 11:38:43 2014] [debug] 304 Not Modified (0.001494s, 669.344/s).
+[Fri Mar 28 11:38:45 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 11:38:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 11:38:46 2014] [debug] 200 OK (0.281883s, 3.548/s).
+[Fri Mar 28 11:39:42 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 11:39:42 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 11:39:42 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 11:39:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Mar 28 11:39:45 2014] [debug] GET "/".
+[Fri Mar 28 11:39:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Mar 28 11:39:45 2014] [debug] 304 Not Modified (0.002299s, 434.972/s).
+[Fri Mar 28 11:39:47 2014] [debug] GET "/japan/form/download/1".
+[Fri Mar 28 11:39:48 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Mar 28 11:39:48 2014] [debug] 200 OK (0.285665s, 3.501/s).
+[Fri Mar 28 11:43:09 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Mar 28 11:43:09 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Mar 28 11:43:09 2014] [debug] Helper "config" already exists, replacing.
+[Fri Mar 28 12:07:28 2014] [debug] Your secret passphrase needs to be changed!!!

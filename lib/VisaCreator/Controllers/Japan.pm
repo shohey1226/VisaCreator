@@ -16,7 +16,6 @@ sub save_form {
     #$self->model->save_form($data);
     $self->model->db->insert('user', +{ surname => $data->{surname} });
     ##
-
     $self->render( text => "pass");
 }
 
@@ -24,7 +23,7 @@ sub download_form {
     my $self = shift;
     my $id = $self->param('id');
     my $data = $self->model->get_form_data($id);
-    my $pdf_name = $self->pdfmaker->create_form($data);
+    my $pdf_name = $self->pdfmaker->create('japan', 'form', $self->config, $data);
     $self->render_file('filepath' => $pdf_name);
 }
 
