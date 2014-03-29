@@ -433,13 +433,154 @@
 <label for="remarks">*Remarks/Special circumstances, if any</label>
 <input type="text" class="form-control" id="remarks" placeholder="" ng-model="user.remarks">
 
+<br>
+
+
+<strong>Have you ever:</strong>
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    been convicted of a crime or offence in any country?
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="crime" id="crimeYes" value="yes" ng-model="user.crime">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="crime" id="crimeNo" value="no" ng-model="user.crime">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    been sentenced to imprisonment for 1 year or more in any country?** 
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="sentenced" id="sentencedYes" value="yes" ng-model="user.sentenced">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="sentenced" id="sentencedNo" value="no" ng-model="user.sentenced">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    been deported or removed from Japan or any country for overstaying your visa or violating any law or regulation?
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="coverstay" id="overstayYes" value="yes" ng-model="user.overstay">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="overstay" id="overstayNo" value="no" ng-model="user.overstay">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    been convicted and sentenced for a drug offence in any country in violation of law concerning narcotics, marijuana, opium, stimulants or psychotropic substances?**
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="drug" id="drugYes" value="yes" ng-model="user.drug">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="drug" id="drugNo" value="no" ng-model="user.drug">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    engaged in prostitution, or in the intermediation or solicitation of a prostitute for other persons, or in the provision of a place for prostitution, or any other activity directly connected to prostitution?
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="prostitution" id="prostitutionYes" value="yes" ng-model="user.prostitution">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="prostitution" id="prostitutionNo" value="no" ng-model="user.prostitution">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    ommitted trafficking in persons or incited or aided another to commit such an offence?
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="trafficking" id="traffickingYes" value="yes" ng-model="user.trafficking">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="trafficking" id="traffickingNo" value="no" ng-model="user.trafficking">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<strong>If you answered “Yes” to any of the above questions, please provide relevant details.</strong><br>
+<textarea class="form-control" rows="3"></textarea>
 
 <br><br>
 
-<button id="save" type="button" class="btn btn-primary btn-lg btn-block" ng-click="save(user)">Save</button>
 
 
-<br><br>
 
 <button id="save" type="button" class="btn btn-primary btn-lg btn-block" ng-click="save(user)">Save</button>
 

@@ -824,3 +824,13 @@ Compilation failed in require at (eval 313) line 1.
 [Fri Mar 28 11:43:09 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
 [Fri Mar 28 11:43:09 2014] [debug] Helper "config" already exists, replacing.
 [Fri Mar 28 12:07:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 29 15:50:07 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Mar 29 15:50:07 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Mar 29 15:50:07 2014] [debug] Helper "config" already exists, replacing.
+[Sat Mar 29 15:50:17 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 29 15:50:17 2014] [debug] GET "/".
+[Sat Mar 29 15:50:17 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Mar 29 15:50:17 2014] [debug] 304 Not Modified (0.002731s, 366.166/s).
+[Sat Mar 29 15:51:00 2014] [debug] GET "/japan/form/download/1".
+[Sat Mar 29 15:51:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Sat Mar 29 15:51:00 2014] [debug] 200 OK (0.361109s, 2.769/s).
