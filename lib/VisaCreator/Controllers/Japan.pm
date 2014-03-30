@@ -12,10 +12,7 @@ sub save_form {
     my $self = shift;
     my $data = $self->req->json; 
     debugf Dumper $data;
-    # TODO insert needs to be done in Model
-    #$self->model->save_form($data);
-    $self->model->db->insert('user', +{ surname => $data->{surname} });
-    ##
+    $self->model->save_form($data);
     $self->render( text => "pass");
 }
 

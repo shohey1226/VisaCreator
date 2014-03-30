@@ -5,7 +5,7 @@ use DateTime::Format::MySQL;
 table {
     name 'user';
     pk 'id';
-    columns qw/id surname facebook_id created_at updated_at/;
+    columns qw/id surname firstname othername gender dateOfBirth placeOfBirth facebook_id created_at updated_at/;
     inflate qr/.+_at/ => sub {
         my $value = shift;
         return DateTime::Format::MySQL->parse_datetime($value);

@@ -29,6 +29,11 @@ sub _build_db {
     );
 }
 
+sub save_form {
+    my ($self, $data) = @_;
+    $self->db->insert('user', $data); 
+}
+
 sub get_form_data {
     my ($self, $id) = @_;
     my $row = $self->db->single('user', { id => $id } );

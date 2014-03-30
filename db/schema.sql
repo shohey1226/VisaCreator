@@ -3,13 +3,134 @@ SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS user;
 CREATE TABLE user 
 (
-    id BIGINT AUTO_INCREMENT, 
-    surname VARCHAR(50),
+    id INT AUTO_INCREMENT, 
     facebook_id INT,
+    surname VARCHAR(50),
+    firstname VARCHAR(50),
+    othername VARCHAR(50),
+    dateOfBirth VARCHAR(50),
+    placeOfBirth VARCHAR(50),
+    gender VARCHAR(6),
+    martialstatus VARCHAR(10),
+    passpportNo VARCHAR(20),
+    dateOfIssue VARCHAR(10),
+    dateOfExpiry VARCHAR(10),
+    IssuingAuth VARCHAR(20),
+    placeOfIssue VARCHAR(20),
+    passportType VARCHAR(15),
+    residentialAddress VARCHAR(50),
+    residentialTel VARCHAR(20),
+    residentialMobileNo VARCHAR(20),
+    occupation VARCHAR(30),
+    partner_occupation VARCHAR(30),
     created_at DATETIME,
     updated_at DATETIME,
     INDEX (facebook_id),
     PRIMARY KEY (id)
+) ENGINE=INNODB;;
+
+DROP TABLE IF EXISTS employer;
+CREATE TABLE employer 
+(
+    id INT AUTO_INCREMENT,   
+    name VARCHAR(30),
+    address VARCHAR(50),
+    tel VARCHAR(30),
+    PRIMARY KEY (id)
+) ENGINE=INNODB;;
+
+DROP TABLE IF EXISTS guarantor;
+CREATE TABLE guarantor 
+(
+    id INT AUTO_INCREMENT,   
+    name VARCHAR(30),
+    tel VARCHAR(30),
+    address VARCHAR(50),
+    dateOfBirth VARCHAR(50),
+    gender VARCHAR(6),
+    occupation_position VARCHAR(30),
+    nationality_immigrant_status VARCHAR(30),
+    PRIMARY KEY (id)
+) ENGINE=INNODB;;
+
+DROP TABLE IF EXISTS guarantor_map;
+CREATE TABLE guarantor_map 
+(
+    user_id INT,
+    guarantor_id INT,
+    relation VARCHAR(30),
+    FOREIGN KEY(user_id) REFERENCES user(id)
+      ON DELETE CASCADE,
+    FOREIGN KEY(guarantor_id) REFERENCES guarantor(id)
+      ON DELETE CASCADE
+) ENGINE=INNODB;;
+
+
+DROP TABLE IF EXISTS travel;
+CREATE TABLE travel 
+(
+    id INT AUTO_INCREMENT,   
+    purpose VARCHAR(30),
+    stay_length INT, 
+    arrival_date DATE,
+    port_entry VARCHAR(15),
+    airline_ship_name VARCHAR(15),
+    remarks VARCHAR(50),
+    PRIMARY KEY (id)
+) ENGINE=INNODB;
+
+DROP TABLE IF EXISTS accomodation;
+CREATE TABLE accomodation 
+(
+    id INT AUTO_INCREMENT,   
+    name VARCHAR(50),
+    address VARCHAR(50),
+    tel VARCHAR(10),
+    PRIMARY KEY (id)
+) ENGINE=INNODB;;
+
+DROP TABLE IF EXISTS travel_map;
+CREATE TABLE travel_map 
+(
+    user_id INT,
+    travel_id INT,
+    accomodation_id INT,
+    relation VARCHAR(30),
+    FOREIGN KEY(accomodation_id) REFERENCES accomodation(id)
+      ON DELETE CASCADE,
+    FOREIGN KEY(user_id) REFERENCES user(id)
+      ON DELETE CASCADE,
+    FOREIGN KEY(travel_id) REFERENCES travel(id)
+      ON DELETE CASCADE,
+    PRIMARY KEY(user_id,travel_id)
+) ENGINE=INNODB;;
+
+
+DROP TABLE IF EXISTS inviter;
+CREATE TABLE inviter 
+(
+    id INT AUTO_INCREMENT,   
+    name VARCHAR(30),
+    tel VARCHAR(30),
+    address VARCHAR(50),
+    dateOfBirth VARCHAR(50),
+    gender VARCHAR(6),
+    occupation_position VARCHAR(30),
+    nationality_immigrant_status VARCHAR(30),
+    PRIMARY KEY (id)
+) ENGINE=INNODB;;
+
+
+DROP TABLE IF EXISTS inviter_map;
+CREATE TABLE inviter_map 
+(
+    user_id INT,
+    inviter_id INT,
+    relation VARCHAR(30),
+    FOREIGN KEY(user_id) REFERENCES user(id)
+      ON DELETE CASCADE,
+    FOREIGN KEY(inviter_id) REFERENCES inviter(id)
+      ON DELETE CASCADE
 ) ENGINE=INNODB;;
 
 SET FOREIGN_KEY_CHECKS=1;

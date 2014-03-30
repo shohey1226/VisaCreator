@@ -14,8 +14,8 @@ has y_max => (
 sub create {
     my ($self, $country, $form_type, $config, $data ) = @_;
 
-    debugf p $data;
-    debugf p $config;
+    p $data;
+    p $config;
     my $infile  = "$Bin/../etc/" . $country . "/" . $config->{$country}->{$form_type}->{base};
     my $pdf = PDF::API2->open($infile);
     debugf "loading $infile ...";
