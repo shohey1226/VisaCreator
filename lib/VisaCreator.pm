@@ -15,26 +15,18 @@ sub startup {
   # Load config and instantiate Model which can be used anywhere through helper
   my $config = $self->plugin('Config', {file => "$Bin/../etc/visa_creator.conf"});
   $self->helper(config => sub {$config });
-  #$self->helper(
-  #    config => sub {
-  #      my $self = shift;
-  #      return $config unless @_;
-  #      $config->{$_[0]};
-  #    }
-  #);
 
   my $m = VisaCreator::Model->new(config => $config);
   $self->helper(model => sub { $m });
-
-
 
   # Router
   my $r = $self->routes;
   push @{$r->namespaces}, 'VisaCreator::Controllers';
   # Normal route to controller
   $r->get('/')->to('Index#serve_root');
-  $r->post('/api/japan/form')->to('Japan#save_form');
-  $r->get('/japan/form/download/:id')->to('Japan#download_form');
+  #$r->post('/api/japan/form')->to('Japan#save_form');
+  $r->post('/api/japan/form')->to('Japan#create_form');
+  $r->get('/japan/form/download/:timestamp')->to('Japan#download_form');
 
 }
 

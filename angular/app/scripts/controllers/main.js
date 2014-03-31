@@ -15,8 +15,9 @@ angular.module('VisaCreatorApp')
   })
   .controller('japanVisaFormCtrlStep3', function ($scope, japanVisaService, $location) {
     $scope.downloadJapanVisaForm = function(user){
-      japanVisaService.saveStep3(user) 
-      japanVisaService.downloadForm();
+      var promise = japanVisaService.saveStep3(user);
+      promise.then(function(res)  { $location.path(res.url); })
+      .catch(function(req) { console.log("error to submit form"); })
     };
   })
   .controller('TopCtrl', function ($scope) {
@@ -24,9 +25,6 @@ angular.module('VisaCreatorApp')
   })
   .controller('MainCtrl', function ($scope, japanVisaService) {
     $scope.id = 1;
-    //$scope.downloadForm = function(){
-    //    japanVisaService.downloadForm(1); 
-    //}
 
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

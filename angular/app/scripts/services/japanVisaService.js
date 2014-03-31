@@ -7,14 +7,11 @@ angular.module('VisaCreatorApp')
   var timestamp; 
 
   var _submitForm = function(){
-    this.timestamp = $resource('/api/japan/form').save(this.userInfo);
-  };
-
-  var _saveLocal = function(){
-    // TODO save it Web storage in the future  
+    return $resource('/api/japan/form').save(userInfo).$promise;
   };
 
   return {
+    // Save form in Step1
     saveStep1: function(user){
       for (var key in user){
         // Need to have logic for selections
@@ -67,12 +64,14 @@ angular.module('VisaCreatorApp')
       }
       console.log(userInfo);
     },
+    // Save from in Step2
     saveStep2: function(user){
       for (var key in user){
         userInfo[key] = user[key];
       }
       console.log(userInfo);
     },
+    // Save from in Step3
     saveStep3: function(user){
       for (var key in user){
         if (key === 'guarantorGender'){
@@ -94,10 +93,7 @@ angular.module('VisaCreatorApp')
         }
       }
       console.log(userInfo);
-      //this._submitForm();
-    },
-    downloadForm: function(){
-      //$location('/api/japan/form/download/' + this.timestamp)
+      return _submitForm();
     }
   }
 });

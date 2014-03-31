@@ -970,3 +970,179 @@ BIND    : $VAR1 = [
 [Sun Mar 30 16:09:36 2014] [debug] GET "/japan/form/download/3".
 [Sun Mar 30 16:09:36 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
 [Sun Mar 30 16:09:36 2014] [debug] 200 OK (0.383809s, 2.605/s).
+[Mon Mar 31 16:56:58 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 16:56:58 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 16:56:58 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 16:57:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 16:57:09 2014] [debug] GET "/".
+[Mon Mar 31 16:57:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 16:57:09 2014] [debug] 200 OK (0.002418s, 413.565/s).
+[Mon Mar 31 16:57:28 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 16:57:28 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 16:57:28 2014] [debug] 200 OK (0.188664s, 5.300/s).
+[Mon Mar 31 17:01:40 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:01:40 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:01:40 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:01:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:01:45 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:01:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:01:45 2014] [debug] 200 OK (0.164865s, 6.066/s).
+[Mon Mar 31 17:02:21 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:02:21 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:02:21 2014] [debug] 200 OK (0.001816s, 550.661/s).
+[Mon Mar 31 17:02:30 2014] [debug] GET "/".
+[Mon Mar 31 17:02:30 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:02:30 2014] [debug] 200 OK (0.001481s, 675.219/s).
+[Mon Mar 31 17:02:33 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:02:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:02:33 2014] [debug] 200 OK (0.001877s, 532.765/s).
+[Mon Mar 31 17:02:37 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:02:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:02:37 2014] [debug] 200 OK (0.001793s, 557.724/s).
+[Mon Mar 31 17:03:34 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:03:34 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:03:34 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:04:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:04:11 2014] [debug] GET "/".
+[Mon Mar 31 17:04:11 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:04:11 2014] [debug] 200 OK (0.002631s, 380.084/s).
+[Mon Mar 31 17:04:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:04:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:04:14 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:04:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:04:14 2014] [debug] GET "/".
+[Mon Mar 31 17:04:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:04:14 2014] [debug] 200 OK (0.001985s, 503.778/s).
+[Mon Mar 31 17:04:17 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:04:18 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:04:18 2014] [debug] 200 OK (0.196768s, 5.082/s).
+[Mon Mar 31 17:16:31 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:16:31 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:16:31 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:16:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:16:40 2014] [debug] GET "/".
+[Mon Mar 31 17:16:40 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:16:40 2014] [debug] 200 OK (0.002514s, 397.772/s).
+[Mon Mar 31 17:16:44 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:16:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:16:44 2014] [debug] 200 OK (0.201359s, 4.966/s).
+[Mon Mar 31 17:22:42 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:22:42 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:22:42 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:23:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:23:04 2014] [debug] GET "/".
+[Mon Mar 31 17:23:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:23:04 2014] [debug] 200 OK (0.002575s, 388.350/s).
+[Mon Mar 31 17:23:07 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:23:07 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:23:07 2014] [debug] 200 OK (0.182406s, 5.482/s).
+[Mon Mar 31 17:24:03 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:24:03 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:24:03 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:24:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:24:06 2014] [debug] GET "/".
+[Mon Mar 31 17:24:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:24:06 2014] [debug] 200 OK (0.001913s, 522.739/s).
+[Mon Mar 31 17:25:42 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:25:42 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:25:42 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:25:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:25:51 2014] [debug] GET "/".
+[Mon Mar 31 17:25:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:25:51 2014] [debug] 200 OK (0.001967s, 508.388/s).
+[Mon Mar 31 17:25:54 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:25:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:25:54 2014] [debug] 200 OK (0.182991s, 5.465/s).
+[Mon Mar 31 17:27:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:27:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:27:39 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:27:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:27:40 2014] [debug] GET "/".
+[Mon Mar 31 17:27:40 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:27:40 2014] [debug] 200 OK (0.001878s, 532.481/s).
+[Mon Mar 31 17:27:51 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:27:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:27:51 2014] [debug] 200 OK (0.171932s, 5.816/s).
+[Mon Mar 31 17:28:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:28:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:28:55 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:28:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:28:58 2014] [debug] GET "/".
+[Mon Mar 31 17:28:58 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:28:58 2014] [debug] 200 OK (0.002755s, 362.976/s).
+[Mon Mar 31 17:28:58 2014] [debug] GET "/scripts/app.js".
+[Mon Mar 31 17:28:58 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar 31 17:28:58 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Mar 31 17:28:58 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Mar 31 17:28:58 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Mar 31 17:28:58 2014] [debug] 404 Not Found (0.083238s, 12.014/s).
+[Mon Mar 31 17:28:58 2014] [debug] GET "/scripts/controllers/main.js".
+[Mon Mar 31 17:28:58 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar 31 17:28:58 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Mar 31 17:28:58 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Mar 31 17:28:58 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Mon Mar 31 17:28:58 2014] [debug] 404 Not Found (0.024989s, 40.018/s).
+[Mon Mar 31 17:28:58 2014] [debug] GET "/scripts/services/japanVisaService.js".
+[Mon Mar 31 17:28:58 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar 31 17:28:58 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Mar 31 17:28:58 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Mar 31 17:28:58 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Mon Mar 31 17:28:58 2014] [debug] 404 Not Found (0.035963s, 27.806/s).
+[Mon Mar 31 17:29:02 2014] [debug] GET "/".
+[Mon Mar 31 17:29:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:29:02 2014] [debug] 200 OK (0.000974s, 1026.694/s).
+[Mon Mar 31 17:29:07 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:29:08 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:29:08 2014] [debug] 200 OK (0.176820s, 5.655/s).
+[Mon Mar 31 17:32:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:32:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:32:39 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:32:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:32:54 2014] [debug] GET "/".
+[Mon Mar 31 17:32:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:32:54 2014] [debug] 200 OK (0.002810s, 355.872/s).
+[Mon Mar 31 17:32:57 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:32:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:32:57 2014] [debug] 200 OK (0.182207s, 5.488/s).
+[Mon Mar 31 17:34:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:34:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:34:11 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:34:17 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:34:17 2014] [debug] GET "/".
+[Mon Mar 31 17:34:17 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:34:17 2014] [debug] 304 Not Modified (0.002598s, 384.911/s).
+[Mon Mar 31 17:34:21 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:34:21 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:34:21 2014] [debug] 200 OK (0.166212s, 6.016/s).
+[Mon Mar 31 17:35:43 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:35:43 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:35:43 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:35:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:35:46 2014] [debug] GET "/".
+[Mon Mar 31 17:35:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:35:46 2014] [debug] File "/index.html" not found, public directory missing?
+[Mon Mar 31 17:35:46 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Mar 31 17:35:46 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Mar 31 17:35:46 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Mar 31 17:35:46 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Mar 31 17:35:46 2014] [debug] 404 Not Found (0.052616s, 19.006/s).
+[Mon Mar 31 17:35:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:35:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:35:53 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:35:55 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:35:55 2014] [debug] GET "/".
+[Mon Mar 31 17:35:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:35:55 2014] [debug] 200 OK (0.001733s, 577.034/s).
+[Mon Mar 31 17:35:59 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:36:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:36:00 2014] [debug] 200 OK (0.211068s, 4.738/s).
+[Mon Mar 31 17:42:37 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Mar 31 17:42:37 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Mar 31 17:42:37 2014] [debug] Helper "config" already exists, replacing.
+[Mon Mar 31 17:42:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 31 17:42:45 2014] [debug] GET "/".
+[Mon Mar 31 17:42:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Mar 31 17:42:45 2014] [debug] 304 Not Modified (0.002575s, 388.350/s).
+[Mon Mar 31 17:44:13 2014] [debug] POST "/api/japan/form".
+[Mon Mar 31 17:44:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Mon Mar 31 17:44:14 2014] [debug] 200 OK (0.167590s, 5.967/s).
