@@ -1,0 +1,600 @@
+<div class="container">
+<h2> Step1 : Input your information </h2>
+<br>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="surname">Surname <br>(as shown in passport)</label>
+    <input type="text" class="form-control" id="surname" placeholder="Mike" ng-model="user.surname">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="firstname">Given and middle names <br>(as shown in passport)</label>
+    <input type="text" class="form-control" id="name" placeholder="Chan" ng-model="user.firstname">
+  </div>
+</div>
+
+<br>
+
+<label for="othername">Other names (including any other names you are or have been known by)</label>
+<input type="text" class="form-control" id="othername" placeholder="" ng-model="user.othername">
+
+<br>
+
+<div class="row">
+  <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+    <label for="dateOfBirth">Date of birth</label>
+    <input type="text" class="form-control" id="dateOfBirth" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="user.dateOfBirth">
+  </div>
+
+  <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+    <label for="placeOfBirth">Place of birth</label>
+    <input type="text" class="form-control" id="placeOfBirth" placeholder="City/State or Province/Countery e.g. Sibuya/Tokyo/Japan" ng-model="user.placeOfBirth">
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <strong>Sex</strong>
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="sex" id="male" value="male" ng-model="user.gender">
+          Male 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="sex" id="female" value="female" ng-model="user.gender">
+          Female
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <strong>Marital status</strong>
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="martialstatus" id="single" value="single" ng-model="user.martialstatus">
+          Single
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="martialstatus" id="married" value="married" ng-model="user.martialstatus" >
+          Married
+        </label>
+      </div>
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="martialstatus" id="widowed" value="widowed" ng-model="user.martialstatus">
+          Widowed
+        </label>
+      </div>
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="martialstatus" id="divorced" value="divorced" ng-model="user.martialstatus">
+          Divorced
+        </label>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <strong>Nationality or citizenship</strong>
+    <select class="form-control">
+      <option>China</option>
+    </select>
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <strong>Former and/or other nationalities or citizenships</strong>
+    <select class="form-control">
+      <option>China</option>
+    </select>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="id">ID No. issued to you by your government</label>
+    <input type="text" class="form-control" id="id" placeholder="">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <strong>Passport type</strong>
+
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="passportType" id="diplomatic" value="diplomatic">
+          Diplomatic 
+        </label>
+      </div>
+
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="passportType" id="official" value="official">
+          Official
+        </label>
+      </div>
+
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="passportType" id="ordinary" value="ordinary">
+          Ordinary
+        </label>
+      </div>
+
+      <div class="radio">
+        <label> 
+          <input type="radio" name="passportType" id="other" value="other">
+          Other
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+    <label for="passportNo">Passport No.</label>
+    <input type="text" class="form-control" id="passportNo" placeholder="" ng-model="user.passportNo">
+  </div>
+
+  <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+    <label for="placeOfIssue">Place of issue</label>
+    <input type="text" class="form-control" id="placeOfIssue" placeholder="" ng-model="user.placeOfIssue">
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="issuingAuth">Issuing authority</label>
+    <input type="text" class="form-control" id="issuingAuth" placeholder="" ng-model="user.IssuingAuth">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="placeOfIssue">Purpose of visit to Japan</label>
+    <input type="text" class="form-control" id="placeOfIssue" placeholder="" ng-model="user.placeOfIssue">
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="dateOfIssue">Date of issue</label>
+    <input type="text" class="form-control" id="dateOfIssue" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="user.dateOfIssue">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="placeOfExpiry">Date of expiry</label>
+    <input type="text" class="form-control" id="placeOfExpiry" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="user.dateOfExpiry">
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="issuingAuth">Issuing authority</label>
+    <input type="text" class="form-control" id="issuingAuth" placeholder="" ng-model="user.IssuingAuth">
+  </div>
+
+<!--
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="placeOfIssue">Purpose of visit to Japan</label>
+    <input type="text" class="form-control" id="placeOfIssue" placeholder="" ng-model="user.placeOfIssue">
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="purpose">Purpose of visit to Japan</label>
+    <input type="text" class="form-control" id="purpose" placeholder="" ng-model="user.purpose">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="intendedLength">Intended length of stay in Japan</label>
+    <input type="text" class="form-control" id="intendedLength" placeholder="" ng-model="user.intendedLength">
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="arrivalDate">Date of arrival in Japan</label>
+    <input type="text" class="form-control" id="arrivalDate" placeholder="" ng-model="user.arrivalDate">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="portEntry">Port of entry into Japan</label>
+    <input type="text" class="form-control" id="portEntry" placeholder="e.g. Narita" ng-model="user.portEntry">
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="arrivalDate">Name of ship or airline</label>
+    <input type="text" class="form-control" id="arrivalDate" placeholder="" ng-model="user.arrivalDate">
+  </div>
+-->
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="profession">Current profession or occupation and position</label>
+    <input type="text" class="form-control" id="profession" placeholder="e.g. IT Engineer" ng-model="user.profession">
+  </div>
+</div>
+
+<!--
+
+<br>
+<strong>Names and addresses of hotels or persons with whom applicant intends to stay</strong>
+<br>
+<div class="row">
+  <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+    <label for="arrivalDate">Names of ship or airline</label>
+    <input type="text" class="form-control" id="arrivalDate" placeholder="" ng-model="user.arrivalDate">
+  </div>
+
+  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    <label for="portEntry">Tel</label>
+    <input type="text" class="form-control" id="portEntry" placeholder="" ng-model="user.portEntry">
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="address">Address</label>
+    <input type="text" class="form-control" id="address" placeholder="" ng-model="user.address">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="previousStays">Dates and duration of previous stays in Japan</label>
+    <input type="text" class="form-control" id="previousStays" placeholder="" ng-model="user.previousStays">
+  </div>
+</div>
+
+-->
+
+<br>
+<strong>Your current residential address (if you have more than one address, please list them all)</strong>
+<br>
+<label for="residentialAddress">Residential Address</label>
+<input type="text" class="form-control" id="residentialAddress" placeholder="" ng-model="user.residentialAddress">
+<br>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="residentialTel">Residential Tel.</label>
+    <input type="text" class="form-control" id="residentialTel" placeholder="" ng-model="user.residentialTel">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="residentialModileNo">Residential Mobile No.</label>
+    <input type="text" class="form-control" id="residentialModileNo" placeholder="" ng-model="user.residentialMobileNo">
+  </div>
+</div>
+
+<br>
+<strong>Name and address of employer</strong>
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="employerName">Employer Name</label>
+    <input type="text" class="form-control" id="employerName" placeholder="" ng-model="user.employerName">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="employerTel">Employer Tel.</label>
+    <input type="text" class="form-control" id="employerTel" placeholder="" ng-model="user.employerTel">
+  </div>
+</div>
+
+<br>
+<label for="partner">*Partner's profession/occupation (or that of parents, if applicant is a minor):</label>
+<input type="text" class="form-control" id="partner" placeholder="" ng-model="user.partner">
+<br>
+
+
+
+<!--
+
+<strong>Guarantor or reference in Japan</strong><br>
+(Please provide details of the guarantor or the person to be visited in Japan)<br>
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="guarantorName">Guarantor Name</label>
+    <input type="text" class="form-control" id="guarantorName" placeholder="" ng-model="user.guarantorName">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="guarantorTel">Guarantor Tel.</label>
+    <input type="text" class="form-control" id="guarantorTel" placeholder="" ng-model="user.gurantorTel">
+  </div>
+</div>
+
+<br>
+<label for="guarantorAddress">Guarantor Address</label>
+<input type="text" class="form-control" id="guarantorAddress" placeholder="" ng-model="user.guarantorAddress">
+<br>
+
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="guarantorDateOfBirth">Date of birth</label>
+    <input type="text" class="form-control" id="guarantoDateOfBirth" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="user.guarantoDateOfBirth">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <strong>Sex</strong>
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="sex" id="male" value="male" ng-model="user.guarantoGender">
+          Male 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="sex" id="female" value="female" ng-model="user.guarantoGender">
+          Female
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<label for="guarantorRelationship">Relationship to applicant</label>
+<input type="text" class="form-control" id="guarantorRelationship" placeholder="" ng-model="user.guarantorRelationship">
+
+<br>
+<label for="guarantorProfession">Profession or occupation and position</label>
+<input type="text" class="form-control" id="guarantorProfession" placeholder="" ng-model="user.guarantorProfession">
+
+<br>
+<label for="guarantorNationality">Nationality and immigration status</label>
+<input type="text" class="form-control" id="guarantorNationality" placeholder="" ng-model="user.guarantorNationality">
+
+<br>
+<strong>Inviter in Japan</strong><br>
+(Please write 'same as above' if the inviting person and the guarantor are the same)
+<br>
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="inviterName">inviter Name</label>
+    <input type="text" class="form-control" id="inviterName" placeholder="" ng-model="user.inviterName">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="inviterTel">inviter Tel.</label>
+    <input type="text" class="form-control" id="inviterTel" placeholder="" ng-model="user.gurantorTel">
+  </div>
+</div>
+
+<br>
+<label for="inviterAddress">inviter Address</label>
+<input type="text" class="form-control" id="inviterAddress" placeholder="" ng-model="user.inviterAddress">
+<br>
+
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="inviterDateOfBirth">Date of birth</label>
+    <input type="text" class="form-control" id="guarantoDateOfBirth" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="user.guarantoDateOfBirth">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <strong>Sex</strong>
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="sex" id="male" value="male" ng-model="user.guarantoGender">
+          Male 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="sex" id="female" value="female" ng-model="user.guarantoGender">
+          Female
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<label for="inviterRelationship">Relationship to applicant</label>
+<input type="text" class="form-control" id="inviterRelationship" placeholder="" ng-model="user.inviterRelationship">
+
+<br>
+<label for="inviterProfession">Profession or occupation and position</label>
+<input type="text" class="form-control" id="inviterProfession" placeholder="" ng-model="user.inviterProfession">
+
+<br>
+<label for="inviterNationality">Nationality and immigration status</label>
+<input type="text" class="form-control" id="inviterNationality" placeholder="" ng-model="user.inviterNationality">
+
+-->
+
+<br>
+<label for="remarks">*Remarks/Special circumstances, if any</label>
+<input type="text" class="form-control" id="remarks" placeholder="" ng-model="user.remarks">
+
+<br>
+
+
+<strong>Have you ever:</strong>
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    been convicted of a crime or offence in any country?
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="crime" id="crimeYes" value="yes" ng-model="user.crime">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="crime" id="crimeNo" value="no" ng-model="user.crime">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    been sentenced to imprisonment for 1 year or more in any country?** 
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="sentenced" id="sentencedYes" value="yes" ng-model="user.sentenced">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="sentenced" id="sentencedNo" value="no" ng-model="user.sentenced">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    been deported or removed from Japan or any country for overstaying your visa or violating any law or regulation?
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="coverstay" id="overstayYes" value="yes" ng-model="user.overstay">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="overstay" id="overstayNo" value="no" ng-model="user.overstay">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    been convicted and sentenced for a drug offence in any country in violation of law concerning narcotics, marijuana, opium, stimulants or psychotropic substances?**
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="drug" id="drugYes" value="yes" ng-model="user.drug">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="drug" id="drugNo" value="no" ng-model="user.drug">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    engaged in prostitution, or in the intermediation or solicitation of a prostitute for other persons, or in the provision of a place for prostitution, or any other activity directly connected to prostitution?
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="prostitution" id="prostitutionYes" value="yes" ng-model="user.prostitution">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="prostitution" id="prostitutionNo" value="no" ng-model="user.prostitution">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    ommitted trafficking in persons or incited or aided another to commit such an offence?
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="trafficking" id="traffickingYes" value="yes" ng-model="user.trafficking">
+          Yes 
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="trafficking" id="traffickingNo" value="no" ng-model="user.trafficking">
+          No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<strong>If you answered “Yes” to any of the above questions, please provide relevant details.</strong><br>
+<textarea class="form-control" rows="3"></textarea>
+
+<br><br>
+
+<button type="button" class="btn btn-primary btn-lg btn-block" ng-click="toStep2(user)">Go to Step2</button>
+
+</div>
+<br>
+<br>
+<br>

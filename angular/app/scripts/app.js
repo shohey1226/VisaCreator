@@ -16,9 +16,17 @@ angular.module('VisaCreatorApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/japan-visa-form', {
-        templateUrl: 'views/japan-visa-form.html',
-        controller: 'japanVisaFormCtrl'
+      .when('/japan-visa-form-step1', {
+        templateUrl: 'views/japan-visa-form-step1.html',
+        controller: 'japanVisaFormCtrlStep1'
+      })
+      .when('/japan-visa-form-step2', {
+        templateUrl: 'views/japan-visa-form-step2.html',
+        controller: 'japanVisaFormCtrlStep2'
+      })
+      .when('/japan-visa-form-step3', {
+        templateUrl: 'views/japan-visa-form-step3.html',
+        controller: 'japanVisaFormCtrlStep3'
       })
       .otherwise({
         redirectTo: '/'

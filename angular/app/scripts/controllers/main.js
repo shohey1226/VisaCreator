@@ -1,9 +1,23 @@
 'use strict';
 
 angular.module('VisaCreatorApp')
-  .controller('japanVisaFormCtrl', function ($scope, japanVisaService) {
-    $scope.save = function(user){
-      japanVisaService.saveForm(user);
+  .controller('japanVisaFormCtrlStep1', function ($scope, japanVisaService, $location) {
+    $scope.toStep2 = function(user){
+      //japanVisaService.saveForm(user);
+      $location.path('/japan-visa-form-step2');
+    };
+  })
+  .controller('japanVisaFormCtrlStep2', function ($scope, japanVisaService, $location) {
+    $scope.toStep3 = function(user){
+      //japanVisaService.saveForm(user);
+      $location.path('/japan-visa-form-step3');
+    };
+  })
+  .controller('japanVisaFormCtrlStep3', function ($scope, japanVisaService, $location) {
+    $scope.downloadJapanVisaForm = function(){
+      //download pdf here
+      japanVisaService.downloadForm();
+      //$location.path('
     };
   })
   .controller('TopCtrl', function ($scope) {
