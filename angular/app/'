@@ -1,0 +1,29 @@
+'use strict';
+
+angular.module('VisaCreatorApp')
+.factory('japanVisaService', function ($resource, $location) {
+
+  var userInfo;
+  var timestamp;
+
+  var _submitForm = function(){
+    this.timestamp = $resource('/api/japan/form').save(this.userInfo);
+  };
+
+  return {
+    saveStep1: function(user){
+      this.userInfo = user;
+      //console.log(this.userInfo);
+    },
+    saveStep2: function(user){
+       this.userInfo = user;
+    },
+    saveStep3: function(user){
+      this._submitForm();
+    },
+    downloadForm: function(){
+        $location('/api/japan/form/download/' + this.timestamp)
+    }
+  }
+});
+
