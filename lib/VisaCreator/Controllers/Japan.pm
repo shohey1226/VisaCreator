@@ -22,16 +22,14 @@ sub create_form {
     print Dumper $data;
     my $pdf_name = $self->pdfmaker->create('japan', 'form', $self->config, $data);
     print Dumper  $pdf_name;
-    #$self->render( text => $pdf_name);
-    $self->render( json => { url => '/hoge' });
+    $self->render( json => { url => "/japan/form/download/$pdf_name" });
 }
 
 sub download_form {
     my $self = shift;
-    my $id = $self->param('id');
-    my $data = $self->model->get_form_data($id);
-    my $pdf_name = $self->pdfmaker->create('japan', 'form', $self->config, $data);
-    $self->render_file('filepath' => $pdf_name);
+    my $file = $self->param('file');
+    print Dumper $file;
+    $self->render_file('filepath' => "/tmp/${file}", 'filename' => 'japan_visa_form.pdf');
 }
 
 1;

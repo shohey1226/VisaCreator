@@ -16,12 +16,18 @@ angular.module('VisaCreatorApp')
   .controller('japanVisaFormCtrlStep3', function ($scope, japanVisaService, $location) {
     $scope.downloadJapanVisaForm = function(user){
       var promise = japanVisaService.saveStep3(user);
-      promise.then(function(res)  { $location.path(res.url); })
+      promise.then(function(res)  { 
+        console.log(res.url);
+        var a = document.createElement('a');
+        a.href = res.url;
+        a.download = "japan_visa_form.pdf";
+        console.log(a);
+        a.click();
+      })
       .catch(function(req) { console.log("error to submit form"); })
     };
   })
   .controller('TopCtrl', function ($scope) {
-      console.log("abc");
   })
   .controller('MainCtrl', function ($scope, japanVisaService) {
     $scope.id = 1;

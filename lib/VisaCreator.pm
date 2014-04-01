@@ -4,6 +4,7 @@ use Mojo::Base 'Mojolicious';
 use VisaCreator::Model;
 use FindBin qw($Bin);
 use Data::Dumper;
+use Log::Minimal;
 
 # This method will run once at server start
 sub startup {
@@ -26,7 +27,17 @@ sub startup {
   $r->get('/')->to('Index#serve_root');
   #$r->post('/api/japan/form')->to('Japan#save_form');
   $r->post('/api/japan/form')->to('Japan#create_form');
-  $r->get('/japan/form/download/:timestamp')->to('Japan#download_form');
+  $r->get('/japan/form/download/:file')->to('Japan#download_form');
+
+  # Delete pdf file once it's downloaded
+  $self->hook(after_dispatch => sub {
+    my $c = shift;
+    debugf "deleting downloaded pdf file if needed\n";
+    print Dumper $c->res;
+    #if (defined $c->res->{code} == 200){
+    #  unlink $c->res->{content}->{asset}->{path};
+    #}
+  });
 
 }
 
