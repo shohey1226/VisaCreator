@@ -20,7 +20,8 @@ sub create_form {
     my $self = shift;
     my $data = $self->req->json;
     print Dumper $data;
-    #my $pdf_name = $self->pdfmaker->create('japan', 'form', $self->config, $data);
+    my $pdf_name = $self->pdfmaker->create('japan', 'form', $self->config, $data);
+    print Dumper  $pdf_name;
     #$self->render( text => $pdf_name);
     $self->render( json => { url => '/hoge' });
 }

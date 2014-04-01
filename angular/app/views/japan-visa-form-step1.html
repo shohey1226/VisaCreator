@@ -92,12 +92,12 @@
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="nationality">Nationality or citizenship</label>
-    <input type="text" class="form-control" id="nationality" placeholder="">
+    <input type="text" class="form-control" id="nationality" placeholder="" ng-model="user.nationality">
   </div>
 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="formerNationality">Former and/or other nationalities or citizenships</label>
-    <input type="text" class="form-control" id="formerNationality" placeholder="">
+    <input type="text" class="form-control" id="formerNationality" placeholder="" ng-model="user.formerNationality">
   </div>
 </div>
 
@@ -106,7 +106,7 @@
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="id">ID No. issued to you by your government</label>
-    <input type="text" class="form-control" id="id" placeholder="">
+    <input type="text" class="form-control" id="id" placeholder="" ng-model="user.id">
   </div>
 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -308,6 +308,11 @@
     <input type="text" class="form-control" id="employerTel" placeholder="" ng-model="user.employerTel">
   </div>
 </div>
+<br>
+
+<label for="employerAddres">Employer Address</label>
+<input type="text" class="form-control" id="employerAddress" placeholder="" ng-model="user.employerAddress">
+
 
 <br>
 <label for="partner">*Partner's profession/occupation (or that of parents, if applicant is a minor):</label>

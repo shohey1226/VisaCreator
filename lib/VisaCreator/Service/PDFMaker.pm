@@ -32,7 +32,8 @@ sub create {
         $text->text($data->{$field});
     }
 
-    my $outfile = "/tmp/" . $country . "_" . $form_type . '_' . $data->{id} . ".pdf";
+    #my $outfile = "/tmp/" . $country . "_" . $form_type . '_' . $data->{id} . ".pdf";
+    my $outfile = "/tmp/" . $country . "_" . $form_type . ".pdf";
     $pdf->saveas($outfile);
     debugf "output $outfile ...\n";
     return $outfile;
