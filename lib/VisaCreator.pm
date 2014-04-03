@@ -32,8 +32,8 @@ sub startup {
   # Delete pdf file once it's downloaded
   $self->hook(after_dispatch => sub {
     my $c = shift;
-    debugf "deleting downloaded pdf file if needed\n";
-    print Dumper $c->res;
+    #debugf "deleting downloaded pdf file if needed\n";
+    #print Dumper $c->res;
     #if (defined $c->res->{code} == 200){
     #  unlink $c->res->{content}->{asset}->{path};
     #}
