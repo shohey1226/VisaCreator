@@ -1,6 +1,6 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-bottom: 20px;
 }
 
@@ -77,3 +77,16 @@ body {
     border-bottom: 0;
   }
 }
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.nav li p {
+    display: block;
+    padding-top: 12px;
+}
+
+
+
+

@@ -9,3 +9,6 @@ requires "DateTime::Format::MySQL";
 requires "DBD::mysql";
 requires "Mojolicious::Plugin::RenderFile";
 requires "Data::Printer";
+#requires "JSON::XS";
+requires "Digest::SHA";
+requires "Mojolicious::Plugin::Web::Auth";

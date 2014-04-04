@@ -4,6 +4,7 @@ angular.module('VisaCreatorApp')
 .factory('japanVisaService', function ($resource, $location) {
 
   var userInfo = {};
+  var original_user = {};
   var timestamp; 
 
   var _submitForm = function(){
@@ -11,6 +12,9 @@ angular.module('VisaCreatorApp')
   };
 
   return {
+    getUser : function(){
+        return original_user;
+    },
     // Save form in Step1
     saveStep1: function(user){
       for (var key in user){
@@ -61,6 +65,7 @@ angular.module('VisaCreatorApp')
         else{
           userInfo[key] = user[key];
         }
+        original_user.key = user.key;
       }
       console.log(userInfo);
     },
@@ -68,6 +73,7 @@ angular.module('VisaCreatorApp')
     saveStep2: function(user){
       for (var key in user){
         userInfo[key] = user[key];
+        original_user.key = user.key;
       }
       console.log(userInfo);
     },
@@ -91,6 +97,7 @@ angular.module('VisaCreatorApp')
         else{
           userInfo[key] = user[key];
         }
+        original_user.key = user.key;
       }
       console.log(userInfo);
       return _submitForm();

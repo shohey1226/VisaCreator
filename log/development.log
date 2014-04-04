@@ -2470,3 +2470,1604 @@ BIND    : $VAR1 = [
 [Thu Apr  3 15:39:02 2014] [debug] GET "/japan/form/download/japan_form_1396507142".
 [Thu Apr  3 15:39:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
 [Thu Apr  3 15:39:02 2014] [debug] 200 OK (0.001140s, 877.193/s).
+[Thu Apr  3 16:00:59 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:00:59 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:00:59 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:01:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:01:18 2014] [debug] GET "/".
+[Thu Apr  3 16:01:18 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:01:18 2014] [debug] 200 OK (0.002123s, 471.032/s).
+[Thu Apr  3 16:01:18 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 16:01:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 16:01:18 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 16:01:18 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 16:01:18 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 16:01:18 2014] [debug] 404 Not Found (0.040389s, 24.759/s).
+[Thu Apr  3 16:02:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:02:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:02:24 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:02:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:02:28 2014] [debug] GET "/".
+[Thu Apr  3 16:02:28 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:02:28 2014] [debug] 304 Not Modified (0.002118s, 472.144/s).
+[Thu Apr  3 16:02:58 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:02:58 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:02:58 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:03:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:03:01 2014] [debug] GET "/".
+[Thu Apr  3 16:03:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:03:01 2014] [debug] 200 OK (0.002209s, 452.694/s).
+[Thu Apr  3 16:03:01 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 16:03:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 16:03:01 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 16:03:01 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 16:03:01 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 16:03:01 2014] [debug] 404 Not Found (0.038495s, 25.977/s).
+[Thu Apr  3 16:03:35 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:03:35 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:03:35 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:03:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:03:36 2014] [debug] GET "/".
+[Thu Apr  3 16:03:36 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:03:36 2014] [debug] 304 Not Modified (0.001815s, 550.964/s).
+[Thu Apr  3 16:07:57 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:07:57 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:07:57 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:07:59 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:07:59 2014] [debug] GET "/".
+[Thu Apr  3 16:07:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:07:59 2014] [debug] 200 OK (0.002235s, 447.427/s).
+[Thu Apr  3 16:08:00 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 16:08:00 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 16:08:00 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 16:08:00 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 16:08:00 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 16:08:00 2014] [debug] 404 Not Found (0.043701s, 22.883/s).
+[Thu Apr  3 16:08:03 2014] [debug] GET "/".
+[Thu Apr  3 16:08:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:08:03 2014] [debug] 304 Not Modified (0.001338s, 747.384/s).
+[Thu Apr  3 16:20:06 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:20:06 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:20:06 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:20:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:20:11 2014] [debug] GET "/".
+[Thu Apr  3 16:20:11 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:20:11 2014] [debug] 200 OK (0.001854s, 539.374/s).
+[Thu Apr  3 16:20:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:20:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:20:50 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:20:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:20:51 2014] [debug] GET "/".
+[Thu Apr  3 16:20:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:20:51 2014] [debug] 304 Not Modified (0.002042s, 489.716/s).
+[Thu Apr  3 16:22:28 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:22:28 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:22:28 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:22:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:22:37 2014] [debug] GET "/".
+[Thu Apr  3 16:22:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:22:37 2014] [debug] 200 OK (0.001871s, 534.474/s).
+[Thu Apr  3 16:23:47 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:23:47 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:23:47 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:23:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:23:51 2014] [debug] GET "/".
+[Thu Apr  3 16:23:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:23:51 2014] [debug] 304 Not Modified (0.002532s, 394.945/s).
+[Thu Apr  3 16:24:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:24:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:24:11 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:24:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:24:14 2014] [debug] GET "/".
+[Thu Apr  3 16:24:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:24:14 2014] [debug] 200 OK (0.002523s, 396.354/s).
+[Thu Apr  3 16:24:15 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 16:24:15 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 16:24:15 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 16:24:15 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 16:24:15 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 16:24:15 2014] [debug] 404 Not Found (0.034168s, 29.267/s).
+[Thu Apr  3 16:24:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:24:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:24:51 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:24:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:24:58 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:24:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:24:59 2014] [debug] 200 OK (1.045451s, 0.957/s).
+[Thu Apr  3 16:24:59 2014] [debug] GET "/japan/form/download/japan_form_1396509899".
+[Thu Apr  3 16:24:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:24:59 2014] [debug] 200 OK (0.001267s, 789.266/s).
+[Thu Apr  3 16:26:25 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:26:25 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:26:25 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:26:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:26:28 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:26:28 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:26:29 2014] [debug] 200 OK (1.087538s, 0.920/s).
+[Thu Apr  3 16:26:29 2014] [debug] GET "/japan/form/download/japan_form_1396509989".
+[Thu Apr  3 16:26:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:26:29 2014] [debug] 200 OK (0.001209s, 827.130/s).
+[Thu Apr  3 16:29:17 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:29:17 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:29:17 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:29:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:29:19 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:29:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:29:20 2014] [debug] 200 OK (1.142431s, 0.875/s).
+[Thu Apr  3 16:29:20 2014] [debug] GET "/japan/form/download/japan_form_1396510160".
+[Thu Apr  3 16:29:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:29:20 2014] [debug] 200 OK (0.001237s, 808.407/s).
+[Thu Apr  3 16:29:56 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:29:56 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:29:56 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:30:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:30:08 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:30:08 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:30:09 2014] [debug] 200 OK (1.149188s, 0.870/s).
+[Thu Apr  3 16:30:09 2014] [debug] GET "/japan/form/download/japan_form_1396510208".
+[Thu Apr  3 16:30:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:30:09 2014] [debug] 200 OK (0.001198s, 834.725/s).
+[Thu Apr  3 16:30:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:30:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:30:50 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:30:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:30:53 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:30:53 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:30:54 2014] [debug] 200 OK (1.134917s, 0.881/s).
+[Thu Apr  3 16:30:54 2014] [debug] GET "/japan/form/download/japan_form_1396510254".
+[Thu Apr  3 16:30:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:30:54 2014] [debug] 200 OK (0.001216s, 822.368/s).
+[Thu Apr  3 16:31:01 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:31:01 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:31:01 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:31:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:31:02 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:31:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:31:03 2014] [debug] 200 OK (1.124054s, 0.890/s).
+[Thu Apr  3 16:31:03 2014] [debug] GET "/japan/form/download/japan_form_1396510263".
+[Thu Apr  3 16:31:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:31:03 2014] [debug] 200 OK (0.001249s, 800.641/s).
+[Thu Apr  3 16:31:52 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:31:52 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:31:52 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:31:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:31:54 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:31:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:31:55 2014] [debug] 200 OK (1.150585s, 0.869/s).
+[Thu Apr  3 16:31:55 2014] [debug] GET "/japan/form/download/japan_form_1396510315".
+[Thu Apr  3 16:31:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:31:55 2014] [debug] 200 OK (0.001203s, 831.255/s).
+[Thu Apr  3 16:32:19 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:32:19 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:32:19 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:32:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:32:21 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:32:21 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:32:22 2014] [debug] 200 OK (1.112140s, 0.899/s).
+[Thu Apr  3 16:32:22 2014] [debug] GET "/japan/form/download/japan_form_1396510342".
+[Thu Apr  3 16:32:22 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:32:22 2014] [debug] 200 OK (0.001196s, 836.120/s).
+[Thu Apr  3 16:33:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:33:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:33:51 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:33:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:33:53 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:33:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:33:55 2014] [debug] 200 OK (1.136821s, 0.880/s).
+[Thu Apr  3 16:33:55 2014] [debug] GET "/japan/form/download/japan_form_1396510434".
+[Thu Apr  3 16:33:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:33:55 2014] [debug] 200 OK (0.001192s, 838.926/s).
+[Thu Apr  3 16:34:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:34:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:34:51 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:34:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:34:54 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:34:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:34:55 2014] [debug] 200 OK (1.044783s, 0.957/s).
+[Thu Apr  3 16:34:55 2014] [debug] GET "/japan/form/download/japan_form_1396510495".
+[Thu Apr  3 16:34:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:34:55 2014] [debug] 200 OK (0.001719s, 581.734/s).
+[Thu Apr  3 16:35:09 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:35:09 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:35:09 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:35:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:35:12 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:35:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:35:13 2014] [debug] 200 OK (1.094659s, 0.914/s).
+[Thu Apr  3 16:35:13 2014] [debug] GET "/japan/form/download/japan_form_1396510513".
+[Thu Apr  3 16:35:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:35:13 2014] [debug] 200 OK (0.001219s, 820.345/s).
+[Thu Apr  3 16:36:16 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:36:16 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:36:16 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:36:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:36:19 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:36:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:36:20 2014] [debug] 200 OK (1.036220s, 0.965/s).
+[Thu Apr  3 16:36:20 2014] [debug] GET "/japan/form/download/japan_form_1396510580".
+[Thu Apr  3 16:36:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:36:20 2014] [debug] 200 OK (0.001632s, 612.745/s).
+[Thu Apr  3 16:36:31 2014] [debug] GET "/".
+[Thu Apr  3 16:36:31 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:36:31 2014] [debug] 304 Not Modified (0.001990s, 502.513/s).
+[Thu Apr  3 16:36:31 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 16:36:31 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 16:36:31 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 16:36:31 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 16:36:31 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 16:36:31 2014] [debug] 404 Not Found (0.066903s, 14.947/s).
+[Thu Apr  3 16:36:39 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:36:39 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:36:40 2014] [debug] 200 OK (1.125846s, 0.888/s).
+[Thu Apr  3 16:36:40 2014] [debug] GET "/japan/form/download/japan_form_1396510599".
+[Thu Apr  3 16:36:40 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:36:40 2014] [debug] 200 OK (0.001324s, 755.287/s).
+[Thu Apr  3 16:37:25 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:37:25 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:37:25 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:37:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:37:28 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:37:28 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:37:30 2014] [debug] 200 OK (1.477441s, 0.677/s).
+[Thu Apr  3 16:37:30 2014] [debug] GET "/japan/form/download/japan_form_1396510649".
+[Thu Apr  3 16:37:30 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:37:30 2014] [debug] 200 OK (0.001346s, 742.942/s).
+[Thu Apr  3 16:37:58 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:37:58 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:37:59 2014] [debug] 200 OK (0.875410s, 1.142/s).
+[Thu Apr  3 16:37:59 2014] [debug] GET "/japan/form/download/japan_form_1396510678".
+[Thu Apr  3 16:37:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:37:59 2014] [debug] 200 OK (0.001107s, 903.342/s).
+[Thu Apr  3 16:40:06 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:40:06 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:40:06 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:40:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:40:10 2014] [debug] GET "/".
+[Thu Apr  3 16:40:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:40:10 2014] [debug] 200 OK (0.001992s, 502.008/s).
+[Thu Apr  3 16:40:10 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 16:40:10 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 16:40:10 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 16:40:10 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 16:40:10 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 16:40:10 2014] [debug] 404 Not Found (0.047653s, 20.985/s).
+[Thu Apr  3 16:40:13 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:40:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:40:14 2014] [debug] 200 OK (1.139263s, 0.878/s).
+[Thu Apr  3 16:40:14 2014] [debug] GET "/japan/form/download/japan_form_1396510813".
+[Thu Apr  3 16:40:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:40:14 2014] [debug] 200 OK (0.001942s, 514.933/s).
+[Thu Apr  3 16:40:37 2014] [debug] GET "/".
+[Thu Apr  3 16:40:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 16:40:37 2014] [debug] 304 Not Modified (0.001051s, 951.475/s).
+[Thu Apr  3 16:40:37 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 16:40:37 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 16:40:37 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 16:40:37 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 16:40:37 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 16:40:37 2014] [debug] 404 Not Found (0.016998s, 58.830/s).
+[Thu Apr  3 16:40:55 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:40:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:40:56 2014] [debug] 200 OK (0.919167s, 1.088/s).
+[Thu Apr  3 16:40:56 2014] [debug] GET "/japan/form/download/japan_form_1396510856".
+[Thu Apr  3 16:40:56 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:40:56 2014] [debug] 200 OK (0.001347s, 742.390/s).
+[Thu Apr  3 16:42:09 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:42:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:42:10 2014] [debug] 200 OK (0.963158s, 1.038/s).
+[Thu Apr  3 16:42:10 2014] [debug] GET "/japan/form/download/japan_form_1396510929".
+[Thu Apr  3 16:42:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:42:10 2014] [debug] 200 OK (0.002500s, 400.000/s).
+[Thu Apr  3 16:47:52 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:47:52 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:47:52 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:48:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:48:03 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:48:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:48:04 2014] [error] Can't call method "is_multipart" on unblessed reference at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojo/Message.pm line 25.
+
+[Thu Apr  3 16:48:04 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Apr  3 16:48:04 2014] [debug] Template "exception.html.ep" not found.
+[Thu Apr  3 16:48:04 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 16:48:04 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 16:49:57 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:49:57 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:49:57 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:50:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:50:02 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:50:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:50:04 2014] [debug] 200 OK (1.109426s, 0.901/s).
+[Thu Apr  3 16:50:04 2014] [debug] GET "/japan/form/download/japan_form_1396511403".
+[Thu Apr  3 16:50:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:50:04 2014] [debug] 200 OK (0.001282s, 780.031/s).
+[Thu Apr  3 16:52:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:52:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:52:24 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:52:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:52:44 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:52:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:52:45 2014] [error] Not a HASH reference at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator.pm line 37.
+
+[Thu Apr  3 16:52:45 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Apr  3 16:52:45 2014] [debug] Template "exception.html.ep" not found.
+[Thu Apr  3 16:52:45 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 16:52:45 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 16:58:01 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:58:01 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:58:01 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:58:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:58:06 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:58:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:58:07 2014] [error] Not a HASH reference at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator.pm line 37.
+
+[Thu Apr  3 16:58:07 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Apr  3 16:58:07 2014] [debug] Template "exception.html.ep" not found.
+[Thu Apr  3 16:58:07 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 16:58:07 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 16:58:26 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:58:26 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:58:26 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:58:48 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:58:48 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:58:48 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:58:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:58:51 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:58:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:58:52 2014] [error] Not a HASH reference at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator.pm line 38.
+
+[Thu Apr  3 16:58:52 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Apr  3 16:58:52 2014] [debug] Template "exception.html.ep" not found.
+[Thu Apr  3 16:58:52 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 16:58:52 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 16:59:27 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 16:59:27 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 16:59:27 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 16:59:31 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 16:59:31 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 16:59:31 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 16:59:32 2014] [debug] 200 OK (1.044051s, 0.958/s).
+[Thu Apr  3 16:59:32 2014] [debug] GET "/japan/form/download/japan_form_1396511972".
+[Thu Apr  3 16:59:32 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 16:59:32 2014] [debug] 200 OK (0.001793s, 557.724/s).
+[Thu Apr  3 17:01:02 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:01:02 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:01:02 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:01:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:01:24 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:01:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:01:25 2014] [error] malformed JSON string, neither tag, array, object, number, string or atom, at character offset 0 (before "(end of string)") at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator.pm line 37.
+
+[Thu Apr  3 17:01:25 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Apr  3 17:01:25 2014] [debug] Template "exception.html.ep" not found.
+[Thu Apr  3 17:01:25 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 17:01:25 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 17:02:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:02:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:02:51 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:02:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:02:58 2014] [debug] GET "/".
+[Thu Apr  3 17:02:58 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 17:02:58 2014] [debug] 304 Not Modified (0.004078s, 245.218/s).
+[Thu Apr  3 17:02:58 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 17:02:58 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 17:02:58 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 17:02:58 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 17:02:58 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 17:02:58 2014] [debug] 404 Not Found (0.042080s, 23.764/s).
+[Thu Apr  3 17:03:03 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:03:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:03:04 2014] [debug] 200 OK (1.112277s, 0.899/s).
+[Thu Apr  3 17:03:04 2014] [debug] GET "/japan/form/download/japan_form_1396512183".
+[Thu Apr  3 17:03:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:03:04 2014] [debug] 200 OK (0.001916s, 521.921/s).
+[Thu Apr  3 17:03:26 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:03:26 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:03:26 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:03:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:03:30 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:03:31 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:03:32 2014] [debug] 200 OK (1.636598s, 0.611/s).
+[Thu Apr  3 17:03:32 2014] [debug] GET "/japan/form/download/japan_form_1396512211".
+[Thu Apr  3 17:03:32 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:03:32 2014] [debug] 200 OK (0.002650s, 377.358/s).
+[Thu Apr  3 17:04:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:04:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:04:53 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:04:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:04:58 2014] [debug] GET "/".
+[Thu Apr  3 17:04:58 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 17:04:58 2014] [debug] 304 Not Modified (0.001726s, 579.374/s).
+[Thu Apr  3 17:04:58 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 17:04:58 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 17:04:58 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 17:04:58 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 17:04:58 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 17:04:58 2014] [debug] 404 Not Found (0.061940s, 16.145/s).
+[Thu Apr  3 17:05:01 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:05:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:05:02 2014] [debug] 200 OK (1.136769s, 0.880/s).
+[Thu Apr  3 17:05:02 2014] [debug] GET "/japan/form/download/japan_form_1396512301".
+[Thu Apr  3 17:05:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:05:02 2014] [debug] 200 OK (0.002121s, 471.476/s).
+[Thu Apr  3 17:05:28 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:05:28 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:05:28 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:05:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:05:30 2014] [debug] GET "/".
+[Thu Apr  3 17:05:30 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 17:05:30 2014] [debug] 304 Not Modified (0.001839s, 543.774/s).
+[Thu Apr  3 17:05:30 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 17:05:30 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 17:05:30 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 17:05:30 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 17:05:30 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 17:05:30 2014] [debug] 404 Not Found (0.066079s, 15.133/s).
+[Thu Apr  3 17:05:33 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:05:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:05:34 2014] [debug] 200 OK (1.124591s, 0.889/s).
+[Thu Apr  3 17:05:34 2014] [debug] GET "/japan/form/download/japan_form_1396512334".
+[Thu Apr  3 17:05:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:05:34 2014] [debug] 200 OK (0.001987s, 503.271/s).
+[Thu Apr  3 17:06:40 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:06:40 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:06:40 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:06:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:06:44 2014] [debug] GET "/".
+[Thu Apr  3 17:06:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 17:06:44 2014] [debug] 304 Not Modified (0.001888s, 529.661/s).
+[Thu Apr  3 17:06:44 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 17:06:44 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 17:06:44 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 17:06:44 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 17:06:44 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 17:06:44 2014] [debug] 404 Not Found (0.064457s, 15.514/s).
+[Thu Apr  3 17:06:47 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:06:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:06:48 2014] [debug] 200 OK (1.108644s, 0.902/s).
+[Thu Apr  3 17:06:48 2014] [debug] GET "/japan/form/download/japan_form_1396512408".
+[Thu Apr  3 17:06:48 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:06:48 2014] [debug] 200 OK (0.003280s, 304.878/s).
+[Thu Apr  3 17:07:19 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:07:19 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:07:19 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:07:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:07:21 2014] [debug] GET "/".
+[Thu Apr  3 17:07:21 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 17:07:21 2014] [debug] 304 Not Modified (0.001644s, 608.273/s).
+[Thu Apr  3 17:07:22 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 17:07:22 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 17:07:22 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 17:07:22 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 17:07:22 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 17:07:22 2014] [debug] 404 Not Found (0.132614s, 7.541/s).
+[Thu Apr  3 17:07:24 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:07:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:07:25 2014] [debug] 200 OK (1.248314s, 0.801/s).
+[Thu Apr  3 17:07:25 2014] [debug] GET "/japan/form/download/japan_form_1396512445".
+[Thu Apr  3 17:07:25 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:07:25 2014] [debug] 200 OK (0.001587s, 630.120/s).
+[Thu Apr  3 17:09:29 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:09:29 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:09:29 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:09:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:09:44 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:09:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:09:46 2014] [debug] 200 OK (1.479237s, 0.676/s).
+[Thu Apr  3 17:09:46 2014] [debug] GET "/japan/form/download/japan_form_1396512585".
+[Thu Apr  3 17:09:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:09:46 2014] [debug] 200 OK (0.001919s, 521.105/s).
+[Thu Apr  3 17:10:10 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:10:10 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:10:10 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:10:35 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:10:35 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:10:35 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:10:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:10:43 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:10:43 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:10:44 2014] [debug] 200 OK (1.053469s, 0.949/s).
+[Thu Apr  3 17:10:44 2014] [debug] GET "/japan/form/download/japan_form_1396512644".
+[Thu Apr  3 17:10:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:10:44 2014] [debug] 200 OK (0.001882s, 531.350/s).
+[Thu Apr  3 17:11:13 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:11:13 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:11:13 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:11:27 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:11:27 2014] [debug] GET "/".
+[Thu Apr  3 17:11:27 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 17:11:27 2014] [debug] 304 Not Modified (0.001950s, 512.821/s).
+[Thu Apr  3 17:11:27 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 17:11:27 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 17:11:27 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 17:11:27 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 17:11:27 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 17:11:27 2014] [debug] 404 Not Found (0.042543s, 23.506/s).
+[Thu Apr  3 17:11:37 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:11:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:11:38 2014] [debug] 200 OK (1.096415s, 0.912/s).
+[Thu Apr  3 17:11:38 2014] [debug] GET "/japan/form/download/japan_form_1396512697".
+[Thu Apr  3 17:11:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:11:38 2014] [debug] 200 OK (0.001719s, 581.734/s).
+[Thu Apr  3 17:12:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:12:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:12:53 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:13:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:13:03 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:13:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:13:04 2014] [debug] 200 OK (1.086980s, 0.920/s).
+[Thu Apr  3 17:13:04 2014] [debug] GET "/japan/form/download/japan_form_1396512784".
+[Thu Apr  3 17:13:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:13:04 2014] [error] Cannot read file [/tmp/japan_form_1396512784]. error [No such file or directory]
+[Thu Apr  3 17:13:04 2014] [debug] Template "japan/download_form.html.ep" not found.
+[Thu Apr  3 17:17:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:17:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:17:41 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:18:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:18:16 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:18:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:18:17 2014] [debug] 200 OK (1.078899s, 0.927/s).
+[Thu Apr  3 17:18:17 2014] [debug] GET "/japan/form/download/japan_form_1396513097".
+[Thu Apr  3 17:18:17 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:18:17 2014] [debug] 200 OK (0.001875s, 533.333/s).
+[Thu Apr  3 17:21:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:21:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:21:55 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:22:07 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:22:07 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:22:08 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:22:09 2014] [debug] 200 OK (1.082826s, 0.924/s).
+[Thu Apr  3 17:22:09 2014] [debug] GET "/japan/form/download/japan_form_1396513328".
+[Thu Apr  3 17:22:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:22:09 2014] [debug] 200 OK (0.004195s, 238.379/s).
+[Thu Apr  3 17:24:43 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:24:43 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:24:43 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:25:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:25:24 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:25:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:25:25 2014] [debug] 200 OK (1.144822s, 0.873/s).
+[Thu Apr  3 17:25:25 2014] [debug] GET "/japan/form/download/japan_form_1396513524".
+[Thu Apr  3 17:25:25 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:25:25 2014] [debug] 200 OK (0.001896s, 527.426/s).
+[Thu Apr  3 17:26:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:26:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:26:11 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:26:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:26:15 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:26:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:26:16 2014] [debug] 200 OK (1.074872s, 0.930/s).
+[Thu Apr  3 17:26:16 2014] [debug] GET "/japan/form/download/japan_form_1396513575".
+[Thu Apr  3 17:26:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:26:16 2014] [debug] 200 OK (0.003221s, 310.463/s).
+[Thu Apr  3 17:33:03 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:33:03 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:33:03 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:34:33 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:34:33 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:34:33 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:37:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr  3 17:37:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr  3 17:37:24 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr  3 17:37:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  3 17:37:32 2014] [debug] GET "/".
+[Thu Apr  3 17:37:32 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr  3 17:37:32 2014] [debug] 304 Not Modified (0.002157s, 463.607/s).
+[Thu Apr  3 17:37:32 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Thu Apr  3 17:37:32 2014] [debug] Template "not_found.development.html.ep" not found.
+[Thu Apr  3 17:37:32 2014] [debug] Template "not_found.html.ep" not found.
+[Thu Apr  3 17:37:32 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Apr  3 17:37:32 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Thu Apr  3 17:37:32 2014] [debug] 404 Not Found (0.090219s, 11.084/s).
+[Thu Apr  3 17:37:44 2014] [debug] POST "/api/japan/form".
+[Thu Apr  3 17:37:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr  3 17:37:45 2014] [debug] 200 OK (1.152073s, 0.868/s).
+[Thu Apr  3 17:37:45 2014] [debug] GET "/japan/form/download/japan_form_7d6f3f365293c5473449798f0d267f8ba0084cb84d330151da70fc75f8d5275f".
+[Thu Apr  3 17:37:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr  3 17:37:45 2014] [debug] 200 OK (0.001730s, 578.035/s).
+[Fri Apr  4 07:27:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 07:27:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 07:27:11 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 07:58:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 07:58:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 07:58:24 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 07:59:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 07:59:43 2014] [debug] POST "/api/japan/form".
+[Fri Apr  4 07:59:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Fri Apr  4 07:59:44 2014] [debug] 200 OK (1.102034s, 0.907/s).
+[Fri Apr  4 07:59:44 2014] [debug] GET "/japan/form/download/japan_form_5fc959bbc2f59c89ecdddca71c7cd466367d34b84b57963fd8439fe0c6eeaeb2".
+[Fri Apr  4 07:59:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Apr  4 07:59:44 2014] [debug] 200 OK (0.002060s, 485.437/s).
+[Fri Apr  4 08:02:21 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 08:02:21 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 08:02:21 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 08:02:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 08:02:35 2014] [debug] POST "/api/japan/form".
+[Fri Apr  4 08:02:35 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Fri Apr  4 08:02:36 2014] [debug] 200 OK (1.191027s, 0.840/s).
+[Fri Apr  4 08:02:36 2014] [debug] GET "/japan/form/download/japan_form_2e0c984c92e39e0d53d603e68877e406d27a9edc2bf2d44b87ca28dbb3e68e3c".
+[Fri Apr  4 08:02:36 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Fri Apr  4 08:02:36 2014] [debug] 200 OK (0.005628s, 177.683/s).
+[Fri Apr  4 08:07:31 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 08:07:31 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 08:07:31 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 08:08:00 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 08:08:00 2014] [debug] GET "/".
+[Fri Apr  4 08:08:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 08:08:00 2014] [debug] 304 Not Modified (0.002963s, 337.496/s).
+[Fri Apr  4 08:08:00 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Fri Apr  4 08:08:00 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 08:08:00 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 08:08:00 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 08:08:00 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 08:08:00 2014] [debug] 404 Not Found (0.086059s, 11.620/s).
+[Fri Apr  4 10:05:52 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 10:05:52 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 10:05:52 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 10:06:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 10:06:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 10:06:11 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 10:06:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 10:06:18 2014] [debug] GET "/".
+[Fri Apr  4 10:06:18 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 10:06:18 2014] [debug] 200 OK (0.002506s, 399.042/s).
+[Fri Apr  4 10:06:18 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Fri Apr  4 10:06:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 10:06:18 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 10:06:18 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 10:06:18 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 10:06:18 2014] [debug] 404 Not Found (0.072014s, 13.886/s).
+[Fri Apr  4 10:06:40 2014] [debug] GET "/auth/facebook/authentication".
+[Fri Apr  4 10:06:40 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 10:06:40 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 10:06:40 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 10:06:40 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 10:06:40 2014] [debug] 404 Not Found (0.018500s, 54.054/s).
+[Fri Apr  4 10:14:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 10:14:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 10:14:41 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 10:14:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 10:14:44 2014] [debug] GET "/login".
+[Fri Apr  4 10:14:44 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 10:14:44 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 10:14:44 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 10:14:44 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 10:14:44 2014] [debug] 404 Not Found (0.033787s, 29.597/s).
+[Fri Apr  4 10:15:43 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 10:16:14 2014] [debug] GET "/login".
+[Fri Apr  4 10:16:14 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 10:16:14 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 10:16:14 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 10:16:14 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 10:16:14 2014] [debug] 404 Not Found (0.017121s, 58.408/s).
+[Fri Apr  4 10:16:18 2014] [debug] GET "//auth/facebook/authenticate".
+[Fri Apr  4 10:16:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 10:16:18 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 10:16:18 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 10:16:18 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 10:16:18 2014] [debug] 404 Not Found (0.017977s, 55.627/s).
+[Fri Apr  4 10:16:21 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 10:16:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 10:16:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 10:16:39 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 10:16:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 10:16:41 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 10:17:17 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 10:17:37 2014] [debug] GET "//auth/facebook/authenticate".
+[Fri Apr  4 10:17:37 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 10:17:37 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 10:17:37 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 10:17:37 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 10:17:37 2014] [debug] 404 Not Found (0.035518s, 28.155/s).
+[Fri Apr  4 10:17:37 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 10:17:53 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 10:17:53 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 10:17:53 2014] [debug] Template "index/fb_callback.html.ep" not found.
+[Fri Apr  4 10:21:10 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 10:21:10 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 10:21:10 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 10:21:17 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 10:21:17 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 10:21:17 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 10:21:17 2014] [debug] Template "index/fb_callback.html.ep" not found.
+[Fri Apr  4 10:21:21 2014] [debug] GET "/auth/facebook/authentication".
+[Fri Apr  4 10:21:21 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 10:21:21 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 10:21:21 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 10:21:21 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 10:21:21 2014] [debug] 404 Not Found (0.036686s, 27.258/s).
+[Fri Apr  4 10:21:29 2014] [debug] GET "/auth/facebook/authentication".
+[Fri Apr  4 10:21:29 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 10:21:29 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 10:21:29 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 10:21:29 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 10:21:29 2014] [debug] 404 Not Found (0.014027s, 71.291/s).
+[Fri Apr  4 10:21:37 2014] [debug] GET "/auth/facebook/authentication".
+[Fri Apr  4 10:21:37 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 10:21:37 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 10:21:37 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 10:21:37 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 10:21:37 2014] [debug] 404 Not Found (0.010663s, 93.782/s).
+[Fri Apr  4 10:21:53 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 10:21:53 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 10:21:53 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 10:21:53 2014] [debug] Template "index/fb_callback.html.ep" not found.
+[Fri Apr  4 10:30:54 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 10:30:54 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 10:30:54 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 10:31:05 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 10:31:05 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 10:31:05 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 10:31:17 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 10:31:17 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 10:31:19 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 10:31:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 10:31:19 2014] [debug] Template "index/fb_callback.html.ep" not found.
+[Fri Apr  4 10:41:41 2014] [debug] GET "/".
+[Fri Apr  4 10:41:41 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 10:41:41 2014] [debug] 200 OK (0.001529s, 654.022/s).
+[Fri Apr  4 10:41:41 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Fri Apr  4 10:41:41 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 10:41:41 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 10:41:41 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 10:41:41 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 10:41:41 2014] [debug] 404 Not Found (0.047786s, 20.927/s).
+[Fri Apr  4 10:42:11 2014] [debug] GET "/".
+[Fri Apr  4 10:42:11 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 10:42:11 2014] [debug] 304 Not Modified (0.000835s, 1197.605/s).
+[Fri Apr  4 10:42:11 2014] [debug] GET "/bower_components/bootstrap/dist/css/main.css".
+[Fri Apr  4 10:42:11 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 10:42:11 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 10:42:11 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 10:42:11 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 10:42:11 2014] [debug] 404 Not Found (0.019229s, 52.005/s).
+[Fri Apr  4 15:10:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 15:10:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 15:10:14 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 15:10:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 15:10:37 2014] [debug] GET "/".
+[Fri Apr  4 15:10:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 15:10:37 2014] [debug] 200 OK (0.002843s, 351.741/s).
+[Fri Apr  4 15:10:38 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 15:10:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:10:38 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:10:38 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:10:38 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:10:38 2014] [debug] 404 Not Found (0.041815s, 23.915/s).
+[Fri Apr  4 15:10:38 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:10:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:10:38 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:10:38 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:10:38 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:10:38 2014] [debug] 404 Not Found (0.019121s, 52.299/s).
+[Fri Apr  4 15:10:52 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:10:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:10:52 2014] [debug] Template "index/whereami.html.ep" not found.
+[Fri Apr  4 15:13:40 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 15:13:40 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 15:13:40 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 15:28:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 15:28:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 15:28:51 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 15:28:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 15:35:10 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 15:35:10 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 15:35:10 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 15:35:42 2014] [debug] GET "/".
+[Fri Apr  4 15:35:42 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 15:35:42 2014] [debug] 200 OK (0.002056s, 486.381/s).
+[Fri Apr  4 15:35:42 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 15:35:42 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:35:42 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:35:42 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:35:42 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:35:42 2014] [debug] 404 Not Found (0.047925s, 20.866/s).
+[Fri Apr  4 15:35:42 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:35:42 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:35:42 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:35:42 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:35:42 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:35:42 2014] [debug] 404 Not Found (0.020225s, 49.444/s).
+[Fri Apr  4 15:35:50 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:35:50 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:35:50 2014] [debug] Template "index/whereami.html.ep" not found.
+[Fri Apr  4 15:37:04 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 15:37:04 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 15:37:04 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 15:37:07 2014] [debug] GET "/".
+[Fri Apr  4 15:37:07 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 15:37:07 2014] [debug] 304 Not Modified (0.002961s, 337.724/s).
+[Fri Apr  4 15:37:07 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 15:37:07 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:37:07 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:37:07 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:37:08 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:37:08 2014] [debug] 404 Not Found (0.059138s, 16.910/s).
+[Fri Apr  4 15:37:08 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:37:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:37:08 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:37:08 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:37:08 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:37:08 2014] [debug] 404 Not Found (0.020949s, 47.735/s).
+[Fri Apr  4 15:37:10 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:37:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:37:10 2014] [debug] Template "index/whereami.html.ep" not found.
+[Fri Apr  4 15:40:16 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 15:40:16 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 15:40:16 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 15:40:22 2014] [debug] GET "/".
+[Fri Apr  4 15:40:22 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 15:40:22 2014] [debug] 200 OK (0.002193s, 455.996/s).
+[Fri Apr  4 15:40:23 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 15:40:23 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:40:23 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:40:23 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:40:23 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:40:23 2014] [debug] 404 Not Found (0.054659s, 18.295/s).
+[Fri Apr  4 15:40:23 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:40:23 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:40:23 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:40:23 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:40:23 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:40:23 2014] [debug] 404 Not Found (0.020709s, 48.288/s).
+[Fri Apr  4 15:40:25 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:40:25 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:40:25 2014] [debug] 200 OK (0.001309s, 763.942/s).
+[Fri Apr  4 15:43:12 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 15:43:12 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 15:43:12 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 15:43:24 2014] [debug] GET "/".
+[Fri Apr  4 15:43:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 15:43:24 2014] [debug] 304 Not Modified (0.002137s, 467.946/s).
+[Fri Apr  4 15:43:25 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 15:43:25 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:43:25 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:43:25 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:43:25 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:43:25 2014] [debug] 404 Not Found (0.058975s, 16.956/s).
+[Fri Apr  4 15:43:25 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:43:25 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:43:25 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:43:25 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:43:25 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:43:25 2014] [debug] 404 Not Found (0.022501s, 44.442/s).
+[Fri Apr  4 15:43:28 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:43:28 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:43:28 2014] [debug] 200 OK (0.001405s, 711.744/s).
+[Fri Apr  4 15:43:33 2014] [debug] GET "/".
+[Fri Apr  4 15:43:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 15:43:33 2014] [debug] 200 OK (0.000851s, 1175.088/s).
+[Fri Apr  4 15:43:33 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 15:43:33 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:43:33 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:43:33 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:43:33 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:43:33 2014] [debug] 404 Not Found (0.021236s, 47.090/s).
+[Fri Apr  4 15:43:34 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:43:34 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:43:34 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:43:34 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:43:34 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:43:34 2014] [debug] 404 Not Found (0.026584s, 37.617/s).
+[Fri Apr  4 15:43:36 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:43:36 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:43:36 2014] [debug] 200 OK (0.001473s, 678.887/s).
+[Fri Apr  4 15:45:20 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:45:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:45:20 2014] [debug] 200 OK (0.001266s, 789.889/s).
+[Fri Apr  4 15:45:23 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:45:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:45:23 2014] [debug] 200 OK (0.001502s, 665.779/s).
+[Fri Apr  4 15:48:58 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 15:48:58 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 15:48:58 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 15:49:03 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:49:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:49:03 2014] [debug] 200 OK (0.002439s, 410.004/s).
+[Fri Apr  4 15:49:12 2014] [debug] GET "/".
+[Fri Apr  4 15:49:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 15:49:12 2014] [debug] 200 OK (0.001324s, 755.287/s).
+[Fri Apr  4 15:49:13 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 15:49:13 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:49:13 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:49:13 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:49:13 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:49:13 2014] [debug] 404 Not Found (0.055364s, 18.062/s).
+[Fri Apr  4 15:49:13 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:49:13 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:49:13 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:49:13 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:49:13 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:49:13 2014] [debug] 404 Not Found (0.027870s, 35.881/s).
+[Fri Apr  4 15:49:17 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:49:17 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:49:17 2014] [debug] 200 OK (0.001273s, 785.546/s).
+[Fri Apr  4 15:49:31 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 15:49:32 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 15:49:32 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 15:49:32 2014] [debug] 302 Found (0.002047s, 488.520/s).
+[Fri Apr  4 15:49:32 2014] [debug] GET "/japan-visa-form-step1".
+[Fri Apr  4 15:49:32 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:49:32 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:49:32 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:49:32 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:49:32 2014] [debug] 404 Not Found (0.012679s, 78.871/s).
+[Fri Apr  4 15:53:05 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:53:05 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:53:05 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:53:05 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:53:05 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:53:05 2014] [debug] 404 Not Found (0.023633s, 42.314/s).
+[Fri Apr  4 15:53:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 15:53:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 15:53:51 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 15:53:56 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 15:53:57 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 15:53:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 15:53:57 2014] [debug] 302 Found (0.002173s, 460.193/s).
+[Fri Apr  4 15:53:57 2014] [debug] GET "/japan-visa-form-step1".
+[Fri Apr  4 15:53:57 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:53:57 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:53:57 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:53:57 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:53:57 2014] [debug] 404 Not Found (0.038093s, 26.252/s).
+[Fri Apr  4 15:54:19 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:54:19 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:54:19 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:54:19 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:54:19 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:54:19 2014] [debug] 404 Not Found (0.028628s, 34.931/s).
+[Fri Apr  4 15:54:27 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 15:54:28 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 15:54:28 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 15:54:28 2014] [debug] 302 Found (0.001387s, 720.981/s).
+[Fri Apr  4 15:54:28 2014] [debug] GET "/japan-visa-form-step1".
+[Fri Apr  4 15:54:28 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:54:28 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:54:28 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:54:28 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:54:28 2014] [debug] 404 Not Found (0.012935s, 77.310/s).
+[Fri Apr  4 15:55:52 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 15:55:52 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 15:55:52 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 15:55:54 2014] [debug] GET "/japan-visa-form-step1".
+[Fri Apr  4 15:55:54 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:55:54 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:55:54 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:55:54 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:55:54 2014] [debug] 404 Not Found (0.039719s, 25.177/s).
+[Fri Apr  4 15:55:56 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:55:56 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:55:56 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:55:56 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:55:56 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:55:56 2014] [debug] 404 Not Found (0.026615s, 37.573/s).
+[Fri Apr  4 15:56:02 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 15:56:02 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 15:56:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 15:56:02 2014] [debug] 302 Found (0.002311s, 432.713/s).
+[Fri Apr  4 15:56:02 2014] [debug] GET "/".
+[Fri Apr  4 15:56:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 15:56:02 2014] [debug] 304 Not Modified (0.001017s, 983.284/s).
+[Fri Apr  4 15:56:03 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 15:56:03 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:56:03 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:56:03 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:56:03 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:56:03 2014] [debug] 404 Not Found (0.017715s, 56.449/s).
+[Fri Apr  4 15:56:03 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:56:03 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:56:03 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:56:03 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:56:03 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:56:03 2014] [debug] 404 Not Found (0.021122s, 47.344/s).
+[Fri Apr  4 15:56:15 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 15:56:15 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 15:56:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 15:56:15 2014] [debug] 302 Found (0.001165s, 858.369/s).
+[Fri Apr  4 15:56:15 2014] [debug] GET "/".
+[Fri Apr  4 15:56:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 15:56:15 2014] [debug] 304 Not Modified (0.001003s, 997.009/s).
+[Fri Apr  4 15:56:16 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 15:56:16 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:56:16 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:56:16 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:56:16 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:56:16 2014] [debug] 404 Not Found (0.019555s, 51.138/s).
+[Fri Apr  4 15:56:16 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:56:16 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:56:16 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:56:16 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:56:16 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:56:16 2014] [debug] 404 Not Found (0.026675s, 37.488/s).
+[Fri Apr  4 15:56:57 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:56:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:56:57 2014] [debug] 200 OK (0.001414s, 707.214/s).
+[Fri Apr  4 15:57:05 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:57:05 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:57:05 2014] [debug] 200 OK (0.001443s, 693.001/s).
+[Fri Apr  4 15:59:12 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:59:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:59:12 2014] [debug] 200 OK (0.001287s, 777.001/s).
+[Fri Apr  4 15:59:22 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 15:59:22 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 15:59:22 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 15:59:27 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:59:27 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:59:27 2014] [debug] 200 OK (0.002479s, 403.388/s).
+[Fri Apr  4 15:59:46 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 15:59:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 15:59:46 2014] [debug] 200 OK (0.001412s, 708.215/s).
+[Fri Apr  4 15:59:54 2014] [debug] GET "/".
+[Fri Apr  4 15:59:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 15:59:54 2014] [debug] 200 OK (0.000950s, 1052.632/s).
+[Fri Apr  4 15:59:54 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 15:59:54 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:59:54 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:59:54 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:59:54 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:59:54 2014] [debug] 404 Not Found (0.061859s, 16.166/s).
+[Fri Apr  4 15:59:54 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 15:59:54 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 15:59:54 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 15:59:54 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 15:59:54 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 15:59:54 2014] [debug] 404 Not Found (0.020986s, 47.651/s).
+[Fri Apr  4 16:00:00 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 16:00:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 16:00:00 2014] [debug] 200 OK (0.001238s, 807.754/s).
+[Fri Apr  4 16:02:48 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 16:02:48 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 16:02:48 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 16:02:51 2014] [debug] GET "/".
+[Fri Apr  4 16:02:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 16:02:51 2014] [debug] 200 OK (0.002142s, 466.853/s).
+[Fri Apr  4 16:02:51 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 16:02:51 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:02:51 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:02:51 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:02:51 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:02:51 2014] [debug] 404 Not Found (0.064490s, 15.506/s).
+[Fri Apr  4 16:02:52 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 16:02:52 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:02:52 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:02:52 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:02:52 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:02:52 2014] [debug] 404 Not Found (0.029033s, 34.444/s).
+[Fri Apr  4 16:02:54 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 16:02:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 16:02:54 2014] [debug] 200 OK (0.001937s, 516.262/s).
+[Fri Apr  4 16:02:54 2014] [debug] GET "/auth/facebook/auth".
+[Fri Apr  4 16:02:54 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:02:54 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:02:54 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:02:54 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:02:54 2014] [debug] 404 Not Found (0.019429s, 51.469/s).
+[Fri Apr  4 16:04:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 16:04:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 16:04:50 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 16:04:57 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 16:04:57 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:04:57 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:04:57 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:04:57 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:04:57 2014] [debug] 404 Not Found (0.093062s, 10.746/s).
+[Fri Apr  4 16:04:59 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 16:04:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 16:04:59 2014] [debug] 200 OK (0.002498s, 400.320/s).
+[Fri Apr  4 16:04:59 2014] [debug] GET "/auth/facebook/auth".
+[Fri Apr  4 16:04:59 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:04:59 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:04:59 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:04:59 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:05:00 2014] [debug] 404 Not Found (0.025986s, 38.482/s).
+[Fri Apr  4 16:05:05 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 16:05:05 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:05:05 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:05:05 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:05:05 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:05:05 2014] [debug] 404 Not Found (0.039050s, 25.608/s).
+[Fri Apr  4 16:05:08 2014] [debug] GET "/".
+[Fri Apr  4 16:05:08 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 16:05:08 2014] [debug] 200 OK (0.000976s, 1024.590/s).
+[Fri Apr  4 16:05:08 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 16:05:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:05:08 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:05:08 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:05:08 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:05:08 2014] [debug] 404 Not Found (0.027889s, 35.856/s).
+[Fri Apr  4 16:05:08 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 16:05:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:05:08 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:05:08 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:05:08 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:05:08 2014] [debug] 404 Not Found (0.030534s, 32.750/s).
+[Fri Apr  4 16:05:11 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 16:05:11 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 16:05:11 2014] [debug] 200 OK (0.001438s, 695.410/s).
+[Fri Apr  4 16:05:11 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:05:12 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:05:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 16:05:12 2014] [debug] 302 Found (0.001595s, 626.959/s).
+[Fri Apr  4 16:05:12 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 16:05:12 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:05:12 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:05:12 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:05:12 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:05:12 2014] [debug] 404 Not Found (0.036727s, 27.228/s).
+[Fri Apr  4 16:05:12 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 16:05:12 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:05:12 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:05:12 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:05:12 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:05:12 2014] [debug] 404 Not Found (0.024032s, 41.611/s).
+[Fri Apr  4 16:05:23 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 16:05:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 16:05:23 2014] [debug] 200 OK (0.001545s, 647.249/s).
+[Fri Apr  4 16:05:23 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:05:24 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:05:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 16:05:24 2014] [debug] 302 Found (0.001247s, 801.925/s).
+[Fri Apr  4 16:05:24 2014] [debug] GET "/".
+[Fri Apr  4 16:05:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 16:05:24 2014] [debug] 304 Not Modified (0.000776s, 1288.660/s).
+[Fri Apr  4 16:05:24 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 16:05:24 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:05:24 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:05:24 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:05:24 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:05:24 2014] [debug] 404 Not Found (0.018340s, 54.526/s).
+[Fri Apr  4 16:05:24 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 16:05:24 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:05:24 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:05:24 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:05:24 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:05:24 2014] [debug] 404 Not Found (0.013936s, 71.757/s).
+[Fri Apr  4 16:05:51 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 16:05:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 16:05:51 2014] [debug] 200 OK (0.001490s, 671.141/s).
+[Fri Apr  4 16:05:51 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:05:52 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:05:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 16:05:52 2014] [debug] 302 Found (0.001107s, 903.342/s).
+[Fri Apr  4 16:05:52 2014] [debug] GET "/".
+[Fri Apr  4 16:05:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 16:05:52 2014] [debug] 304 Not Modified (0.001206s, 829.187/s).
+[Fri Apr  4 16:05:52 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 16:05:52 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:05:52 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:05:52 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:05:52 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:05:52 2014] [debug] 404 Not Found (0.018247s, 54.804/s).
+[Fri Apr  4 16:05:52 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 16:05:52 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:05:52 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:05:52 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:05:52 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:05:52 2014] [debug] 404 Not Found (0.015748s, 63.500/s).
+[Fri Apr  4 16:05:59 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 16:05:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 16:05:59 2014] [debug] 200 OK (0.001506s, 664.011/s).
+[Fri Apr  4 16:05:59 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:06:00 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:06:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 16:06:00 2014] [debug] 302 Found (0.001256s, 796.178/s).
+[Fri Apr  4 16:06:00 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 16:06:00 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:06:00 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:06:00 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:06:00 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:06:00 2014] [debug] 404 Not Found (0.020535s, 48.697/s).
+[Fri Apr  4 16:06:00 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 16:06:00 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:06:00 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:06:00 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:06:00 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:06:00 2014] [debug] 404 Not Found (0.024193s, 41.334/s).
+[Fri Apr  4 16:18:52 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 16:18:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 16:18:52 2014] [debug] 200 OK (0.001496s, 668.449/s).
+[Fri Apr  4 16:18:52 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:18:52 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:18:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 16:18:52 2014] [debug] 302 Found (0.001253s, 798.085/s).
+[Fri Apr  4 16:18:52 2014] [debug] GET "/".
+[Fri Apr  4 16:18:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 16:18:52 2014] [debug] 304 Not Modified (0.001036s, 965.251/s).
+[Fri Apr  4 16:18:53 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 16:18:53 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:18:53 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:18:53 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:18:53 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:18:53 2014] [debug] 404 Not Found (0.020523s, 48.726/s).
+[Fri Apr  4 16:18:53 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 16:18:53 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:18:53 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:18:53 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:18:53 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:18:53 2014] [debug] 404 Not Found (0.016659s, 60.028/s).
+[Fri Apr  4 16:34:00 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 16:34:00 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:34:00 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:34:00 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:34:00 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:34:00 2014] [debug] 404 Not Found (0.018043s, 55.423/s).
+[Fri Apr  4 16:45:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 16:45:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 16:45:39 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 16:46:04 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 16:46:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 16:46:04 2014] [debug] 200 OK (0.002430s, 411.523/s).
+[Fri Apr  4 16:46:04 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:46:04 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 16:46:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 16:46:04 2014] [debug] 302 Found (0.001407s, 710.732/s).
+[Fri Apr  4 16:46:04 2014] [debug] GET "/".
+[Fri Apr  4 16:46:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 16:46:04 2014] [debug] 304 Not Modified (0.001560s, 641.026/s).
+[Fri Apr  4 16:46:04 2014] [debug] GET "/api/login-info".
+[Fri Apr  4 16:46:04 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:46:04 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:46:04 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:46:05 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:46:05 2014] [debug] 404 Not Found (0.054646s, 18.300/s).
+[Fri Apr  4 16:46:05 2014] [debug] GET "/%7B%7B%20image_url%20%7D%7D".
+[Fri Apr  4 16:46:05 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 16:46:05 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 16:46:05 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 16:46:05 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 16:46:05 2014] [debug] 404 Not Found (0.021076s, 47.447/s).
+[Fri Apr  4 17:15:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 17:15:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 17:15:53 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 17:15:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 17:15:57 2014] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Fri Apr  4 17:15:57 2014] [debug] GET "/".
+[Fri Apr  4 17:15:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:15:57 2014] [debug] 200 OK (0.002342s, 426.985/s).
+[Fri Apr  4 17:15:58 2014] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Fri Apr  4 17:15:58 2014] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Fri Apr  4 17:15:58 2014] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Fri Apr  4 17:15:58 2014] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Fri Apr  4 17:15:58 2014] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Fri Apr  4 17:15:58 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:15:58 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:15:58 2014] [debug] 200 OK (0.001619s, 617.665/s).
+[Fri Apr  4 17:15:58 2014] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Fri Apr  4 17:15:58 2014] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Fri Apr  4 17:16:10 2014] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Fri Apr  4 17:16:10 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 17:16:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 17:16:10 2014] [debug] 200 OK (0.001952s, 512.295/s).
+[Fri Apr  4 17:16:10 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 17:16:10 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 17:16:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 17:16:10 2014] [debug] 302 Found (0.001438s, 695.410/s).
+[Fri Apr  4 17:16:10 2014] [debug] GET "/".
+[Fri Apr  4 17:16:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:16:10 2014] [debug] 304 Not Modified (0.001122s, 891.266/s).
+[Fri Apr  4 17:16:11 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:16:11 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:16:11 2014] [debug] 200 OK (0.000937s, 1067.236/s).
+[Fri Apr  4 17:17:52 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 17:17:52 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 17:17:52 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 17:17:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 17:17:56 2014] [debug] GET "/".
+[Fri Apr  4 17:17:56 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:17:56 2014] [debug] 200 OK (0.001915s, 522.193/s).
+[Fri Apr  4 17:17:56 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:17:56 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:17:56 2014] [debug] 200 OK (0.001699s, 588.582/s).
+[Fri Apr  4 17:17:59 2014] [debug] GET "/logout".
+[Fri Apr  4 17:17:59 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 17:17:59 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 17:17:59 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 17:17:59 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 17:17:59 2014] [debug] 404 Not Found (0.037984s, 26.327/s).
+[Fri Apr  4 17:23:46 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 17:23:46 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 17:23:46 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 17:23:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 17:23:57 2014] [debug] GET "/logout".
+[Fri Apr  4 17:23:57 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 17:23:57 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 17:23:57 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 17:23:57 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 17:23:57 2014] [debug] 404 Not Found (0.034090s, 29.334/s).
+[Fri Apr  4 17:24:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 17:24:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 17:24:20 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 17:24:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 17:24:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 17:24:50 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 17:24:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 17:24:55 2014] [debug] GET "/".
+[Fri Apr  4 17:24:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:24:55 2014] [debug] 200 OK (0.001954s, 511.771/s).
+[Fri Apr  4 17:24:56 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:24:56 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:24:56 2014] [debug] 200 OK (0.002012s, 497.018/s).
+[Fri Apr  4 17:32:06 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 17:32:06 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 17:32:06 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 17:32:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 17:32:10 2014] [debug] GET "/".
+[Fri Apr  4 17:32:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:32:10 2014] [debug] 200 OK (0.003154s, 317.058/s).
+[Fri Apr  4 17:32:10 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:32:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:32:10 2014] [debug] 200 OK (0.001822s, 548.847/s).
+[Fri Apr  4 17:32:18 2014] [debug] GET "/".
+[Fri Apr  4 17:32:18 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:32:18 2014] [debug] 304 Not Modified (0.000894s, 1118.568/s).
+[Fri Apr  4 17:32:19 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:32:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:32:19 2014] [debug] 200 OK (0.001124s, 889.680/s).
+[Fri Apr  4 17:32:49 2014] [debug] GET "/auth/logout".
+[Fri Apr  4 17:32:49 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Fri Apr  4 17:32:49 2014] [debug] 302 Found (0.003003s, 333.000/s).
+[Fri Apr  4 17:32:49 2014] [debug] GET "/".
+[Fri Apr  4 17:32:49 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:32:49 2014] [debug] File "/index.html" not found, public directory missing?
+[Fri Apr  4 17:32:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Apr  4 17:32:49 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Apr  4 17:32:49 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Fri Apr  4 17:32:49 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Fri Apr  4 17:32:49 2014] [debug] 404 Not Found (0.067802s, 14.749/s).
+[Fri Apr  4 17:33:17 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 17:33:17 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 17:33:17 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 17:33:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 17:33:18 2014] [debug] GET "/".
+[Fri Apr  4 17:33:18 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:33:18 2014] [debug] 200 OK (0.002812s, 355.619/s).
+[Fri Apr  4 17:33:19 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:33:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:33:19 2014] [debug] 200 OK (0.001486s, 672.948/s).
+[Fri Apr  4 17:33:22 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 17:33:22 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 17:33:22 2014] [debug] 200 OK (0.001751s, 571.102/s).
+[Fri Apr  4 17:33:22 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 17:33:23 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 17:33:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 17:33:23 2014] [debug] 302 Found (0.001615s, 619.195/s).
+[Fri Apr  4 17:33:23 2014] [debug] GET "/".
+[Fri Apr  4 17:33:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:33:23 2014] [debug] 304 Not Modified (0.000830s, 1204.819/s).
+[Fri Apr  4 17:33:23 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:33:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:33:23 2014] [debug] 200 OK (0.001146s, 872.600/s).
+[Fri Apr  4 17:33:29 2014] [debug] GET "/auth/logout".
+[Fri Apr  4 17:33:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Fri Apr  4 17:33:29 2014] [debug] 302 Found (0.001411s, 708.717/s).
+[Fri Apr  4 17:33:29 2014] [debug] GET "/".
+[Fri Apr  4 17:33:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:33:29 2014] [debug] 304 Not Modified (0.001266s, 789.889/s).
+[Fri Apr  4 17:33:29 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:33:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:33:29 2014] [debug] 200 OK (0.001240s, 806.452/s).
+[Fri Apr  4 17:33:32 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 17:33:32 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 17:33:32 2014] [debug] 200 OK (0.000919s, 1088.139/s).
+[Fri Apr  4 17:33:32 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 17:33:33 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 17:33:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 17:33:33 2014] [debug] 302 Found (0.001135s, 881.057/s).
+[Fri Apr  4 17:33:33 2014] [debug] GET "/".
+[Fri Apr  4 17:33:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:33:33 2014] [debug] 304 Not Modified (0.001095s, 913.242/s).
+[Fri Apr  4 17:33:33 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:33:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:33:33 2014] [debug] 200 OK (0.000926s, 1079.914/s).
+[Fri Apr  4 17:34:21 2014] [debug] GET "/auth/logout".
+[Fri Apr  4 17:34:21 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Fri Apr  4 17:34:21 2014] [debug] 302 Found (0.001310s, 763.359/s).
+[Fri Apr  4 17:34:21 2014] [debug] GET "/".
+[Fri Apr  4 17:34:21 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:34:21 2014] [debug] 304 Not Modified (0.000905s, 1104.972/s).
+[Fri Apr  4 17:34:21 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:34:21 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:34:21 2014] [debug] 200 OK (0.000849s, 1177.856/s).
+[Fri Apr  4 17:35:14 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 17:35:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 17:35:14 2014] [debug] 200 OK (0.001045s, 956.938/s).
+[Fri Apr  4 17:35:14 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 17:35:15 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 17:35:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 17:35:15 2014] [debug] 302 Found (0.001905s, 524.934/s).
+[Fri Apr  4 17:35:15 2014] [debug] GET "/".
+[Fri Apr  4 17:35:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:35:15 2014] [debug] 304 Not Modified (0.001168s, 856.164/s).
+[Fri Apr  4 17:35:15 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:35:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:35:15 2014] [debug] 200 OK (0.001425s, 701.754/s).
+[Fri Apr  4 17:35:59 2014] [debug] GET "/auth/logout".
+[Fri Apr  4 17:35:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Fri Apr  4 17:35:59 2014] [debug] 302 Found (0.001667s, 599.880/s).
+[Fri Apr  4 17:35:59 2014] [debug] GET "/".
+[Fri Apr  4 17:35:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:35:59 2014] [debug] 304 Not Modified (0.001029s, 971.817/s).
+[Fri Apr  4 17:35:59 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:35:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:35:59 2014] [debug] 200 OK (0.000859s, 1164.144/s).
+[Fri Apr  4 17:51:21 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 17:51:21 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 17:51:21 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 17:51:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 17:51:33 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 17:51:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 17:51:33 2014] [debug] 200 OK (0.002749s, 363.769/s).
+[Fri Apr  4 17:51:33 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 17:51:34 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 17:51:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 17:51:34 2014] [debug] 302 Found (0.001393s, 717.875/s).
+[Fri Apr  4 17:51:34 2014] [debug] GET "/".
+[Fri Apr  4 17:51:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 17:51:34 2014] [debug] 200 OK (0.001109s, 901.713/s).
+[Fri Apr  4 17:51:34 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 17:51:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 17:51:34 2014] [debug] 200 OK (0.001483s, 674.309/s).
+[Fri Apr  4 18:09:10 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 18:09:10 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 18:09:10 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 18:09:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 18:09:19 2014] [debug] GET "/auth/logout".
+[Fri Apr  4 18:09:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Fri Apr  4 18:09:19 2014] [debug] 302 Found (0.003048s, 328.084/s).
+[Fri Apr  4 18:09:19 2014] [debug] GET "/".
+[Fri Apr  4 18:09:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:09:19 2014] [debug] 200 OK (0.001201s, 832.639/s).
+[Fri Apr  4 18:09:19 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:09:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:09:19 2014] [debug] 200 OK (0.001022s, 978.474/s).
+[Fri Apr  4 18:09:25 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 18:09:25 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 18:09:25 2014] [debug] 200 OK (0.001381s, 724.113/s).
+[Fri Apr  4 18:09:25 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:09:26 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:09:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 18:09:26 2014] [debug] 302 Found (0.001409s, 709.723/s).
+[Fri Apr  4 18:09:26 2014] [debug] GET "/".
+[Fri Apr  4 18:09:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:09:26 2014] [debug] 304 Not Modified (0.000834s, 1199.041/s).
+[Fri Apr  4 18:09:26 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:09:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:09:26 2014] [debug] 200 OK (0.001019s, 981.354/s).
+[Fri Apr  4 18:09:35 2014] [debug] GET "/".
+[Fri Apr  4 18:09:35 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:09:35 2014] [debug] 304 Not Modified (0.000975s, 1025.641/s).
+[Fri Apr  4 18:09:35 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:09:35 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:09:35 2014] [debug] 200 OK (0.000893s, 1119.821/s).
+[Fri Apr  4 18:09:46 2014] [debug] GET "/auth/logout".
+[Fri Apr  4 18:09:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Fri Apr  4 18:09:46 2014] [debug] 302 Found (0.001558s, 641.849/s).
+[Fri Apr  4 18:09:46 2014] [debug] GET "/".
+[Fri Apr  4 18:09:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:09:47 2014] [debug] 304 Not Modified (0.001078s, 927.644/s).
+[Fri Apr  4 18:09:47 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:09:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:09:47 2014] [debug] 200 OK (0.001391s, 718.907/s).
+[Fri Apr  4 18:09:53 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 18:09:53 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 18:09:53 2014] [debug] 200 OK (0.001229s, 813.670/s).
+[Fri Apr  4 18:09:54 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:09:55 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:09:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 18:09:55 2014] [debug] 302 Found (0.001346s, 742.942/s).
+[Fri Apr  4 18:09:55 2014] [debug] GET "/".
+[Fri Apr  4 18:09:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:09:55 2014] [debug] 304 Not Modified (0.000818s, 1222.494/s).
+[Fri Apr  4 18:09:55 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:09:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:09:55 2014] [debug] 200 OK (0.001109s, 901.713/s).
+[Fri Apr  4 18:10:00 2014] [debug] GET "/auth/logout".
+[Fri Apr  4 18:10:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Fri Apr  4 18:10:00 2014] [debug] 302 Found (0.001245s, 803.213/s).
+[Fri Apr  4 18:10:00 2014] [debug] GET "/".
+[Fri Apr  4 18:10:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:10:00 2014] [debug] 304 Not Modified (0.000963s, 1038.422/s).
+[Fri Apr  4 18:10:00 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:10:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:10:00 2014] [debug] 200 OK (0.001086s, 920.810/s).
+[Fri Apr  4 18:10:06 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 18:10:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 18:10:06 2014] [debug] 200 OK (0.001068s, 936.330/s).
+[Fri Apr  4 18:10:06 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:10:07 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:10:07 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 18:10:07 2014] [debug] 302 Found (0.001231s, 812.348/s).
+[Fri Apr  4 18:10:07 2014] [debug] GET "/".
+[Fri Apr  4 18:10:07 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:10:07 2014] [debug] 304 Not Modified (0.000835s, 1197.605/s).
+[Fri Apr  4 18:10:07 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:10:07 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:10:07 2014] [debug] 200 OK (0.001319s, 758.150/s).
+[Fri Apr  4 18:10:29 2014] [debug] GET "/".
+[Fri Apr  4 18:10:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:10:29 2014] [debug] 200 OK (0.000989s, 1011.122/s).
+[Fri Apr  4 18:10:30 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:10:30 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:10:30 2014] [debug] 200 OK (0.001186s, 843.170/s).
+[Fri Apr  4 18:10:36 2014] [debug] GET "/auth/logout".
+[Fri Apr  4 18:10:36 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Fri Apr  4 18:10:36 2014] [debug] 302 Found (0.001650s, 606.061/s).
+[Fri Apr  4 18:10:36 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:10:36 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:10:36 2014] [debug] 200 OK (0.000909s, 1100.110/s).
+[Fri Apr  4 18:10:38 2014] [debug] GET "/".
+[Fri Apr  4 18:10:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:10:38 2014] [debug] 200 OK (0.000815s, 1226.994/s).
+[Fri Apr  4 18:10:39 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:10:39 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:10:39 2014] [debug] 200 OK (0.001314s, 761.035/s).
+[Fri Apr  4 18:10:53 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 18:10:53 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 18:10:53 2014] [debug] 200 OK (0.001485s, 673.401/s).
+[Fri Apr  4 18:10:53 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:10:53 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:10:53 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 18:10:53 2014] [debug] 302 Found (0.001411s, 708.717/s).
+[Fri Apr  4 18:10:53 2014] [debug] GET "/".
+[Fri Apr  4 18:10:53 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:10:53 2014] [debug] 304 Not Modified (0.001365s, 732.601/s).
+[Fri Apr  4 18:10:54 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:10:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:10:54 2014] [debug] 200 OK (0.001375s, 727.273/s).
+[Fri Apr  4 18:12:38 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 18:12:38 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 18:12:38 2014] [debug] Helper "config" already exists, replacing.
+[Fri Apr  4 18:12:39 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Apr  4 18:12:39 2014] [debug] GET "/".
+[Fri Apr  4 18:12:39 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:12:39 2014] [debug] 200 OK (0.002114s, 473.037/s).
+[Fri Apr  4 18:12:39 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:12:39 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:12:39 2014] [debug] 200 OK (0.001651s, 605.694/s).
+[Fri Apr  4 18:12:41 2014] [debug] GET "/auth/logout".
+[Fri Apr  4 18:12:41 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Fri Apr  4 18:12:41 2014] [debug] 302 Found (0.002310s, 432.900/s).
+[Fri Apr  4 18:12:41 2014] [debug] GET "/".
+[Fri Apr  4 18:12:41 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:12:41 2014] [debug] 304 Not Modified (0.000848s, 1179.245/s).
+[Fri Apr  4 18:12:41 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:12:41 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:12:41 2014] [debug] 200 OK (0.000957s, 1044.932/s).
+[Fri Apr  4 18:12:50 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 18:12:50 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 18:12:50 2014] [debug] 200 OK (0.001539s, 649.773/s).
+[Fri Apr  4 18:12:50 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:12:51 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:12:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 18:12:51 2014] [debug] 302 Found (0.001511s, 661.813/s).
+[Fri Apr  4 18:12:51 2014] [debug] GET "/".
+[Fri Apr  4 18:12:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:12:51 2014] [debug] 304 Not Modified (0.000849s, 1177.856/s).
+[Fri Apr  4 18:12:51 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:12:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:12:51 2014] [debug] 200 OK (0.000760s, 1315.789/s).
+[Fri Apr  4 18:13:00 2014] [debug] GET "/auth/logout".
+[Fri Apr  4 18:13:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Fri Apr  4 18:13:00 2014] [debug] 302 Found (0.001384s, 722.543/s).
+[Fri Apr  4 18:13:00 2014] [debug] GET "/".
+[Fri Apr  4 18:13:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:13:00 2014] [debug] 304 Not Modified (0.000793s, 1261.034/s).
+[Fri Apr  4 18:13:00 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:13:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:13:00 2014] [debug] 200 OK (0.001090s, 917.431/s).
+[Fri Apr  4 18:13:14 2014] [debug] POST "/auth/whereami".
+[Fri Apr  4 18:13:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Fri Apr  4 18:13:14 2014] [debug] 200 OK (0.001407s, 710.732/s).
+[Fri Apr  4 18:13:14 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:13:14 2014] [debug] GET "/auth/facebook/callback".
+[Fri Apr  4 18:13:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "fb_callback".
+[Fri Apr  4 18:13:14 2014] [debug] 302 Found (0.001728s, 578.704/s).
+[Fri Apr  4 18:13:14 2014] [debug] GET "/".
+[Fri Apr  4 18:13:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Fri Apr  4 18:13:14 2014] [debug] 304 Not Modified (0.000878s, 1138.952/s).
+[Fri Apr  4 18:13:14 2014] [debug] GET "/api/login/status".
+[Fri Apr  4 18:13:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Fri Apr  4 18:13:14 2014] [debug] 200 OK (0.001357s, 736.920/s).
+[Fri Apr  4 18:15:30 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Fri Apr  4 18:15:30 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Fri Apr  4 18:15:30 2014] [debug] Helper "config" already exists, replacing.

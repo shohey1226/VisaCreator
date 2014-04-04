@@ -5,17 +5,19 @@ use PDF::API2;
 use FindBin qw($Bin);
 use Log::Minimal;
 use Data::Printer;
+use Digest::SHA qw(sha256_hex);
 
 has y_max => (
     is => 'ro',
     default => 842
 );
 
+
 sub create {
     my ($self, $country, $form_type, $config, $data ) = @_;
 
-    p $data;
-    p $config;
+    #p $data;
+    #p $config;
     my $infile  = "$Bin/../etc/" . $country . "/" . $config->{$country}->{$form_type}->{base};
     my $pdf = PDF::API2->open($infile);
     debugf "loading $infile ...";
@@ -33,8 +35,9 @@ sub create {
     }
 
     my $timestamp = time();
+    my $hash = sha256_hex ($timestamp . $config->{salt} );
     #my $outfile = "/tmp/" . $country . "_" . $form_type . '_' . $data->{id} . ".pdf";
-    my $outfile = $country . "_" . $form_type . "_" . $timestamp;
+    my $outfile = $country . "_" . $form_type . "_" . $hash;
     $pdf->saveas("/tmp/$outfile");
     debugf "output $outfile ...\n";
     return $outfile;
