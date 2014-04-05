@@ -5,11 +5,11 @@ angular.module('VisaCreatorApp')
 
   var userInfo = {};
   var original_user = {};
-  var timestamp; 
 
   var _submitForm = function(){
     return $resource('/api/japan/form').save(userInfo).$promise;
   };
+
 
   return {
     // Save form in Step1

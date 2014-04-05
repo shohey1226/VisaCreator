@@ -13,31 +13,31 @@
 <div class="row" novalidate>
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="surname">Surname <br>(as shown in passport)</label>
-    <input type="text" class="form-control" id="surname" placeholder="Mike" ng-model="user.surname" >
+    <input type="text" class="form-control" id="surname" placeholder="Mike" ng-model="$storage.user.surname" >
   </div>
 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="firstname">Given and middle names <br>(as shown in passport)</label>
-    <input type="text" class="form-control" id="name" placeholder="Chan" ng-model="user.firstname">
+    <input type="text" class="form-control" id="name" placeholder="Chan" ng-model="$storage.user.firstname">
   </div>
 </div>
 
 <br>
 
 <label for="othername">Other names (including any other names you are or have been known by)</label>
-<input type="text" class="form-control" id="othername" placeholder="" ng-model="user.othername">
+<input type="text" class="form-control" id="othername" placeholder="" ng-model="$storage.user.othername">
 
 <br>
 
 <div class="row">
   <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
     <label for="dateOfBirth">Date of birth</label>
-    <input type="text" class="form-control" id="dateOfBirth" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="user.dateOfBirth">
+    <input type="text" class="form-control" id="dateOfBirth" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="$storage.user.dateOfBirth">
   </div>
 
   <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
     <label for="placeOfBirth">Place of birth</label>
-    <input type="text" class="form-control" id="placeOfBirth" placeholder="City/State or Province/Countery e.g. Sibuya/Tokyo/Japan" ng-model="user.placeOfBirth">
+    <input type="text" class="form-control" id="placeOfBirth" placeholder="City/State or Province/Countery e.g. Sibuya/Tokyo/Japan" ng-model="$storage.user.placeOfBirth">
   </div>
 </div>
 
@@ -50,13 +50,13 @@
     <div class="form-inline">
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="sex" id="male" value="male" ng-model="user.gender">
+          <input type="radio" name="sex" id="male" value="male" ng-model="$storage.user.gender">
           Male 
         </label>
       </div>
       <div class="radio">
         <label> 
-          <input type="radio" name="sex" id="female" value="female" ng-model="user.gender">
+          <input type="radio" name="sex" id="female" value="female" ng-model="$storage.user.gender">
           Female
         </label>
       </div>
@@ -68,25 +68,25 @@
     <div class="form-inline">
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="martialStatus" id="single" value="single" ng-model="user.martialStatus">
+          <input type="radio" name="martialStatus" id="single" value="single" ng-model="$storage.user.martialStatus">
           Single
         </label>
       </div>
       <div class="radio">
         <label> 
-          <input type="radio" name="martialStatus" id="married" value="married" ng-model="user.martialStatus" >
+          <input type="radio" name="martialStatus" id="married" value="married" ng-model="$storage.user.martialStatus" >
           Married
         </label>
       </div>
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="martialStatus" id="widowed" value="widowed" ng-model="user.martialStatus">
+          <input type="radio" name="martialStatus" id="widowed" value="widowed" ng-model="$storage.user.martialStatus">
           Widowed
         </label>
       </div>
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="martialStatus" id="divorced" value="divorced" ng-model="user.martialStatus">
+          <input type="radio" name="martialStatus" id="divorced" value="divorced" ng-model="$storage.user.martialStatus">
           Divorced
         </label>
       </div>
@@ -100,12 +100,12 @@
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="nationality">Nationality or citizenship</label>
-    <input type="text" class="form-control" id="nationality" placeholder="" ng-model="user.nationality">
+    <input type="text" class="form-control" id="nationality" placeholder="" ng-model="$storage.user.nationality">
   </div>
 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="formerNationality">Former and/or other nationalities or citizenships</label>
-    <input type="text" class="form-control" id="formerNationality" placeholder="" ng-model="user.formerNationality">
+    <input type="text" class="form-control" id="formerNationality" placeholder="" ng-model="$storage.user.formerNationality">
   </div>
 </div>
 
@@ -114,7 +114,7 @@
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="id">ID No. issued to you by your government</label>
-    <input type="text" class="form-control" id="id" placeholder="" ng-model="user.id">
+    <input type="text" class="form-control" id="id" placeholder="" ng-model="$storage.user.id">
   </div>
 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -123,28 +123,28 @@
     <div class="form-inline">
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="passportType" id="diplomatic" value="diplomatic" ng-model="user.passportType">
+          <input type="radio" name="passportType" id="diplomatic" value="diplomatic" ng-model="$storage.user.passportType">
           Diplomatic 
         </label>
       </div>
 
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="passportType" id="official" value="official" ng-model="user.passportType">
+          <input type="radio" name="passportType" id="official" value="official" ng-model="$storage.user.passportType">
           Official
         </label>
       </div>
 
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="passportType" id="ordinary" value="ordinary" ng-model="user.passportType">
+          <input type="radio" name="passportType" id="ordinary" value="ordinary" ng-model="$storage.user.passportType">
           Ordinary
         </label>
       </div>
 
       <div class="radio">
         <label> 
-          <input type="radio" name="passportType" id="other" value="other" ng-model="user.passportType">
+          <input type="radio" name="passportType" id="other" value="other" ng-model="$storage.user.passportType">
           Other
         </label>
       </div>
@@ -157,12 +157,12 @@
 <div class="row">
   <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
     <label for="passportNo">Passport No.</label>
-    <input type="text" class="form-control" id="passportNo" placeholder="" ng-model="user.passportNo">
+    <input type="text" class="form-control" id="passportNo" placeholder="" ng-model="$storage.user.passportNo">
   </div>
 
   <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
     <label for="placeOfIssue">Place of issue</label>
-    <input type="text" class="form-control" id="placeOfIssue" placeholder="" ng-model="user.placeOfIssue">
+    <input type="text" class="form-control" id="placeOfIssue" placeholder="" ng-model="$storage.user.placeOfIssue">
   </div>
 </div>
 
@@ -171,12 +171,12 @@
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="dateOfIssue">Date of issue</label>
-    <input type="text" class="form-control" id="dateOfIssue" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="user.dateOfIssue">
+    <input type="text" class="form-control" id="dateOfIssue" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="$storage.user.dateOfIssue">
   </div>
 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="placeOfExpiry">Date of expiry</label>
-    <input type="text" class="form-control" id="placeOfExpiry" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="user.dateOfExpiry">
+    <input type="text" class="form-control" id="placeOfExpiry" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="$storage.user.dateOfExpiry">
   </div>
 </div>
 
@@ -185,12 +185,12 @@
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="issuingAuth">Issuing authority</label>
-    <input type="text" class="form-control" id="issuingAuth" placeholder="" ng-model="user.IssuingAuth">
+    <input type="text" class="form-control" id="issuingAuth" placeholder="" ng-model="$storage.user.IssuingAuth">
   </div>
 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="profession">Current profession or occupation and position</label>
-    <input type="text" class="form-control" id="profession" placeholder="e.g. IT Engineer" ng-model="user.profession">
+    <input type="text" class="form-control" id="profession" placeholder="e.g. IT Engineer" ng-model="$storage.user.profession">
   </div>
 </div>
 
@@ -202,12 +202,12 @@
 <div class="row">
   <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
     <label for="arrivalDate">Names of ship or airline</label>
-    <input type="text" class="form-control" id="arrivalDate" placeholder="" ng-model="user.arrivalDate">
+    <input type="text" class="form-control" id="arrivalDate" placeholder="" ng-model="$storage.user.arrivalDate">
   </div>
 
   <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
     <label for="portEntry">Tel</label>
-    <input type="text" class="form-control" id="portEntry" placeholder="" ng-model="user.portEntry">
+    <input type="text" class="form-control" id="portEntry" placeholder="" ng-model="$storage.user.portEntry">
   </div>
 </div>
 
@@ -216,12 +216,12 @@
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="address">Address</label>
-    <input type="text" class="form-control" id="address" placeholder="" ng-model="user.address">
+    <input type="text" class="form-control" id="address" placeholder="" ng-model="$storage.user.address">
   </div>
 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="previousStays">Dates and duration of previous stays in Japan</label>
-    <input type="text" class="form-control" id="previousStays" placeholder="" ng-model="user.previousStays">
+    <input type="text" class="form-control" id="previousStays" placeholder="" ng-model="$storage.user.previousStays">
   </div>
 </div>
 
@@ -231,18 +231,18 @@
 <strong>Your current residential address (if you have more than one address, please list them all)</strong>
 <br>
 <label for="residentialAddress">Residential Address</label>
-<input type="text" class="form-control" id="residentialAddress" placeholder="" ng-model="user.residentialAddress">
+<input type="text" class="form-control" id="residentialAddress" placeholder="" ng-model="$storage.user.residentialAddress">
 <br>
 
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="residentialTel">Residential Tel.</label>
-    <input type="text" class="form-control" id="residentialTel" placeholder="" ng-model="user.residentialTel">
+    <input type="text" class="form-control" id="residentialTel" placeholder="" ng-model="$storage.user.residentialTel">
   </div>
 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="residentialModileNo">Residential Mobile No.</label>
-    <input type="text" class="form-control" id="residentialModileNo" placeholder="" ng-model="user.residentialMobileNo">
+    <input type="text" class="form-control" id="residentialModileNo" placeholder="" ng-model="$storage.user.residentialMobileNo">
   </div>
 </div>
 
@@ -251,26 +251,26 @@
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="employerName">Employer Name</label>
-    <input type="text" class="form-control" id="employerName" placeholder="" ng-model="user.employerName">
+    <input type="text" class="form-control" id="employerName" placeholder="" ng-model="$storage.user.employerName">
   </div>
 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     <label for="employerTel">Employer Tel.</label>
-    <input type="text" class="form-control" id="employerTel" placeholder="" ng-model="user.employerTel">
+    <input type="text" class="form-control" id="employerTel" placeholder="" ng-model="$storage.user.employerTel">
   </div>
 </div>
 <br>
 
 <label for="employerAddres">Employer Address</label>
-<input type="text" class="form-control" id="employerAddress" placeholder="" ng-model="user.employerAddress">
+<input type="text" class="form-control" id="employerAddress" placeholder="" ng-model="$storage.user.employerAddress">
 
 <br>
 <label for="partner">*Partner's profession/occupation (or that of parents, if applicant is a minor):</label>
-<input type="text" class="form-control" id="partner" placeholder="" ng-model="user.partner">
+<input type="text" class="form-control" id="partner" placeholder="" ng-model="$storage.user.partner">
 <br>
 
 <label for="remarks">*Remarks/Special circumstances, if any</label>
-<input type="text" class="form-control" id="remarks" placeholder="" ng-model="user.remarks">
+<input type="text" class="form-control" id="remarks" placeholder="" ng-model="$storage.user.remarks">
 
 <br>
 
@@ -284,13 +284,13 @@
     <div class="form-inline">
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="crime" id="crimeYes" value="yes" ng-model="user.crime">
+          <input type="radio" name="crime" id="crimeYes" value="yes" ng-model="$storage.user.crime">
           Yes 
         </label>
       </div>
       <div class="radio">
         <label> 
-          <input type="radio" name="crime" id="crimeNo" value="no" ng-model="user.crime">
+          <input type="radio" name="crime" id="crimeNo" value="no" ng-model="$storage.user.crime">
           No 
         </label>
       </div>
@@ -307,13 +307,13 @@
     <div class="form-inline">
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="sentenced" id="sentencedYes" value="yes" ng-model="user.sentenced">
+          <input type="radio" name="sentenced" id="sentencedYes" value="yes" ng-model="$storage.user.sentenced">
           Yes 
         </label>
       </div>
       <div class="radio">
         <label> 
-          <input type="radio" name="sentenced" id="sentencedNo" value="no" ng-model="user.sentenced">
+          <input type="radio" name="sentenced" id="sentencedNo" value="no" ng-model="$storage.user.sentenced">
           No 
         </label>
       </div>
@@ -330,13 +330,13 @@
     <div class="form-inline">
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="coverstay" id="overstayYes" value="yes" ng-model="user.overstay">
+          <input type="radio" name="coverstay" id="overstayYes" value="yes" ng-model="$storage.user.overstay">
           Yes 
         </label>
       </div>
       <div class="radio">
         <label> 
-          <input type="radio" name="overstay" id="overstayNo" value="no" ng-model="user.overstay">
+          <input type="radio" name="overstay" id="overstayNo" value="no" ng-model="$storage.user.overstay">
           No 
         </label>
       </div>
@@ -352,13 +352,13 @@
     <div class="form-inline">
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="drug" id="drugYes" value="yes" ng-model="user.drug">
+          <input type="radio" name="drug" id="drugYes" value="yes" ng-model="$storage.user.drug">
           Yes 
         </label>
       </div>
       <div class="radio">
         <label> 
-          <input type="radio" name="drug" id="drugNo" value="no" ng-model="user.drug">
+          <input type="radio" name="drug" id="drugNo" value="no" ng-model="$storage.user.drug">
           No 
         </label>
       </div>
@@ -375,13 +375,13 @@
     <div class="form-inline">
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="prostitution" id="prostitutionYes" value="yes" ng-model="user.prostitution">
+          <input type="radio" name="prostitution" id="prostitutionYes" value="yes" ng-model="$storage.user.prostitution">
           Yes 
         </label>
       </div>
       <div class="radio">
         <label> 
-          <input type="radio" name="prostitution" id="prostitutionNo" value="no" ng-model="user.prostitution">
+          <input type="radio" name="prostitution" id="prostitutionNo" value="no" ng-model="$storage.user.prostitution">
           No 
         </label>
       </div>
@@ -398,13 +398,13 @@
     <div class="form-inline">
       <div class="radio">
         <label class="radio inline control-label">
-          <input type="radio" name="trafficking" id="traffickingYes" value="yes" ng-model="user.trafficking">
+          <input type="radio" name="trafficking" id="traffickingYes" value="yes" ng-model="$storage.user.trafficking">
           Yes 
         </label>
       </div>
       <div class="radio">
         <label> 
-          <input type="radio" name="trafficking" id="traffickingNo" value="no" ng-model="user.trafficking">
+          <input type="radio" name="trafficking" id="traffickingNo" value="no" ng-model="$storage.user.trafficking">
           No 
         </label>
       </div>
@@ -414,7 +414,7 @@
 <br>
 
 <strong>If you answered “Yes” to any of the above questions, please provide relevant details.</strong><br>
-<textarea class="form-control" rows="3" ng-model="user.whyYes" ></textarea>
+<textarea class="form-control" rows="3" ng-model="$storage.user.whyYes" ></textarea>
 
 <br><br>
 
