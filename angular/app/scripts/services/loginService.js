@@ -2,9 +2,10 @@
 
 angular.module('VisaCreatorApp')
 .factory('Login', ['$http', '$rootScope', '$location', function ($http, $rootScope, $location) {
+
     return {
-        fbLogin: function(url, user){
-            $http.post('/auth/whereami', {location: url, data: user}).
+        fbLogin: function(url){
+            $http.post('/auth/whereami', {location: url}).
             success(function(data, status, headers, config){
                 var a = document.createElement('a');
                 a.href = '/auth/facebook/authenticate'; 

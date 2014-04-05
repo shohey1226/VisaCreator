@@ -13,7 +13,9 @@ sub serve_root {
 
 sub fb_callback {
     my $self = shift;
-    my $login_location = defined $self->session->{login_location} ? $self->session->{login_location} : '/';
+    my $session = Plack::Session->new( $self->req->env );
+    my $login_location = $session->get('login_location');
+    $login_location = '/' unless(defined $login_location);
     debugf "I was at $login_location";
     $self->redirect_to('/#' . $login_location);
 }
@@ -41,7 +43,6 @@ sub whereami {
     my $data = $self->req->json;
     my $session = Plack::Session->new( $self->req->env );
     $session->set('login_location', $data->{location});
-    $session->set('login_data', $data->{data});
     $self->render(text => 'save the location');
 }
 

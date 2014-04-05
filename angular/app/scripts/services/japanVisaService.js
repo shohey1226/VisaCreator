@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('VisaCreatorApp')
-.factory('japanVisaService', function ($resource, $location) {
+.factory('japanVisaService', function ($resource, $location, $sessionStorage) {
 
   var userInfo = {};
   var original_user = {};
@@ -12,9 +12,6 @@ angular.module('VisaCreatorApp')
   };
 
   return {
-    getUser : function(){
-        return original_user;
-    },
     // Save form in Step1
     saveStep1: function(user){
       for (var key in user){
@@ -67,7 +64,7 @@ angular.module('VisaCreatorApp')
         }
         original_user.key = user.key;
       }
-      console.log(userInfo);
+      $sessionStorage.user = original_user;
     },
     // Save from in Step2
     saveStep2: function(user){
@@ -75,7 +72,7 @@ angular.module('VisaCreatorApp')
         userInfo[key] = user[key];
         original_user.key = user.key;
       }
-      console.log(userInfo);
+      $sessionStorage.user = original_user;
     },
     // Save from in Step3
     saveStep3: function(user){
@@ -99,7 +96,7 @@ angular.module('VisaCreatorApp')
         }
         original_user.key = user.key;
       }
-      console.log(userInfo);
+      $sessionStorage.user = original_user;
       return _submitForm();
     }
   }
