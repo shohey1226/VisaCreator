@@ -137,3 +137,26 @@ Please fill in the below in case your guarantor is different from inviter
 <br><br>
 
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="saveModal" tabindex="-1" role="dialog" aria-labelledby="saveModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="saveModalLabel">Which information do you want to save to our service?</h4>
+      </div>
+      <div class="modal-body">
+        You can save the information that you filled in into our service so that you don't need to fill in next time.
+        <label class="checkbox"><input type="checkbox" value="basic" checked > Your basic information(name,address,birthday,gender)</label>
+        <label class="checkbox"><input type="checkbox" value="personal"> Your personal record(ID, passport info)</label>
+        <label class="checkbox"><input type="checkbox" value="employ" checked > Your employment information</label>
+        <label class="checkbox"><input type="checkbox" value="guarantor" checked> Guarantor/Invitor information</label>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" ng-click="downloadNow()">Dowanload PDF Now</button>
+      </div>
+    </div>
+  </div>
+</div>

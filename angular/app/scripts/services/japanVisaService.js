@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('VisaCreatorApp')
-.factory('japanVisaService', function ($resource, $location, $sessionStorage) {
+.factory('japanVisaService', function ($resource, $location) {
 
   var userInfo = {};
   var original_user = {};
@@ -10,10 +10,9 @@ angular.module('VisaCreatorApp')
     return $resource('/api/japan/form').save(userInfo).$promise;
   };
 
-
   return {
-    // Save form in Step1
-    saveStep1: function(user){
+    // Save form in Steps
+    saveSteps: function(user){
       for (var key in user){
         // Need to have logic for selections
         if (key === 'gender'){
@@ -59,25 +58,7 @@ angular.module('VisaCreatorApp')
           if (user[key] === 'yes'){ userInfo.traffickingYes = 'X'}
           else if (user[key] === 'no'){ userInfo.traffickingNo = 'X'}
         }
-        else{
-          userInfo[key] = user[key];
-        }
-        original_user.key = user.key;
-      }
-      $sessionStorage.user = original_user;
-    },
-    // Save from in Step2
-    saveStep2: function(user){
-      for (var key in user){
-        userInfo[key] = user[key];
-        original_user.key = user.key;
-      }
-      $sessionStorage.user = original_user;
-    },
-    // Save from in Step3
-    saveStep3: function(user){
-      for (var key in user){
-        if (key === 'guarantorGender'){
+        else if (key === 'guarantorGender'){
           if (user[key] === 'male'){
             userInfo.guarantorGenderMale = "X";
           }else if (user[key] === 'female'){
@@ -90,13 +71,10 @@ angular.module('VisaCreatorApp')
           }else if (user[key] === 'female'){
             userInfo.inviterGenderFemale = "X";
           } 
-        }
-        else{
+        } else{
           userInfo[key] = user[key];
         }
-        original_user.key = user.key;
       }
-      $sessionStorage.user = original_user;
       return _submitForm();
     }
   }

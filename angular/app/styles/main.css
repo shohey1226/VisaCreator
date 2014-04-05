@@ -87,6 +87,16 @@ body {
     padding-top: 12px;
 }
 
+.jumbotron {
+  padding: 60px;
+  margin-bottom: 30px;
+  background-image: url(../images/sakura.png);
+  background-repeat: no-repeat;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  height: 300px;
+}
 
 
 
