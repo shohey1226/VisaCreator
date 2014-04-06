@@ -23,10 +23,10 @@ sub fb_callback {
 sub login_status {
     my $self = shift;
     my $session = Plack::Session->new( $self->req->env );
-    my $fb_id = $session->get('fb_id');
+    my $id = $session->get('id');
     my $first_name = $session->get('first_name');
     my $result;
-    $result->{login} = defined $fb_id ? 'true' : 'false';
+    $result->{login} = defined $id ? 'true' : 'false';
     $result->{first_name} = defined $first_name ? $first_name : '';
     $self->render(json => $result);  
 }

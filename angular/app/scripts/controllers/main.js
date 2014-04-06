@@ -27,8 +27,9 @@ angular.module('VisaCreatorApp')
       }
     };
 
-    $scope.downloadNow = function(){
-      var promise = japanVisaService.saveSteps($scope.$storage.user);
+    $scope.downloadNow = function(store){
+      console.log($scope.store);
+      var promise = japanVisaService.saveSteps($scope.$storage.user, store);
       promise.then(function(res)  { 
         var a = document.createElement('a');
         a.href = res.url;

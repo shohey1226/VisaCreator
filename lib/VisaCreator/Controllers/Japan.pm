@@ -1,6 +1,7 @@
 package VisaCreator::Controllers::Japan;
 
 use Mojo::Base 'Mojolicious::Controller';
+use Plack::Session;
 use Data::Dumper;
 use Moo;
 use Log::Minimal;
@@ -8,20 +9,21 @@ use FindBin qw($Bin);
 
 with ('VisaCreator::Role::PDF');
 
-sub save_form {
-    my $self = shift;
-    my $data = $self->req->json; 
-    debugf Dumper $data;
-    $self->model->save_form($data);
-    $self->render( text => "pass");
-}
-
 sub create_form {
     my $self = shift;
+
+    # user needs to be logged in
+    my $session = Plack::Session->new( $self->req->env );
+    my $id = $session->get('id');
+    unless (defined $id) {
+        $self->render_json({ Message => 'No ID is found. Need to login to proceed.'}, status => 510);
+    }
+
     my $data = $self->req->json;
     print Dumper $data;
-    my $pdf_name = $self->pdfmaker->create('japan', 'form', $self->config, $data);
-    print Dumper  $pdf_name;
+    $self->model->save_form($id, 'japan', $data);
+    my $pdf_name = $self->pdfmaker->create('japan', 'form', $self->config, $data->{userinfo});
+    debugf "PDF name: $pdf_name";
     $self->render( json => { url => "/japan/form/download/$pdf_name" });
 }
 

@@ -36,18 +36,10 @@ sub startup {
       my ( $c, $access_token, $user_info ) = @_;
         print Dumper $user_info;
         my $session = Plack::Session->new( $c->req->env );
+        my $id = $m->find_id({facebook_id => $user_info->{id}});
+        $id = $m->insert_fb_info($user_info) unless(defined $id);
         $session->set( 'first_name', $user_info->{first_name});
-        $session->set( 'fb_id', $user_info->{id});
-        #$m->insert_fb_info($user_info);
-
-        #print Dumper $c;
-        #print Dumper $access_token,
-        ##my $screen_name = $ref->{screen_name};
-        ## my $id = 't'. $ref->{id};
-        #$session->set( 'access_token',        $access_token );
-        #$session->set( 'access_token_secret', $access_secret );
-        #$session->set( 'screen_name',         $screen_name );
-        #$session->set( 'user_id',             $id );
+        $session->set( 'id', $id);
     },
   );
 
@@ -60,7 +52,6 @@ sub startup {
   #=====================
   # For API
   $r->get('/')->to('Index#serve_root');
-  #$r->post('/api/japan/form')->to('Japan#save_form');
   $r->post('/api/japan/form')->to('Japan#create_form');
   $r->get('/api/login/status')->to('Index#login_status');
 

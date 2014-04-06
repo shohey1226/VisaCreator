@@ -6,13 +6,13 @@ angular.module('VisaCreatorApp')
   var userInfo = {};
   var original_user = {};
 
-  var _submitForm = function(){
-    return $resource('/api/japan/form').save(userInfo).$promise;
+  var _submitForm = function(store){
+    return $resource('/api/japan/form').save({userinfo: userInfo, store: store}).$promise;
   };
 
   return {
     // Save form in Steps
-    saveSteps: function(user){
+    saveSteps: function(user, store){
       for (var key in user){
         // Need to have logic for selections
         if (key === 'gender'){
@@ -75,7 +75,7 @@ angular.module('VisaCreatorApp')
           userInfo[key] = user[key];
         }
       }
-      return _submitForm();
+      return _submitForm(store);
     }
   }
 });
