@@ -67,7 +67,10 @@ sub save_form {
 
 sub _save_japan_form {
     my ($self, $id, $type, $user_info) = @_;
-    my $data;
+    my $data = {};
+
+    my $dt = DateTime->now();
+
     if($type eq 'mandatory'){
 
         # update user table
@@ -118,14 +121,17 @@ sub _save_japan_form {
             $accommodation_id = $row->id;
         }
 
-        $data = {};
-        $data->{user_id} = $id;
-        $data->{travel_id} = $travel_id;
-        $data->{accommodation_id} = $accommodation_id;
-        if (scalar keys $data > 0){
-            my $row = $self->db->single('travel_map', $data);
-            unless (defined $row) {
-                $row = $self->db->insert('travel_map', $data);
+        if (defined $id && defined $travel_id && defined $accommodation_id){
+            $data = {};
+            $data->{user_id} = $id;
+            $data->{travel_id} = $travel_id;
+            $data->{accommodation_id} = $accommodation_id;
+            if (scalar keys $data > 0){
+                my $r = $self->db->single('travel_map', $data);
+                unless ( defined $r ) {
+                    $data->{created_at} = $dt;
+                    $self->db->insert('travel_map', $data);
+                }
             }
         }
 
@@ -180,7 +186,15 @@ sub _save_japan_form {
         unless (defined $row){
             $row = $self->db->insert('employer', $data);
         }
-        $self->db->insert('employer_map', +{ employer_id => $row->id, user_id => $id});
+        $data = {};
+        $data->{user_id} = $id;
+        $data->{employer_id} = $row->id;
+
+        my $r = $self->db->single('employer_map', $data);
+        unless (defined $r) {
+            $data->{created_at} = $dt;
+            $self->db->insert('employer_map', $data);
+        }
 
     }elsif ($type eq 'supporter'){
         
@@ -207,8 +221,9 @@ sub _save_japan_form {
             $map_data->{user_id} = $id;
             $map_data->{relation} = $user_info->{inviterRelationship};
 
-            $row = $self->db->sngle('supporter_map', $map_data); 
-            unless (defined $row){
+            my $r = $self->db->single('supporter_map', $map_data); 
+            unless (defined $r){
+                $map_data->{created_at} = $dt;
                 $self->db->insert('supporter_map', $map_data); 
             }
         }
@@ -237,7 +252,7 @@ sub _save_japan_form {
             $map_data->{user_id} = $id;
             $map_data->{relation} = $user_info->{guarantorRelationship};
 
-            $row = $self->db->sngle('supporter_map', $map_data); 
+            $row = $self->db->single('supporter_map', $map_data); 
             unless (defined $row){
                 $self->db->insert('supporter_map', $map_data); 
             }

@@ -72,8 +72,8 @@ table {
 
 table {
     name 'supporter_map';
-    pk 'id';
-    columns qw/user_id support_id relation created_at/;
+    pk 'user_id';
+    columns qw/user_id supporter_id relation created_at/;
     inflate qr/.+_at/ => sub {
         my $value = shift;
         return DateTime::Format::MySQL->parse_datetime($value);
@@ -87,12 +87,12 @@ table {
 table {
     name 'employer';
     pk 'id';
-    columns qw/id nane address tel/;
+    columns qw/id name address tel/;
 };
 
 table {
     name 'employer_map';
-    pk 'id';
+    pk 'user_id';
     columns qw/user_id employer_id created_at/;
     inflate qr/.+_at/ => sub {
         my $value = shift;

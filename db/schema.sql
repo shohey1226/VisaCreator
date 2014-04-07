@@ -20,7 +20,7 @@ CREATE TABLE user
     placeOfIssue VARCHAR(20),
     passportType VARCHAR(15),
     residentialAddress VARCHAR(50),
-    residentialTel VARCHAR(20),
+    residentialTel VARCHAR(30),
     residentialMobileNo VARCHAR(20),
     occupation VARCHAR(30),
     partner_occupation VARCHAR(30),
@@ -49,7 +49,8 @@ CREATE TABLE employer_map
     FOREIGN KEY(user_id) REFERENCES user(id)
       ON DELETE CASCADE,
     FOREIGN KEY(employer_id) REFERENCES employer(id)
-      ON DELETE CASCADE
+      ON DELETE CASCADE,
+    PRIMARY KEY (user_id, employer_id)
 ) ENGINE=INNODB;;
 
 
@@ -78,7 +79,8 @@ CREATE TABLE supporter_map
     FOREIGN KEY(user_id) REFERENCES user(id)
       ON DELETE CASCADE,
     FOREIGN KEY(supporter_id) REFERENCES supporter(id)
-      ON DELETE CASCADE
+      ON DELETE CASCADE,
+    PRIMARY KEY (user_id, supporter_id)
 ) ENGINE=INNODB;;
 
 
@@ -103,7 +105,7 @@ CREATE TABLE accommodation
     id INT AUTO_INCREMENT,   
     name VARCHAR(50),
     address VARCHAR(50),
-    tel VARCHAR(10),
+    tel VARCHAR(30),
     PRIMARY KEY (id)
 ) ENGINE=INNODB;;
 
@@ -120,7 +122,7 @@ CREATE TABLE travel_map
       ON DELETE CASCADE,
     FOREIGN KEY(travel_id) REFERENCES travel(id)
       ON DELETE CASCADE,
-    PRIMARY KEY(user_id,travel_id)
+    PRIMARY KEY(user_id, travel_id, accommodation_id)
 ) ENGINE=INNODB;;
 
 
