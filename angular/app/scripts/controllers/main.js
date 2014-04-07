@@ -51,7 +51,7 @@ angular.module('VisaCreatorApp')
   })
   //==========================================================
   .controller('TopCtrl', function ($scope, $localStorage) {
-      $localStorage.$reset();
+      //$localStorage.$reset();
   })
   .controller('MainCtrl', function ($scope, japanVisaService) {
     $scope.id = 1;

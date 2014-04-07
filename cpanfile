@@ -12,3 +12,4 @@ requires "Data::Printer";
 #requires "JSON::XS";
 requires "Digest::SHA";
 requires "Mojolicious::Plugin::Web::Auth";
+requires "DateTime";

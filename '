@@ -1,0 +1,146 @@
+package VisaCreator::Model;
+
+use Moo;
+use VisaCreator::DB;
+use Data::Dumper;
+use Mojo::JSON qw(decode_json);
+
+has config => (
+    is => 'ro',
+    required => 1,
+);
+
+has db => (
+    is => 'ro',
+    lazy => 1, 
+    builder => '_build_db',
+);
+
+sub _build_db {
+    my $self = shift;
+    return VisaCreator::DB->new(
+        +{
+            connect_info => 
+                [
+                    $self->config->{dsn},
+                    $self->config->{user},
+                    $self->config->{password}
+                ]
+        }
+    );
+}
+
+sub find_id {
+    my ($self, $search_key) = @_;
+    my $row = $self->db->single('user', $search_key);
+    return defined $row ? $row->id : undef;
+}
+
+sub insert_fb_info {
+    my ($self, $fb_info) = @_;
+    my $data;
+    $data->{facebook_id} = $fb_info->{id};
+    $data->{email} = $fb_info->{email} if (defined $fb_info->{email});
+    $data->{firstname} = $fb_info->{first_name} if (defined $fb_info->{first_name});
+    $data->{lastname} = $fb_info->{last_name} if (defined $fb_info->{last_name});
+    $data->{gender} = $fb_info->{gender} if (defined $fb_info->{gender});
+    $data->{dateOfBirth} = $self->_swap_dd($fb_info->{birthday}) if (defined $fb_info->{birthday});
+    my $row = $self->db->insert('user', $data); 
+    return $row->id;
+}
+
+sub save_form {
+    my ($self, $id, $type, $data) = @_;
+    if ($type eq 'japan'){
+        $self->_save_japan_form($id, 'mandatory', $data->{userinfo});
+        for my $type ( keys %{ $data->{store} } ){
+            if (( decode_json $data->{store}->{$type} ) == 1){
+                $self->_save_japan_form($id, $type, $data->{userinfo});
+            }
+        }
+    }
+}
+
+sub _save_japan_form {
+    my ($self, $id, $type, $user_info) = @_;
+    my $data;
+    if($type eq 'mandatory'){
+
+        # update user table
+        $data->{firstname} = $user_info->{firstname} if (defined $user_info->{firstname});
+        $data->{lastname} = $user_info->{surname} if (defined $user_info->{surname});
+        $data->{othername} = $user_info->{othername} if (defined $user_info->{othername});
+
+        if (defined $user_info->{genderMale}){ 
+            $data->{gender} = 'male'; 
+        }elsif (defined $user_info->{genderFemale}){
+            $data->{gender} = 'female'; 
+        }
+
+        $data->{dateOfBirth} = $user_info->{dateOfBirth} if (defined $user_info->{dateOfBirth});
+
+        $self->db->update('user', $data, +{id => $id}) if (scalar keys $data > 0);
+
+        # update travel travel/accommodation table
+        #$data = {};
+
+    }elsif ($type eq 'basic'){
+
+        # basic info on user table
+        $data->{placeOfBirth} = $user_info->{placeOfBirth} if (defined $user_info->{placeOfBirth});
+
+        if (defined $user_info->{martialStatusMarried}){
+            $data->{martialstatus} = "married";
+        }elsif (defined $user_info->{martialStatusSingle}){
+            $data->{martialstatus} = "single";
+        }elsif (defined $user_info->{martialStatusWidowed}){
+            $data->{martialstatus} = "widowed";
+        }elsif (defined $user_info->{martialStatusDivorced}){
+            $data->{martialstatus} = "divorced";
+        }
+
+        $data->{residentialAddress} = $user_info->{residentialAddress} if (defined $user_info->{residentialAddress});
+        $data->{residentialTel} = $user_info->{residentialTel} if (defined $user_info->{residentialTel});
+        $data->{residentialMobileNo} = $user_info->{residentialMobileNo} if (defined $user_info->{residentialMobileNo});
+        $data->{occupation} = $user_info->{occupation} if (defined $user_info->{occupation});
+        $data->{partner_occupation} = $user_info->{partner_occupation} if (defined $user_info->{partner_occupation});
+        $self->db->update('user', $data, +{id => $id}) if (scalar keys $data > 0);
+
+    }elsif ($type eq 'personal'){
+
+        $data->{passpportNo} = $user_info->{passpportNo} if (defined $user_info->{passpportNo});
+        $data->{id} = $user_info->{id} if (defined $user_info->{id});
+        $data->{passportType} = $user_info->{passportType} if (defined $user_info->{passportType});
+        $data->{dateOfIssue} = $user_info->{dateOfIssue} if (defined $user_info->{dateOfIssue});
+        $data->{dateOfExpiry} = $user_info->{dateOfExpiry} if (defined $user_info->{dateOfExpiry});
+        $data->{issuingAuth} = $user_info->{issuingAuth} if (defined $user_info->{issuingAuth});
+
+    }elsif ($type eq 'employer'){
+
+        $data->{name} = $user_info->{name} if (defined $user_info->{name});
+        $data->{address} = $user_info->{address} if (defined $user_info->{address});
+        $data->{tel} = $user_info->{tel} if (defined $user_info->{tel});
+        my $row = $self->db->single('employer', $data);
+        unless (defined $row){
+            $row = $self->db->insert('employer', $data);
+        }
+        $self->db->insert('employer_map', +{ employer_id => $row->id, user_id => $id});
+
+    }elsif ($type eq 'supporter'){
+
+    }
+}
+
+sub get_form_data {
+    my ($self, $id) = @_;
+    my $row = $self->db->single('user', { id => $id } );
+    return $row->get_columns;
+}
+
+sub _swap_dd{
+    my ($self, $date) = @_;
+    $date =~ /(\d+)\/(\d+)\/(\d+)/;
+    return "$2/$1/$3"; 
+}
+
+1;

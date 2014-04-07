@@ -40,6 +40,19 @@ CREATE TABLE employer
     PRIMARY KEY (id)
 ) ENGINE=INNODB;;
 
+DROP TABLE IF EXISTS employer_map;
+CREATE TABLE employer_map 
+(
+    user_id INT,
+    employer_id INT,
+    created_at DATETIME,
+    FOREIGN KEY(user_id) REFERENCES user(id)
+      ON DELETE CASCADE,
+    FOREIGN KEY(employer_id) REFERENCES employer(id)
+      ON DELETE CASCADE
+) ENGINE=INNODB;;
+
+
 DROP TABLE IF EXISTS supporter;
 CREATE TABLE supporter 
 (
@@ -61,6 +74,7 @@ CREATE TABLE supporter_map
     user_id INT,
     supporter_id INT,
     relation VARCHAR(30),
+    created_at DATETIME,
     FOREIGN KEY(user_id) REFERENCES user(id)
       ON DELETE CASCADE,
     FOREIGN KEY(supporter_id) REFERENCES supporter(id)
@@ -73,11 +87,13 @@ CREATE TABLE travel
 (
     id INT AUTO_INCREMENT,   
     purpose VARCHAR(30),
-    stay_length INT, 
-    arrival_date DATE,
+    stay_length VARCHAR(10), 
+    arrival_date VARCHAR(20),
+    departure_date VARCHAR(20),
     port_entry VARCHAR(15),
     airline_ship_name VARCHAR(15),
     remarks VARCHAR(50),
+    created_at DATETIME,
     PRIMARY KEY (id)
 ) ENGINE=INNODB;
 
@@ -97,7 +113,7 @@ CREATE TABLE travel_map
     user_id INT,
     travel_id INT,
     accommodation_id INT,
-    relation VARCHAR(30),
+    created_at DATETIME,
     FOREIGN KEY(accommodation_id) REFERENCES accommodation(id)
       ON DELETE CASCADE,
     FOREIGN KEY(user_id) REFERENCES user(id)
