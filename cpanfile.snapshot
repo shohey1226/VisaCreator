@@ -126,6 +126,13 @@ DISTRIBUTIONS
       Class::Singleton 1.4
     requirements:
       ExtUtils::MakeMaker 0
+  Clone-0.36
+    pathname: G/GA/GARU/Clone-0.36.tar.gz
+    provides:
+      Clone 0.36
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   Clone-PP-1.05
     pathname: N/NE/NEILB/Clone-PP-1.05.tar.gz
     provides:
@@ -1737,6 +1744,14 @@ DISTRIBUTIONS
       bytes 0
       strict 0
       warnings 0
+  Hash-Merge-0.200
+    pathname: R/RE/REHSACK/Hash-Merge-0.200.tar.gz
+    provides:
+      Hash::Merge 0.200
+    requirements:
+      Clone 0
+      ExtUtils::MakeMaker 0
+      perl 5.008001
   Hash-MultiValue-0.15
     pathname: M/MI/MIYAGAWA/Hash-MultiValue-0.15.tar.gz
     provides:

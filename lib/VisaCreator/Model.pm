@@ -3,6 +3,7 @@ package VisaCreator::Model;
 use Moo;
 use VisaCreator::DB;
 use Data::Dumper;
+use Hash::Merge qw( merge );
 use DateTime;
 use Mojo::JSON qw(decode_json);
 
@@ -46,7 +47,7 @@ sub insert_fb_info {
     $data->{firstname} = $fb_info->{first_name} if (defined $fb_info->{first_name});
     $data->{lastname} = $fb_info->{last_name} if (defined $fb_info->{last_name});
     $data->{gender} = $fb_info->{gender} if (defined $fb_info->{gender});
-    $data->{dateOfBirth} = $self->_swap_dd($fb_info->{birthday}) if (defined $fb_info->{birthday});
+    $data->{birthday} = $self->_swap_dd($fb_info->{birthday}) if (defined $fb_info->{birthday});
     $data->{created_at} = $dt;
     $data->{updated_at} = $dt;
     my $row = $self->db->insert('user', $data); 
@@ -84,7 +85,7 @@ sub _save_japan_form {
             $data->{gender} = 'female'; 
         }
 
-        $data->{dateOfBirth} = $user_info->{dateOfBirth} if (defined $user_info->{dateOfBirth});
+        $data->{birthday} = $user_info->{dateOfBirth} if (defined $user_info->{dateOfBirth});
 
         $self->db->update('user', $data, +{id => $id}) if (scalar keys $data > 0);
 
@@ -138,7 +139,7 @@ sub _save_japan_form {
     }elsif ($type eq 'basic'){
 
         # basic info on user table
-        $data->{placeOfBirth} = $user_info->{placeOfBirth} if (defined $user_info->{placeOfBirth});
+        $data->{birth_place} = $user_info->{placeOfBirth} if (defined $user_info->{placeOfBirth});
 
         if (defined $user_info->{martialStatusMarried}){
             $data->{martialstatus} = "married";
@@ -150,9 +151,9 @@ sub _save_japan_form {
             $data->{martialstatus} = "divorced";
         }
 
-        $data->{residentialAddress} = $user_info->{residentialAddress} if (defined $user_info->{residentialAddress});
-        $data->{residentialTel} = $user_info->{residentialTel} if (defined $user_info->{residentialTel});
-        $data->{residentialMobileNo} = $user_info->{residentialMobileNo} if (defined $user_info->{residentialMobileNo});
+        $data->{residential_address} = $user_info->{residentialAddress} if (defined $user_info->{residentialAddress});
+        $data->{residential_tel} = $user_info->{residentialTel} if (defined $user_info->{residentialTel});
+        $data->{residential_mobile} = $user_info->{residentialMobileNo} if (defined $user_info->{residentialMobileNo});
         $data->{partner_occupation} = $user_info->{partner} if (defined $user_info->{partner});
         $data->{occupation} = $user_info->{profession} if (defined $user_info->{profession});
         $self->db->update('user', $data, +{id => $id}) if (scalar keys $data > 0);
@@ -160,48 +161,58 @@ sub _save_japan_form {
 
     }elsif ($type eq 'personal'){
 
-        $data->{passpportNo} = $user_info->{passpportNo} if (defined $user_info->{passpportNo});
-        $data->{id} = $user_info->{id} if (defined $user_info->{id});
-        $data->{dateOfIssue} = $user_info->{dateOfIssue} if (defined $user_info->{dateOfIssue});
-        $data->{dateOfExpiry} = $user_info->{dateOfExpiry} if (defined $user_info->{dateOfExpiry});
-        $data->{issuingAuth} = $user_info->{issuingAuth} if (defined $user_info->{issuingAuth});
-        $data->{placeOfIssue} = $user_info->{placeOfIssue} if (defined $user_info->{placeOfIssue});
+        $data->{passpport_no} = $user_info->{passpportNo} if (defined $user_info->{passpportNo});
+        $data->{identification} = $user_info->{id} if (defined $user_info->{id});
+        $data->{issue_date} = $user_info->{dateOfIssue} if (defined $user_info->{dateOfIssue});
+        $data->{expiry_date} = $user_info->{dateOfExpiry} if (defined $user_info->{dateOfExpiry});
+        $data->{issuing_auth} = $user_info->{issuingAuth} if (defined $user_info->{issuingAuth});
+        $data->{issue_place} = $user_info->{placeOfIssue} if (defined $user_info->{placeOfIssue});
 
         if (defined $user_info->{passportTypeDiplomatic}){
-            $data->{passportType} = 'diplomatic'; 
+            $data->{passport_type} = 'diplomatic'; 
         }elsif (defined $user_info->{passportTypeOfficial}){
-            $data->{passportType} = 'official';
+            $data->{passport_type} = 'official';
         }elsif (defined $user_info->{passportTypeOrdinary}){
-            $data->{passportType} = 'ordinary';
+            $data->{passport_type} = 'ordinary';
         }elsif (defined $user_info->{passportTypeOther}){
-            $data->{passportType} = 'other';
+            $data->{passport_type} = 'other';
         }
+
+        $data->{nationality} = $user_info->{nationality} if (defined $user_info->{nationality});
+        $data->{former_nationality} = $user_info->{formerNationality} if (defined $user_info->{formerNationality});
+
+        $self->db->update('user', $data, +{id => $id}) if (scalar keys $data > 0);
+
 
     }elsif ($type eq 'employer'){
 
-        $data->{name} = $user_info->{name} if (defined $user_info->{name});
-        $data->{address} = $user_info->{address} if (defined $user_info->{address});
-        $data->{tel} = $user_info->{tel} if (defined $user_info->{tel});
-        my $row = $self->db->single('employer', $data);
-        unless (defined $row){
-            $row = $self->db->insert('employer', $data);
-        }
-        $data = {};
-        $data->{user_id} = $id;
-        $data->{employer_id} = $row->id;
+        $data->{name} = $user_info->{employerName} if (defined $user_info->{employerName});
+        $data->{address} = $user_info->{employerAddress} if (defined $user_info->{employerAddress});
+        $data->{tel} = $user_info->{employerTel} if (defined $user_info->{employerTel});
+        
+        if (scalar keys $data > 0){
+            my $row = $self->db->single('employer', $data);
+            unless (defined $row){
+                $row = $self->db->insert('employer', $data);
+            }
 
-        my $r = $self->db->single('employer_map', $data);
-        unless (defined $r) {
-            $data->{created_at} = $dt;
-            $self->db->insert('employer_map', $data);
+            if(defined $row->id){
+                $data = {};
+                $data->{employer_id} = $row->id;
+                $data->{user_id} = $id;
+                my $r = $self->db->single('employer_map', $data);
+                unless (defined $r) {
+                    $data->{created_at} = $dt;
+                    $self->db->insert('employer_map', $data);
+                }
+            }
         }
 
     }elsif ($type eq 'supporter'){
         
-        $data->{type} = 'inviter' if (defined $user_info->{inviterName});
         $data->{name} = $user_info->{inviterName} if (defined $user_info->{inviterName});
         $data->{address} = $user_info->{inviterAddress} if (defined $user_info->{inviterAddress});
-        $data->{dateOfBirth} = $user_info->{inviterDateOfBirth} if (defined $user_info->{inviterDateOfBirth});
+        $data->{birthday} = $user_info->{inviterDateOfBirth} if (defined $user_info->{inviterDateOfBirth});
         $data->{tel} = $user_info->{inviterTel} if (defined $user_info->{inviterTel});
         $data->{occupation_position} = $user_info->{inviterProfession} if (defined $user_info->{inviterProfession});
         $data->{nationality_immigrant_status} = $user_info->{inviterNationality} if (defined $user_info->{inviterNationality});
@@ -220,6 +231,7 @@ sub _save_japan_form {
             $map_data->{supporter_id} = $row->id;
             $map_data->{user_id} = $id;
             $map_data->{relation} = $user_info->{inviterRelationship};
+            $map_data->{type} = 'inviter';
 
             my $r = $self->db->single('supporter_map', $map_data); 
             unless (defined $r){
@@ -229,10 +241,9 @@ sub _save_japan_form {
         }
 
         $data = {};
-        $data->{type} = 'guarantor' if (defined $user_info->{guarantorName});
         $data->{name} = $user_info->{guarantorName} if (defined $user_info->{guarantorName});
         $data->{address} = $user_info->{guarantorAddress} if (defined $user_info->{guarantorAddress});
-        $data->{dateOfBirth} = $user_info->{guarantorDateOfBirth} if (defined $user_info->{guarantorDateOfBirth});
+        $data->{birthday} = $user_info->{guarantorDateOfBirth} if (defined $user_info->{guarantorDateOfBirth});
         $data->{tel} = $user_info->{guarantorTel} if (defined $user_info->{guarantorTel});
         $data->{occupation_position} = $user_info->{guarantorProfession} if (defined $user_info->{guarantorProfession});
         $data->{nationality_immigrant_status} = $user_info->{guarantorNationality} if (defined $user_info->{guarantorNationality});
@@ -250,6 +261,7 @@ sub _save_japan_form {
             my $map_data;
             $map_data->{supporter_id} = $row->id;
             $map_data->{user_id} = $id;
+            $map_data->{type} = 'guarantor';
             $map_data->{relation} = $user_info->{guarantorRelationship};
 
             $row = $self->db->single('supporter_map', $map_data); 
@@ -260,11 +272,135 @@ sub _save_japan_form {
     }
 }
 
-sub get_form_data {
-    my ($self, $id) = @_;
-    my $row = $self->db->single('user', { id => $id } );
-    return $row->get_columns;
+#==============================================================================
+# Get form dispatch private method by country 
+#==============================================================================
+sub get_form {
+    my ($self, $id, $country) = @_;
+    if ($country eq 'japan'){
+        return $self->_get_japan_form($id);
+    }
 }
+
+# For japan
+sub _get_japan_form {
+    my ($self, $id) = @_;
+    my $result = {};
+    my $user = $self->_get_japan_form_user($id, $self->config->{japan}->{map}->{user});
+    my $guarantor = $self->_get_japan_form_supporter($id, 'guarantor', $self->config->{japan}->{map}->{guarantor});
+    my $inviter = $self->_get_japan_form_supporter($id, 'inviter', $self->config->{japan}->{map}->{inviter});
+    my $travel = $self->_get_japan_form_travel($id, $self->config->{japan}->{map}->{travel}, $self->config->{japan}->{map}->{accommodation});
+    my $employer = $self->_get_japan_form_employer($id, $self->config->{japan}->{map}->{employer});
+    $result = merge($guarantor, $user);
+    $result = merge($inviter, $result);
+    $result = merge($travel, $result);
+    $result = merge($employer, $result);
+    return $result;
+}
+
+sub _get_japan_form_employer{
+    my ($self, $id, $map) = @_;
+    my $employer = {};
+    my @rows = $self->db->search(
+        'employer_map', 
+        +{user_id => $id}, 
+        +{limit => 1, order_by => 'created_at'}
+    );
+    return $employer if(scalar @rows == 0);
+    my $r = $self->db->single('employer', +{ id => $rows[0]->employer_id });
+    return $employer unless (defined $r);
+
+    for my $colname (keys %{ $r->get_columns }){
+        my $varname = $map->{$colname};
+        next if (! defined $varname);
+        my $val = $r->get_column($colname);
+        next if (! defined $val);
+        $employer->{$varname} = $val; 
+    }
+    return $employer;
+}
+
+sub _get_japan_form_travel{
+    my ($self, $id, $map_travel, $map_accommodation) = @_;
+
+    my $travel = {};
+    my @rows = $self->db->search(
+        'travel_map', 
+        +{user_id => $id}, 
+        +{limit => 1, order_by => 'created_at'}
+    );
+    return $travel if(scalar @rows == 0);
+
+    my $r = $self->db->single('travel', +{ id => $rows[0]->travel_id });
+    my $ro = $self->db->single('accommodation', +{ id => $rows[0]->accommodation_id });
+
+    if (defined $r){
+        for my $colname (keys %{ $r->get_columns }){
+            my $varname = $map_travel->{$colname};
+            next if (! defined $varname);
+            my $val = $r->get_column($colname);
+            next if (! defined $val);
+            $travel->{$varname} = $val; 
+        }
+    }
+
+    if (defined $ro){
+        for my $colname (keys %{ $ro->get_columns }){
+            my $varname = $map_accommodation->{$colname};
+            next if (! defined $varname);
+            my $val = $ro->get_column($colname);
+            next if (! defined $val);
+            $travel->{$varname} = $val; 
+        }
+    }
+    return $travel;
+}
+
+
+sub _get_japan_form_supporter{
+    my ($self, $id, $type, $map) = @_;
+    my $supporter = {};
+    my @rows = $self->db->search(
+        'supporter_map', 
+        +{user_id => $id, type => $type}, 
+        +{limit => 1, order_by => 'created_at'}
+    );
+    return $supporter if(scalar @rows == 0);
+
+    my $row = shift @rows;
+    my $r = $self->db->single('supporter', +{ id => $row->supporter_id });
+    return $supporter unless(defined $r);
+
+    for my $colname (keys %{ $r->get_columns }){
+        my $varname = $map->{$colname};
+        next if (! defined $varname);
+        my $val = $r->get_column($colname);
+        next if (! defined $val);
+        $supporter->{$varname} = $val; 
+    }
+
+    $supporter->{"${type}Relationship"} = $row->relation
+        if(defined $row->relation);
+    return $supporter;
+}
+
+#------------------------------------------------------------------------------
+# compose the return value 
+#------------------------------------------------------------------------------
+sub _get_japan_form_user{
+    my ($self, $id, $map) = @_; 
+    my $user = {};
+    my $row = $self->db->single('user', { id => $id } );
+    for my $colname (keys %{ $row->get_columns } ){
+        my $varname = $map->{$colname}; 
+        next if (! defined $varname);
+        my $val = $row->get_column($colname);
+        next if (! defined $val);
+        $user->{$varname} = $val; 
+    }
+    return $user;
+}
+
 
 sub _swap_dd{
     my ($self, $date) = @_;

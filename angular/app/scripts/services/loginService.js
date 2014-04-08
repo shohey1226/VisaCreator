@@ -22,14 +22,17 @@ angular.module('VisaCreatorApp')
                     if (data.login === 'true'){
                         $rootScope.loggedIn = true;
                         $rootScope.first_name = data.first_name;
+                        return true;
                     }else{
                         $rootScope.loggedIn = false;
                         $rootScope.first_name = ''; 
+                        return false;
                     }
                 }).
                 error(function(data, status, headers, config) {
                     $rootScope.loggedIn = false;
                     $rootScope.first_name = ''; 
+                    return false;
                 });
         }
     }

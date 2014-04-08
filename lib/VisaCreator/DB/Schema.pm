@@ -5,11 +5,12 @@ use DateTime::Format::MySQL;
 table {
     name 'user';
     pk 'id';
-    columns qw/id facebook_id email firstname lastname othername gender dateOfBirth 
-               placeOfBirth created_at updated_at martialstatus passpportNo 
-               dateOfIssue dateOfExpiry issuingAuth placeOfIssue passportType 
-               residentialAddress residentialTel residentialMobileNo 
-               occupation partner_occupation/;
+    columns qw/id facebook_id email firstname lastname othername gender birthday
+               birth_place created_at updated_at martialstatus passport_no
+               issue_date expiry_date issuing_auth issue_place passport_type
+               residential_address residential_tel residential_mobile
+               occupation partner_occupation nationality former_nationality
+               identification/;
     inflate qr/.+_at/ => sub {
         my $value = shift;
         return DateTime::Format::MySQL->parse_datetime($value);
@@ -58,7 +59,7 @@ table {
 table {
     name 'supporter';
     pk 'id';
-    columns qw/id type name tel address dateOfBirth gender occupation_position
+    columns qw/id name tel address birthday gender occupation_position
             nationality_immigrant_status/;
     inflate qr/.+_at/ => sub {
         my $value = shift;
@@ -73,7 +74,7 @@ table {
 table {
     name 'supporter_map';
     pk 'user_id';
-    columns qw/user_id supporter_id relation created_at/;
+    columns qw/user_id supporter_id type relation created_at/;
     inflate qr/.+_at/ => sub {
         my $value = shift;
         return DateTime::Format::MySQL->parse_datetime($value);

@@ -16,7 +16,7 @@ sub create_form {
     my $session = Plack::Session->new( $self->req->env );
     my $id = $session->get('id');
     unless (defined $id) {
-        $self->render_json({ Message => 'No ID is found. Need to login to proceed.'}, status => 510);
+        $self->render(json => { { Message => 'No ID is found. Need to login to proceed.'}, status => 510 });
     }
 
     my $data = $self->req->json;
@@ -32,6 +32,17 @@ sub download_form {
     my $file = $self->param('file');
     print Dumper $file;
     $self->render_file('filepath' => "/tmp/${file}", 'filename' => 'japan_visa_form.pdf');
+}
+
+sub get_form {
+    my $self = shift;
+    my $session = Plack::Session->new( $self->req->env );
+    my $id = $session->get('id');
+    unless (defined $id) {
+        $self->render(json => { { Message => 'No ID is found. Need to login to proceed.'}, status => 510 } );
+    }
+    my $info = $self->model->get_form($id, 'japan');
+    $self->render(json => $info);
 }
 
 1;
