@@ -11,7 +11,8 @@ sub serve_root {
      $self->render_static('/index.html');
 }
 
-sub fb_callback {
+
+sub callback {
     my $self = shift;
     my $session = Plack::Session->new( $self->req->env );
     my $login_location = $session->get('login_location');

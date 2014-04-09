@@ -42,12 +42,33 @@ angular.module('VisaCreatorApp')
   })
   //==========================================================
   // Login
-  .controller('LoginCtrl', function($scope, $location, Login){
+  .controller('LoginCtrl', function($scope, $location, Login, $rootScope, japanVisaService, $localStorage){
+    $scope.$storage = $localStorage;
+
     Login.getStatus()
 
     $scope.fb_login = function(){
         Login.fbLogin($location.url());
     }
+
+    $scope.twitter_login = function(){
+        Login.twitterLogin($location.url());
+    }
+
+    $scope.g_login = function(){
+        Login.gLogin($location.url());
+    }
+
+    $scope.fillin = function(){
+       if ( $rootScope.loggedIn === true ){
+           var promise = japanVisaService.getInfo();
+           promise.then(function(res)  { 
+               $scope.$storage.user = res;
+           })
+           .catch(function(req) { console.log("error to submit form"); })
+       }
+    }
+
   })
   //==========================================================
   .controller('TopCtrl', function ($scope, $localStorage, $location, $rootScope, japanVisaService) {
@@ -58,8 +79,6 @@ angular.module('VisaCreatorApp')
               if ( $rootScope.loggedIn === true ){
                   var promise = japanVisaService.getInfo();
                   promise.then(function(res)  { 
-                  //$scope.$storage.user;
-                      //$scope.$storage.user;
                       $scope.$storage.user = res;
                   })
                   .catch(function(req) { console.log("error to submit form"); })
@@ -67,7 +86,7 @@ angular.module('VisaCreatorApp')
               $location.path('/japan-visa-form-step1');
           }
       };
-      //$localStorage.$reset();
+      $localStorage.$reset();
   })
   .controller('MainCtrl', function ($scope, japanVisaService) {
     $scope.id = 1;

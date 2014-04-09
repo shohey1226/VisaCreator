@@ -26,6 +26,22 @@ sub startup {
   my $m = VisaCreator::Model->new(config => $config);
   $self->helper(model => sub { $m });
 
+
+  # Twitter login
+  $self->plugin('Web::Auth',
+    module      => 'Twitter',
+    key         => $config->{twitter_key}, 
+    secret      => $config->{twitter_secret}, 
+    on_finished => sub {
+        my ( $c, $access_token, $access_secret, $ref ) = @_;
+        my $session = Plack::Session->new( $c->req->env );
+        my $id = $m->find_id({twitter_id => $ref->{id}});
+        $id = $m->insert_twitter_info($ref) unless(defined $id);
+        $session->set( 'first_name', $ref->{screen_name} );
+        $session->set( 'id', $id );
+    },
+  );
+
   # Facebook login
   $self->plugin('Web::Auth',
     module      => 'Facebook',
@@ -59,7 +75,9 @@ sub startup {
   $r->get('/japan/form/download/:file')->to('Japan#download_form');
 
   # For authentication
-  $r->get('/auth/facebook/callback')->to('index#fb_callback');
+  $r->get('/auth/facebook/callback')->to('index#callback');
+  $r->get('/auth/twitter/callback')->to('index#callback');
+  $r->get('/auth/google/callback')->to('index#callback');
   $r->get('/auth/logout')->to('index#logout');
   $r->post('/auth/whereami')->to('index#whereami');
 

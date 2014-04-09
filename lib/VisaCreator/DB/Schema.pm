@@ -5,12 +5,14 @@ use DateTime::Format::MySQL;
 table {
     name 'user';
     pk 'id';
-    columns qw/id facebook_id email firstname lastname othername gender birthday
+    columns qw/id facebook_id twitter_id google_id email firstname 
+               lastname othername gender birthday
                birth_place created_at updated_at martialstatus passport_no
                issue_date expiry_date issuing_auth issue_place passport_type
                residential_address residential_tel residential_mobile
                occupation partner_occupation nationality former_nationality
-               identification/;
+               identification crime sentenced overstay drug prostitution 
+               trafficking/;
     inflate qr/.+_at/ => sub {
         my $value = shift;
         return DateTime::Format::MySQL->parse_datetime($value);

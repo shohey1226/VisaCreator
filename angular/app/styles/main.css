@@ -21,7 +21,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
-  padding-bottom: 19px;
+  padding-bottom: 19px; 
 }
 
 /* Custom page footer */
@@ -70,7 +70,7 @@ body {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
@@ -90,13 +90,16 @@ body {
 .jumbotron {
   padding: 60px;
   margin-bottom: 30px;
-  background-image: url(../images/sakura.png);
+  background-image: url(../images/castle.png);
   background-repeat: no-repeat;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  height: 300px;
+  height: 400px;
 }
 
+#feature_block {
+ margin: 10px;
+}
 
 

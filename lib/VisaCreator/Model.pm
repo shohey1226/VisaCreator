@@ -38,6 +38,16 @@ sub find_id {
     return defined $row ? $row->id : undef;
 }
 
+sub insert_twitter_info {
+    my ($self, $ref) = @_;
+    my $data;
+    my $dt = DateTime->now();
+    $data->{twitter_id} = $ref->{id};
+    $data->{created_at} = $dt;
+    my $row = $self->db->insert('user', $data); 
+    return $row->id;
+}
+
 sub insert_fb_info {
     my ($self, $fb_info) = @_;
     my $data;
@@ -158,7 +168,6 @@ sub _save_japan_form {
         $data->{occupation} = $user_info->{profession} if (defined $user_info->{profession});
         $self->db->update('user', $data, +{id => $id}) if (scalar keys $data > 0);
 
-
     }elsif ($type eq 'personal'){
 
         $data->{passpport_no} = $user_info->{passpportNo} if (defined $user_info->{passpportNo});
@@ -176,6 +185,42 @@ sub _save_japan_form {
             $data->{passport_type} = 'ordinary';
         }elsif (defined $user_info->{passportTypeOther}){
             $data->{passport_type} = 'other';
+        }
+
+        if (defined $user_info->{crimeYes}){
+            $data->{crime} = 'yes';
+        }elsif (defined $user_info->{crimeNo}){
+            $data->{crime} = 'no';
+        }
+
+        if (defined $user_info->{sentencedYes}){
+            $data->{sentenced} = 'yes';
+        }elsif (defined $user_info->{sentencedNo}){
+            $data->{sentenced} = 'no';
+        }
+
+        if (defined $user_info->{drugYes}){
+            $data->{drug} = 'yes';
+        }elsif (defined $user_info->{drugNo}){
+            $data->{drug} = 'no';
+        }
+
+        if (defined $user_info->{overstayYes}){
+            $data->{overstay} = 'yes';
+        }elsif (defined $user_info->{overstayNo}){
+            $data->{overstay} = 'no';
+        }
+
+        if (defined $user_info->{prostitutionYes}){
+            $data->{prostitution} = 'yes';
+        }elsif (defined $user_info->{prostitutionNo}){
+            $data->{prostitution} = 'no';
+        }
+
+        if (defined $user_info->{traffickingYes}){
+            $data->{trafficking} = 'yes';
+        }elsif (defined $user_info->{traffickingNo}){
+            $data->{trafficking} = 'no';
         }
 
         $data->{nationality} = $user_info->{nationality} if (defined $user_info->{nationality});

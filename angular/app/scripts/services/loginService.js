@@ -4,6 +4,31 @@ angular.module('VisaCreatorApp')
 .factory('Login', ['$http', '$rootScope', '$location', function ($http, $rootScope, $location) {
 
     return {
+        
+        twitterLogin: function(url){
+            $http.post('/auth/whereami', {location: url}).
+            success(function(data, status, headers, config){
+                var a = document.createElement('a');
+                a.href = '/auth/twitter/authenticate'; 
+                a.click();
+            }).
+            error(function(data, status, headers, config) {
+                console.log("failed to login");
+            });
+        },
+
+        gLogin: function(url){
+            $http.post('/auth/whereami', {location: url}).
+            success(function(data, status, headers, config){
+                var a = document.createElement('a');
+                a.href = '/auth/google/authenticate'; 
+                a.click();
+            }).
+            error(function(data, status, headers, config) {
+                console.log("failed to login");
+            });
+        },
+
         fbLogin: function(url){
             $http.post('/auth/whereami', {location: url}).
             success(function(data, status, headers, config){
@@ -15,6 +40,8 @@ angular.module('VisaCreatorApp')
                 console.log("failed to login");
             });
         },
+
+
         getStatus: function(){
             $http({ method: 'GET', url: '/api/login/status'}).
                 success(function(data, status, headers, config) {
