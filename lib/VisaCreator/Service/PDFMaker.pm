@@ -24,14 +24,26 @@ sub create {
 
     for my $field ( keys %{ $config->{$country}->{$form_type}->{positions} }){
         my $page = $pdf->openpage($config->{$country}->{$form_type}->{positions}->{$field}->{page});
-        my $font = $pdf->corefont($config->{font});
-        my $text = $page->text();
-        $text->font($font, $config->{$country}->{$form_type}->{positions}->{$field}->{font_size}); 
-        $text->translate(
-            $config->{$country}->{$form_type}->{positions}->{$field}->{x}, 
-            $self->y_max - $config->{$country}->{$form_type}->{positions}->{$field}->{y} 
-        );
-        $text->text($data->{$field});
+        if (defined $data->{$field} && $data->{$field} eq 'X') {
+            my $box = $page->gfx;
+            $box->fillcolor('black');
+            $box->rect( 
+                $config->{$country}->{$form_type}->{positions}->{$field}->{x}, 
+                $self->y_max - $config->{$country}->{$form_type}->{positions}->{$field}->{y},
+                10,
+                10
+            );
+            $box->fill;
+        }else{
+            my $font = $pdf->corefont($config->{font});
+            my $text = $page->text();
+            $text->font($font, $config->{$country}->{$form_type}->{positions}->{$field}->{font_size}); 
+            $text->translate(
+                $config->{$country}->{$form_type}->{positions}->{$field}->{x}, 
+                $self->y_max - $config->{$country}->{$form_type}->{positions}->{$field}->{y} 
+            );
+            $text->text($data->{$field});
+        }
     }
 
     my $timestamp = time();

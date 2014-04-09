@@ -83,7 +83,7 @@ CREATE TABLE supporter_map
       ON DELETE CASCADE,
     FOREIGN KEY(supporter_id) REFERENCES supporter(id)
       ON DELETE CASCADE,
-    PRIMARY KEY (user_id, supporter_id)
+    PRIMARY KEY (user_id, supporter_id, type)
 ) ENGINE=INNODB;;
 
 
