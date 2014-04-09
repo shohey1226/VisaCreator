@@ -4,9 +4,9 @@ DROP TABLE IF EXISTS user;
 CREATE TABLE user 
 (
     id INT AUTO_INCREMENT, 
-    facebook_id INT,
-    twitter_id INT,
-    google_id INT,
+    facebook_id BIGINT,
+    twitter_id BIGINT,
+    google_id VARCHAR(30),
     email VARCHAR(50),
     firstname VARCHAR(50),
     lastname VARCHAR(50),

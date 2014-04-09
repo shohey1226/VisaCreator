@@ -26,6 +26,26 @@ sub startup {
   my $m = VisaCreator::Model->new(config => $config);
   $self->helper(model => sub { $m });
 
+  # Google login
+  $self->plugin('Web::Auth',
+    module      => 'Google',
+    key         => $config->{google_id}, 
+    secret      => $config->{google_secret}, 
+    scope => 'https://www.googleapis.com/auth/plus.me',
+    on_finished => sub {
+        my ( $c, $access_token, $ref ) = @_;
+        print Dumper $ref;
+        my $session = Plack::Session->new( $c->req->env );
+        my $id = $m->find_id({google_id => $ref->{id}});
+        $id = $m->insert_google_info($ref) unless(defined $id);
+        if (defined $ref->{name}->{givenName}){
+            $session->set( 'first_name', $ref->{name}->{givenName} );
+        }else{
+            $session->set( 'first_name', 'No name' );
+        }
+        $session->set( 'id', $id );
+    },
+  );
 
   # Twitter login
   $self->plugin('Web::Auth',

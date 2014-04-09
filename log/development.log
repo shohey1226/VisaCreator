@@ -12278,3 +12278,792 @@ BIND    : $VAR1 = [
 [Wed Apr  9 16:01:03 2014] [debug] GET "/api/login/status".
 [Wed Apr  9 16:01:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
 [Wed Apr  9 16:01:03 2014] [debug] 200 OK (0.001087s, 919.963/s).
+[Wed Apr  9 16:30:12 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 16:30:12 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 16:30:12 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 16:30:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 16:30:16 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 16:30:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 16:30:16 2014] [debug] 200 OK (0.093781s, 10.663/s).
+[Wed Apr  9 16:30:16 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 16:35:47 2014] [debug] GET "/".
+[Wed Apr  9 16:35:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 16:35:47 2014] [debug] 304 Not Modified (0.001493s, 669.792/s).
+[Wed Apr  9 16:35:47 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 16:35:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 16:35:47 2014] [debug] 200 OK (0.001570s, 636.943/s).
+[Wed Apr  9 16:35:50 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 16:35:50 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 16:35:50 2014] [debug] 200 OK (0.000958s, 1043.841/s).
+[Wed Apr  9 16:35:50 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 16:37:33 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 16:37:33 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 16:38:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 16:38:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 16:38:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 16:38:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 16:38:41 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 16:38:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 16:38:43 2014] [debug] GET "/".
+[Wed Apr  9 16:38:43 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 16:38:43 2014] [debug] 304 Not Modified (0.002359s, 423.908/s).
+[Wed Apr  9 16:38:44 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 16:38:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 16:38:44 2014] [debug] 200 OK (0.002122s, 471.254/s).
+[Wed Apr  9 16:38:48 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 16:38:48 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 16:38:48 2014] [debug] 200 OK (0.002037s, 490.918/s).
+[Wed Apr  9 16:38:48 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 16:39:19 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 16:39:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 16:39:19 2014] [debug] 200 OK (0.001198s, 834.725/s).
+[Wed Apr  9 16:39:19 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 16:40:26 2014] [debug] GET "/".
+[Wed Apr  9 16:40:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 16:40:26 2014] [debug] 304 Not Modified (0.000974s, 1026.694/s).
+[Wed Apr  9 16:40:26 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 16:40:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 16:40:26 2014] [debug] 200 OK (0.001270s, 787.402/s).
+[Wed Apr  9 16:40:29 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 16:40:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 16:40:29 2014] [debug] 200 OK (0.001009s, 991.080/s).
+[Wed Apr  9 16:40:29 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 17:50:23 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 17:50:23 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 17:50:23 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 17:51:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 17:51:45 2014] [debug] GET "/".
+[Wed Apr  9 17:51:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 17:51:45 2014] [debug] 304 Not Modified (0.003387s, 295.247/s).
+[Wed Apr  9 17:51:45 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 17:51:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 17:51:45 2014] [debug] 200 OK (0.001862s, 537.057/s).
+[Wed Apr  9 17:51:49 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 17:51:49 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 17:51:49 2014] [debug] 200 OK (0.002508s, 398.724/s).
+[Wed Apr  9 17:51:49 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 17:56:05 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 17:56:05 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 17:56:05 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 17:56:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 17:56:21 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 17:56:21 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 17:56:21 2014] [debug] 200 OK (0.003212s, 311.333/s).
+[Wed Apr  9 17:56:21 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 17:56:27 2014] [error] Authentication error in Google: 403 Forbidden at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24, <DATA> line 231.
+
+[Wed Apr  9 17:56:27 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 17:56:27 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 17:56:27 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 17:56:27 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 18:00:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 18:00:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 18:00:11 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 18:00:17 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 18:00:17 2014] [debug] GET "/".
+[Wed Apr  9 18:00:17 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 18:00:17 2014] [debug] 304 Not Modified (0.001833s, 545.554/s).
+[Wed Apr  9 18:00:17 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:00:17 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:00:17 2014] [debug] 200 OK (0.001556s, 642.674/s).
+[Wed Apr  9 18:00:33 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:00:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:00:33 2014] [debug] 200 OK (0.002076s, 481.696/s).
+[Wed Apr  9 18:00:34 2014] [debug] GET "/auth/twitter/callback".
+[Wed Apr  9 18:00:38 2014] [error] Authentication error in Twitter: Session error at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24, <DATA> line 231.
+
+[Wed Apr  9 18:00:38 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 18:00:38 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 18:00:38 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 18:00:38 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 18:00:47 2014] [debug] GET "/".
+[Wed Apr  9 18:00:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 18:00:47 2014] [debug] 304 Not Modified (0.001009s, 991.080/s).
+[Wed Apr  9 18:00:48 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:00:48 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:00:48 2014] [debug] 200 OK (0.001481s, 675.219/s).
+[Wed Apr  9 18:00:50 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:00:50 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:00:50 2014] [debug] 200 OK (0.001110s, 900.901/s).
+[Wed Apr  9 18:00:50 2014] [debug] GET "/auth/facebook/callback".
+[Wed Apr  9 18:00:52 2014] [debug] GET "/auth/facebook/callback".
+[Wed Apr  9 18:00:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Wed Apr  9 18:00:52 2014] [debug] 302 Found (0.001577s, 634.115/s).
+[Wed Apr  9 18:00:52 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:00:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:00:52 2014] [debug] 200 OK (0.001393s, 717.875/s).
+[Wed Apr  9 18:00:54 2014] [debug] GET "/auth/logout".
+[Wed Apr  9 18:00:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Wed Apr  9 18:00:54 2014] [debug] 302 Found (0.001630s, 613.497/s).
+[Wed Apr  9 18:00:54 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:00:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:00:54 2014] [debug] 200 OK (0.001365s, 732.601/s).
+[Wed Apr  9 18:00:57 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:00:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:00:57 2014] [debug] 200 OK (0.001673s, 597.729/s).
+[Wed Apr  9 18:00:57 2014] [debug] GET "/auth/twitter/callback".
+[Wed Apr  9 18:01:01 2014] [debug] GET "/auth/twitter/callback".
+[Wed Apr  9 18:01:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Wed Apr  9 18:01:01 2014] [debug] 302 Found (0.001653s, 604.961/s).
+[Wed Apr  9 18:01:01 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:01:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:01:01 2014] [debug] 200 OK (0.001156s, 865.052/s).
+[Wed Apr  9 18:01:03 2014] [debug] GET "/auth/logout".
+[Wed Apr  9 18:01:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Wed Apr  9 18:01:03 2014] [debug] 302 Found (0.001592s, 628.141/s).
+[Wed Apr  9 18:01:03 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:01:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:01:03 2014] [debug] 200 OK (0.001428s, 700.280/s).
+[Wed Apr  9 18:01:06 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:01:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:01:06 2014] [debug] 200 OK (0.001204s, 830.565/s).
+[Wed Apr  9 18:01:06 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 18:01:09 2014] [error] Authentication error in Google: 403 Forbidden at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24.
+
+[Wed Apr  9 18:01:09 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 18:01:09 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 18:01:09 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 18:01:09 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 18:05:44 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 18:05:44 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 18:05:44 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 18:05:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 18:05:47 2014] [debug] GET "/".
+[Wed Apr  9 18:05:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 18:05:47 2014] [debug] 304 Not Modified (0.002070s, 483.092/s).
+[Wed Apr  9 18:05:47 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:05:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:05:47 2014] [debug] 200 OK (0.001496s, 668.449/s).
+[Wed Apr  9 18:05:50 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:05:50 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:05:50 2014] [debug] 200 OK (0.001556s, 642.674/s).
+[Wed Apr  9 18:05:50 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 18:05:55 2014] [error] Authentication error in Google: 403 Forbidden at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24, <DATA> line 231.
+
+[Wed Apr  9 18:05:55 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 18:05:55 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 18:05:55 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 18:05:55 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 18:09:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 18:09:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 18:09:51 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 18:10:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 18:10:03 2014] [debug] GET "/".
+[Wed Apr  9 18:10:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 18:10:03 2014] [debug] 304 Not Modified (0.001919s, 521.105/s).
+[Wed Apr  9 18:10:03 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:10:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:10:03 2014] [debug] 200 OK (0.001652s, 605.327/s).
+[Wed Apr  9 18:10:06 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:10:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:10:06 2014] [debug] 200 OK (0.001995s, 501.253/s).
+[Wed Apr  9 18:10:06 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 18:10:10 2014] [error] Authentication error in Google: 403 Forbidden at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24, <DATA> line 231.
+
+[Wed Apr  9 18:10:10 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 18:10:10 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 18:10:10 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 18:10:10 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 18:15:07 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 18:15:07 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 18:15:07 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 18:15:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 18:15:12 2014] [debug] GET "/".
+[Wed Apr  9 18:15:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 18:15:12 2014] [debug] 304 Not Modified (0.001958s, 510.725/s).
+[Wed Apr  9 18:15:13 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:15:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:15:13 2014] [debug] 200 OK (0.001297s, 771.010/s).
+[Wed Apr  9 18:15:15 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:15:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:15:15 2014] [debug] 200 OK (0.001858s, 538.213/s).
+[Wed Apr  9 18:15:15 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 18:15:22 2014] [error] Authentication error in Google: 403 Forbidden at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24, <DATA> line 231.
+
+[Wed Apr  9 18:15:22 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 18:15:22 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 18:15:22 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 18:15:22 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 18:18:03 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 18:18:03 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 18:18:03 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 18:18:07 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 18:18:07 2014] [error] Authentication error in Google: {
+  "error" : "invalid_grant",
+  "error_description" : "Invalid code."
+} at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24.
+
+[Wed Apr  9 18:18:07 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 18:18:07 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 18:18:07 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 18:18:07 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 18:18:10 2014] [error] Authentication error in Google: 403 Forbidden at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24, <DATA> line 231.
+
+[Wed Apr  9 18:18:10 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 18:18:10 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 18:18:10 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 18:18:10 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 18:18:14 2014] [debug] GET "/".
+[Wed Apr  9 18:18:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 18:18:14 2014] [debug] 304 Not Modified (0.002287s, 437.254/s).
+[Wed Apr  9 18:18:14 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:18:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:18:14 2014] [debug] 200 OK (0.002312s, 432.526/s).
+[Wed Apr  9 18:18:17 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 18:18:17 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 18:18:17 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 18:18:20 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 18:18:20 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:18:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:18:20 2014] [debug] 200 OK (0.003243s, 308.356/s).
+[Wed Apr  9 18:18:20 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 18:18:24 2014] [error] Authentication error in Google: 403 Forbidden at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24, <DATA> line 231.
+
+[Wed Apr  9 18:18:24 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 18:18:24 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 18:18:24 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 18:18:24 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 18:20:37 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 18:20:37 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 18:20:37 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 18:20:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 18:20:47 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:20:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:20:47 2014] [debug] 200 OK (0.002659s, 376.081/s).
+[Wed Apr  9 18:20:47 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 18:20:50 2014] [error] Authentication error in Google: 403 Forbidden at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24, <DATA> line 231.
+
+[Wed Apr  9 18:20:50 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 18:20:50 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 18:20:50 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 18:20:50 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 18:21:09 2014] [error] Authentication error in Google: 403 Forbidden at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24.
+
+[Wed Apr  9 18:21:09 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 18:21:09 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 18:21:09 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 18:21:09 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 18:22:36 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 18:22:36 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 18:22:36 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 18:22:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 18:22:47 2014] [debug] GET "/".
+[Wed Apr  9 18:22:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 18:22:47 2014] [debug] 304 Not Modified (0.001899s, 526.593/s).
+[Wed Apr  9 18:22:47 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:22:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:22:47 2014] [debug] 200 OK (0.002263s, 441.891/s).
+[Wed Apr  9 18:22:52 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:22:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:22:52 2014] [debug] 200 OK (0.001690s, 591.716/s).
+[Wed Apr  9 18:22:52 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 18:23:03 2014] [debug] GET "/".
+[Wed Apr  9 18:23:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 18:23:03 2014] [debug] 304 Not Modified (0.001624s, 615.764/s).
+[Wed Apr  9 18:23:03 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 18:23:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 18:23:03 2014] [debug] 200 OK (0.001414s, 707.214/s).
+[Wed Apr  9 18:23:13 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:23:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:23:13 2014] [debug] 200 OK (0.001228s, 814.332/s).
+[Wed Apr  9 18:23:13 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 18:23:27 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:23:27 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:23:27 2014] [debug] 200 OK (0.001026s, 974.659/s).
+[Wed Apr  9 18:23:27 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 18:25:07 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 18:25:07 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 18:25:07 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 18:25:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 18:25:22 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 18:25:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 18:25:23 2014] [debug] 200 OK (0.003726s, 268.384/s).
+[Wed Apr  9 18:25:23 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 18:25:25 2014] [error] Authentication error in Google: 403 Forbidden at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24, <DATA> line 231.
+
+[Wed Apr  9 18:25:25 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 18:25:25 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 18:25:25 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 18:25:25 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 20:52:21 2014] [debug] GET "/".
+[Wed Apr  9 20:52:21 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 20:52:21 2014] [debug] 304 Not Modified (0.005272s, 189.681/s).
+[Wed Apr  9 20:52:21 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 20:52:21 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 20:52:21 2014] [debug] 200 OK (0.002707s, 369.413/s).
+[Wed Apr  9 20:52:24 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 20:52:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 20:52:24 2014] [debug] 200 OK (0.001370s, 729.927/s).
+[Wed Apr  9 20:52:24 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 20:52:47 2014] [error] Authentication error in Google:  at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth.pm line 24.
+
+[Wed Apr  9 20:52:47 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 20:52:47 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 20:52:47 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 20:52:47 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 20:58:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 20:58:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 20:58:50 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 20:58:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 20:58:57 2014] [error] Cannot get a 'code' parameter at /Users/kamesho/git/VisaCreator/local/lib/perl5/Mojolicious/Plugin/Web/Auth/OAuth2.pm line 30.
+
+[Wed Apr  9 20:58:57 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 20:58:57 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 20:58:57 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 20:58:57 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 20:59:03 2014] [debug] GET "/".
+[Wed Apr  9 20:59:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 20:59:03 2014] [debug] 304 Not Modified (0.004993s, 200.280/s).
+[Wed Apr  9 20:59:03 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 20:59:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 20:59:03 2014] [debug] 200 OK (0.001554s, 643.501/s).
+[Wed Apr  9 20:59:06 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 20:59:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 20:59:06 2014] [debug] 200 OK (0.001812s, 551.876/s).
+[Wed Apr  9 20:59:06 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 20:59:09 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 20:59:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Wed Apr  9 20:59:09 2014] [debug] 302 Found (0.001499s, 667.111/s).
+[Wed Apr  9 20:59:09 2014] [debug] GET "/".
+[Wed Apr  9 20:59:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 20:59:09 2014] [debug] 304 Not Modified (0.000801s, 1248.439/s).
+[Wed Apr  9 20:59:09 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 20:59:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 20:59:09 2014] [debug] 200 OK (0.001318s, 758.725/s).
+[Wed Apr  9 21:03:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 21:03:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 21:03:53 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 21:04:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 21:04:01 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 21:04:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 21:04:01 2014] [debug] 200 OK (0.003574s, 279.799/s).
+[Wed Apr  9 21:04:01 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 21:04:06 2014] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Out of range value for column 'google_id' at row 1 at /Users/kamesho/git/VisaCreator/local/lib/perl5/Teng.pm line 272, <DATA> line 231.
+
+SQL     : INSERT INTO `user`
+          (`created_at`, `google_id`)
+          VALUES (?, ?)
+BIND    : $VAR1 = [
+          [
+            '2014-04-09 12:04:06',
+            undef
+          ],
+          [
+            '112491407921643796778',
+            undef
+          ]
+        ];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 57.
+
+[Wed Apr  9 21:04:06 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 21:04:06 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 21:04:06 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 21:04:06 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 21:05:59 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:05:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:05:59 2014] [debug] 200 OK (0.001873s, 533.903/s).
+[Wed Apr  9 21:06:03 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 21:06:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 21:06:03 2014] [debug] 200 OK (0.001349s, 741.290/s).
+[Wed Apr  9 21:06:03 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 21:06:06 2014] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Out of range value for column 'google_id' at row 1 at /Users/kamesho/git/VisaCreator/local/lib/perl5/Teng.pm line 272.
+
+SQL     : INSERT INTO `user`
+          (`created_at`, `google_id`)
+          VALUES (?, ?)
+BIND    : $VAR1 = [
+          [
+            '2014-04-09 12:06:06',
+            undef
+          ],
+          [
+            '112491407921643796778',
+            undef
+          ]
+        ];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 57.
+
+[Wed Apr  9 21:06:06 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 21:06:06 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 21:06:06 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 21:06:06 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 21:06:44 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 21:06:44 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 21:06:44 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 21:07:22 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 21:07:22 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 21:07:22 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 21:07:26 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 21:07:26 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 21:07:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 21:07:26 2014] [debug] 200 OK (0.003466s, 288.517/s).
+[Wed Apr  9 21:07:26 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 21:07:29 2014] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Out of range value for column 'google_id' at row 1 at /Users/kamesho/git/VisaCreator/local/lib/perl5/Teng.pm line 272, <DATA> line 231.
+
+SQL     : INSERT INTO `user`
+          (`google_id`, `created_at`)
+          VALUES (?, ?)
+BIND    : $VAR1 = [
+          [
+            '112491407921643796778',
+            undef
+          ],
+          [
+            '2014-04-09 12:07:29',
+            undef
+          ]
+        ];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 57.
+
+[Wed Apr  9 21:07:29 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 21:07:29 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 21:07:29 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 21:07:29 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 21:10:02 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 21:10:02 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 21:10:02 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 21:10:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 21:10:04 2014] [debug] GET "/".
+[Wed Apr  9 21:10:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 21:10:04 2014] [debug] 304 Not Modified (0.002686s, 372.301/s).
+[Wed Apr  9 21:10:05 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:10:05 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:10:05 2014] [debug] 200 OK (0.001985s, 503.778/s).
+[Wed Apr  9 21:10:07 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 21:10:07 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 21:10:07 2014] [debug] 200 OK (0.001936s, 516.529/s).
+[Wed Apr  9 21:10:07 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 21:10:10 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 21:10:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Wed Apr  9 21:10:10 2014] [debug] 302 Found (0.001864s, 536.481/s).
+[Wed Apr  9 21:10:10 2014] [debug] GET "/".
+[Wed Apr  9 21:10:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 21:10:10 2014] [debug] 304 Not Modified (0.000953s, 1049.318/s).
+[Wed Apr  9 21:10:11 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:10:11 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:10:11 2014] [debug] 200 OK (0.001282s, 780.031/s).
+[Wed Apr  9 21:11:52 2014] [debug] GET "/auth/logout".
+[Wed Apr  9 21:11:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Wed Apr  9 21:11:52 2014] [debug] 302 Found (0.002176s, 459.559/s).
+[Wed Apr  9 21:11:52 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:11:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:11:52 2014] [debug] 200 OK (0.001473s, 678.887/s).
+[Wed Apr  9 21:11:56 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 21:11:56 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 21:11:56 2014] [debug] 200 OK (0.001406s, 711.238/s).
+[Wed Apr  9 21:11:56 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 21:11:58 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 21:11:58 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Wed Apr  9 21:11:58 2014] [debug] 302 Found (0.001064s, 939.850/s).
+[Wed Apr  9 21:11:58 2014] [debug] GET "/".
+[Wed Apr  9 21:11:58 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 21:11:58 2014] [debug] 304 Not Modified (0.000916s, 1091.703/s).
+[Wed Apr  9 21:11:59 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:11:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:11:59 2014] [debug] 200 OK (0.001399s, 714.796/s).
+[Wed Apr  9 21:13:32 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 21:13:32 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 21:13:32 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 21:13:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 21:13:37 2014] [debug] GET "/".
+[Wed Apr  9 21:13:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 21:13:37 2014] [debug] 304 Not Modified (0.002180s, 458.716/s).
+[Wed Apr  9 21:13:37 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:13:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:13:37 2014] [debug] 200 OK (0.001579s, 633.312/s).
+[Wed Apr  9 21:13:40 2014] [debug] GET "/auth/logout".
+[Wed Apr  9 21:13:40 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Wed Apr  9 21:13:40 2014] [debug] 302 Found (0.001915s, 522.193/s).
+[Wed Apr  9 21:13:40 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:13:40 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:13:40 2014] [debug] 200 OK (0.001295s, 772.201/s).
+[Wed Apr  9 21:13:42 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 21:13:42 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 21:13:42 2014] [debug] 200 OK (0.002118s, 472.144/s).
+[Wed Apr  9 21:13:42 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 21:13:45 2014] [error] Can't use string ("112491407921643796778") as a HASH ref while "strict refs" in use at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 57, <DATA> line 231.
+
+[Wed Apr  9 21:13:45 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 21:13:45 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 21:13:45 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 21:13:45 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 21:16:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 21:16:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 21:16:20 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 21:16:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 21:16:36 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 21:16:36 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 21:16:36 2014] [debug] 200 OK (0.004026s, 248.385/s).
+[Wed Apr  9 21:16:36 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 21:16:41 2014] [error] Can't use string ("112491407921643796778") as a HASH ref while "strict refs" in use at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 58, <DATA> line 231.
+
+[Wed Apr  9 21:16:41 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Apr  9 21:16:41 2014] [debug] Template "exception.html.ep" not found.
+[Wed Apr  9 21:16:41 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 21:16:41 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Wed Apr  9 21:17:26 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Wed Apr  9 21:17:26 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Wed Apr  9 21:17:26 2014] [debug] Helper "config" already exists, replacing.
+[Wed Apr  9 21:17:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 21:17:32 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:17:32 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:17:32 2014] [debug] 200 OK (0.003440s, 290.698/s).
+[Wed Apr  9 21:17:35 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 21:17:35 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 21:17:35 2014] [debug] 200 OK (0.001529s, 654.022/s).
+[Wed Apr  9 21:17:35 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 21:17:37 2014] [debug] GET "/auth/google/callback".
+[Wed Apr  9 21:17:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Wed Apr  9 21:17:37 2014] [debug] 302 Found (0.002237s, 447.027/s).
+[Wed Apr  9 21:17:37 2014] [debug] GET "/".
+[Wed Apr  9 21:17:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Wed Apr  9 21:17:37 2014] [debug] 304 Not Modified (0.001153s, 867.303/s).
+[Wed Apr  9 21:17:38 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:17:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:17:38 2014] [debug] 200 OK (0.001908s, 524.109/s).
+[Wed Apr  9 21:17:41 2014] [debug] GET "/api/japan/form".
+[Wed Apr  9 21:17:41 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Wed Apr  9 21:17:41 2014] [debug] 200 OK (0.242957s, 4.116/s).
+[Wed Apr  9 21:18:10 2014] [debug] POST "/api/japan/form".
+[Wed Apr  9 21:18:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Wed Apr  9 21:18:10 2014] [debug] 200 OK (0.787508s, 1.270/s).
+[Wed Apr  9 21:18:10 2014] [debug] GET "/japan/form/download/japan_form_024efa6078c9bf454050c447471dc4f2aa24708f41af7bb76ab9faee3753657e".
+[Wed Apr  9 21:18:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Wed Apr  9 21:18:10 2014] [debug] 200 OK (0.001515s, 660.066/s).
+[Wed Apr  9 21:18:40 2014] [debug] GET "/auth/logout".
+[Wed Apr  9 21:18:40 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Wed Apr  9 21:18:40 2014] [debug] 302 Found (0.004094s, 244.260/s).
+[Wed Apr  9 21:18:40 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:18:40 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:18:40 2014] [debug] 200 OK (0.001056s, 946.970/s).
+[Wed Apr  9 21:27:13 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 21:27:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 21:27:13 2014] [debug] 200 OK (0.001481s, 675.219/s).
+[Wed Apr  9 21:27:13 2014] [debug] GET "/auth/facebook/callback".
+[Wed Apr  9 21:27:15 2014] [debug] GET "/auth/facebook/callback".
+[Wed Apr  9 21:27:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Wed Apr  9 21:27:15 2014] [debug] 302 Found (0.001473s, 678.887/s).
+[Wed Apr  9 21:27:15 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:27:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:27:15 2014] [debug] 200 OK (0.000894s, 1118.568/s).
+[Wed Apr  9 21:27:27 2014] [debug] POST "/api/japan/form".
+[Wed Apr  9 21:27:27 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Wed Apr  9 21:27:28 2014] [debug] 200 OK (0.898063s, 1.114/s).
+[Wed Apr  9 21:27:28 2014] [debug] GET "/japan/form/download/japan_form_75f001ba9fa8caa2983337084b038b480694ad5e8616eea566dc28f4675b71fb".
+[Wed Apr  9 21:27:28 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Wed Apr  9 21:27:28 2014] [debug] 200 OK (0.002017s, 495.786/s).
+[Wed Apr  9 21:28:45 2014] [debug] GET "/auth/logout".
+[Wed Apr  9 21:28:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Wed Apr  9 21:28:45 2014] [debug] 302 Found (0.002127s, 470.146/s).
+[Wed Apr  9 21:28:45 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:28:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:28:45 2014] [debug] 200 OK (0.001468s, 681.199/s).
+[Wed Apr  9 21:30:01 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 21:30:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 21:30:01 2014] [debug] 200 OK (0.001529s, 654.022/s).
+[Wed Apr  9 21:30:01 2014] [debug] GET "/auth/facebook/callback".
+[Wed Apr  9 21:30:03 2014] [debug] GET "/auth/facebook/callback".
+[Wed Apr  9 21:30:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Wed Apr  9 21:30:03 2014] [debug] 302 Found (0.001492s, 670.241/s).
+[Wed Apr  9 21:30:03 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:30:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:30:03 2014] [debug] 200 OK (0.001443s, 693.001/s).
+[Wed Apr  9 21:30:19 2014] [debug] POST "/api/japan/form".
+[Wed Apr  9 21:30:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Wed Apr  9 21:30:20 2014] [debug] 200 OK (1.010096s, 0.990/s).
+[Wed Apr  9 21:30:20 2014] [debug] GET "/japan/form/download/japan_form_22ce74d856768e31e94a3d14fe7780f5c767dc6af09caa7cd30b37c52def29d3".
+[Wed Apr  9 21:30:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Wed Apr  9 21:30:20 2014] [debug] 200 OK (0.001263s, 791.766/s).
+[Wed Apr  9 21:32:01 2014] [debug] GET "/auth/logout".
+[Wed Apr  9 21:32:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Wed Apr  9 21:32:01 2014] [debug] 302 Found (0.001415s, 706.714/s).
+[Wed Apr  9 21:32:01 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:32:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:32:01 2014] [debug] 200 OK (0.001432s, 698.324/s).
+[Wed Apr  9 21:35:37 2014] [debug] POST "/auth/whereami".
+[Wed Apr  9 21:35:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Wed Apr  9 21:35:37 2014] [debug] 200 OK (0.001895s, 527.704/s).
+[Wed Apr  9 21:35:37 2014] [debug] GET "/auth/facebook/callback".
+[Wed Apr  9 21:35:38 2014] [debug] GET "/auth/facebook/callback".
+[Wed Apr  9 21:35:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Wed Apr  9 21:35:38 2014] [debug] 302 Found (0.001272s, 786.164/s).
+[Wed Apr  9 21:35:38 2014] [debug] GET "/api/login/status".
+[Wed Apr  9 21:35:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Wed Apr  9 21:35:38 2014] [debug] 200 OK (0.001310s, 763.359/s).
+[Wed Apr  9 21:35:49 2014] [debug] POST "/api/japan/form".
+[Wed Apr  9 21:35:49 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Wed Apr  9 21:35:50 2014] [debug] 200 OK (0.940708s, 1.063/s).
+[Wed Apr  9 21:35:50 2014] [debug] GET "/japan/form/download/japan_form_fc9ed202fd3fa8ce948617b6cebf9e86560c09a2711b4bf96bc2f387899b0ee1".
+[Wed Apr  9 21:35:50 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Wed Apr  9 21:35:50 2014] [debug] 200 OK (0.001424s, 702.247/s).
+[Thu Apr 10 01:27:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Thu Apr 10 01:27:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Thu Apr 10 01:27:41 2014] [debug] Helper "config" already exists, replacing.
+[Thu Apr 10 01:27:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr 10 01:27:45 2014] [debug] GET "/".
+[Thu Apr 10 01:27:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr 10 01:27:45 2014] [debug] 200 OK (0.002727s, 366.703/s).
+[Thu Apr 10 01:27:46 2014] [debug] GET "/api/login/status".
+[Thu Apr 10 01:27:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Thu Apr 10 01:27:46 2014] [debug] 200 OK (0.001617s, 618.429/s).
+[Thu Apr 10 01:28:04 2014] [debug] GET "/auth/logout".
+[Thu Apr 10 01:28:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Thu Apr 10 01:28:04 2014] [debug] 302 Found (0.002006s, 498.504/s).
+[Thu Apr 10 01:28:04 2014] [debug] GET "/".
+[Thu Apr 10 01:28:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr 10 01:28:04 2014] [debug] 304 Not Modified (0.000866s, 1154.734/s).
+[Thu Apr 10 01:28:04 2014] [debug] GET "/api/login/status".
+[Thu Apr 10 01:28:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Thu Apr 10 01:28:04 2014] [debug] 200 OK (0.001121s, 892.061/s).
+[Thu Apr 10 01:28:08 2014] [debug] POST "/auth/whereami".
+[Thu Apr 10 01:28:08 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Thu Apr 10 01:28:08 2014] [debug] 200 OK (0.002134s, 468.604/s).
+[Thu Apr 10 01:28:08 2014] [debug] GET "/auth/facebook/callback".
+[Thu Apr 10 01:28:09 2014] [debug] GET "/auth/facebook/callback".
+[Thu Apr 10 01:28:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Thu Apr 10 01:28:09 2014] [debug] 302 Found (0.001472s, 679.348/s).
+[Thu Apr 10 01:28:09 2014] [debug] GET "/".
+[Thu Apr 10 01:28:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr 10 01:28:09 2014] [debug] 304 Not Modified (0.000832s, 1201.923/s).
+[Thu Apr 10 01:28:09 2014] [debug] GET "/api/login/status".
+[Thu Apr 10 01:28:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Thu Apr 10 01:28:09 2014] [debug] 200 OK (0.001332s, 750.751/s).
+[Thu Apr 10 01:28:11 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 01:28:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 01:28:12 2014] [debug] 200 OK (0.210374s, 4.753/s).
+[Thu Apr 10 01:28:13 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 01:28:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 01:28:13 2014] [debug] 200 OK (0.017836s, 56.066/s).
+[Thu Apr 10 01:28:48 2014] [debug] POST "/api/japan/form".
+[Thu Apr 10 01:28:48 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr 10 01:28:49 2014] [debug] 200 OK (0.711764s, 1.405/s).
+[Thu Apr 10 01:28:49 2014] [debug] GET "/japan/form/download/japan_form_d8bd47e7ec18404c533aa926dd981e8b3dacdffcd573140360cf98c05a7c87aa".
+[Thu Apr 10 01:28:49 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr 10 01:28:49 2014] [debug] 200 OK (0.001909s, 523.834/s).
+[Thu Apr 10 01:30:49 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 01:30:49 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 01:30:49 2014] [debug] 200 OK (0.043499s, 22.989/s).
+[Thu Apr 10 01:31:01 2014] [debug] GET "/".
+[Thu Apr 10 01:31:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr 10 01:31:01 2014] [debug] 304 Not Modified (0.001370s, 729.927/s).
+[Thu Apr 10 01:31:01 2014] [debug] GET "/api/login/status".
+[Thu Apr 10 01:31:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Thu Apr 10 01:31:01 2014] [debug] 200 OK (0.001017s, 983.284/s).
+[Thu Apr 10 01:31:04 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 01:31:04 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 01:31:04 2014] [debug] 200 OK (0.029770s, 33.591/s).
+[Thu Apr 10 01:31:08 2014] [debug] GET "/auth/logout".
+[Thu Apr 10 01:31:08 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Thu Apr 10 01:31:08 2014] [debug] 302 Found (0.001853s, 539.665/s).
+[Thu Apr 10 01:31:08 2014] [debug] GET "/api/login/status".
+[Thu Apr 10 01:31:08 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Thu Apr 10 01:31:08 2014] [debug] 200 OK (0.001239s, 807.103/s).
+[Thu Apr 10 01:31:15 2014] [debug] POST "/auth/whereami".
+[Thu Apr 10 01:31:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Thu Apr 10 01:31:15 2014] [debug] 200 OK (0.002048s, 488.281/s).
+[Thu Apr 10 01:31:15 2014] [debug] GET "/auth/facebook/callback".
+[Thu Apr 10 01:31:16 2014] [debug] GET "/auth/facebook/callback".
+[Thu Apr 10 01:31:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Thu Apr 10 01:31:16 2014] [debug] 302 Found (0.001298s, 770.416/s).
+[Thu Apr 10 01:31:16 2014] [debug] GET "/api/login/status".
+[Thu Apr 10 01:31:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Thu Apr 10 01:31:16 2014] [debug] 200 OK (0.000871s, 1148.106/s).
+[Thu Apr 10 01:31:18 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 01:31:18 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 01:31:18 2014] [debug] 200 OK (0.019562s, 51.120/s).
+[Thu Apr 10 01:31:54 2014] [debug] GET "/auth/logout".
+[Thu Apr 10 01:31:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Thu Apr 10 01:31:54 2014] [debug] 302 Found (0.001475s, 677.966/s).
+[Thu Apr 10 01:31:54 2014] [debug] GET "/".
+[Thu Apr 10 01:31:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr 10 01:31:54 2014] [debug] 304 Not Modified (0.000923s, 1083.424/s).
+[Thu Apr 10 01:31:54 2014] [debug] GET "/api/login/status".
+[Thu Apr 10 01:31:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Thu Apr 10 01:31:54 2014] [debug] 200 OK (0.001458s, 685.871/s).
+[Thu Apr 10 01:31:57 2014] [debug] POST "/auth/whereami".
+[Thu Apr 10 01:31:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Thu Apr 10 01:31:57 2014] [debug] 200 OK (0.001658s, 603.136/s).
+[Thu Apr 10 01:31:58 2014] [debug] GET "/auth/twitter/callback".
+[Thu Apr 10 01:32:02 2014] [debug] GET "/auth/twitter/callback".
+[Thu Apr 10 01:32:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Thu Apr 10 01:32:02 2014] [debug] 302 Found (0.002376s, 420.875/s).
+[Thu Apr 10 01:32:02 2014] [debug] GET "/api/login/status".
+[Thu Apr 10 01:32:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Thu Apr 10 01:32:02 2014] [debug] 200 OK (0.001310s, 763.359/s).
+[Thu Apr 10 01:32:06 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 01:32:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 01:32:06 2014] [debug] 200 OK (0.025951s, 38.534/s).
+[Thu Apr 10 01:32:08 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 01:32:08 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 01:32:08 2014] [debug] 200 OK (0.028478s, 35.115/s).
+[Thu Apr 10 01:32:34 2014] [debug] POST "/api/japan/form".
+[Thu Apr 10 01:32:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr 10 01:32:35 2014] [debug] 200 OK (0.765167s, 1.307/s).
+[Thu Apr 10 01:32:35 2014] [debug] GET "/japan/form/download/japan_form_54d6f79aa67f7211171a2e0b22b6d2a09094a1f2b8c701bae9a457e65f4ce9d5".
+[Thu Apr 10 01:32:35 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr 10 01:32:35 2014] [debug] 200 OK (0.001365s, 732.601/s).
+[Thu Apr 10 01:33:53 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 01:33:53 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 01:33:53 2014] [debug] 200 OK (0.045566s, 21.946/s).
+[Thu Apr 10 01:36:02 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 01:36:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 01:36:02 2014] [debug] 200 OK (0.018893s, 52.930/s).
+[Thu Apr 10 01:36:16 2014] [debug] GET "/".
+[Thu Apr 10 01:36:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr 10 01:36:16 2014] [debug] 200 OK (0.000818s, 1222.494/s).
+[Thu Apr 10 01:36:16 2014] [debug] GET "/api/login/status".
+[Thu Apr 10 01:36:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Thu Apr 10 01:36:16 2014] [debug] 200 OK (0.001455s, 687.285/s).
+[Thu Apr 10 01:36:29 2014] [debug] POST "/auth/whereami".
+[Thu Apr 10 01:36:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Thu Apr 10 01:36:29 2014] [debug] 200 OK (0.001040s, 961.538/s).
+[Thu Apr 10 01:36:29 2014] [debug] GET "/auth/facebook/callback".
+[Thu Apr 10 01:36:38 2014] [debug] POST "/auth/whereami".
+[Thu Apr 10 01:36:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Thu Apr 10 01:36:38 2014] [debug] 200 OK (0.001002s, 998.004/s).
+[Thu Apr 10 01:36:38 2014] [debug] GET "/auth/twitter/callback".
+[Thu Apr 10 01:36:42 2014] [debug] GET "/auth/twitter/callback".
+[Thu Apr 10 01:36:42 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Thu Apr 10 01:36:42 2014] [debug] 302 Found (0.001305s, 766.284/s).
+[Thu Apr 10 01:36:42 2014] [debug] GET "/".
+[Thu Apr 10 01:36:42 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr 10 01:36:42 2014] [debug] 200 OK (0.000897s, 1114.827/s).
+[Thu Apr 10 01:36:42 2014] [debug] GET "/api/login/status".
+[Thu Apr 10 01:36:42 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Thu Apr 10 01:36:42 2014] [debug] 200 OK (0.001278s, 782.473/s).
+[Thu Apr 10 01:36:45 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 01:36:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 01:36:45 2014] [debug] 200 OK (0.016343s, 61.188/s).
+[Thu Apr 10 01:36:58 2014] [debug] POST "/api/japan/form".
+[Thu Apr 10 01:36:58 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "create_form".
+[Thu Apr 10 01:36:59 2014] [debug] 200 OK (0.808087s, 1.237/s).
+[Thu Apr 10 01:36:59 2014] [debug] GET "/japan/form/download/japan_form_1c3373697704c2600629ccef41cb805794eb61a01b4b98cd761dad36e064794d".
+[Thu Apr 10 01:36:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "download_form".
+[Thu Apr 10 01:36:59 2014] [debug] 200 OK (0.001909s, 523.834/s).
+[Thu Apr 10 07:03:10 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 07:03:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 07:03:10 2014] [debug] 200 OK (0.040191s, 24.881/s).
+[Thu Apr 10 07:03:11 2014] [debug] GET "/api/japan/form".
+[Thu Apr 10 07:03:11 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Thu Apr 10 07:03:11 2014] [debug] 200 OK (0.037623s, 26.579/s).
+[Thu Apr 10 07:03:23 2014] [debug] GET "/auth/logout".
+[Thu Apr 10 07:03:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Thu Apr 10 07:03:23 2014] [debug] 302 Found (0.002054s, 486.855/s).
+[Thu Apr 10 07:03:23 2014] [debug] GET "/".
+[Thu Apr 10 07:03:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Thu Apr 10 07:03:23 2014] [debug] 304 Not Modified (0.001341s, 745.712/s).
+[Thu Apr 10 07:03:23 2014] [debug] GET "/api/login/status".
+[Thu Apr 10 07:03:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Thu Apr 10 07:03:23 2014] [debug] 200 OK (0.001547s, 646.412/s).

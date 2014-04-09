@@ -48,6 +48,20 @@ sub insert_twitter_info {
     return $row->id;
 }
 
+sub insert_google_info {
+    my ($self, $ref) = @_;
+    my $data;
+    my $dt = DateTime->now();
+    $data->{google_id} = $ref->{id};
+    $data->{firstname} = $ref->{name}->{givenName}
+        if(defined $ref->{name}->{givenName});
+    $data->{lastname} = $ref->{name}->{familyName}
+        if(defined $ref->{name}->{familyName});
+    $data->{created_at} = $dt;
+    my $row = $self->db->insert('user', $data); 
+    return $row->id;
+}
+
 sub insert_fb_info {
     my ($self, $fb_info) = @_;
     my $data;
