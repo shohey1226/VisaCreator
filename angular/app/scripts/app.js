@@ -19,15 +19,27 @@ angular.module('VisaCreatorApp', [
       })
       .when('/japan-visa-form-step1', {
         templateUrl: 'views/japan-visa-form-step1.html',
-        controller: 'japanVisaFormCtrlStep1'
+        controller: 'visaFormCtrlStep1'
       })
       .when('/japan-visa-form-step2', {
         templateUrl: 'views/japan-visa-form-step2.html',
-        controller: 'japanVisaFormCtrlStep2'
+        controller: 'visaFormCtrlStep2'
       })
       .when('/japan-visa-form-step3', {
         templateUrl: 'views/japan-visa-form-step3.html',
-        controller: 'japanVisaFormCtrlStep3'
+        controller: 'visaFormCtrlStep3'
+      })
+      .when('/schengen-visa-form-step1', {
+        templateUrl: 'views/schengen-visa-form-step1.html',
+        controller: 'visaFormCtrlStep1'
+      })
+      .when('/schengen-visa-form-step2', {
+        templateUrl: 'views/schengen-visa-form-step2.html',
+        controller: 'visaFormCtrlStep2'
+      })
+      .when('/schengen-visa-form-step3', {
+        templateUrl: 'views/schengen-visa-form-step3.html',
+        controller: 'visaFormCtrlStep3'
       })
       .otherwise({
         redirectTo: '/'

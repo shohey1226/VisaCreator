@@ -1,22 +1,19 @@
 'use strict';
 
 angular.module('VisaCreatorApp')
-  .controller('japanVisaFormCtrlStep1', function ($rootScope, $scope, japanVisaService, $location, $localStorage) {
-
+  .controller('visaFormCtrlStep1', function ($scope, $location, $localStorage, $rootScope) {
     $scope.$storage = $localStorage;
     $scope.toStep2 = function(){
-      $location.path('/japan-visa-form-step2');
+      $location.path('/' + $rootScope.targetVisa + '-visa-form-step2');
     };
   })
-  .controller('japanVisaFormCtrlStep2', function ($scope, japanVisaService, $location, $localStorage) {
-
+  .controller('visaFormCtrlStep2', function ($scope, $location, $localStorage, $rootScope) {
     $scope.$storage = $localStorage;
     $scope.toStep3 = function(){
-      $location.path('/japan-visa-form-step3');
+      $location.path('/' + $rootScope.targetVisa + '-visa-form-step3');
     };
   })
-  .controller('japanVisaFormCtrlStep3', function ($scope, japanVisaService, $location, $localStorage, $rootScope) {
-
+  .controller('visaFormCtrlStep3', function ($scope, japanVisaService, $location, $localStorage, $rootScope) {
     $scope.$storage = $localStorage;
     $scope.downloadJapanVisaForm = function(){
       if ($rootScope.loggedIn === false){
@@ -28,7 +25,12 @@ angular.module('VisaCreatorApp')
 
     $scope.downloadNow = function(store){
       console.log($scope.store);
-      var promise = japanVisaService.saveSteps($scope.$storage.user, store);
+      var promise;
+      if ($rootScope.targetVisa === 'japan'){
+          promise = japanVisaService.saveSteps($scope.$storage.user, store);
+      }else if ($rootScope === 'schengen'){
+          promise = schengenVisaService.saveSteps($scope.$storage.user, store);
+      }
       promise.then(function(res)  { 
         var a = document.createElement('a');
         a.href = res.url;
@@ -38,7 +40,6 @@ angular.module('VisaCreatorApp')
       })
       .catch(function(req) { console.log("error to submit form"); })
     };
-
   })
   //==========================================================
   // Login
@@ -73,9 +74,11 @@ angular.module('VisaCreatorApp')
   //==========================================================
   .controller('TopCtrl', function ($scope, $localStorage, $location, $rootScope, japanVisaService) {
       $scope.$storage = $localStorage;
+      $scope.countries = ["Japan", "France", "Spain"];
       
       $scope.goStep = function(country){
-          if (country === 'japan'){ 
+          if (country === 'Japan'){ 
+              $rootScope.targetVisa = 'japan';
               if ( $rootScope.loggedIn === true ){
                   var promise = japanVisaService.getInfo();
                   promise.then(function(res)  { 
@@ -84,6 +87,16 @@ angular.module('VisaCreatorApp')
                   .catch(function(req) { console.log("error to submit form"); })
               }
               $location.path('/japan-visa-form-step1');
+          }else if (country === 'France' || country === 'Spain' ){
+              $rootScope.targetVisa = 'schengen';
+              if ( $rootScope.loggedIn === true ){
+                  var promise = schengenVisaService.getInfo();
+                  promise.then(function(res)  { 
+                      $scope.$storage.user = res;
+                  })
+                  .catch(function(req) { console.log("error to submit form"); })
+              }
+              $location.path('/schengen-visa-form-step1');
           }
       };
       $localStorage.$reset();

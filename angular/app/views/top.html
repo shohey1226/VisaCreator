@@ -1,9 +1,17 @@
 <br>
 <center>
-    <iframe height="350" width="550" src="//player.vimeo.com/video/91511793?portrait=0&player_id=0?byline=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <br>
-    <br>
-    <button class="btn btn-danger" ng-click="goStep('japan')">Start to create Japan visa application</button>
+  <iframe height="350" width="550" src="//player.vimeo.com/video/91511793?portrait=0&player_id=0?byline=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+  <h4>Select country to create VISA application now!</h4>
+  <select class="form-control input-medium" style="width:200px" ng-model="country" ng-options="c for c in countries" ng-change="goStep(country)">
+    <option value="">-- choose country --</option>
+  </select>
+  <br>
+  <br>
+  <!--
+  <button class="btn btn-danger" ng-click="goStep('japan')">Start to create Japan visa application</button>
+  -->
+
 </center>
   <br>
 
