@@ -10,7 +10,7 @@
 
 <h2>Step2: Fill in travel information </h2>
 <br>
-<label for="purpose">Purpose of visit to Japan</label>
+<label for="purpose">Main purpose(s) of the journey:</label>
 <input type="text" class="form-control" id="purpose" placeholder="" ng-model="$storage.user.purpose">
 
 
@@ -18,7 +18,73 @@
 
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="arrivalDate">Date of arrival in Japan</label>
+    <label for="destMemberStates">Member State(s) of destination</label>
+    <input type="text" class="form-control" id="destMemberStates" placeholder="" ng-model="$storage.user.destMemberStates">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="firstMemberState">Member State of first entry</label>
+    <input type="text" class="form-control" id="firstMemberState" placeholder="" ng-model="$storage.user.firstMemberState">
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    Number of entries requested:
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="numOfEntries" id="single" value="single" ng-model="$storage.user.numOfEntries">
+          Single entry
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="numOfEntries" id="two" value="two" ng-model="$storage.user.numOfEntries">
+          Two entries
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="numOfEntries" id="multiple" value="multiple" ng-model="$storage.user.numOfEntries">
+          Multiple entries
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="firstMemberState">Duration of the intended stay or transit Indicate number of days :</label>
+    <input type="text" class="form-control" id="firstMemberState" placeholder="" ng-model="$storage.user.firstMemberState">
+  </div>
+</div>
+<br>
+
+
+Schengen visas issued during the past three years
+<div class="form-inline">
+  <div class="radio">
+    <label> 
+      <input type="radio" name="trafficking" id="traffickingNo" value="no" ng-model="$storage.user.trafficking">
+      No 
+    </label>
+  </div>
+  <div class="radio">
+    <label class="radio inline control-label">
+      <input type="radio" name="trafficking" id="traffickingYes" value="yes" ng-model="$storage.user.trafficking">
+      Yes 
+    </label>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="arrivalDate">Intended date of arrival in the Schengen area</label>
     <input type="text" class="form-control" id="arrivalDate" placeholder="" ng-model="$storage.user.arrivalDate">
   </div>
 
