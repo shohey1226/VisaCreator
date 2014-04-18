@@ -2,135 +2,149 @@
 
 
 <ol class="breadcrumb">
-  <li><a href="#/japan-visa-form-step1">Step1: Input your info</a></li>
-  <li><a href="#/japan-visa-form-step2">Step2: Input travel info</a></li>
-  <li class="active"><a href="#/japan-visa-form-step2">Step3: Input guarantor/inviter info</a></li>
+  <li><a href="#/schengen-visa-form-step1">Step1: Input your info</a></li>
+  <li><a href="#/schengen-visa-form-step2">Step2: Input travel info</a></li>
+  <li class="active"><a href="#/schengen-visa-form-step3">Step3: Input sponsor/family info</a></li>
 </ol>                                                          
              
 
-<h2>Step3: Fill in Guarantor/Inviter Information</h2>
+<h2>Step3: Fill in sponsor/family Information</h2>
 
-<h3>Guarantor</h3>
-
-<strong>Guarantor or reference in Japan</strong><br>
-(Please provide details of the guarantor or the person to be visited in Japan)<br>
-<br>
-<div class="row">
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="guarantorName">Guarantor Name</label>
-    <input type="text" class="form-control" id="guarantorName" placeholder="" ng-model="$storage.user.guarantorName">
-  </div>
-
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="guarantorTel">Guarantor Tel.</label>
-    <input type="text" class="form-control" id="guarantorTel" placeholder="" ng-model="$storage.user.guarantorTel">
-  </div>
-</div>
-
-<br>
-<label for="guarantorAddress">Guarantor Address</label>
-<input type="text" class="form-control" id="guarantorAddress" placeholder="" ng-model="$storage.user.guarantorAddress">
-<br>
-
-
-<div class="row">
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="guarantorDateOfBirth">Guarantor Date of birth</label>
-    <input type="text" class="form-control" id="guarantoDateOfBirth" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="$storage.user.guarantorDateOfBirth">
-  </div>
-
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <strong>Guarantor Sex</strong>
-    <div class="form-inline">
-      <div class="radio">
-        <label class="radio inline control-label">
-          <input type="radio" name="guarantorGender" id="male" value="male" ng-model="$storage.user.guarantorGender">
-          Male 
-        </label>
-      </div>
-      <div class="radio">
-        <label> 
-          <input type="radio" name="guarantorGender" id="female" value="female" ng-model="$storage.user.guarantorGender">
-          Female
-        </label>
-      </div>
+<div class="check-element animate-hide" ng-show="$storage.user.familyMember">
+  Personal data of the family member who is an EU, EEA or CH citizen
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="schengenFamilySurname">Surname</label>
+      <input type="text" class="form-control" id="schengenFamilySurname" placeholder="" ng-model="$storage.user.schengenFamilySurname">
+    </div>
+  
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="schengenFamilyFirstname">First name(s)</label>
+      <input type="text" class="form-control" id="schengenFamilyFirstname" placeholder="" ng-model="$storage.user.schengenFamilyFirstname">
     </div>
   </div>
-</div>
 
-<br>
-<label for="guarantorRelationship">Guarantor Relationship to applicant</label>
-<input type="text" class="form-control" id="guarantorRelationship" placeholder="" ng-model="$storage.user.guarantorRelationship">
-
-<br>
-<label for="guarantorProfession">Guarantor Profession or occupation and position</label>
-<input type="text" class="form-control" id="guarantorProfession" placeholder="" ng-model="$storage.user.guarantorProfession">
-
-<br>
-<label for="guarantorNationality">Guarantor Nationality and immigration status</label>
-<input type="text" class="form-control" id="guarantorNationality" placeholder="" ng-model="$storage.user.guarantorNationality">
-
-<br>
-<h3>Inviter in Japan</h3>
-Please fill in the below in case your guarantor is different from inviter 
-<br>
-<br>
-<div class="row">
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="inviterName">Inviter Name</label>
-    <input type="text" class="form-control" id="inviterName" placeholder="" ng-model="$storage.user.inviterName">
-  </div>
-
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="inviterTel">Inviter Tel.</label>
-    <input type="text" class="form-control" id="inviterTel" placeholder="" ng-model="$storage.user.inviterTel">
-  </div>
-</div>
-
-<br>
-<label for="inviterAddress">Inviter Address</label>
-<input type="text" class="form-control" id="inviterAddress" placeholder="" ng-model="$storage.user.inviterAddress">
-<br>
-
-
-<div class="row">
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="inviterDateOfBirth">Inviter Date of birth</label>
-    <input type="text" class="form-control" id="inviterDateOfBirth" placeholder="Day/Month/Year e.g. 26/12/1979" ng-model="$storage.user.inviterDateOfBirth">
-  </div>
-
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <strong>Inviter Sex</strong>
-    <div class="form-inline">
-      <div class="radio">
-        <label class="radio inline control-label">
-          <input type="radio" name="inviterGender" id="male" value="male" ng-model="$storage.user.inviterGender">
-          Male 
-        </label>
-      </div>
-      <div class="radio">
-        <label> 
-          <input type="radio" name="inviterGender" id="female" value="female" ng-model="$storage.user.inviterGender">
-          Female
-        </label>
-      </div>
+  <div class="row">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <label for="schengenFamilyBirthday">Date of birth</label>
+      <input type="text" class="form-control" id="schengenFamilyBirthday" placeholder="" ng-model="$storage.user.schengenFamilyBirthday">
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <label for="schengenFamilyNationality">Nationality</label>
+      <input type="text" class="form-control" id="schengenFamilyNationality" placeholder="" ng-model="$storage.user.schengenFamilyNationality">
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <label for="schengenFamilyID">Number of travel document or ID card</label>
+      <input type="text" class="form-control" id="schengenFamilyID" placeholder="" ng-model="$storage.user.schengenFamilyID">
     </div>
   </div>
+  <br>
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      Family relationship with an EU, EEA or CH citizen:
+      <div class="form-inline">
+        <div class="radio">
+          <label class="radio inline control-label">
+            <input type="radio" name="schengenFamilyRelation" id="spouse" value="spouse" ng-model="$storage.user.schengenFamilyRelation">
+            spouse
+          </label>
+        </div>
+        <div class="radio">
+          <label> 
+            <input type="radio" name="schengenFamilyRelation" id="child" value="child" ng-model="$storage.user.schengenFamilyRelation">
+            child
+          </label>
+        </div>
+        <div class="radio">
+          <label> 
+            <input type="radio" name="schengenFamilyRelation" id="grandchild" value="grandchild" ng-model="$storage.user.schengenFamilyRelation">
+            grandchild
+          </label>
+        </div>
+        <div class="radio">
+          <label> 
+            <input type="radio" name="schengenFamilyRelation" id="dependent" value="dependent" ng-model="$storage.user.schengenFamilyRelation">
+            dependent ascendant
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="schengenFamilyPlaceDate">Place and date</label>
+      <input type="text" class="form-control" id="schengenFamilyPlaceDate" placeholder="" ng-model="$storage.user.schengenFamilyPlaceDate">
+    </div>
+  </div>
+<br>
 </div>
 
-<br>
-<label for="inviterRelationship">Inviter Relationship to applicant</label>
-<input type="text" class="form-control" id="inviterRelationship" placeholder="" ng-model="$storage.user.inviterRelationship">
 
-<br>
-<label for="inviterProfession">Inviter Profession or occupation and position</label>
-<input type="text" class="form-control" id="inviterProfession" placeholder="" ng-model="$storage.user.inviterProfession">
+<div class="check-element animate-hide" ng-hide="$storage.user.familyMember">
+  Inviting person(s) in the Member State(s) 
+  <br>
+  <label for="inviterName">Inviter Name</label>
+  <input type="text" class="form-control" id="inviterName" placeholder="" ng-model="$storage.user.inviterName">
+  
+  <label for="inviterAddress">Inviter's Address</label>
+  <input type="text" class="form-control" id="inviterAddress" placeholder="" ng-model="$storage.user.inviterAddress">
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="inviterEmail">Inviter's Email</label>
+      <input type="text" class="form-control" id="inviterEmail" placeholder="" ng-model="$storage.user.inviterEmail">
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="inviterTel">Inviter's Telephone/Telfax.</label>
+      <input type="text" class="form-control" id="inviterTel" placeholder="" ng-model="$storage.user.inviterTel">
+    </div>
+  </div>
+  <br>
+  
+  Name and address of inviting company/organisation<br>
+  <label for="guarantorAddress">Company/organisation Address</label>
+  <input type="text" class="form-control" id="guarantorAddress" placeholder="" ng-model="$storage.user.guarantorAddress">
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="guarantorName">Company/organisation Name</label>
+      <input type="text" class="form-control" id="guarantorName" placeholder="" ng-model="$storage.user.guarantorName">
+    </div>
+  
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="guarantorTel">Telephone and telefax of company/organisation</label>
+      <input type="text" class="form-control" id="guarantorTel" placeholder="" ng-model="$storage.user.guarantorTel">
+    </div>
+  </div>
+  <br>
+  
+  Contact person in company/organisation
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="contactName">Conact's surname</label>
+      <input type="text" class="form-control" id="contactName" placeholder="" ng-model="$storage.user.contactName">
+    </div>
+  
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="contactTel">Contact's firstname</label>
+      <input type="text" class="form-control" id="contactTel" placeholder="" ng-model="$storage.user.contactTel">
+    </div>
+  </div>
+  <label for="contactAddress">Contact's Address</label>
+  <input type="text" class="form-control" id="contactAddress" placeholder="" ng-model="$storage.user.contactAddress">
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="contactName">Contact's Email</label>
+      <input type="text" class="form-control" id="contactName" placeholder="" ng-model="$storage.user.contactName">
+    </div>
+  
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="contactTel">Contact's telephone and telefax</label>
+      <input type="text" class="form-control" id="contactTel" placeholder="" ng-model="$storage.user.contactTel">
+    </div>
+  </div>
+  <br>
+  Cost of travelling and living during the applicant's stay is covered
 
-<br>
-<label for="inviterNationality">Inviter Nationality and immigration status</label>
-<input type="text" class="form-control" id="inviterNationality" placeholder="" ng-model="$storage.user.inviterNationality">
+</div>
 
-<br>
+<br><br>
 
 <button type="button" class="btn btn-primary btn-lg btn-block" ng-click="downloadJapanVisaForm(user)">Download Japn visa application PDF</button>
 

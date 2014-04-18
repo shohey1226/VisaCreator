@@ -2,13 +2,59 @@
 <h2> Schengen Visa</h2>
 
 <ol class="breadcrumb">
-  <li class="active"><a href="#/japan-visa-form-step1">Step1: Input your info</a></li>
+  <li class="active"><a href="#/schengen-visa-form-step1">Step1: Input your info</a></li>
   <li>Step2: Input travel info</li>
-  <li>Step3: Input guarantor/inviter info</li>
+  <li>Step3: Input sponsor/family info</li>
 </ol>
 
 
 <h2> Step1 : Input your information </h2>
+<br>
+
+<div class="row">
+  <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+    Do you have family member who is an EU, EEA or CH citizen? 
+  </div>
+  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="schengenFamilyMember" id="familyMemberYes" value="true" ng-model="$storage.user.familyMember">
+            Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="schengenFamilyMember" id="familyMemberNo" value="false" ng-model="$storage.user.familyMember">
+            No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+    Do you have inviting person(s)?  
+  </div>
+  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    <div class="form-inline">
+      <div class="radio">
+        <label class="radio inline control-label">
+          <input type="radio" name="existInviter" id="existInviterYes" value="true" ng-model="$storage.user.existInviter">
+            Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label> 
+          <input type="radio" name="existInviter" id="existInviterNo" value="false" ng-model="$storage.user.existInviter">
+            No 
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
 <br>
 
 <label for="surname">Surname (Familiy name)</label>
@@ -249,26 +295,27 @@ Type of travel document
 </div>
 <br>
 
-<label for="profession">Current occupation</label>
-<input type="text" class="form-control" id="profession" placeholder="e.g. IT Engineer" ng-model="$storage.user.profession">
-<br>
-
-<strong>Employer and employer's address and telephone number. For students, name and address of educational establishment.</strong>
-<div class="row">
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="employerName">Employer Name</label>
-    <input type="text" class="form-control" id="employerName" placeholder="" ng-model="$storage.user.employerName">
+<div class="check-element" ng-hide="$storage.user.familyMember">
+  <label for="profession">Applicant's current occupation</label>
+  <input type="text" class="form-control" id="profession" placeholder="e.g. IT Engineer" ng-model="$storage.user.profession">
+  <br>
+  
+  <strong>Applicant's Employer and employer's address and telephone number. For students, name and address of educational establishment.</strong>
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="employerName">Employer Name</label>
+      <input type="text" class="form-control" id="employerName" placeholder="" ng-model="$storage.user.employerName">
+    </div>
+  
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <label for="employerTel">Employer Tel.</label>
+      <input type="text" class="form-control" id="employerTel" placeholder="" ng-model="$storage.user.employerTel">
+    </div>
   </div>
-
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="employerTel">Employer Tel.</label>
-    <input type="text" class="form-control" id="employerTel" placeholder="" ng-model="$storage.user.employerTel">
-  </div>
+  
+  <label for="employerAddres">Employer Address</label>
+  <input type="text" class="form-control" id="employerAddress" placeholder="" ng-model="$storage.user.employerAddress">
 </div>
-
-<label for="employerAddres">Employer Address</label>
-<input type="text" class="form-control" id="employerAddress" placeholder="" ng-model="$storage.user.employerAddress">
-
 <br>
 
 Schengen visas issued during the past three years
@@ -308,6 +355,23 @@ Fingerprints collected previously for the purpose of applying for a Schengen vis
       Yes. Date, if known :
     </label>
     <input type="text" class="form-control" id="fingerprintsDate" placeholder="" ng-model="$storage.user.finterprintsDate">
+  </div>
+</div>
+<br>
+
+Entry permit for the final country of destination, where applicable
+<div class="row">
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    <label for="finalDestIssuedBy">Issued by </label>
+    <input type="text" class="form-control" id="finalDestIssuedBy" placeholder="" ng-model="$storage.user.finalDestIssuedBy"> 
+  </div>
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    <label for="finalDestValidFrom">valid from </label>
+    <input type="text" class="form-control" id="finalDestValidFrom" placeholder="" ng-model="$storage.user.finalDestValidFrom"> 
+  </div>
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    <label for="finalDestValidUntil">until </label>
+    <input type="text" class="form-control" id="finalDestValidUntil" placeholder="" ng-model="$storage.user.finalDestValidUntil"> 
   </div>
 </div>
 <br>

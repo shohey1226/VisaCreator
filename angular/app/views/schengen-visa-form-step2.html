@@ -1,19 +1,80 @@
 <div class="container">
 
 <ol class="breadcrumb">
-  <li><a href="#/japan-visa-form-step1">Step1: Input your info</a></li>
-  <li class="active"><a href="#/japan-visa-form-step2">Step2: Input travel info</a></li>
-  <li>Step3: Input guarantor/inviter info</li>
+  <li><a href="#/schengen-visa-form-step1">Step1: Input your info</a></li>
+  <li class="active"><a href="#/schengen-visa-form-step2">Step2: Input travel info</a></li>
+  <li>Step3: Input sponsor/family info</li>
 </ol>                       
-                   
-
 
 <h2>Step2: Fill in travel information </h2>
 <br>
-<label for="purpose">Main purpose(s) of the journey:</label>
-<input type="text" class="form-control" id="purpose" placeholder="" ng-model="$storage.user.purpose">
 
-
+<strong>Main purpose(s) of the journey:</strong>
+<div class="form-inline">
+  <div class="radio">
+    <label class="radio inline control-label">
+      <input type="radio" name="purpose" id="tourism" value="tourism" ng-model="$storage.user.purpose">
+      Tourism
+    </label>
+  </div>
+  <div class="radio">
+    <label> 
+      <input type="radio" name="purpose" id="business" value="business" ng-model="$storage.user.purpose">
+      Business
+    </label>
+  </div>
+  <div class="radio">
+    <label> 
+      <input type="radio" name="purpose" id="visiting" value="visiting" ng-model="$storage.user.purpose">
+      Visiting family or friends
+    </label>
+  </div>
+  <div class="radio">
+    <label> 
+      <input type="radio" name="purpose" id="cultural" value="cultural" ng-model="$storage.user.purpose">
+      Cultural
+    </label>
+  </div>
+  <div class="radio">
+    <label> 
+      <input type="radio" name="purpose" id="sports" value="sports" ng-model="$storage.user.purpose">
+      Sports
+    </label>
+  </div>
+  <div class="radio">
+    <label> 
+      <input type="radio" name="purpose" id="official" value="official" ng-model="$storage.user.purpose">
+      Official vist
+    </label>
+  </div>
+  <div class="radio">
+    <label> 
+      <input type="radio" name="purpose" id="study" value="study" ng-model="$storage.user.purpose">
+      Study
+    </label>
+  </div>
+  <div class="radio">
+    <label> 
+      <input type="radio" name="purpose" id="medical" value="medical" ng-model="$storage.user.purpose">
+      Medical reasons
+    </label>
+  </div>
+  <div class="radio">
+    <label> 
+      <input type="radio" name="purpose" id="transit" value="transit" ng-model="$storage.user.purpose">
+      Transit
+    </label>
+  </div>
+  <div class="radio">
+    <label> 
+      <input type="radio" name="purpose" id="airportTransit" value=airportTransit" ng-model="$storage.user.purpose">
+      Airport transit
+    </label>
+  </div>
+  <br>
+  <label for="purposeOther">Other </label>
+  <input type="text" class="form-control" name="purpose" id="purposeOther" ng-model="$storage.user.purposeOther">
+</div>
 <br>
 
 <div class="row">
@@ -27,11 +88,22 @@
     <input type="text" class="form-control" id="firstMemberState" placeholder="" ng-model="$storage.user.firstMemberState">
   </div>
 </div>
-
 <br>
 
 <div class="row">
-  
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="arrivalDate">Intended date of arrival in the Schengen area</label>
+    <input type="text" class="form-control" id="arrivalDate" placeholder="" ng-model="$storage.user.arrivalDate">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="depatureDate">Intended date of departure from the Schengen area</label>
+    <input type="text" class="form-control" id="depatureDate" placeholder="" ng-model="$storage.user.depatureDate">
+  </div>
+</div>
+<br>
+
+<div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
     Number of entries requested:
     <div class="form-inline">
@@ -61,153 +133,23 @@
     <input type="text" class="form-control" id="firstMemberState" placeholder="" ng-model="$storage.user.firstMemberState">
   </div>
 </div>
-<br>
 
-Entry permit for the final country of destination, where applicable
-<div class="row">
-  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-    <label for="finalDestIssuedBy">Issued by </label>
-    <input type="text" class="form-control" id="finalDestIssuedBy" placeholder="" ng-model="$storage.user.finalDestIssuedBy"> 
+<div class="check-element" ng-hide="$storage.user.familyMember">
+  <div class="check-element" ng-hide="$storage.user.existInviter">
+    <label for="accommodationAddress">Hotel/Temporary accommodation Address</label>
+    <input type="text" class="form-control" id="accommodationAddress" placeholder="" ng-model="$storage.user.accommodationAddress">
+    <div class="row">
+      <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+        <label for="accommodationEmail">Hotel/Temporary accommodation Email</label>
+        <input type="text" class="form-control" id="accommodationEmail" placeholder="" ng-model="$storage.user.accommodationEmail">
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <label for="accommodationTel" >Telphone/Telfax</label>
+        <input type="text" class="form-control" id="accommodationTel" placeholder="" ng-model="$storage.user.accommodationTel">
+      </div>
+    </div>
+    <br>
   </div>
-  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-    <label for="finalDestValidFrom">valid from </label>
-    <input type="text" class="form-control" id="finalDestValidFrom" placeholder="" ng-model="$storage.user.finalDestValidFrom"> 
-  </div>
-  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-    <label for="finalDestValidUntil">until </label>
-    <input type="text" class="form-control" id="finalDestValidUntil" placeholder="" ng-model="$storage.user.finalDestValidUntil"> 
-  </div>
-</div>
-<br>
-
-<div class="row">
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="arrivalDate">Intended date of arrival in the Schengen area</label>
-    <input type="text" class="form-control" id="arrivalDate" placeholder="" ng-model="$storage.user.arrivalDate">
-  </div>
-
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="depatureDate">Intended date of departure from the Schengen area</label>
-    <input type="text" class="form-control" id="depatureDate" placeholder="" ng-model="$storage.user.depatureDate">
-  </div>
-</div>
-<br>
-
-Surname and first name of the inviting person(s) in the Member State(s). If not applicable, name of hotel(s) or temporary accommodation(s) in the Member State(s)
-<div class="row">
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="inviterName">Inviter Name</label>
-    <input type="text" class="form-control" id="inviterName" placeholder="" ng-model="$storage.user.inviterName">
-  </div>
-
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-   <label for="accommodationName">Or, Name of hotel(s)/Temporary accommodation(s)</label>
-   <input type="text" class="form-control" id="accommodationName" placeholder="" ng-model="$storage.user.accommodation">
-  </div>
-</div>
-<br>
-
-Address and e-mail address of inviting person(s)/hotel(s)/temporary accommodation(s)
-
-<br>
-<label for="inviterAddress">Inviter's Address</label>
-<input type="text" class="form-control" id="inviterAddress" placeholder="" ng-model="$storage.user.inviterAddress">
-<div class="row">
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="inviterEmail">Inviter's Email</label>
-    <input type="text" class="form-control" id="inviterEmail" placeholder="" ng-model="$storage.user.inviterEmail">
-  </div>
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="inviterTel">Inviter's Telephone/Telfax.</label>
-    <input type="text" class="form-control" id="inviterTel" placeholder="" ng-model="$storage.user.inviterTel">
-  </div>
-</div>
-<br>
-Or
-<br>
-<label for="accommodationAddress">Hotel/Temporary accommodation Address</label>
-<input type="text" class="form-control" id="accommodationAddress" placeholder="" ng-model="$storage.user.accommodationAddress">
-<div class="row">
-  <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-    <label for="accommodationEmail">Hotel/Temporary accommodation Email</label>
-    <input type="text" class="form-control" id="accommodationEmail" placeholder="" ng-model="$storage.user.accommodationEmail">
-  </div>
-  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-    <label for="accommodationTel" >Telphone/Telfax</label>
-    <input type="text" class="form-control" id="accommodationTel" placeholder="" ng-model="$storage.user.accommodationTel">
-  </div>
-</div>
-
-<br>
-
-Name and address of inviting company/organisation<br>
-<label for="guarantorAddress">Company/organisation Address</label>
-<input type="text" class="form-control" id="guarantorAddress" placeholder="" ng-model="$storage.user.guarantorAddress">
-<div class="row">
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="guarantorName">Company/organisation Name</label>
-    <input type="text" class="form-control" id="guarantorName" placeholder="" ng-model="$storage.user.guarantorName">
-  </div>
-
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="guarantorTel">Telephone and telefax of company/organisation</label>
-    <input type="text" class="form-control" id="guarantorTel" placeholder="" ng-model="$storage.user.guarantorTel">
-  </div>
-</div>
-
-<br>
-
-
-
-
-Telephone and telefax of company/organisation
-
-Surname, first name, address, telephone, telefax, and e-mail address of contact person in company/organisation
-
-
-
-
-
-<div class="row">
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="shipAirline">Name of ship or airline</label>
-    <input type="text" class="form-control" id="shipAirline" placeholder="" ng-model="$storage.user.shipAirline">
-  </div>
-
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="intendedLength">Intended length of stay in Japan</label>
-    <input type="text" class="form-control" id="intendedLength" placeholder="" ng-model="$storage.user.intendedLength">
-  </div>
-</div>
-
-<br>
-<strong>Names and addresses of hotels or persons with whom applicant intends to stay</strong>
-<br>
-<div class="row">
-  <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-    <label for="accommodationName">Name</label>
-    <input type="text" class="form-control" id="accommodationName" placeholder="" ng-model="$storage.user.accommodation">
-  </div>
-
-  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-    <label for="accommodationTel" >Tel</label>
-    <input type="text" class="form-control" id="accommodationTel" placeholder="" ng-model="$storage.user.accommodationTel">
-  </div>
-</div>
-
-<br>
-
-<label for="accommodationAddress">Address</label>
-<input type="text" class="form-control" id="accommodationAddress" placeholder="" ng-model="$storage.user.accommodationAddress">
-
-<br>
-
-<div class="row">
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="previousStays">Dates and duration of previous stays in Japan</label>
-    <input type="text" class="form-control" id="previousStays" placeholder="" ng-model="$storage.user.previousStays">
-  </div>
-  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"></div>
 </div>
 
 <br><br>
