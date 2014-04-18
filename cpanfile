@@ -14,3 +14,4 @@ requires "Digest::SHA";
 requires "Mojolicious::Plugin::Web::Auth";
 requires "DateTime";
 requires "Hash::Merge";
+requires "Starlet";

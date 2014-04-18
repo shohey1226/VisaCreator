@@ -63,24 +63,22 @@
 </div>
 <br>
 
-
-Schengen visas issued during the past three years
-<div class="form-inline">
-  <div class="radio">
-    <label> 
-      <input type="radio" name="trafficking" id="traffickingNo" value="no" ng-model="$storage.user.trafficking">
-      No 
-    </label>
+Entry permit for the final country of destination, where applicable
+<div class="row">
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    <label for="finalDestIssuedBy">Issued by </label>
+    <input type="text" class="form-control" id="finalDestIssuedBy" placeholder="" ng-model="$storage.user.finalDestIssuedBy"> 
   </div>
-  <div class="radio">
-    <label class="radio inline control-label">
-      <input type="radio" name="trafficking" id="traffickingYes" value="yes" ng-model="$storage.user.trafficking">
-      Yes 
-    </label>
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    <label for="finalDestValidFrom">valid from </label>
+    <input type="text" class="form-control" id="finalDestValidFrom" placeholder="" ng-model="$storage.user.finalDestValidFrom"> 
+  </div>
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    <label for="finalDestValidUntil">until </label>
+    <input type="text" class="form-control" id="finalDestValidUntil" placeholder="" ng-model="$storage.user.finalDestValidUntil"> 
   </div>
 </div>
-
-
+<br>
 
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -89,12 +87,86 @@ Schengen visas issued during the past three years
   </div>
 
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    <label for="portEntry">Port of entry into Japan</label>
-    <input type="text" class="form-control" id="portEntry" placeholder="e.g. Narita" ng-model="$storage.user.portEntry">
+    <label for="depatureDate">Intended date of departure from the Schengen area</label>
+    <input type="text" class="form-control" id="depatureDate" placeholder="" ng-model="$storage.user.depatureDate">
+  </div>
+</div>
+<br>
+
+Surname and first name of the inviting person(s) in the Member State(s). If not applicable, name of hotel(s) or temporary accommodation(s) in the Member State(s)
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="inviterName">Inviter Name</label>
+    <input type="text" class="form-control" id="inviterName" placeholder="" ng-model="$storage.user.inviterName">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+   <label for="accommodationName">Or, Name of hotel(s)/Temporary accommodation(s)</label>
+   <input type="text" class="form-control" id="accommodationName" placeholder="" ng-model="$storage.user.accommodation">
+  </div>
+</div>
+<br>
+
+Address and e-mail address of inviting person(s)/hotel(s)/temporary accommodation(s)
+
+<br>
+<label for="inviterAddress">Inviter's Address</label>
+<input type="text" class="form-control" id="inviterAddress" placeholder="" ng-model="$storage.user.inviterAddress">
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="inviterEmail">Inviter's Email</label>
+    <input type="text" class="form-control" id="inviterEmail" placeholder="" ng-model="$storage.user.inviterEmail">
+  </div>
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="inviterTel">Inviter's Telephone/Telfax.</label>
+    <input type="text" class="form-control" id="inviterTel" placeholder="" ng-model="$storage.user.inviterTel">
+  </div>
+</div>
+<br>
+Or
+<br>
+<label for="accommodationAddress">Hotel/Temporary accommodation Address</label>
+<input type="text" class="form-control" id="accommodationAddress" placeholder="" ng-model="$storage.user.accommodationAddress">
+<div class="row">
+  <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+    <label for="accommodationEmail">Hotel/Temporary accommodation Email</label>
+    <input type="text" class="form-control" id="accommodationEmail" placeholder="" ng-model="$storage.user.accommodationEmail">
+  </div>
+  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    <label for="accommodationTel" >Telphone/Telfax</label>
+    <input type="text" class="form-control" id="accommodationTel" placeholder="" ng-model="$storage.user.accommodationTel">
   </div>
 </div>
 
 <br>
+
+Name and address of inviting company/organisation<br>
+<label for="guarantorAddress">Company/organisation Address</label>
+<input type="text" class="form-control" id="guarantorAddress" placeholder="" ng-model="$storage.user.guarantorAddress">
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="guarantorName">Company/organisation Name</label>
+    <input type="text" class="form-control" id="guarantorName" placeholder="" ng-model="$storage.user.guarantorName">
+  </div>
+
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <label for="guarantorTel">Telephone and telefax of company/organisation</label>
+    <input type="text" class="form-control" id="guarantorTel" placeholder="" ng-model="$storage.user.guarantorTel">
+  </div>
+</div>
+
+<br>
+
+
+
+
+Telephone and telefax of company/organisation
+
+Surname, first name, address, telephone, telefax, and e-mail address of contact person in company/organisation
+
+
+
+
 
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">

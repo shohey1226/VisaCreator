@@ -269,6 +269,51 @@ Type of travel document
 <label for="employerAddres">Employer Address</label>
 <input type="text" class="form-control" id="employerAddress" placeholder="" ng-model="$storage.user.employerAddress">
 
+<br>
+
+Schengen visas issued during the past three years
+<div class="form-inline">
+  <div class="radio">
+    <label> 
+      <input type="radio" name="visaPast" id="visaPastNo" value="no" ng-model="$storage.user.visaPast">
+      No 
+    </label>
+  </div>
+  <div class="radio">
+    <label class="radio inline control-label">
+      <input type="radio" name="visaPast" id="visaPastYes" value="yes" ng-model="$storage.user.visaPast">
+      Yes 
+    </label>
+    <input type="text" class="form-control" id="visaPast3Y1From" placeholder="" ng-model="$storage.user.visaPast3Y1From">/
+    <input type="text" class="form-control" id="visaPast3Y1To" placeholder="" ng-model="$storage.user.visaPast3Y1To">, 
+    <input type="text" class="form-control" id="visaPast3Y2From" placeholder="" ng-model="$storage.user.visaPast3Y2From">/
+    <input type="text" class="form-control" id="visaPast3Y2To" placeholder="" ng-model="$storage.user.visaPast3Y2To">, 
+    <input type="text" class="form-control" id="visaPast3Y3From" placeholder="" ng-model="$storage.user.visaPast3Y3From">/
+    <input type="text" class="form-control" id="visaPast3Y3To" placeholder="" ng-model="$storage.user.visaPast3Y3To">
+  </div>
+</div>
+
+<br>
+Fingerprints collected previously for the purpose of applying for a Schengen visa
+<div class="form-inline">
+  <div class="radio">
+    <label> 
+      <input type="radio" name="fingerprints" id="fingerprintsNo" value="no" ng-model="$storage.user.fingerprints">
+      No 
+    </label>
+  </div>
+  <div class="radio">
+    <label class="radio inline control-label">
+      <input type="radio" name="fingerprints" id="fingerprintsYes" value="yes" ng-model="$storage.user.fingerprints">
+      Yes. Date, if known :
+    </label>
+    <input type="text" class="form-control" id="fingerprintsDate" placeholder="" ng-model="$storage.user.finterprintsDate">
+  </div>
+</div>
+<br>
+
+
+
 <!--
 <br>
 <label for="partner">*Partner's profession/occupation (or that of parents, if applicant is a minor):</label>

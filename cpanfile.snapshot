@@ -1798,6 +1798,12 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0.31
       Time::HiRes 0
+  IPC-Signal-1.00
+    pathname: R/RO/ROSCH/IPC-Signal-1.00.tar.gz
+    provides:
+      IPC::Signal 1.00
+    requirements:
+      ExtUtils::MakeMaker 0
   Import-Into-1.002001
     pathname: H/HA/HAARG/Import-Into-1.002001.tar.gz
     provides:
@@ -2309,6 +2315,22 @@ DISTRIBUTIONS
       XSLoader 0
       strict 0
       warnings 0
+  Parallel-Prefork-0.15
+    pathname: K/KA/KAZUHO/Parallel-Prefork-0.15.tar.gz
+    provides:
+      Parallel::Prefork 0.15
+      Parallel::Prefork::SpareWorkers undef
+      Parallel::Prefork::SpareWorkers::Scoreboard undef
+    requirements:
+      Class::Accessor::Lite 0.04
+      ExtUtils::MakeMaker 6.42
+      List::MoreUtils 0
+      Proc::Wait3 0.03
+      Scope::Guard 0
+      Signal::Mask 0
+      Test::Requires 0
+      Test::SharedFork 0
+      perl 5.008001
   Params-Util-1.07
     pathname: A/AD/ADAMK/Params-Util-1.07.tar.gz
     provides:
@@ -2478,6 +2500,12 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.30
       File::Spec 0
       strict 0
+  Proc-Wait3-0.04
+    pathname: C/CT/CTILMES/Proc-Wait3-0.04.tar.gz
+    provides:
+      Proc::Wait3 0.04
+    requirements:
+      ExtUtils::MakeMaker 0
   Role-Tiny-1.003003
     pathname: H/HA/HAARG/Role-Tiny-1.003003.tar.gz
     provides:
@@ -2509,6 +2537,39 @@ DISTRIBUTIONS
       Scalar::Util 0
       parent 0
       perl 5.008001
+  Scope-Guard-0.20
+    pathname: C/CH/CHOCOLATE/Scope-Guard-0.20.tar.gz
+    provides:
+      Scope::Guard 0.20
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      perl 5.006001
+  Server-Starter-0.17
+    pathname: K/KA/KAZUHO/Server-Starter-0.17.tar.gz
+    provides:
+      Server::Starter 0.17
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Getopt::Long 0
+      List::MoreUtils 0
+      Proc::Wait3 0
+      Scope::Guard 0
+      Test::TCP 2.00
+      perl 5.008
+  Signal-Mask-0.007
+    pathname: L/LE/LEONT/Signal-Mask-0.007.tar.gz
+    provides:
+      Signal::Mask 0.007
+      Signal::Pending 0.007
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      IPC::Signal 0
+      POSIX 0
+      Thread::SigMask 0
+      strict 0
+      warnings 0
   Sort-Naturally-1.03
     pathname: B/BI/BINGOS/Sort-Naturally-1.03.tar.gz
     provides:
@@ -2516,6 +2577,21 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5
+  Starlet-0.22
+    pathname: K/KA/KAZUHO/Starlet-0.22.tar.gz
+    provides:
+      Plack::Handler::Starlet undef
+      Starlet 0.22
+      Starlet::Server undef
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      LWP::UserAgent 5.8
+      Parallel::Prefork 0.13
+      Plack 0.992
+      Server::Starter 0.06
+      Test::More 0.88
+      Test::TCP 0.15
+      perl 5.008001
   Stream-Buffered-0.02
     pathname: D/DO/DOY/Stream-Buffered-0.02.tar.gz
     provides:
@@ -2869,6 +2945,18 @@ DISTRIBUTIONS
     requirements:
       Compress::Zlib 0
       ExtUtils::MakeMaker 0
+  Thread-SigMask-0.004
+    pathname: L/LE/LEONT/Thread-SigMask-0.004.tar.gz
+    provides:
+      Thread::SigMask 0.004
+    requirements:
+      Exporter 5.57
+      ExtUtils::CBuilder 0
+      Module::Build 0.3601
+      XSLoader 0
+      perl 5.006
+      strict 0
+      warnings 0
   Try-Tiny-0.20
     pathname: D/DO/DOY/Try-Tiny-0.20.tar.gz
     provides:
