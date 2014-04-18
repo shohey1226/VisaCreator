@@ -140,8 +140,36 @@
     </div>
   </div>
   <br>
-  Cost of travelling and living during the applicant's stay is covered
 
+  <strong>Cost of travelling and living during the applicant's stay is covered</strong>
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <div class="checkbox"><label><input type="checkbox" ng-model="bymyself">by the applicant himself/herself</label></div>
+      Means of support
+      <div class="checkbox"><label><input type="checkbox" ng-model="bymyselfCash">Cash</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="bymyselfTC">Traveller’s cheques</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="bymyselfCC">Credit card</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="bymyselfPreAcco">Pre-paid accommodation</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="bymyselfPreTrans">Pre-paid transport</label></div>
+      <label for="myselfMeansOther">Other</label>
+      <input type="text" class="form-control" id="myselfMeansOther" placeholder="" ng-model="$storage.user.myselfMeansOther">
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsor">by a sponsor (host, company, organisation),</label></div>
+      Please specify
+      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsor3132">referred to in field 31or 32</label></div>
+      <label for="sponsorMeansOther">Other</label>
+      <input type="text" class="form-control" id="sponsorMeansOther" placeholder="" ng-model="$storage.user.sponsorMeansOther">
+      <br>
+      Means of support
+      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsorCash">Cash</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsorAcco">Accomodation provided</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsorCovered">All expenses covered during the stay</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsorPreTrans">Pre-paid transport</label></div>
+      <label for="sponsorMeansOther">Other</label>
+      <input type="text" class="form-control" id="sponsorMeansOther" placeholder="" ng-model="$storage.user.sponsorMeansOther">
+    </div>
+  </div>
 </div>
 
 <br><br>
