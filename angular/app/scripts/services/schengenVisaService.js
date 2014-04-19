@@ -46,6 +46,12 @@ angular.module('VisaCreatorApp')
           else if (user[key] === 'official'){ 
               userInfo.passportTypeOfficial = 'X';
           }
+          else if (user[key] === 'service'){ 
+              userInfo.passportTypeService = 'X';
+          }
+          else if (user[key] === 'special'){ 
+              userInfo.passportTypeSpecial = 'X';
+          }
           else if (user[key] === 'ordinary'){ 
               userInfo.passportTypeOrdinary = 'X';
           }
