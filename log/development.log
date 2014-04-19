@@ -13139,3 +13139,655 @@ BIND    : $VAR1 = [
 [Mon Apr 14 11:20:20 2014] [debug] GET "/api/login/status".
 [Mon Apr 14 11:20:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
 [Mon Apr 14 11:20:20 2014] [debug] 200 OK (0.001764s, 566.893/s).
+[Sat Apr 19 08:58:37 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 08:58:37 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 08:58:37 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 08:58:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 08:58:51 2014] [debug] GET "/".
+[Sat Apr 19 08:58:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 08:58:51 2014] [debug] 200 OK (0.003491s, 286.451/s).
+[Sat Apr 19 08:58:51 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 08:58:51 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 08:58:51 2014] [debug] 200 OK (0.001639s, 610.128/s).
+[Sat Apr 19 08:59:29 2014] [debug] POST "/auth/whereami".
+[Sat Apr 19 08:59:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Sat Apr 19 08:59:29 2014] [debug] 200 OK (0.002211s, 452.284/s).
+[Sat Apr 19 08:59:30 2014] [debug] GET "/auth/twitter/callback".
+[Sat Apr 19 08:59:34 2014] [debug] GET "/auth/twitter/callback".
+[Sat Apr 19 08:59:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Sat Apr 19 08:59:34 2014] [debug] 302 Found (0.001491s, 670.691/s).
+[Sat Apr 19 08:59:34 2014] [debug] GET "/".
+[Sat Apr 19 08:59:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 08:59:34 2014] [debug] 304 Not Modified (0.000889s, 1124.859/s).
+[Sat Apr 19 08:59:34 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 08:59:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 08:59:34 2014] [debug] 200 OK (0.001154s, 866.551/s).
+[Sat Apr 19 08:59:38 2014] [debug] GET "/api/japan/form".
+[Sat Apr 19 08:59:39 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Sat Apr 19 08:59:39 2014] [debug] 200 OK (0.286615s, 3.489/s).
+[Sat Apr 19 09:02:57 2014] [debug] GET "/api/japan/form".
+[Sat Apr 19 09:02:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Sat Apr 19 09:02:57 2014] [debug] 200 OK (0.125350s, 7.978/s).
+[Sat Apr 19 09:04:43 2014] [debug] GET "/".
+[Sat Apr 19 09:04:43 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 09:04:43 2014] [debug] 200 OK (0.000968s, 1033.058/s).
+[Sat Apr 19 09:04:43 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 09:04:43 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 09:04:43 2014] [debug] 200 OK (0.001243s, 804.505/s).
+[Sat Apr 19 09:04:52 2014] [debug] GET "/".
+[Sat Apr 19 09:04:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 09:04:52 2014] [debug] 200 OK (0.001216s, 822.368/s).
+[Sat Apr 19 09:04:52 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 09:04:52 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 09:04:52 2014] [debug] 200 OK (0.001261s, 793.021/s).
+[Sat Apr 19 09:05:02 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 09:05:02 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 09:05:02 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 09:22:12 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 09:22:12 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 09:22:12 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 09:22:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 09:22:24 2014] [debug] GET "/".
+[Sat Apr 19 09:22:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 09:22:24 2014] [debug] 200 OK (0.003568s, 280.269/s).
+[Sat Apr 19 09:22:24 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 09:22:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 09:22:24 2014] [debug] 200 OK (0.001644s, 608.273/s).
+[Sat Apr 19 09:22:28 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 09:22:28 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr 19 09:22:28 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Apr 19 09:22:28 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Apr 19 09:22:28 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Sat Apr 19 09:22:28 2014] [debug] 404 Not Found (0.069694s, 14.348/s).
+[Sat Apr 19 09:23:16 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 09:23:16 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr 19 09:23:16 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Apr 19 09:23:16 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Apr 19 09:23:16 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Sat Apr 19 09:23:16 2014] [debug] 404 Not Found (0.041292s, 24.218/s).
+[Sat Apr 19 09:23:46 2014] [debug] GET "/api/japan/form".
+[Sat Apr 19 09:23:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Sat Apr 19 09:23:46 2014] [debug] 200 OK (0.345373s, 2.895/s).
+[Sat Apr 19 09:55:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 09:55:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 09:55:24 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 09:56:25 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 09:56:25 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 09:56:25 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 09:57:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 09:57:08 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 09:57:08 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 09:57:08 2014] [debug] 200 OK (0.250858s, 3.986/s).
+[Sat Apr 19 10:04:48 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 10:04:48 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 10:04:48 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 10:09:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 10:09:19 2014] [debug] GET "/".
+[Sat Apr 19 10:09:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 10:09:19 2014] [debug] 200 OK (0.002286s, 437.445/s).
+[Sat Apr 19 10:09:19 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 10:09:19 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 10:09:19 2014] [debug] 200 OK (0.001293s, 773.395/s).
+[Sat Apr 19 10:09:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 10:09:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 10:09:55 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 10:10:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 10:10:02 2014] [debug] GET "/".
+[Sat Apr 19 10:10:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 10:10:02 2014] [debug] 200 OK (0.002215s, 451.467/s).
+[Sat Apr 19 10:10:03 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 10:10:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 10:10:03 2014] [debug] 200 OK (0.001725s, 579.710/s).
+[Sat Apr 19 10:10:06 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 10:10:06 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 10:10:06 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 10:10:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 10:10:08 2014] [debug] GET "/".
+[Sat Apr 19 10:10:08 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 10:10:08 2014] [debug] 304 Not Modified (0.001895s, 527.704/s).
+[Sat Apr 19 10:10:09 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 10:10:09 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 10:10:09 2014] [debug] 200 OK (0.002043s, 489.476/s).
+[Sat Apr 19 10:13:05 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 10:13:05 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 10:13:05 2014] [debug] 200 OK (0.244826s, 4.085/s).
+[Sat Apr 19 10:13:14 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 10:13:14 2014] [debug] Controller "VisaCreator::Controllers::Shengen" does not exist.
+[Sat Apr 19 10:13:14 2014] [debug] Template "shengen/create_form.html.ep" not found.
+[Sat Apr 19 10:13:14 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr 19 10:13:14 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Apr 19 10:13:14 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Apr 19 10:13:14 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Sat Apr 19 10:13:14 2014] [debug] 404 Not Found (0.053440s, 18.713/s).
+[Sat Apr 19 10:13:34 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 10:13:34 2014] [debug] Controller "VisaCreator::Controllers::Shengen" does not exist.
+[Sat Apr 19 10:13:34 2014] [debug] Template "shengen/create_form.html.ep" not found.
+[Sat Apr 19 10:13:34 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr 19 10:13:34 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Apr 19 10:13:34 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Apr 19 10:13:34 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Sat Apr 19 10:13:34 2014] [debug] 404 Not Found (0.036746s, 27.214/s).
+[Sat Apr 19 10:14:05 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 10:14:05 2014] [debug] Controller "VisaCreator::Controllers::Shengen" does not exist.
+[Sat Apr 19 10:14:05 2014] [debug] Template "shengen/create_form.html.ep" not found.
+[Sat Apr 19 10:14:05 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr 19 10:14:05 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Apr 19 10:14:05 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Apr 19 10:14:05 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Sat Apr 19 10:14:05 2014] [debug] 404 Not Found (0.021637s, 46.217/s).
+[Sat Apr 19 10:26:59 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 10:26:59 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 10:26:59 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 10:27:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 10:27:03 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 10:27:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 10:27:03 2014] [debug] 200 OK (0.275044s, 3.636/s).
+[Sat Apr 19 10:27:03 2014] [debug] GET "/schengen/form/download/schengen_form_37241da81d6a7459cbb02a66db374fd2885dbd31294b90d74f0a381a017d4a76".
+[Sat Apr 19 10:27:03 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr 19 10:27:03 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Apr 19 10:27:03 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Apr 19 10:27:03 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Sat Apr 19 10:27:03 2014] [debug] 404 Not Found (0.062332s, 16.043/s).
+[Sat Apr 19 10:30:12 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 10:30:12 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 10:30:12 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 10:30:20 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 10:30:31 2014] [debug] GET "/".
+[Sat Apr 19 10:30:31 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 10:30:31 2014] [debug] 304 Not Modified (0.004812s, 207.814/s).
+[Sat Apr 19 10:30:31 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 10:30:31 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 10:30:31 2014] [debug] 200 OK (0.001933s, 517.331/s).
+[Sat Apr 19 10:30:35 2014] [debug] GET "/".
+[Sat Apr 19 10:30:35 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 10:30:35 2014] [debug] 304 Not Modified (0.000839s, 1191.895/s).
+[Sat Apr 19 10:30:35 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 10:30:35 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 10:30:35 2014] [debug] 200 OK (0.001223s, 817.661/s).
+[Sat Apr 19 10:30:38 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 10:30:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 10:30:38 2014] [debug] 200 OK (0.249133s, 4.014/s).
+[Sat Apr 19 10:32:07 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 10:32:07 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 10:32:07 2014] [debug] 200 OK (0.100711s, 9.929/s).
+[Sat Apr 19 10:32:07 2014] [debug] GET "/schengen/form/download/schengen_form_42483dee1eb00dc93684c31bacbc3eab9d2695e623612e0f0cdf620c24d1df89".
+[Sat Apr 19 10:32:07 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr 19 10:32:07 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Apr 19 10:32:07 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Apr 19 10:32:07 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Sat Apr 19 10:32:07 2014] [debug] 404 Not Found (0.057315s, 17.447/s).
+[Sat Apr 19 10:40:22 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 10:40:22 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 10:40:22 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 10:40:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 10:40:47 2014] [debug] GET "/".
+[Sat Apr 19 10:40:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 10:40:47 2014] [debug] 304 Not Modified (0.002780s, 359.712/s).
+[Sat Apr 19 10:40:47 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 10:40:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 10:40:47 2014] [debug] 200 OK (0.001487s, 672.495/s).
+[Sat Apr 19 10:41:00 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 10:41:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 10:41:00 2014] [debug] 200 OK (0.253422s, 3.946/s).
+[Sat Apr 19 10:41:14 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 10:41:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 10:41:14 2014] [debug] 200 OK (0.103848s, 9.629/s).
+[Sat Apr 19 10:41:15 2014] [debug] GET "/schengen/form/download/schengen_form_295800658b9ed9d424ee7ea15bf5337e21c343c6b29ce63366bf24d47eda15e5".
+[Sat Apr 19 10:41:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 10:41:15 2014] [debug] 200 OK (0.001394s, 717.360/s).
+[Sat Apr 19 10:57:49 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 10:57:49 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 10:57:49 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:02:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 11:02:02 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 11:02:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 11:02:02 2014] [debug] 200 OK (0.360116s, 2.777/s).
+[Sat Apr 19 11:02:02 2014] [debug] GET "/schengen/form/download/schengen_form_61c9b3476d19f67dc3c109323bbcd0dbef3defab503968e44fa3fe57ac6d55d0".
+[Sat Apr 19 11:02:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 11:02:02 2014] [debug] 200 OK (0.003577s, 279.564/s).
+[Sat Apr 19 11:02:15 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 11:02:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 11:02:15 2014] [debug] 200 OK (0.002095s, 477.327/s).
+[Sat Apr 19 11:02:28 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 11:02:28 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 11:02:28 2014] [debug] 200 OK (0.091544s, 10.924/s).
+[Sat Apr 19 11:02:28 2014] [debug] GET "/schengen/form/download/schengen_form_3a101fae23d44b07af433c89a8a29393285b26bd260e5a0818b85e49778ecfd7".
+[Sat Apr 19 11:02:28 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 11:02:28 2014] [debug] 200 OK (0.006442s, 155.231/s).
+[Sat Apr 19 11:02:57 2014] [debug] GET "/".
+[Sat Apr 19 11:02:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:02:57 2014] [debug] 200 OK (0.101194s, 9.882/s).
+[Sat Apr 19 11:02:57 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:02:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:02:57 2014] [debug] 200 OK (0.001776s, 563.063/s).
+[Sat Apr 19 11:05:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 11:05:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 11:05:55 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:05:59 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 11:05:59 2014] [debug] GET "/".
+[Sat Apr 19 11:05:59 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:05:59 2014] [debug] 304 Not Modified (0.002065s, 484.262/s).
+[Sat Apr 19 11:06:00 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:06:00 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:06:00 2014] [debug] 200 OK (0.001756s, 569.476/s).
+[Sat Apr 19 11:06:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 11:06:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 11:06:11 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:06:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 11:06:12 2014] [debug] GET "/".
+[Sat Apr 19 11:06:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:06:12 2014] [debug] 304 Not Modified (0.002572s, 388.802/s).
+[Sat Apr 19 11:06:13 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:06:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:06:13 2014] [debug] 200 OK (0.001166s, 857.633/s).
+[Sat Apr 19 11:06:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 11:06:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 11:06:39 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:06:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 11:06:43 2014] [debug] GET "/".
+[Sat Apr 19 11:06:43 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:06:43 2014] [debug] 200 OK (0.001831s, 546.150/s).
+[Sat Apr 19 11:06:43 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:06:43 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:06:43 2014] [debug] 200 OK (0.002099s, 476.417/s).
+[Sat Apr 19 11:07:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 11:07:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 11:07:50 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:07:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 11:07:57 2014] [debug] GET "/".
+[Sat Apr 19 11:07:57 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:07:57 2014] [debug] 304 Not Modified (0.002076s, 481.696/s).
+[Sat Apr 19 11:07:58 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:07:58 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:07:58 2014] [debug] 200 OK (0.001876s, 533.049/s).
+[Sat Apr 19 11:08:28 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 11:08:28 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 11:08:28 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:08:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 11:08:30 2014] [debug] GET "/".
+[Sat Apr 19 11:08:30 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:08:30 2014] [debug] 200 OK (0.002508s, 398.724/s).
+[Sat Apr 19 11:08:30 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:08:30 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:08:30 2014] [debug] 200 OK (0.001997s, 500.751/s).
+[Sat Apr 19 11:08:38 2014] [debug] GET "/".
+[Sat Apr 19 11:08:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:08:38 2014] [debug] 200 OK (0.000729s, 1371.742/s).
+[Sat Apr 19 11:08:39 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:08:39 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:08:39 2014] [debug] 200 OK (0.000911s, 1097.695/s).
+[Sat Apr 19 11:12:21 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 11:12:21 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 11:12:21 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:12:26 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 11:12:26 2014] [debug] GET "/".
+[Sat Apr 19 11:12:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:12:26 2014] [debug] 304 Not Modified (0.001931s, 517.866/s).
+[Sat Apr 19 11:12:27 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:12:27 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:12:27 2014] [debug] 200 OK (0.002137s, 467.946/s).
+[Sat Apr 19 11:12:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 11:12:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 11:12:55 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:23:09 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 11:23:09 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 11:23:09 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:23:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 11:23:12 2014] [debug] GET "/".
+[Sat Apr 19 11:23:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:23:12 2014] [debug] 200 OK (0.005037s, 198.531/s).
+[Sat Apr 19 11:23:13 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:23:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:23:13 2014] [debug] 200 OK (0.002059s, 485.673/s).
+[Sat Apr 19 11:23:16 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 11:23:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 11:23:16 2014] [debug] 200 OK (0.216577s, 4.617/s).
+[Sat Apr 19 11:43:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 11:43:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 11:43:53 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:44:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 11:44:02 2014] [debug] GET "/".
+[Sat Apr 19 11:44:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:44:02 2014] [debug] 200 OK (0.002576s, 388.199/s).
+[Sat Apr 19 11:44:03 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:44:03 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:44:03 2014] [debug] 200 OK (0.001889s, 529.381/s).
+[Sat Apr 19 11:55:08 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 11:55:08 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 11:55:08 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:55:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 11:55:10 2014] [debug] GET "/".
+[Sat Apr 19 11:55:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:55:10 2014] [debug] 200 OK (0.002261s, 442.282/s).
+[Sat Apr 19 11:55:10 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:55:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:55:10 2014] [debug] 200 OK (0.001939s, 515.730/s).
+[Sat Apr 19 11:55:13 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 11:55:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 11:55:14 2014] [debug] 200 OK (0.211072s, 4.738/s).
+[Sat Apr 19 11:57:17 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 11:57:17 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 11:57:17 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 11:57:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 11:57:22 2014] [debug] GET "/".
+[Sat Apr 19 11:57:22 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 11:57:22 2014] [debug] 200 OK (0.003185s, 313.972/s).
+[Sat Apr 19 11:57:22 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 11:57:22 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 11:57:22 2014] [debug] 200 OK (0.002185s, 457.666/s).
+[Sat Apr 19 11:57:25 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 11:57:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 11:57:26 2014] [debug] 200 OK (0.214095s, 4.671/s).
+[Sat Apr 19 11:57:33 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 11:57:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 11:57:33 2014] [debug] 200 OK (0.098305s, 10.172/s).
+[Sat Apr 19 11:57:33 2014] [debug] GET "/schengen/form/download/schengen_form_be0ca126d3c790c39e404150bdf142314657a3dfccd58881ed2395bc0d09c9fe".
+[Sat Apr 19 11:57:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 11:57:33 2014] [debug] 200 OK (0.014655s, 68.236/s).
+[Sat Apr 19 12:25:17 2014] [debug] GET "/".
+[Sat Apr 19 12:25:17 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 12:25:17 2014] [debug] 304 Not Modified (0.001226s, 815.661/s).
+[Sat Apr 19 12:25:17 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 12:25:17 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 12:25:17 2014] [debug] 200 OK (0.000903s, 1107.420/s).
+[Sat Apr 19 12:25:23 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 12:25:23 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 12:25:23 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 12:25:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 12:25:30 2014] [debug] GET "/api/japan/form".
+[Sat Apr 19 12:25:30 2014] [debug] Routing to controller "VisaCreator::Controllers::Japan" and action "get_form".
+[Sat Apr 19 12:25:30 2014] [debug] 200 OK (0.262656s, 3.807/s).
+[Sat Apr 19 12:25:37 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 12:25:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 12:25:37 2014] [debug] 200 OK (0.005642s, 177.242/s).
+[Sat Apr 19 12:27:12 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 12:27:12 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 12:27:12 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 12:27:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 12:27:16 2014] [debug] GET "/".
+[Sat Apr 19 12:27:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 12:27:16 2014] [debug] 200 OK (0.002549s, 392.311/s).
+[Sat Apr 19 12:27:16 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 12:27:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 12:27:16 2014] [debug] 200 OK (0.001941s, 515.198/s).
+[Sat Apr 19 12:27:20 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 12:27:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 12:27:20 2014] [debug] 200 OK (0.249588s, 4.007/s).
+[Sat Apr 19 12:27:44 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 12:27:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 12:27:44 2014] [debug] 200 OK (0.087711s, 11.401/s).
+[Sat Apr 19 12:27:44 2014] [debug] GET "/schengen/form/download/schengen_form_0e19673dff030f5f597d14068502fba263c93e71be45cfbd634e42f932eaa07a".
+[Sat Apr 19 12:27:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 12:27:44 2014] [debug] 200 OK (0.004464s, 224.014/s).
+[Sat Apr 19 12:31:34 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 12:31:34 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 12:31:34 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 12:31:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 12:31:37 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 12:31:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 12:31:38 2014] [debug] 200 OK (0.325587s, 3.071/s).
+[Sat Apr 19 12:31:38 2014] [debug] GET "/schengen/form/download/schengen_form_af833a1124578591fc6e340d2fb97cf3472a3afaddb3748390c076581867fa2e".
+[Sat Apr 19 12:31:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 12:31:38 2014] [debug] 200 OK (0.007727s, 129.416/s).
+[Sat Apr 19 12:35:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 12:35:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 12:35:11 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 12:35:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 12:35:15 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 12:35:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 12:35:16 2014] [debug] 200 OK (0.255849s, 3.909/s).
+[Sat Apr 19 12:35:16 2014] [debug] GET "/schengen/form/download/schengen_form_375c2cc876309d34835a471f18755f6b76a21df210b25d818c2798e7e0ba91d6".
+[Sat Apr 19 12:35:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 12:35:16 2014] [debug] 200 OK (0.001665s, 600.601/s).
+[Sat Apr 19 12:36:38 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 12:36:38 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 12:36:38 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 12:36:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 12:36:46 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 12:36:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 12:36:46 2014] [debug] 200 OK (0.268127s, 3.730/s).
+[Sat Apr 19 12:36:46 2014] [debug] GET "/schengen/form/download/schengen_form_3f681ad2ee5adca5dc1cfb1019b77bb6ca6b7a28af81c10f76b47a9183f9afa3".
+[Sat Apr 19 12:36:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 12:36:46 2014] [debug] 200 OK (0.002059s, 485.673/s).
+[Sat Apr 19 12:38:32 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 12:38:32 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 12:38:32 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 12:38:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 12:38:53 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 12:38:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 12:38:54 2014] [debug] 200 OK (0.273103s, 3.662/s).
+[Sat Apr 19 12:38:54 2014] [debug] GET "/schengen/form/download/schengen_form_02a8dc1eec919ef01b99170ae75e722e8e6862ba24cf7d1ceec06a1dd8968a22".
+[Sat Apr 19 12:38:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 12:38:54 2014] [debug] 200 OK (0.001631s, 613.121/s).
+[Sat Apr 19 12:45:33 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 12:45:33 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 12:45:33 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 12:45:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 12:45:46 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 12:45:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 12:45:47 2014] [debug] 200 OK (0.259964s, 3.847/s).
+[Sat Apr 19 12:45:54 2014] [debug] GET "/".
+[Sat Apr 19 12:45:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 12:45:54 2014] [debug] 304 Not Modified (0.003783s, 264.340/s).
+[Sat Apr 19 12:45:54 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 12:45:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 12:45:54 2014] [debug] 200 OK (0.002164s, 462.107/s).
+[Sat Apr 19 12:46:11 2014] [debug] GET "/".
+[Sat Apr 19 12:46:11 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 12:46:11 2014] [debug] 304 Not Modified (0.000902s, 1108.647/s).
+[Sat Apr 19 12:46:12 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 12:46:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 12:46:12 2014] [debug] 200 OK (0.001244s, 803.859/s).
+[Sat Apr 19 12:46:15 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 12:46:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 12:46:15 2014] [debug] 200 OK (0.001474s, 678.426/s).
+[Sat Apr 19 12:46:27 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 12:46:27 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 12:46:27 2014] [debug] 200 OK (0.178501s, 5.602/s).
+[Sat Apr 19 12:46:27 2014] [debug] GET "/schengen/form/download/schengen_form_dfbaf98c5ff78a1afc737a05687c8324c1140495de4da1c1ee56c686dfb0746a".
+[Sat Apr 19 12:46:27 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 12:46:27 2014] [debug] 200 OK (0.001526s, 655.308/s).
+[Sat Apr 19 12:51:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 12:51:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 12:51:20 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 12:51:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 12:51:29 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 12:51:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 12:51:29 2014] [debug] 200 OK (0.307056s, 3.257/s).
+[Sat Apr 19 12:51:29 2014] [debug] GET "/schengen/form/download/schengen_form_d7b66c87ed5f26352f0989a46bb873d34cdaa6c532320bd2f30c883e221d2ad5".
+[Sat Apr 19 12:51:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 12:51:29 2014] [debug] 200 OK (0.003082s, 324.465/s).
+[Sat Apr 19 12:52:47 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 12:52:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 12:52:47 2014] [debug] 200 OK (0.174443s, 5.733/s).
+[Sat Apr 19 12:52:47 2014] [debug] GET "/schengen/form/download/schengen_form_b60ff236b82036357e0ad7573c96f2315629634ec0f0def492458b81d8124c3c".
+[Sat Apr 19 12:52:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 12:52:47 2014] [debug] 200 OK (0.002014s, 496.524/s).
+[Sat Apr 19 12:52:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 12:52:55 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 12:52:55 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 12:53:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 12:53:01 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 12:53:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 12:53:01 2014] [debug] 200 OK (0.313484s, 3.190/s).
+[Sat Apr 19 12:53:01 2014] [debug] GET "/schengen/form/download/schengen_form_191d42cf3c99619ccf76f65afba02786923d7db6a8718ac19905dcc07e6851f8".
+[Sat Apr 19 12:53:01 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 12:53:01 2014] [debug] 200 OK (0.002170s, 460.829/s).
+[Sat Apr 19 12:55:06 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 12:55:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 12:55:07 2014] [debug] 200 OK (0.173335s, 5.769/s).
+[Sat Apr 19 12:55:07 2014] [debug] GET "/schengen/form/download/schengen_form_56eaa69ff86d4e5cf98e52b59b9323b6f5c4b2153da1ca527cfd2241bd88a18f".
+[Sat Apr 19 12:55:07 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 12:55:07 2014] [debug] 200 OK (0.001342s, 745.156/s).
+[Sat Apr 19 12:57:21 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 12:57:21 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 12:57:21 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 12:57:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 12:57:45 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 12:57:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 12:57:45 2014] [debug] 200 OK (0.323825s, 3.088/s).
+[Sat Apr 19 12:57:45 2014] [debug] GET "/schengen/form/download/schengen_form_ea0a8a736137091ec901845b0af08c7e3a783aafe870b766e3497a3c42c39518".
+[Sat Apr 19 12:57:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 12:57:45 2014] [debug] 200 OK (0.001645s, 607.903/s).
+[Sat Apr 19 13:00:18 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 13:00:18 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 13:00:18 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 13:00:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 13:00:33 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:00:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:00:33 2014] [debug] 200 OK (0.321035s, 3.115/s).
+[Sat Apr 19 13:00:33 2014] [debug] GET "/schengen/form/download/schengen_form_a32ec180c6e9156d85b692c55beac05695f3287f42164d51b665a773ae805523".
+[Sat Apr 19 13:00:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:00:33 2014] [debug] 200 OK (0.001497s, 668.003/s).
+[Sat Apr 19 13:03:02 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:03:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:03:02 2014] [debug] 200 OK (0.209940s, 4.763/s).
+[Sat Apr 19 13:03:02 2014] [debug] GET "/schengen/form/download/schengen_form_82d2bfb732041c6ecd08ef1512b0cc4fd17c1bcc65af3d9e6fad43c64c32da2d".
+[Sat Apr 19 13:03:02 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:03:02 2014] [debug] 200 OK (0.016847s, 59.358/s).
+[Sat Apr 19 13:03:46 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:03:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:03:46 2014] [debug] 200 OK (0.222158s, 4.501/s).
+[Sat Apr 19 13:03:46 2014] [debug] GET "/schengen/form/download/schengen_form_0557de29d6834b9f8de324096cb67a9f23114e309ea32e0fb72b5c322b6f246f".
+[Sat Apr 19 13:03:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:03:46 2014] [debug] 200 OK (0.001154s, 866.551/s).
+[Sat Apr 19 13:04:07 2014] [debug] GET "/".
+[Sat Apr 19 13:04:07 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 13:04:07 2014] [debug] 200 OK (0.002129s, 469.704/s).
+[Sat Apr 19 13:04:07 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 13:04:07 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 13:04:07 2014] [debug] 200 OK (0.001753s, 570.451/s).
+[Sat Apr 19 13:04:15 2014] [debug] GET "/".
+[Sat Apr 19 13:04:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 13:04:15 2014] [debug] 304 Not Modified (0.001120s, 892.857/s).
+[Sat Apr 19 13:04:15 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 13:04:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 13:04:15 2014] [debug] 200 OK (0.001428s, 700.280/s).
+[Sat Apr 19 13:04:24 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 13:04:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 13:04:24 2014] [debug] 200 OK (0.003895s, 256.739/s).
+[Sat Apr 19 13:04:33 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:04:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:04:33 2014] [debug] 200 OK (0.216834s, 4.612/s).
+[Sat Apr 19 13:04:33 2014] [debug] GET "/schengen/form/download/schengen_form_f69794bc6ac81759db25ab69a03f8fcbcdf145772c72bf63aaffd9a2c58de8b3".
+[Sat Apr 19 13:04:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:04:33 2014] [debug] 200 OK (0.002157s, 463.607/s).
+[Sat Apr 19 13:05:12 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:05:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:05:13 2014] [debug] 200 OK (0.230597s, 4.337/s).
+[Sat Apr 19 13:05:13 2014] [debug] GET "/schengen/form/download/schengen_form_e54a2d3100535d9d54e7a235f4427199dc6b86219ec482420fb636bd214451ff".
+[Sat Apr 19 13:05:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:05:13 2014] [debug] 200 OK (0.001407s, 710.732/s).
+[Sat Apr 19 13:05:37 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 13:05:37 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 13:05:37 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 13:05:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 13:05:43 2014] [debug] GET "/".
+[Sat Apr 19 13:05:43 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 13:05:43 2014] [debug] 304 Not Modified (0.002009s, 497.760/s).
+[Sat Apr 19 13:05:43 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 13:05:43 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 13:05:43 2014] [debug] 200 OK (0.001602s, 624.220/s).
+[Sat Apr 19 13:06:05 2014] [debug] GET "/".
+[Sat Apr 19 13:06:05 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 13:06:05 2014] [debug] 304 Not Modified (0.001187s, 842.460/s).
+[Sat Apr 19 13:06:05 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 13:06:05 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 13:06:05 2014] [debug] 200 OK (0.001185s, 843.882/s).
+[Sat Apr 19 13:06:17 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 13:06:17 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 13:06:17 2014] [debug] 200 OK (0.207366s, 4.822/s).
+[Sat Apr 19 13:06:29 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:06:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:06:29 2014] [debug] 200 OK (0.225845s, 4.428/s).
+[Sat Apr 19 13:06:29 2014] [debug] GET "/schengen/form/download/schengen_form_63218412eb0b3c641693e70c8d7f572422971fc29c2cc95f6bbfad2ee4942985".
+[Sat Apr 19 13:06:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:06:29 2014] [debug] 200 OK (0.001292s, 773.994/s).
+[Sat Apr 19 13:07:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 13:07:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 13:07:14 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 13:07:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 13:07:22 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:07:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:07:23 2014] [debug] 200 OK (0.458145s, 2.183/s).
+[Sat Apr 19 13:07:23 2014] [debug] GET "/schengen/form/download/schengen_form_e2a6f285d1323167d964de819cc23d3d81de98ddc31459a7bfcd0cf255c35357".
+[Sat Apr 19 13:07:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:07:23 2014] [debug] 200 OK (0.011765s, 84.998/s).
+[Sat Apr 19 13:08:13 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:08:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:08:13 2014] [debug] 200 OK (0.232064s, 4.309/s).
+[Sat Apr 19 13:08:13 2014] [debug] GET "/schengen/form/download/schengen_form_263395ea3d3c5d4bc1be5d5a38caf66d7bc23581003e19c359bd83582965094c".
+[Sat Apr 19 13:08:13 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:08:13 2014] [debug] 200 OK (0.014627s, 68.367/s).
+[Sat Apr 19 13:08:44 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 13:08:44 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 13:08:44 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 13:08:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 13:08:54 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:08:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:08:54 2014] [debug] 200 OK (0.378788s, 2.640/s).
+[Sat Apr 19 13:08:54 2014] [debug] GET "/schengen/form/download/schengen_form_27a3a4846f62e9ceb310699ffe99fbae62c65e36231cc4aeee7a6b9d5e921fbf".
+[Sat Apr 19 13:08:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:08:54 2014] [debug] 200 OK (0.001242s, 805.153/s).
+[Sat Apr 19 13:09:29 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 13:09:29 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 13:09:29 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 13:09:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 13:09:34 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:09:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:09:34 2014] [debug] 200 OK (0.366500s, 2.729/s).
+[Sat Apr 19 13:09:34 2014] [debug] GET "/schengen/form/download/schengen_form_5dae03a5f03451459d562fde075b951dd7f3ab0fee5ff160da047ba734044810".
+[Sat Apr 19 13:09:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:09:34 2014] [debug] 200 OK (0.001412s, 708.215/s).
+[Sat Apr 19 13:10:08 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 13:10:08 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 13:10:08 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 13:10:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 13:10:14 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:10:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:10:14 2014] [debug] 200 OK (0.437437s, 2.286/s).
+[Sat Apr 19 13:10:15 2014] [debug] GET "/schengen/form/download/schengen_form_648a03217919539f4c99d1ccbf49387d2bad9c36e5cdc96f0ad35e7fca9f5d31".
+[Sat Apr 19 13:10:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:10:15 2014] [debug] 200 OK (0.017558s, 56.954/s).
+[Sat Apr 19 13:16:00 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 13:16:00 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 13:16:00 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 13:17:16 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 13:17:16 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 13:17:16 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 13:17:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 13:17:24 2014] [debug] GET "/".
+[Sat Apr 19 13:17:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Sat Apr 19 13:17:24 2014] [debug] 200 OK (0.003553s, 281.452/s).
+[Sat Apr 19 13:17:24 2014] [debug] GET "/api/login/status".
+[Sat Apr 19 13:17:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Sat Apr 19 13:17:24 2014] [debug] 200 OK (0.001959s, 510.465/s).
+[Sat Apr 19 13:17:28 2014] [debug] GET "/api/schengen/form".
+[Sat Apr 19 13:17:28 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Sat Apr 19 13:17:28 2014] [debug] 200 OK (0.233369s, 4.285/s).
+[Sat Apr 19 13:17:42 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:17:42 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:17:42 2014] [debug] 200 OK (0.320055s, 3.124/s).
+[Sat Apr 19 13:17:42 2014] [debug] GET "/schengen/form/download/schengen_form_1939483d374131ce1b9ab7b79f8b455c2718f8a2ab66df5f386c88d6d49f626c".
+[Sat Apr 19 13:17:42 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:17:42 2014] [debug] 200 OK (0.002383s, 419.639/s).
+[Sat Apr 19 13:18:26 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 13:18:26 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 13:18:26 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 13:18:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 13:18:30 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:18:30 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:18:30 2014] [debug] 200 OK (0.398120s, 2.512/s).
+[Sat Apr 19 13:18:30 2014] [debug] GET "/schengen/form/download/schengen_form_e912af7179d06f41433715d55ee04c7fd2ec4131a1a95947261f30dd99e167ca".
+[Sat Apr 19 13:18:30 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:18:30 2014] [debug] 200 OK (0.013510s, 74.019/s).
+[Sat Apr 19 13:18:46 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Sat Apr 19 13:18:46 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Sat Apr 19 13:18:46 2014] [debug] Helper "config" already exists, replacing.
+[Sat Apr 19 13:18:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr 19 13:18:50 2014] [debug] POST "/api/schengen/form".
+[Sat Apr 19 13:18:50 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Sat Apr 19 13:18:50 2014] [debug] 200 OK (0.374739s, 2.669/s).
+[Sat Apr 19 13:18:50 2014] [debug] GET "/schengen/form/download/schengen_form_b807216aa68c4197a7e75b0a2cafb7e7b18043921bc7f3d6e82b8fb358358b9f".
+[Sat Apr 19 13:18:50 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Sat Apr 19 13:18:50 2014] [debug] 200 OK (0.017362s, 57.597/s).

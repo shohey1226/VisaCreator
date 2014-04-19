@@ -5,7 +5,7 @@ angular.module('VisaCreatorApp')
 
   return {
     // Save form in Steps
-    saveSteps: function(user, store){
+    saveSteps: function(user, store, country){
       var userInfo = {};
       for (var key in user){
           console.log(user[key]);
@@ -28,8 +28,14 @@ angular.module('VisaCreatorApp')
           else if (user[key] === 'widowed'){ 
               userInfo.martialStatusWidowed = 'X'; 
           }
+          else if (user[key] === 'separated'){ 
+              userInfo.martialStatusSeparated = 'X'; 
+          }
           else if (user[key] === 'divorced'){ 
               userInfo.martialStatusDivorced = 'X'
+          }
+          else if (user[key] === 'other'){ 
+              userInfo.martialStatusOther = 'X'
           }
 
         } else if (key === 'passportType'){
@@ -112,7 +118,8 @@ angular.module('VisaCreatorApp')
           userInfo[key] = user[key];
         }
       }
-      return $resource('/api/japan/form').save({userinfo: userInfo, store: store}).$promise;
+      userInfo.country = country;
+      return $resource('/api/schengen/form').save({userinfo: userInfo, store: store}).$promise;
     },
     getInfo: function (){
         return $resource('/api/schengen/form').get().$promise;

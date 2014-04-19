@@ -30,8 +30,8 @@ sub create {
             $box->rect( 
                 $config->{$country}->{$form_type}->{positions}->{$field}->{x}, 
                 $self->y_max - $config->{$country}->{$form_type}->{positions}->{$field}->{y},
-                10,
-                10
+                $config->{$country}->{square},
+                $config->{$country}->{square}
             );
             $box->fill;
         }else{

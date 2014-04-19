@@ -90,9 +90,12 @@ sub startup {
   $r->get('/')->to('Index#serve_root');
   $r->post('/api/japan/form')->to('Japan#create_form');
   $r->get('/api/japan/form')->to('Japan#get_form');
+  $r->post('/api/schengen/form')->to('Schengen#create_form');
+  $r->get('/api/schengen/form')->to('Schengen#get_form');
   $r->get('/api/login/status')->to('Index#login_status');
 
   $r->get('/japan/form/download/:file')->to('Japan#download_form');
+  $r->get('/schengen/form/download/:file')->to('Schengen#download_form');
 
   # For authentication
   $r->get('/auth/facebook/callback')->to('index#callback');
