@@ -59,6 +59,18 @@ angular.module('VisaCreatorApp')
               userInfo.passportTypeOther = 'X';
           }
 
+        } else if (key === 'numOfEntries'){
+
+          if (user[key] === 'single'){ 
+              userInfo.numOfEntriesSingle = 'X';
+          }
+          else if (user[key] === 'two'){ 
+              userInfo.numOfEntriesTwo = 'X';
+          }
+          else if (user[key] === 'multiple'){ 
+              userInfo.numOfEntriesMultiple = 'X';
+          }
+
         } else if (key === 'otherResidence'){
 
           if (user[key] === 'yes'){ 
@@ -102,6 +114,22 @@ angular.module('VisaCreatorApp')
           else if (user[key] === 'other'){ 
               userInfo.purposeOther = 'X';
           }
+        } else if (key === 'visaPast'){ 
+          if (user[key] === 'no'){ 
+              userInfo.visaPastNo = 'X';
+          }
+          else if (user[key] === 'yes'){ 
+              userInfo.visaPastYes = 'X';
+          }
+
+        } else if (key === 'fingerprints'){ 
+          if (user[key] === 'no'){ 
+              userInfo.fingerprintsNo = 'X';
+          }
+          else if (user[key] === 'yes'){ 
+              userInfo.fingerprintsYes = 'X';
+          }
+
 
         } else if (key === 'crime'){ 
           if (user[key] === 'yes'){ 

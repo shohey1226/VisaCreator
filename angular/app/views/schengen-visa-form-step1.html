@@ -16,7 +16,7 @@
     Do you have family member who is an EU, EEA or CH citizen? 
   </div>
   <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-    <div class="form-inline">
+    <div class="form-inline" ng-init="$storage.user.familyMember='false'">
       <div class="radio">
         <label class="radio inline control-label">
           <input type="radio" name="schengenFamilyMember" id="familyMemberYes" value="true" ng-model="$storage.user.familyMember">
@@ -39,7 +39,7 @@
     Do you have inviting person(s)?  
   </div>
   <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-    <div class="form-inline">
+    <div class="form-inline" ng-init="$storage.user.existInviter='false'">
       <div class="radio">
         <label class="radio inline control-label">
           <input type="radio" name="existInviter" id="existInviterYes" value="true" ng-model="$storage.user.existInviter">
@@ -323,21 +323,29 @@ Schengen visas issued during the past three years
   <div class="radio">
     <label> 
       <input type="radio" name="visaPast" id="visaPastNo" value="no" ng-model="$storage.user.visaPast">
-      No 
+      No &nbsp; 
     </label>
   </div>
   <div class="radio">
     <label class="radio inline control-label">
       <input type="radio" name="visaPast" id="visaPastYes" value="yes" ng-model="$storage.user.visaPast">
-      Yes 
+      Yes. Date(s) of validity :  
     </label>
-    <input type="text" class="form-control" id="visaPast3Y1From" placeholder="" ng-model="$storage.user.visaPast3Y1From">/
-    <input type="text" class="form-control" id="visaPast3Y1To" placeholder="" ng-model="$storage.user.visaPast3Y1To">, 
-    <input type="text" class="form-control" id="visaPast3Y2From" placeholder="" ng-model="$storage.user.visaPast3Y2From">/
-    <input type="text" class="form-control" id="visaPast3Y2To" placeholder="" ng-model="$storage.user.visaPast3Y2To">, 
-    <input type="text" class="form-control" id="visaPast3Y3From" placeholder="" ng-model="$storage.user.visaPast3Y3From">/
-    <input type="text" class="form-control" id="visaPast3Y3To" placeholder="" ng-model="$storage.user.visaPast3Y3To">
   </div>
+  <ul>
+    <li style="padding-top: 3px">
+      <input type="text" class="form-control input-sm" id="visaPast3Y1From" placeholder="" ng-model="$storage.user.visaPast3Y1From">/
+      <input type="text" class="form-control input-sm" id="visaPast3Y1To" placeholder="" ng-model="$storage.user.visaPast3Y1To">
+    </li>
+    <li style="padding-top: 3px">
+      <input type="text" class="form-control input-sm" id="visaPast3Y2From" placeholder="" ng-model="$storage.user.visaPast3Y2From">/
+      <input type="text" class="form-control input-sm" id="visaPast3Y2To" placeholder="" ng-model="$storage.user.visaPast3Y2To">
+    </li>
+    <li style="padding-top: 3px">
+      <input type="text" class="form-control input-sm" id="visaPast3Y3From" placeholder="" ng-model="$storage.user.visaPast3Y3From">/
+      <input type="text" class="form-control input-sm" id="visaPast3Y3To" placeholder="" ng-model="$storage.user.visaPast3Y3To">
+    </li>
+  </ul>
 </div>
 
 <br>
@@ -354,7 +362,7 @@ Fingerprints collected previously for the purpose of applying for a Schengen vis
       <input type="radio" name="fingerprints" id="fingerprintsYes" value="yes" ng-model="$storage.user.fingerprints">
       Yes. Date, if known :
     </label>
-    <input type="text" class="form-control" id="fingerprintsDate" placeholder="" ng-model="$storage.user.finterprintsDate">
+    <input type="text" class="form-control input-sm" id="fingerprintsDate" placeholder="" ng-model="$storage.user.finterprintsDate">
   </div>
 </div>
 <br>
