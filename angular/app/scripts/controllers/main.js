@@ -105,6 +105,8 @@ angular.module('VisaCreatorApp')
                 $location.path('/japan-visa-form-step1');
             }else if (country === 'France' || country === 'Spain' ){
                 $scope.$storage.country = country;
+                $scope.$storage.user.familyMember = 'false';
+                $scope.$storage.user.existInviter = 'false';
                 $rootScope.targetVisa = 'schengen';
                 if ( $rootScope.loggedIn === true ){
                     var promise = schengenVisaService.getInfo();
