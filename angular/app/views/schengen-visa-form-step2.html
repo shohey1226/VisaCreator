@@ -71,9 +71,15 @@
       Airport transit
     </label>
   </div>
+  <div class="radio">
+    <label> 
+      <input type="radio" name="purpose" id="airportTransit" value=other" ng-model="$storage.user.purpose">
+      Other
+    </label>
+  </div>
   <br>
-  <label for="purposeOther">Other </label>
-  <input type="text" class="form-control" name="purpose" id="purposeOther" ng-model="$storage.user.purposeOther">
+  <label for="purposeOtherInput">Other </label>
+  <input type="text" class="form-control" name="purpose" id="purposeOtherInput" ng-model="$storage.user.purposeOtherInput">
 </div>
 <br>
 

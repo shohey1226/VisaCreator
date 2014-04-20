@@ -59,6 +59,50 @@ angular.module('VisaCreatorApp')
               userInfo.passportTypeOther = 'X';
           }
 
+        } else if (key === 'otherResidence'){
+
+          if (user[key] === 'yes'){ 
+              userInfo.otherResidenceYes = 'X';
+          }
+          else if (user[key] === 'no'){ 
+              userInfo.otherResidenceNo = 'X';
+          }
+        } else if (key === 'purpose'){
+
+          if (user[key] === 'tourism'){ 
+              userInfo.purposeTourism = 'X';
+          }
+          else if (user[key] === 'business'){ 
+              userInfo.purposeBusiness = 'X';
+          }
+          else if (user[key] === 'visiting'){ 
+              userInfo.purposeVisiting = 'X';
+          }
+          else if (user[key] === 'cultural'){ 
+              userInfo.purposeCultural = 'X';
+          }
+          else if (user[key] === 'sports'){ 
+              userInfo.purposeSports = 'X';
+          }
+          else if (user[key] === 'official'){ 
+              userInfo.purposeOfficial = 'X';
+          }
+          else if (user[key] === 'study'){ 
+              userInfo.purposeStudy = 'X';
+          }
+          else if (user[key] === 'medical'){ 
+              userInfo.purposeMedical = 'X';
+          }
+          else if (user[key] === 'transit'){ 
+              userInfo.purposeTransit = 'X';
+          }
+          else if (user[key] === 'airportTransit'){ 
+              userInfo.purposeAirportTransit = 'X';
+          }
+          else if (user[key] === 'other'){ 
+              userInfo.purposeOther = 'X';
+          }
+
         } else if (key === 'crime'){ 
           if (user[key] === 'yes'){ 
               userInfo.crimeYes = 'X';

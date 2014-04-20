@@ -21,6 +21,13 @@ sub create_form {
 
     my $data = $self->req->json;
     print Dumper $data;
+
+    # concat employer
+    $data->{userinfo}->{employer} = ""; 
+    $data->{userinfo}->{employer} .=  $data->{userinfo}->{employerName} if (defined $data->{userinfo}->{employerName});
+    $data->{userinfo}->{employer} .=  $data->{userinfo}->{employerAddress} if (defined $data->{userinfo}->{employerAddress});
+    $data->{userinfo}->{employer} .=  $data->{userinfo}->{employerName} if (defined $data->{userinfo}->{employerTel});
+
     $self->model->save_form($id, 'schengen', $data);
     my $pdf_name = $self->pdfmaker->create('schengen', 'form', $self->config, $data->{userinfo});
     debugf "PDF name: $pdf_name";
