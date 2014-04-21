@@ -204,68 +204,21 @@ angular.module('VisaCreatorApp')
           if (user[key]){ 
               userInfo.bySponsorMeansOther = 'X';
           }
-
-        } else if (key === 'crime'){ 
-          if (user[key] === 'yes'){ 
-              userInfo.crimeYes = 'X';
+          
+        } else if (key === 'schengenFamilyRelation'){ 
+          if (user[key] === 'spouse'){ 
+              userInfo.schengenFamilyRelationSpouse = 'X';
           }
-          else if (user[key] === 'no'){ 
-              userInfo.crimeNo = 'X';
+          else if (user[key] === 'child'){
+              userInfo.schengenFamilyRelationChild = 'X';
           }
-
-        } else if (key === 'sentenced'){
-          if (user[key] === 'yes'){ 
-              userInfo.sentencedYes = 'X';
+          else if (user[key] === 'grandchild'){
+              userInfo.schengenFamilyRelationGrandchild = 'X';
           }
-          else if (user[key] === 'no'){ 
-              userInfo.sentencedNo = 'X';
+          else if (user[key] === 'dependent'){
+              userInfo.schengenFamilyRelationDependent = 'X';
           }
 
-        } else if (key === 'overstay'){
-          if (user[key] === 'yes'){ 
-              userInfo.overstayYes = 'X';
-          }
-          else if (user[key] === 'no'){ 
-              userInfo.overstayNo = 'X';
-          }
-
-        } else if (key === 'drug'){
-          if (user[key] === 'yes'){ 
-              userInfo.drugYes = 'X';
-          }
-          else if (user[key] === 'no'){ 
-              userInfo.drugNo = 'X';
-          }
-
-        } else if (key === 'prostitution'){
-          if (user[key] === 'yes'){ 
-              userInfo.prostitutionYes = 'X';
-          }
-          else if (user[key] === 'no'){ 
-              userInfo.prostitutionNo = 'X';
-          }
-
-        } else if (key === 'trafficking'){
-          if (user[key] === 'yes'){ 
-              userInfo.traffickingYes = 'X';
-          }
-          else if (user[key] === 'no'){ 
-              userInfo.traffickingNo = 'X';
-          }
-        }
-        else if (key === 'guarantorGender'){
-          if (user[key] === 'male'){
-            userInfo.guarantorGenderMale = "X";
-          }else if (user[key] === 'female'){
-            userInfo.guarantorGenderFemale = "X";
-          } 
-        }
-        else if (key === 'inviterGender'){
-          if (user[key] === 'male'){
-            userInfo.inviterGenderMale = "X";
-          }else if (user[key] === 'female'){
-            userInfo.inviterGenderFemale = "X";
-          } 
         } else{
           userInfo[key] = user[key];
         }
