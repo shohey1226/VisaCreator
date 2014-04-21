@@ -47,10 +47,10 @@ sub create_form {
 
     # ContactInfo
     $data->{userinfo}->{contactInfoTop} = ""; 
-    $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactInfoSurname} if (defined $data->{userinfo}->{contactInfoSurname});
-    $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactInfoFirstname} if (defined $data->{userinfo}->{contactInfoFirstname});
-    $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactInfoTel} if (defined $data->{userinfo}->{contactInfoTel});
-    $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactInfoEmail} if (defined $data->{userinfo}->{contactInfoEmail});
+    $data->{userinfo}->{contactInfoTop} .=  $data->{userinfo}->{contactSurname} if (defined $data->{userinfo}->{contactSurname});
+    $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactFirstname} if (defined $data->{userinfo}->{contactFirstname});
+    $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactTel} if (defined $data->{userinfo}->{contactTel});
+    $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactEmail} if (defined $data->{userinfo}->{contactEmail});
 
     my $pdf_name = $self->pdfmaker->create('schengen', 'form', $self->config, $data->{userinfo});
     debugf "PDF name: $pdf_name";

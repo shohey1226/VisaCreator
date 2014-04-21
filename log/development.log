@@ -15391,3 +15391,439 @@ BIND    : $VAR1 = [
 [Mon Apr 21 11:15:55 2014] [debug] GET "/schengen/form/download/schengen_form_51cfbd6560ac4e593ba22194fb3eaa1058b49f232cb5e5f86c6e164170bb0382".
 [Mon Apr 21 11:15:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
 [Mon Apr 21 11:15:55 2014] [debug] 200 OK (0.002539s, 393.856/s).
+[Mon Apr 21 11:39:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 11:39:41 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 11:39:41 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 11:39:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 11:39:43 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 11:39:43 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 11:39:45 2014] [debug] 200 OK (1.378017s, 0.726/s).
+[Mon Apr 21 11:39:45 2014] [debug] GET "/schengen/form/download/schengen_form_b70479c8da4b92858ab5ceee46119114b4c3300c2bd16617a90b62c562dfbf03".
+[Mon Apr 21 11:39:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Mon Apr 21 11:39:45 2014] [debug] 200 OK (0.001609s, 621.504/s).
+[Mon Apr 21 11:41:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 11:41:11 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 11:41:11 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 11:41:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 11:41:14 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 11:41:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 11:41:16 2014] [debug] 200 OK (1.929286s, 0.518/s).
+[Mon Apr 21 11:41:16 2014] [debug] GET "/schengen/form/download/schengen_form_777fef135c42194e2a7e546faff859855430b8cd1d74cf2e6303e0d416b007fc".
+[Mon Apr 21 11:41:16 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Mon Apr 21 11:41:16 2014] [debug] 200 OK (0.002918s, 342.700/s).
+[Mon Apr 21 11:42:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 11:42:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 11:42:39 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 11:42:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 11:42:47 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 11:42:48 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 11:42:49 2014] [debug] 200 OK (1.326555s, 0.754/s).
+[Mon Apr 21 11:42:49 2014] [debug] GET "/schengen/form/download/schengen_form_cdc15d9002fb459d02aaec9635c680a5e6a76c86a10be3ed216e681c605dfcd9".
+[Mon Apr 21 11:42:49 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Mon Apr 21 11:42:49 2014] [debug] 200 OK (0.001931s, 517.866/s).
+[Mon Apr 21 14:26:07 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 14:26:07 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 14:26:07 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 14:27:43 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 14:27:43 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 14:27:43 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 14:27:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 14:27:47 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 14:27:48 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 14:27:48 2014] [error] Use of uninitialized value $_ in pattern match (m//) at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 125, <DATA> line 231.
+
+[Mon Apr 21 14:27:48 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 14:27:48 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 14:27:48 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 14:27:48 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 14:27:48 2014] [debug] 500 Internal Server Error (0.238089s, 4.200/s).
+[Mon Apr 21 14:28:31 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 14:28:31 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 14:28:31 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 14:28:42 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 14:28:42 2014] [debug] GET "/".
+[Mon Apr 21 14:28:42 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Apr 21 14:28:42 2014] [debug] 200 OK (0.002033s, 491.884/s).
+[Mon Apr 21 14:28:42 2014] [debug] GET "/api/login/status".
+[Mon Apr 21 14:28:42 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Mon Apr 21 14:28:42 2014] [debug] 200 OK (0.001974s, 506.586/s).
+[Mon Apr 21 14:28:44 2014] [debug] GET "/api/schengen/form".
+[Mon Apr 21 14:28:45 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Mon Apr 21 14:28:45 2014] [debug] 200 OK (0.180670s, 5.535/s).
+[Mon Apr 21 14:28:55 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 14:28:55 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 14:28:55 2014] [error] Use of uninitialized value $_ in pattern match (m//) at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 125.
+
+[Mon Apr 21 14:28:55 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 14:28:55 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 14:28:55 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 14:28:55 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 14:28:56 2014] [debug] 500 Internal Server Error (0.086875s, 11.511/s).
+[Mon Apr 21 14:29:05 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 14:29:05 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 14:29:05 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 14:29:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 14:29:12 2014] [debug] GET "/auth/logout".
+[Mon Apr 21 14:29:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Mon Apr 21 14:29:12 2014] [debug] 302 Found (0.005761s, 173.581/s).
+[Mon Apr 21 14:29:12 2014] [debug] GET "/api/login/status".
+[Mon Apr 21 14:29:12 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Mon Apr 21 14:29:12 2014] [debug] 200 OK (0.001766s, 566.251/s).
+[Mon Apr 21 14:29:15 2014] [debug] POST "/auth/whereami".
+[Mon Apr 21 14:29:15 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Mon Apr 21 14:29:15 2014] [debug] 200 OK (0.001877s, 532.765/s).
+[Mon Apr 21 14:29:15 2014] [debug] GET "/auth/twitter/callback".
+[Mon Apr 21 14:29:20 2014] [debug] GET "/auth/twitter/callback".
+[Mon Apr 21 14:29:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Mon Apr 21 14:29:20 2014] [debug] 302 Found (0.002098s, 476.644/s).
+[Mon Apr 21 14:29:20 2014] [debug] GET "/api/login/status".
+[Mon Apr 21 14:29:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Mon Apr 21 14:29:20 2014] [debug] 200 OK (0.001369s, 730.460/s).
+[Mon Apr 21 14:29:23 2014] [debug] GET "/api/schengen/form".
+[Mon Apr 21 14:29:23 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Mon Apr 21 14:29:23 2014] [debug] 200 OK (0.237669s, 4.208/s).
+[Mon Apr 21 14:29:42 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 14:29:42 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 14:29:42 2014] [error] Use of uninitialized value $_ in pattern match (m//) at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 125, <DATA> line 231.
+
+[Mon Apr 21 14:29:42 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 14:29:42 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 14:29:42 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 14:29:42 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 14:29:42 2014] [debug] 500 Internal Server Error (0.047733s, 20.950/s).
+[Mon Apr 21 14:41:32 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 14:41:32 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 14:41:32 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 14:41:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 14:41:34 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 14:41:34 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 14:41:34 2014] [error] Use of uninitialized value $_ in pattern match (m//) at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 125, <DATA> line 231.
+
+[Mon Apr 21 14:41:34 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 14:41:34 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 14:41:34 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 14:41:34 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 14:41:34 2014] [debug] 500 Internal Server Error (0.224026s, 4.464/s).
+[Mon Apr 21 14:43:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 14:43:51 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 14:43:51 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 14:44:29 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 14:44:29 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 14:44:29 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 14:44:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 14:44:32 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 14:44:33 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 14:44:33 2014] [error] Use of uninitialized value $_ in pattern match (m//) at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 125, <DATA> line 231.
+
+[Mon Apr 21 14:44:33 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 14:44:33 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 14:44:33 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 14:44:33 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 14:44:33 2014] [debug] 500 Internal Server Error (0.221632s, 4.512/s).
+[Mon Apr 21 14:48:36 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 14:48:36 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 14:48:36 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 14:48:39 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 14:48:39 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 14:48:39 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 14:48:39 2014] [error] Use of uninitialized value $_ in pattern match (m//) at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 126, <DATA> line 231.
+
+[Mon Apr 21 14:48:39 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 14:48:39 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 14:48:39 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 14:48:39 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 14:48:39 2014] [debug] 500 Internal Server Error (0.224681s, 4.451/s).
+[Mon Apr 21 14:55:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 14:55:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 14:55:14 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 14:55:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 14:55:24 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 14:55:24 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 14:55:24 2014] [error] Use of uninitialized value $_ in pattern match (m//) at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 126, <DATA> line 231.
+
+[Mon Apr 21 14:55:24 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 14:55:24 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 14:55:24 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 14:55:24 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 14:55:24 2014] [debug] 500 Internal Server Error (0.217657s, 4.594/s).
+[Mon Apr 21 14:56:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 14:56:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 14:56:20 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 14:56:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 14:56:29 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 14:56:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 14:56:29 2014] [error] Can't call method "ymd" on an undefined value at /Users/kamesho/git/VisaCreator/local/lib/perl5/DateTime/Format/MySQL.pm line 84, <DATA> line 231.
+
+[Mon Apr 21 14:56:29 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 14:56:29 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 14:56:29 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 14:56:29 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 14:56:29 2014] [debug] 500 Internal Server Error (0.237106s, 4.218/s).
+[Mon Apr 21 15:09:40 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:09:40 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:09:40 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:09:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:09:45 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:09:46 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:09:46 2014] [error] Use of uninitialized value within %map in hash element at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 127, <DATA> line 231.
+
+[Mon Apr 21 15:09:46 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:09:46 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:09:46 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:09:46 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:09:46 2014] [debug] 500 Internal Server Error (0.220497s, 4.535/s).
+[Mon Apr 21 15:09:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:09:53 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:09:53 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:10:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:10:50 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:10:50 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:10:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:10:54 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:10:54 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:10:54 2014] [error] Can't call method "ymd" on an undefined value at /Users/kamesho/git/VisaCreator/local/lib/perl5/DateTime/Format/MySQL.pm line 84, <DATA> line 231.
+
+[Mon Apr 21 15:10:54 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:10:54 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:10:54 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:10:54 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:10:54 2014] [debug] 500 Internal Server Error (0.212652s, 4.703/s).
+[Mon Apr 21 15:12:04 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:12:04 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:12:04 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:12:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:12:06 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:12:06 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:12:06 2014] [error] Can't call method "ymd" on an undefined value at /Users/kamesho/git/VisaCreator/local/lib/perl5/DateTime/Format/MySQL.pm line 84, <DATA> line 231.
+
+[Mon Apr 21 15:12:06 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:12:06 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:12:06 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:12:06 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:12:06 2014] [debug] 500 Internal Server Error (0.219431s, 4.557/s).
+[Mon Apr 21 15:14:28 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:14:28 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:14:28 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:14:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:14:35 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:14:35 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:14:35 2014] [error] Can't call method "ymd" on an undefined value at /Users/kamesho/git/VisaCreator/local/lib/perl5/DateTime/Format/MySQL.pm line 84, <DATA> line 231.
+
+[Mon Apr 21 15:14:35 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:14:35 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:14:35 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:14:35 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:14:35 2014] [debug] 500 Internal Server Error (0.212507s, 4.706/s).
+[Mon Apr 21 15:15:10 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:15:10 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:15:13 2014] [error] Can't call method "ymd" on an undefined value at /Users/kamesho/git/VisaCreator/local/lib/perl5/DateTime/Format/MySQL.pm line 84.
+
+[Mon Apr 21 15:15:13 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:15:13 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:15:13 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:15:13 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:15:13 2014] [debug] 500 Internal Server Error (2.274204s, 0.440/s).
+[Mon Apr 21 15:15:14 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:15:14 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:15:14 2014] [error] Can't call method "ymd" on an undefined value at /Users/kamesho/git/VisaCreator/local/lib/perl5/DateTime/Format/MySQL.pm line 84.
+
+[Mon Apr 21 15:15:14 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:15:14 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:15:14 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:15:14 2014] [debug] Rendering cached inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:15:14 2014] [debug] 500 Internal Server Error (0.040009s, 24.994/s).
+[Mon Apr 21 15:16:33 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:16:33 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:16:33 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:16:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:16:35 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:16:35 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:16:36 2014] [error] Can't locate object method "ymd" via package "2014-04-21 05:29:20" (perhaps you forgot to load "2014-04-21 05:29:20"?) at /Users/kamesho/git/VisaCreator/local/lib/perl5/DateTime/Format/MySQL.pm line 84, <DATA> line 231.
+
+[Mon Apr 21 15:16:36 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:16:36 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:16:36 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:16:36 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:16:36 2014] [debug] 500 Internal Server Error (0.220569s, 4.534/s).
+[Mon Apr 21 15:18:35 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:18:35 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:18:35 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:18:39 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:18:39 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:18:39 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:18:39 2014] [error] Can't call method "ymd" on an undefined value at /Users/kamesho/git/VisaCreator/local/lib/perl5/DateTime/Format/MySQL.pm line 84, <DATA> line 231.
+
+[Mon Apr 21 15:18:39 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:18:39 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:18:39 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:18:39 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:18:39 2014] [debug] 500 Internal Server Error (0.217732s, 4.593/s).
+[Mon Apr 21 15:20:47 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:20:47 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:20:47 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:20:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:20:50 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:20:50 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:20:50 2014] [error] Can't locate object method "ymd" via package "2014-04-21 05:29:20" (perhaps you forgot to load "2014-04-21 05:29:20"?) at /Users/kamesho/git/VisaCreator/local/lib/perl5/DateTime/Format/MySQL.pm line 84, <DATA> line 231.
+
+[Mon Apr 21 15:20:50 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:20:50 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:20:50 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:20:50 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:20:50 2014] [debug] 500 Internal Server Error (0.235408s, 4.248/s).
+[Mon Apr 21 15:22:43 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:22:43 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:22:43 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:22:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:22:44 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:22:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:22:44 2014] [error] Odd number of elements in hash assignment at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 147, <DATA> line 231.
+
+[Mon Apr 21 15:22:44 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:22:44 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:22:44 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:22:45 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:22:45 2014] [debug] 500 Internal Server Error (0.220159s, 4.542/s).
+[Mon Apr 21 15:25:34 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:25:34 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:25:34 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:25:38 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:25:38 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:25:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:25:40 2014] [debug] 200 OK (1.588046s, 0.630/s).
+[Mon Apr 21 15:25:40 2014] [debug] GET "/schengen/form/download/schengen_form_69b102f4f8ba258fb6f3689dffb9036d970e3ac2f1167beec996bfc81530cc42".
+[Mon Apr 21 15:25:40 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Mon Apr 21 15:25:40 2014] [debug] 200 OK (0.002227s, 449.035/s).
+[Mon Apr 21 15:26:38 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:26:38 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:26:39 2014] [debug] 200 OK (1.493969s, 0.669/s).
+[Mon Apr 21 15:26:39 2014] [debug] GET "/schengen/form/download/schengen_form_caa68d71d05fe45709c3d6e18ee8c49fb57157db0b3de4219eceb6d307f4890a".
+[Mon Apr 21 15:26:39 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Mon Apr 21 15:26:39 2014] [debug] 200 OK (0.004751s, 210.482/s).
+[Mon Apr 21 15:27:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:27:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:27:24 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:27:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:27:47 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:27:47 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:27:48 2014] [debug] 200 OK (1.624188s, 0.616/s).
+[Mon Apr 21 15:27:48 2014] [debug] GET "/schengen/form/download/schengen_form_cadaa0bfb84339ed8928d1dd879fe72ec1285132c8d9499ce138ba35d23134a0".
+[Mon Apr 21 15:27:48 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Mon Apr 21 15:27:48 2014] [debug] 200 OK (0.001776s, 563.063/s).
+[Mon Apr 21 15:29:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:29:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:29:39 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:29:42 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:29:42 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:29:42 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:29:44 2014] [debug] 200 OK (1.473699s, 0.679/s).
+[Mon Apr 21 15:29:44 2014] [debug] GET "/schengen/form/download/schengen_form_af33e2bd079cf0e147b520b0944e694204a78674a639b2002e81c1b78d32360a".
+[Mon Apr 21 15:29:44 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Mon Apr 21 15:29:44 2014] [debug] 200 OK (0.001529s, 654.022/s).
+[Mon Apr 21 15:31:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:31:24 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:31:24 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:31:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:31:25 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:31:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:31:26 2014] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Duplicate entry '1' for key 'PRIMARY' at /Users/kamesho/git/VisaCreator/local/lib/perl5/Teng.pm line 272, <DATA> line 231.
+
+SQL     : INSERT INTO `travel_map`
+          (`created_at`, `accommodation_id`, `travel_id`, `user_id`)
+          VALUES (?, ?, ?, ?)
+BIND    : $VAR1 = [
+          [
+            '2014-04-21 06:31:26',
+            undef
+          ],
+          [
+            '2',
+            undef
+          ],
+          [
+            '1',
+            undef
+          ],
+          [
+            '1',
+            undef
+          ]
+        ];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 201.
+
+[Mon Apr 21 15:31:26 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:31:26 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:31:26 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:31:26 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:31:26 2014] [debug] 500 Internal Server Error (0.231366s, 4.322/s).
+[Mon Apr 21 15:48:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:48:39 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:48:39 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:50:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:50:37 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:50:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:50:37 2014] [error] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@ Teng 's Exception @@@@@
+Reason  : DBD::mysql::st execute failed: Unknown column 'id' in 'field list' at /Users/kamesho/git/VisaCreator/local/lib/perl5/Teng.pm line 272, <DATA> line 231.
+
+SQL     : SELECT `id`, `user_id`, `travel_id`, `accommodation_id`, `created_at`
+          FROM `travel_map`
+          WHERE (`travel_id` = ?) AND (`user_id` = ?) AND (`accommodation_id` = ?)
+          LIMIT 1
+BIND    : $VAR1 = [
+          '2',
+          '1',
+          '3'
+        ];
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ at /Users/kamesho/git/VisaCreator/script/../lib/VisaCreator/Model.pm line 197.
+
+[Mon Apr 21 15:50:37 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr 21 15:50:37 2014] [debug] Template "exception.html.ep" not found.
+[Mon Apr 21 15:50:37 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Apr 21 15:50:37 2014] [debug] Rendering inline template "f460d533626235abe1fccfae3f785367".
+[Mon Apr 21 15:50:37 2014] [debug] 500 Internal Server Error (0.226619s, 4.413/s).
+[Mon Apr 21 15:52:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 15:52:14 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 15:52:14 2014] [debug] Helper "config" already exists, replacing.
+[Mon Apr 21 15:52:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr 21 15:52:18 2014] [debug] GET "/auth/logout".
+[Mon Apr 21 15:52:18 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "logout".
+[Mon Apr 21 15:52:18 2014] [debug] 302 Found (0.003969s, 251.953/s).
+[Mon Apr 21 15:52:18 2014] [debug] GET "/".
+[Mon Apr 21 15:52:18 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "serve_root".
+[Mon Apr 21 15:52:18 2014] [debug] 304 Not Modified (0.001387s, 720.981/s).
+[Mon Apr 21 15:52:18 2014] [debug] GET "/api/login/status".
+[Mon Apr 21 15:52:18 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Mon Apr 21 15:52:18 2014] [debug] 200 OK (0.001587s, 630.120/s).
+[Mon Apr 21 15:52:20 2014] [debug] POST "/auth/whereami".
+[Mon Apr 21 15:52:20 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Mon Apr 21 15:52:20 2014] [debug] 200 OK (0.001329s, 752.445/s).
+[Mon Apr 21 15:52:20 2014] [debug] GET "/auth/facebook/callback".
+[Mon Apr 21 15:52:21 2014] [debug] POST "/auth/whereami".
+[Mon Apr 21 15:52:21 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "whereami".
+[Mon Apr 21 15:52:21 2014] [debug] 200 OK (0.001360s, 735.294/s).
+[Mon Apr 21 15:52:22 2014] [debug] GET "/auth/twitter/callback".
+[Mon Apr 21 15:52:26 2014] [debug] GET "/auth/twitter/callback".
+[Mon Apr 21 15:52:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "callback".
+[Mon Apr 21 15:52:26 2014] [debug] 302 Found (0.001613s, 619.963/s).
+[Mon Apr 21 15:52:26 2014] [debug] GET "/api/login/status".
+[Mon Apr 21 15:52:26 2014] [debug] Routing to controller "VisaCreator::Controllers::Index" and action "login_status".
+[Mon Apr 21 15:52:26 2014] [debug] 200 OK (0.001630s, 613.497/s).
+[Mon Apr 21 15:52:29 2014] [debug] GET "/api/schengen/form".
+[Mon Apr 21 15:52:29 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "get_form".
+[Mon Apr 21 15:52:29 2014] [debug] 200 OK (0.189048s, 5.290/s).
+[Mon Apr 21 15:53:36 2014] [debug] POST "/api/schengen/form".
+[Mon Apr 21 15:53:36 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "create_form".
+[Mon Apr 21 15:53:37 2014] [debug] 200 OK (1.314363s, 0.761/s).
+[Mon Apr 21 15:53:37 2014] [debug] GET "/schengen/form/download/schengen_form_20917ebad3bab4771d0bb247e3a70f55b4bc76134042c90244671f4219faadde".
+[Mon Apr 21 15:53:37 2014] [debug] Routing to controller "VisaCreator::Controllers::Schengen" and action "download_form".
+[Mon Apr 21 15:53:37 2014] [debug] 200 OK (0.001975s, 506.329/s).
+[Mon Apr 21 17:13:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.conf".
+[Mon Apr 21 17:13:20 2014] [debug] Reading configuration file "/Users/kamesho/git/VisaCreator/script/../etc/visa_creator.development.conf".
+[Mon Apr 21 17:13:20 2014] [debug] Helper "config" already exists, replacing.

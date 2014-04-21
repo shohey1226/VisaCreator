@@ -27,7 +27,7 @@ table {
     name 'travel';
     pk 'id';
     columns qw/id purpose stay_length arrival_date departure_date port_entry
-               airline_ship_name remarks created_at/;
+               destination airline_ship_name remarks created_at/;
     inflate qr/.+_at/ => sub {
         my $value = shift;
         return DateTime::Format::MySQL->parse_datetime($value);
@@ -46,8 +46,8 @@ table {
 
 table {
     name 'travel_map';
-    pk 'user_id';
-    columns qw/user_id travel_id accommodation_id created_at/;
+    pk 'id';
+    columns qw/id user_id travel_id accommodation_id created_at/;
     inflate qr/.+_at/ => sub {
         my $value = shift;
         return DateTime::Format::MySQL->parse_datetime($value);

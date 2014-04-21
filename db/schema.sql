@@ -100,13 +100,13 @@ CREATE TABLE travel
 (
     id INT AUTO_INCREMENT,   
     purpose VARCHAR(30),
+    destination VARCHAR(20),
     stay_length VARCHAR(10), 
     arrival_date VARCHAR(20),
     departure_date VARCHAR(20),
     port_entry VARCHAR(15),
     airline_ship_name VARCHAR(15),
     remarks VARCHAR(50),
-    created_at DATETIME,
     PRIMARY KEY (id)
 ) ENGINE=INNODB;
 
@@ -123,6 +123,7 @@ CREATE TABLE accommodation
 DROP TABLE IF EXISTS travel_map;
 CREATE TABLE travel_map 
 (
+    id INT AUTO_INCREMENT,
     user_id INT,
     travel_id INT,
     accommodation_id INT,
@@ -133,7 +134,7 @@ CREATE TABLE travel_map
       ON DELETE CASCADE,
     FOREIGN KEY(travel_id) REFERENCES travel(id)
       ON DELETE CASCADE,
-    PRIMARY KEY(user_id, travel_id, accommodation_id)
+    PRIMARY KEY(id)
 ) ENGINE=INNODB;;
 
 

@@ -87,6 +87,178 @@ sub save_form {
                 $self->_save_japan_form($id, $type, $data->{userinfo});
             }
         }
+    }elsif ( $type eq 'schengen'){
+        $self->_save_schengen_form($id, 'mandatory', $data->{userinfo});
+        for my $type ( keys %{ $data->{store} } ){
+            if (( decode_json $data->{store}->{$type} ) == 1){
+                $self->_save_schengen_form($id, $type, $data->{userinfo});
+            }
+        }
+    }
+}
+
+sub _insert_unless_exist {
+    my ($self, $data, $table ) = @_;
+    my $row = $self->db->single($table, $data);
+    unless (defined $row) {
+        $row = $self->db->insert($table, $data);
+    }
+    return $row->id;
+}
+
+sub _save_schengen_form{
+    my ($self, $id, $type, $user_info) = @_;
+    my $data = {};
+    my $dt = DateTime->now();
+
+    #==========================================================================
+    # The things to update anyway
+    #==========================================================================
+    if($type eq 'mandatory'){
+        #----------------------------------------------------------------------
+        # Name and birthday 
+        #----------------------------------------------------------------------
+        $data = {};
+        my $row = $self->db->single('user', +{id => $id});
+        if (defined $row){
+            for my $col (keys %{ $row->get_columns }){
+                next if ($col eq 'id' || $col eq 'created_at');
+                $data->{$col} = $row->get_columns->{$col} 
+                    if (defined $row->get_columns->{$col});
+            }
+        }
+        my %map = reverse %{ $self->config->{schengen}->{map}->{user} };
+        for my $var (qw/firstname surname othername dateOfBirth email/){
+            $data->{ $map{$var} } = $user_info->{$var} if (defined $user_info->{$var});
+        }
+        if (defined $user_info->{genderMale}){ 
+            $data->{gender} = 'male'; 
+        }elsif (defined $user_info->{genderFemale}){
+            $data->{gender} = 'female'; 
+        }
+        $data->{updated_at} = $dt;
+        $self->db->update('user', $data, +{id => $id});
+        
+        #----------------------------------------------------------------------
+        # Travel
+        #----------------------------------------------------------------------
+        $data = {};
+        %map = reverse %{ $self->config->{schengen}->{map}->{travel} };
+        for my $var(qw/destMemberStates intendedLength departureDate arrivalDate/){
+            $data->{ $map{$var} } = $user_info->{$var} if (defined $user_info->{$var});
+        }
+        if (defined $user_info->{purposeTourism}){
+            $data->{purpose} = 'Tourism';
+        }elsif (defined $user_info->{purposeBusiness}){
+            $data->{purpose} = 'Business'; 
+        }elsif (defined $user_info->{purposeVisiting}){
+            $data->{purpose} = 'Visiting Family/Friend'; 
+        }elsif (defined $user_info->{purposeCultural}){
+            $data->{purpose} = 'Cultural';
+        }elsif (defined $user_info->{purposeSports}){
+            $data->{purpose} = "Sports";
+        }elsif (defined $user_info->{purposeOfficial}){
+            $data->{purpose} = "Official";
+        }elsif (defined $user_info->{purposeStudy}){
+            $data->{purpose} = "Study";
+        }elsif (defined $user_info->{purposeMedical}){
+            $data->{purpose} = "Medical reasons";
+        }elsif (defined $user_info->{purposeTransit}){
+            $data->{purpose} = "Transit";
+        }elsif (defined $user_info->{purposeAirportTransit}){
+            $data->{purpose} = "Airport Transit";
+        }elsif (defined $user_info->{purposeOther}){
+            $data->{purpose} = $user_info->{purposeOtherInput}; 
+        }
+
+        my $travel_id;
+        $travel_id = $self->_insert_unless_exist($data, 'travel')
+            if (scalar keys $data > 0);
+
+        #----------------------------------------------------------------------
+        # Accommodation
+        #----------------------------------------------------------------------
+        $data = {};
+        %map = reverse %{ $self->config->{schengen}->{map}->{accommodation} };
+        for my $var(qw/accommodation accommodationAddress accommodationTel/){
+            $data->{ $map{$var} } = $user_info->{$var} 
+                if (defined $user_info->{$var});
+        }
+        my $accommodation_id;
+        $accommodation_id = $self->_insert_unless_exist($data, 'accommodation')
+            if (scalar keys $data > 0);
+
+        #----------------------------------------------------------------------
+        # Update travel_mp 
+        #----------------------------------------------------------------------
+        $data = {};
+        $data->{user_id} = $id;
+        $data->{travel_id} = $travel_id if (defined $travel_id);
+        $data->{accommodation_id} = $accommodation_id if(defined $accommodation_id);
+        if (scalar keys $data > 1){
+            my $r = $self->db->single('travel_map', $data);
+            unless ( defined $r ) {
+                $data->{created_at} = $dt;
+                $self->db->insert('travel_map', $data);
+            }
+        }
+    }
+    #==========================================================================
+    # Basic info (address, tel, martial status, profession and place of birth) 
+    #==========================================================================
+    elsif ($type eq 'basic'){
+        $data = {};
+        my %map = reverse %{ $self->config->{schengen}->{map}->{user} };
+        for my $var(qw/placeOfBirth residentialAddress residentialTel profession/){
+            $data->{ $map{$var} } = $user_info->{$var} 
+                if (defined $user_info->{$var});
+        }
+        if (defined $user_info->{martialStatusMarried}){
+            $data->{martialstatus} = "married";
+        }elsif (defined $user_info->{martialStatusSingle}){
+            $data->{martialstatus} = "single";
+        }elsif (defined $user_info->{martialStatusSeparated}){
+            $data->{martialstatus} = "separated";
+        }elsif (defined $user_info->{martialStatusDivorced}){
+            $data->{martialstatus} = "divorced";
+        }elsif (defined $user_info->{martialStatusWidowed}){
+            $data->{martialstatus} = "widowed";
+        }elsif (defined $user_info->{martialStatusOther}){
+            $data->{martialstatus} = $user_info->{martialStatusOtherInput}
+                if(defined $user_info->{martialStatusOtherInput});
+        }
+        $self->db->update('user', $data, +{id => $id}) if (scalar keys $data > 0);
+    }
+    #==========================================================================
+    # Personal info (passport info and others)
+    #==========================================================================
+    elsif ($type eq 'personal'){
+        $data = {};
+        my %map = reverse %{ $self->config->{schengen}->{map}->{user} };
+        for my $var(qw/passportNo placeOfIssue issuingAuth dateOfExpiry id nationality/){
+            $data->{ $map{$var} } = $user_info->{$var} 
+                if (defined $user_info->{$var});
+        }
+        if (defined $user_info->{passportTypeDiplomatic}){
+            $data->{passport_type} = 'diplomatic'; 
+        }elsif (defined $user_info->{passportTypeService}){
+            $data->{passport_type} = 'service'; 
+        }elsif (defined $user_info->{passportTypeOfficial}){
+            $data->{passport_type} = 'official';
+        }elsif (defined $user_info->{passportTypeSpecial}){
+            $data->{passport_type} = 'special';
+        }elsif (defined $user_info->{passportTypeOrdinary}){
+            $data->{passport_type} = 'ordinary';
+        }elsif (defined $user_info->{passportTypeOther}){
+            $data->{passport_type} = $user_info->{passportTypeOtherInput}
+                if (defined $user_info->{passportTypeOtherInput});
+        }
+        $self->db->update('user', $data, +{id => $id}) if (scalar keys $data > 0);
+    }
+    #==========================================================================
+    # Employer 
+    #==========================================================================
+    elsif ($type eq 'employer'){
     }
 }
 
