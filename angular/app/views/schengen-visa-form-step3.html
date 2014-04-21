@@ -100,16 +100,16 @@
   
   Name and address of inviting company/organisation<br>
   <label for="guarantorAddress">Company/organisation Address</label>
-  <input type="text" class="form-control" id="guarantorAddress" placeholder="" ng-model="$storage.user.guarantorAddress">
+  <input type="text" class="form-control" id="guarantorAddress" placeholder="" ng-model="$storage.user.invitingComAddress">
   <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <label for="guarantorName">Company/organisation Name</label>
-      <input type="text" class="form-control" id="guarantorName" placeholder="" ng-model="$storage.user.guarantorName">
+      <input type="text" class="form-control" id="guarantorName" placeholder="" ng-model="$storage.user.invitingComName">
     </div>
   
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <label for="guarantorTel">Telephone and telefax of company/organisation</label>
-      <input type="text" class="form-control" id="guarantorTel" placeholder="" ng-model="$storage.user.guarantorTel">
+      <input type="text" class="form-control" id="guarantorTel" placeholder="" ng-model="$storage.user.invitingComTel">
     </div>
   </div>
   <br>
@@ -117,21 +117,21 @@
   Contact person in company/organisation
   <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <label for="contactName">Conact's surname</label>
-      <input type="text" class="form-control" id="contactName" placeholder="" ng-model="$storage.user.contactName">
+      <label for="contactSurname">Conact's surname</label>
+      <input type="text" class="form-control" id="contactSurname" placeholder="" ng-model="$storage.user.contactSurname">
     </div>
   
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <label for="contactTel">Contact's firstname</label>
-      <input type="text" class="form-control" id="contactTel" placeholder="" ng-model="$storage.user.contactTel">
+      <input type="text" class="form-control" id="contactFirstname" placeholder="" ng-model="$storage.user.contactFirstname">
     </div>
   </div>
   <label for="contactAddress">Contact's Address</label>
   <input type="text" class="form-control" id="contactAddress" placeholder="" ng-model="$storage.user.contactAddress">
   <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <label for="contactName">Contact's Email</label>
-      <input type="text" class="form-control" id="contactName" placeholder="" ng-model="$storage.user.contactName">
+      <label for="contactEmail">Contact's Email</label>
+      <input type="text" class="form-control" id="contactEmail" placeholder="" ng-model="$storage.user.contactEmail">
     </div>
   
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -144,30 +144,33 @@
   <strong>Cost of travelling and living during the applicant's stay is covered</strong>
   <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <div class="checkbox"><label><input type="checkbox" ng-model="bymyself">by the applicant himself/herself</label></div>
-      Means of support
-      <div class="checkbox"><label><input type="checkbox" ng-model="bymyselfCash">Cash</label></div>
-      <div class="checkbox"><label><input type="checkbox" ng-model="bymyselfTC">Traveller’s cheques</label></div>
-      <div class="checkbox"><label><input type="checkbox" ng-model="bymyselfCC">Credit card</label></div>
-      <div class="checkbox"><label><input type="checkbox" ng-model="bymyselfPreAcco">Pre-paid accommodation</label></div>
-      <div class="checkbox"><label><input type="checkbox" ng-model="bymyselfPreTrans">Pre-paid transport</label></div>
-      <label for="myselfMeansOther">Other</label>
-      <input type="text" class="form-control" id="myselfMeansOther" placeholder="" ng-model="$storage.user.myselfMeansOther">
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.byMyself">by the applicant himself/herself</label></div>
+      Means of support                                                               
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.byMyselfCash">Cash</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.byMyselfTC">Traveller’s cheques</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.byMyselfCC">Credit card</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.byMyselfPreAcco">Pre-paid accommodation</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.byMyselfPreTrans">Pre-paid transport</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.byMyselfOther">Other</label></div>
+      <label for="byMyselfMeansOtherInput">Other</label>
+      <input type="text" class="form-control" id="byMyselfMeansOtherInput" placeholder="" ng-model="$storage.user.byMyselfMeansOtherInput">
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsor">by a sponsor (host, company, organisation),</label></div>
-      Please specify
-      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsor3132">referred to in field 31or 32</label></div>
-      <label for="sponsorMeansOther">Other</label>
-      <input type="text" class="form-control" id="sponsorMeansOther" placeholder="" ng-model="$storage.user.sponsorMeansOther">
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.bySponsor">by a sponsor (host, company, organisation),</label></div>
+      Please specify                                                                 
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.bySponsor3132">referred to in field 31or 32</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.bySponsorOther">other (please specify) :</label></div>
+      <label for="bySponsorOtherInput">Other</label>
+      <input type="text" class="form-control" id="bySponsorOtherInput" placeholder="" ng-model="$storage.user.bySponsorOtherInput">
       <br>
       Means of support
-      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsorCash">Cash</label></div>
-      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsorAcco">Accomodation provided</label></div>
-      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsorCovered">All expenses covered during the stay</label></div>
-      <div class="checkbox"><label><input type="checkbox" ng-model="bysponsorPreTrans">Pre-paid transport</label></div>
-      <label for="sponsorMeansOther">Other</label>
-      <input type="text" class="form-control" id="sponsorMeansOther" placeholder="" ng-model="$storage.user.sponsorMeansOther">
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.bySponsorCash">Cash</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.bySponsorAcco">Accomodation provided</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.bySponsorCovered">All expenses covered during the stay</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.bySponsorPreTrans">Pre-paid transport</label></div>
+      <div class="checkbox"><label><input type="checkbox" ng-model="$storage.user.bySponsorMeansOther">Other</label></div>
+      <label for="bySponsorMeansOtherInput">Other</label>
+      <input type="text" class="form-control" id="bySponsorMeansOtherInput" placeholder="" ng-model="$storage.user.bySponsorMeansOtherInput">
     </div>
   </div>
 </div>

@@ -130,6 +130,80 @@ angular.module('VisaCreatorApp')
               userInfo.fingerprintsYes = 'X';
           }
 
+        } else if (key === 'byMyself'){ 
+          if (user[key]){ 
+              userInfo.byMyself = 'X';
+          }
+
+        } else if (key === 'byMyselfCash'){ 
+          if (user[key]){ 
+              userInfo.byMyselfCash = 'X';
+          }
+
+        } else if (key === 'byMyselfTC'){ 
+          if (user[key]){ 
+              userInfo.byMyselfTC = 'X';
+          }
+          
+        } else if (key === 'byMyselfCC'){ 
+          if (user[key]){ 
+              userInfo.byMyselfCC = 'X';
+          }
+
+        } else if (key === 'byMyselfPreAcco'){ 
+          if (user[key]){ 
+              userInfo.byMyselfPreAcco = 'X';
+          }
+
+        } else if (key === 'byMyselfPreTrans'){ 
+          if (user[key]){ 
+              userInfo.byMyselfPreTrans = 'X';
+          }
+
+        } else if (key === 'byMyselfOther'){ 
+          if (user[key]){ 
+              userInfo.byMyselfOther = 'X';
+          }
+
+        } else if (key === 'bySponsor'){ 
+          if (user[key]){ 
+              userInfo.bySponsor = 'X';
+          }
+
+        } else if (key === 'bySponsor3132'){ 
+          if (user[key]){ 
+              userInfo.bySponsor3132 = 'X';
+          }
+
+        } else if (key === 'bySponsorCash'){ 
+          if (user[key]){ 
+              userInfo.bySponsorCash = 'X';
+          }
+
+        } else if (key === 'bySponsorAcco'){ 
+          if (user[key]){ 
+              userInfo.bySponsorAcco = 'X';
+          }
+
+        } else if (key === 'bySponsorCovered'){ 
+          if (user[key]){ 
+              userInfo.bySponsorCovered = 'X';
+          }
+
+        } else if (key === 'bySponsorPreTrans'){ 
+          if (user[key]){ 
+              userInfo.bySponsorPreTrans = 'X';
+          }
+
+        } else if (key === 'bySponsorOther'){ 
+          if (user[key]){ 
+              userInfo.bySponsorOther = 'X';
+          }
+
+        } else if (key === 'bySponsorMeansOther'){ 
+          if (user[key]){ 
+              userInfo.bySponsorMeansOther = 'X';
+          }
 
         } else if (key === 'crime'){ 
           if (user[key] === 'yes'){ 

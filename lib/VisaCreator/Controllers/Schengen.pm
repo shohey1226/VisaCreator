@@ -31,17 +31,26 @@ sub create_form {
     $data->{userinfo}->{employer} .=  $data->{userinfo}->{employerName} if (defined $data->{userinfo}->{employerTel});
 
     # NO.31
-    if ($data->{userinfo}->{existInviter} eq 'false' && $data->{userinfo}->{familyMember} eq 'false'){
-        $data->{userinfo}->{thirtyoneName} = $data->{userinfo}->{accommodation} if (defined $data->{userinfo}->{accommodation});
-        $data->{userinfo}->{thirtyoneAddress} = $data->{userinfo}->{accommodationAddress} if (defined $data->{userinfo}->{accommodationAddress});
-        $data->{userinfo}->{thirtyoneEmail} = $data->{userinfo}->{accommodationEmail} if (defined $data->{userinfo}->{accommodationEmail});
-        $data->{userinfo}->{thirtyoneTel} = $data->{userinfo}->{accommodationTel} if (defined $data->{userinfo}->{accommodationTel});
-    }elsif ($data->{userinfo}->{existInviter} eq 'true' && $data->{userinfo}->{familyMember} eq 'false'){
-        $data->{userinfo}->{thirtyoneName} = $data->{userinfo}->{inviterName} if (defined $data->{userinfo}->{inviterName});
-        $data->{userinfo}->{thirtyoneAddress} = $data->{userinfo}->{inviterAddress} if (defined $data->{userinfo}->{inviterAddress});
-        $data->{userinfo}->{thirtyoneEmail} = $data->{userinfo}->{inviterEmail} if (defined $data->{userinfo}->{inviterEmail});
-        $data->{userinfo}->{thirtyoneTel} = $data->{userinfo}->{inviterTel} if (defined $data->{userinfo}->{inviterTel});
+    if (defined $data->{userinfo}->{existInviter} && defined $data->{userinfo}->{familyMember}){
+        if ($data->{userinfo}->{existInviter} eq 'false' && $data->{userinfo}->{familyMember} eq 'false'){
+            $data->{userinfo}->{thirtyoneName} = $data->{userinfo}->{accommodation} if (defined $data->{userinfo}->{accommodation});
+            $data->{userinfo}->{thirtyoneAddress} = $data->{userinfo}->{accommodationAddress} if (defined $data->{userinfo}->{accommodationAddress});
+            $data->{userinfo}->{thirtyoneEmail} = $data->{userinfo}->{accommodationEmail} if (defined $data->{userinfo}->{accommodationEmail});
+            $data->{userinfo}->{thirtyoneTel} = $data->{userinfo}->{accommodationTel} if (defined $data->{userinfo}->{accommodationTel});
+        }elsif ($data->{userinfo}->{existInviter} eq 'true' && $data->{userinfo}->{familyMember} eq 'false'){
+            $data->{userinfo}->{thirtyoneName} = $data->{userinfo}->{inviterName} if (defined $data->{userinfo}->{inviterName});
+            $data->{userinfo}->{thirtyoneAddress} = $data->{userinfo}->{inviterAddress} if (defined $data->{userinfo}->{inviterAddress});
+            $data->{userinfo}->{thirtyoneEmail} = $data->{userinfo}->{inviterEmail} if (defined $data->{userinfo}->{inviterEmail});
+            $data->{userinfo}->{thirtyoneTel} = $data->{userinfo}->{inviterTel} if (defined $data->{userinfo}->{inviterTel});
+        }
     }
+
+    # ContactInfo
+    $data->{userinfo}->{contactInfoTop} = ""; 
+    $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactInfoSurname} if (defined $data->{userinfo}->{contactInfoSurname});
+    $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactInfoFirstname} if (defined $data->{userinfo}->{contactInfoFirstname});
+    $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactInfoTel} if (defined $data->{userinfo}->{contactInfoTel});
+    $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactInfoEmail} if (defined $data->{userinfo}->{contactInfoEmail});
 
     my $pdf_name = $self->pdfmaker->create('schengen', 'form', $self->config, $data->{userinfo});
     debugf "PDF name: $pdf_name";
