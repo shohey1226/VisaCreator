@@ -52,7 +52,11 @@ sub create_form {
     $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactTel} if (defined $data->{userinfo}->{contactTel});
     $data->{userinfo}->{contactInfoTop} .=  " " . $data->{userinfo}->{contactEmail} if (defined $data->{userinfo}->{contactEmail});
 
-    my $pdf_name = $self->pdfmaker->create('schengen', 'form', $self->config, $data->{userinfo});
+    
+    my $pdf_name;
+    if ($data->{userinfo}->{country} eq 'France'){
+        $pdf_name = $self->pdfmaker->create('schengen', 'form_france', $self->config, $data->{userinfo});
+    }
     debugf "PDF name: $pdf_name";
     $self->render( json => { url => "/schengen/form/download/$pdf_name" });
 }

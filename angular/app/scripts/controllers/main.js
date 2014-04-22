@@ -105,6 +105,7 @@ angular.module('VisaCreatorApp')
                 $location.path('/japan-visa-form-step1');
             }else if (country === 'France' || country === 'Spain' ){
                 $scope.$storage.country = country;
+                $scope.$storage.user = {};
                 $scope.$storage.user.familyMember = 'false';
                 $scope.$storage.user.existInviter = 'false';
                 $rootScope.targetVisa = 'schengen';
@@ -112,13 +113,21 @@ angular.module('VisaCreatorApp')
                     var promise = schengenVisaService.getInfo();
                     promise.then(function(res)  { 
                         $scope.$storage.user = res;
+
+                        if($scope.$storage.user["familyMember"] === undefined){
+                            $scope.$storage.user.familyMember = 'false';
+                        }
+                        if($scope.$storage.user["existInviter"] === undefined){
+                            $scope.$storage.user.existInviter = 'false';
+                        }
+
                     })
                     .catch(function(req) { console.log("error to submit form"); })
                 }
                 $location.path('/schengen-visa-form-step1');
             }
         };
-        //$localStorage.$reset();
+        $localStorage.$reset();
   }])
   //==========================================================
   .controller('MainCtrl', function ($scope, japanVisaService) {
