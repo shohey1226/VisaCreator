@@ -127,13 +127,13 @@ sub get_form {
     # first try to get with visa_type
     my $cursor = $self->mongo->get_collection('visa')->find({user_id => $id, visa_type => $country})->sort({created_at => -1})->limit(1);
     my $obj = $cursor->next;
-    debugf Dumper $obj;
+    #debugf Dumper $obj;
     return $self->util->decrypt($obj->{data}) if (defined $obj);
 
     # next, try to get the latest one without visa_type 
     $cursor = $self->mongo->get_collection('visa')->find({user_id => $id})->sort({created_at => -1})->limit(1);
     $obj = $cursor->next;
-    debugf Dumper $obj;
+    #debugf Dumper $obj;
     return $self->util->decrypt($obj->{data}) if (defined $obj);
 
     # no, then return 0
@@ -145,7 +145,7 @@ sub save_form {
     my $raw_info = $self->filter_user_preference($type, $data);
     my $info = $self->util->encrypt($raw_info);
     my $epoch = time();
-    debugf "adding at epoch:$epoch as user_id:$id - " . Dumper($info);
+    #debugf "adding at epoch:$epoch as user_id:$id - " . Dumper($info);
 
     my $cursor = $self->mongo->get_collection('visa')->find( {user_id => $id, visa_type => $type } );
     my $obj = $cursor->next;

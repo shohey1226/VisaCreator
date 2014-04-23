@@ -3,6 +3,9 @@ package VisaCreator::Util;
 use Moo;
 use JSON::XS;
 use Crypt::CBC;
+use IO::Compress::Gzip qw(gzip $GzipError) ;
+use IO::Uncompress::Gunzip qw(gunzip $GunzipError) ;
+use MongoDB::BSON::Binary;
 
 has cipher => (
     is => 'ro',
@@ -32,12 +35,19 @@ sub deserialize {
 
 sub encrypt {
     my ($self, $hash_or_array) = @_;
-    return $self->cipher->encrypt_hex( $self->serialize($hash_or_array) );
+    my $hex_in = $self->cipher->encrypt_hex( $self->serialize($hash_or_array) );
+    my $bin_out;
+    gzip \$hex_in => \$bin_out;
+    return MongoDB::BSON::Binary->new(data => $bin_out);
 }
 
 sub decrypt {
-    my ($self, $hex) = @_;
-    return $self->deserialize( $self->cipher->decrypt_hex( $hex ) );
+    #my ($self, $hex) = @_;
+    #return $self->deserialize( $self->cipher->decrypt_hex( $hex ) );
+    my ($self, $bin) = @_;
+    my $hex_out;
+    gunzip \$bin => \$hex_out;
+    return $self->deserialize( $self->cipher->decrypt_hex( $hex_out ) );
 }
 
 #sub get_salt{
