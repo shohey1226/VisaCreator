@@ -70,8 +70,11 @@ angular.module('VisaCreatorApp')
     $scope.fillin = function(){
        if ( $rootScope.loggedIn === true ){
 
+           console.log($scope.$storage.country);
+
            var promise;
            if ($scope.$storage.country === 'Japan'){
+               console.log('abc');
                promise = japanVisaService.getInfo();
            }
            else if ($scope.$storage.country === 'France' || $scope.$storage.country === 'Spain' ){
@@ -105,8 +108,12 @@ angular.module('VisaCreatorApp')
 
         $scope.$storage = $localStorage;
         $scope.countries = ["Japan", "France", "Spain"];
+        $localStorage.$reset();
         
         $scope.goStep = function(country){
+            // store country to use what we need
+            $scope.$storage.country = country;
+
             if (country === 'Japan'){ 
                 $rootScope.targetVisa = 'japan';
                 if ( $rootScope.loggedIn === true ){
@@ -117,8 +124,9 @@ angular.module('VisaCreatorApp')
                     .catch(function(req) { console.log("error to submit form"); })
                 }
                 $location.path('/japan-visa-form-step1');
-            }else if (country === 'France' || country === 'Spain' ){
-                $scope.$storage.country = country;
+            }
+            else if (country === 'France' || country === 'Spain' ){
+
                 $scope.$storage.user = {};
                 $scope.$storage.user.familyMember = 'false';
                 $scope.$storage.user.existInviter = 'false';
@@ -141,7 +149,6 @@ angular.module('VisaCreatorApp')
                 $location.path('/schengen-visa-form-step1');
             }
         };
-        $localStorage.$reset();
   }])
   //==========================================================
   .controller('MainCtrl', function ($scope, japanVisaService) {

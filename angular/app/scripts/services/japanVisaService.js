@@ -115,7 +115,16 @@ angular.module('VisaCreatorApp')
       return $resource('/api/japan/form').save({userinfo: userInfo, store: store}).$promise;
     },
     getInfo: function (){
-        return $resource('/api/japan/form').get().$promise;
+        var promise = $resource('/api/japan/form').get().$promise;
+        promise.then(function(res){
+            if ( res.genderMale === 'X'){
+                res.gender = 'male';
+            }else if ( res.genderFemale === 'X'){
+                res.gender = 'female';
+            }
+            return res;
+        });
+        return promise;
     }
   }
 });
