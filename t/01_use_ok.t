@@ -16,6 +16,7 @@ BEGIN {
     use_ok( 'VisaCreator::DB' ); 
     use_ok( 'VisaCreator::DB::Schema' ); 
     use_ok( 'VisaCreator::Role::PDF' ); 
+    use_ok( 'VisaCreator::Util' ); 
     #use_ok( 'VisaCreator::Util' ); 
     #use_ok( 'VisaCreator::Service::User' ); 
     #use_ok( 'VisaCreator::Service::Theme' ); 

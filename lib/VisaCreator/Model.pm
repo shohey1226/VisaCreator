@@ -8,6 +8,7 @@ use DateTime;
 use Mojo::JSON qw(decode_json);
 use MongoDB;
 use Log::Minimal;
+use VisaCreator::Util;
 
 has config => (
     is => 'ro',
@@ -24,6 +25,12 @@ has mongo => (
     is => 'ro',
     lazy => 1,
     builder => '_build_mongo',
+);
+
+has util => (
+    is => 'ro',
+    lazy => 1,
+    builder => '_build_util',
 );
 
 sub _build_db {
@@ -50,6 +57,11 @@ sub _build_mongo{
         db_name => $self->config->{mongo_db_name},
     ); 
     return $c->get_database($self->config->{mongo_db_name});
+}
+
+sub _build_util{
+    my $self = shift;
+    return VisaCreator::Util->new(key => $self->config->{secret_key});
 }
 
 sub find_id {
@@ -116,13 +128,13 @@ sub get_form {
     my $cursor = $self->mongo->get_collection('visa')->find({user_id => $id, visa_type => $country})->sort({created_at => -1})->limit(1);
     my $obj = $cursor->next;
     debugf Dumper $obj;
-    return $obj->{data} if (defined $obj);
+    return $self->util->decrypt($obj->{data}) if (defined $obj);
 
     # next, try to get the latest one without visa_type 
     $cursor = $self->mongo->get_collection('visa')->find({user_id => $id})->sort({created_at => -1})->limit(1);
     $obj = $cursor->next;
     debugf Dumper $obj;
-    return $obj->{data} if (defined $obj);
+    return $self->util->decrypt($obj->{data}) if (defined $obj);
 
     # no, then return 0
     return 0;
@@ -130,7 +142,8 @@ sub get_form {
 
 sub save_form {
     my ($self, $id, $type, $data) = @_;
-    my $info = $self->filter_user_preference($type, $data);
+    my $raw_info = $self->filter_user_preference($type, $data);
+    my $info = $self->util->encrypt($raw_info);
     my $epoch = time();
     debugf "adding at epoch:$epoch as user_id:$id - " . Dumper($info);
 

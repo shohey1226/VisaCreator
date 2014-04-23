@@ -218,7 +218,6 @@ angular.module('VisaCreatorApp')
           else if (user[key] === 'dependent'){
               userInfo.schengenFamilyRelationDependent = 'X';
           }
-
         } else{
           userInfo[key] = user[key];
         }
@@ -227,7 +226,96 @@ angular.module('VisaCreatorApp')
       return $resource('/api/schengen/form').save({userinfo: userInfo, store: store}).$promise;
     },
     getInfo: function (){
-        return $resource('/api/schengen/form').get().$promise;
+        var promise = $resource('/api/schengen/form').get().$promise;
+        promise.then(function(res){
+
+            if ( res.genderMale === 'X'){
+                res.gender = 'male';
+            }else if ( res.genderFemale === 'X'){
+                res.gender = 'female';
+            }
+
+            if ( res.martialStatusMarried === 'X'){
+                res.martialStatus = 'married';
+            }else if (res.userInfo.martialStatusSingle === 'X'){
+                res.martialStatus = 'single';
+            }else if (res.userInfo.martialStatusWidowed === 'X'){
+                res.martialStatus = 'widowed';
+            }else if (res.userInfo.martialStatusSeparated === 'X'){
+                res.martialStatus = 'separated';
+            }else if (res.userInfo.martialStatusDivorced === 'X'){
+                res.martialStatus = 'divorced';
+            }else if (res.userInfo.martialStatusOther === 'X'){
+                res.martialStatus = 'other';
+            }
+
+            if (res.passportTypeDiplomatic === 'X'){
+                res.passportType = 'diplomatic';
+            }else if (res.passportTypeOfficial === 'X'){
+                res.passportType = 'official';
+            }else if (res.passportTypeService === 'X'){
+                res.passportType = 'service';
+            }else if (res.passportTypeSpecial === 'X'){
+                res.passportType = 'special';
+            }else if (res.passportTypeOrdinary === 'X'){
+                res.passportType = 'ordinary';
+            }else if (res.passportTypeOther === 'X'){
+                res.passportType = 'other';
+            }
+
+            if (res.numOfEntriesSingle === 'X'){
+                res.numOfEntries = 'single';
+            } else if (res.numOfEntriesTwo === 'X'){
+                res.numOfEntries = 'two';
+            } else if (res.numOfEntriesMultiple === 'X'){
+                res.numOfEntries = 'multiple';
+            }
+
+            if (res.otherResidenceYes === 'X'){
+                res.otherResidence = 'yes';
+            } else if (res.otherResidenceNo === 'X'){
+                res.otherResidence = 'no';
+            }
+
+            if (res.purposeTourism === 'X'){
+                res.purpose = "tourism";
+            }else if (res.purposeBusiness === 'X'){
+                res.purpose = "business";
+            }else if (res.purposeVisiting === 'X'){
+                res.purpose = "visiting";
+            }else if (res.purposeCultural === 'X'){
+                res.purpose = "cultural";
+            }else if (res.purposeSports === 'X'){
+                res.purpose = "sports";
+            }else if (res.purposeOfficial === 'X'){
+                res.purpose = "official";
+            }else if (res.purposeStudy === 'X'){
+                res.purpose = "study";
+            }else if (res.purposeMedical === 'X'){
+                res.purpose = "medial";
+            }else if (res.purposeTransit === 'X'){
+                res.purpose = "transit";
+            }else if (res.purposeAirportTransit === 'X'){
+                res.purpose = "airportTransit";
+            }else if (res.purposeOther === 'X'){
+                res.purpose = "other";
+            }
+
+            if (res.visaPastYes === 'X'){
+                res.visaPast = "yes";
+            } else if (res.visaPastNo === 'X'){
+                res.visaPast = "no";
+            }
+
+            if (res.fingerprintsYes === 'X'){
+                res.visaPast = 'yes';
+            } else if (res.fingerprintsNo === 'X'){
+                res.visaPast = 'no';
+            }
+
+            return res;
+        });
+        return promise;
     }
   }
 });
