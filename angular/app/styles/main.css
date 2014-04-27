@@ -4,18 +4,20 @@ body {
   padding-bottom: 20px;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
+/* Everything but the jumbotron gets side spacing for mobile first views 
 .header,
 .marketing,
 .footer {
   padding-left: 15px;
   padding-right: 15px;
 }
+*/
 
-/* Custom page header */
+/* Custom page header 
 .header {
   border-bottom: 1px solid #e5e5e5;
 }
+*/
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
@@ -84,22 +86,31 @@ body {
 
 .nav li p {
     display: block;
-    padding-top: 12px;
+    /* padding-top: 12px; */
 }
 
-.jumbotron {
-  padding: 60px;
-  margin-bottom: 30px;
-  background-image: url(../images/castle.png);
+
+.jumbotron { 
+  margin-bottom: 0px; 
+  background-image: url(../images/sea.png);
   background-repeat: no-repeat;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  height: 400px;
+  background-position: 0 0;
+  background-size: cover;
 }
+
+.inside_jumbo {
+    background-color:rgba(255,255,255,0.5);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px; 
+}
+
 
 #feature_block {
  margin: 10px;
 }
 
+.navbar {
+    border-radius: 0px; 
+}
 

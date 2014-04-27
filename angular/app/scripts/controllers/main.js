@@ -51,6 +51,22 @@ angular.module('VisaCreatorApp')
       };
     }
   )
+  .controller('forumCtrl', function($scope){
+
+    //var a = document.createElement('a');
+    //a.href = "https://muut.com/i/visastation";
+    //a.className = "muut"; 
+    //$("body").append(a);
+    //      //<a class="muut" href="https://muut.com/i/visastation">Visastation forum</a>
+    //      console.log('abc');
+    //      //a.class = "muut";
+    //      //a.appendChild("body");
+    //  //});
+    //var script_tag1     = document.createElement("script");
+    //script_tag1.type    = "text/javascript";
+    //script_tag1.src     = "//cdn.muut.com/1/moot.min.js";
+    //$("body").append(script_tag1);
+  })
   //==========================================================
   // Login
   .controller('LoginCtrl', function($scope, $location, Login, $rootScope, japanVisaService, schengenVisaService, $localStorage){

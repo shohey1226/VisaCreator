@@ -41,6 +41,10 @@ angular.module('VisaCreatorApp', [
         templateUrl: 'views/schengen-visa-form-step3.html',
         controller: 'visaFormCtrlStep3'
       })
+      .when('/forum', {
+        templateUrl: 'views/forum.html',
+        controller: 'forumCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
