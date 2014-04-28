@@ -156,4 +156,10 @@ sub save_form {
     }
 }
 
+sub _swap_dd{
+    my ($self, $date) = @_;
+    $date =~ /(\d+)\/(\d+)\/(\d+)/;
+    return "$2/$1/$3"; 
+}
+
 1;
