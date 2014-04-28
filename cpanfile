@@ -18,4 +18,4 @@ requires "Starlet";
 requires 'MongoDB';
 requires "Crypt::CBC";
 requires "Crypt::Blowfish";
-#requires 'IO::Compress::Gzip';
+requires 'IO::Compress::Gzip';
