@@ -20,7 +20,7 @@ sub create_form {
     }
 
     my $data = $self->req->json;
-    print Dumper $data;
+    debugf Dumper $data;
 
     $self->model->save_form($id, 'schengen', $data);
 
@@ -64,7 +64,7 @@ sub create_form {
 sub download_form {
     my $self = shift;
     my $file = $self->param('file');
-    print Dumper $file;
+    debugf $file;
     $self->render_file('filepath' => "/tmp/${file}", 'filename' => 'schengen.pdf');
 }
 

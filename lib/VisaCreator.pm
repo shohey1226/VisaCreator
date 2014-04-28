@@ -34,7 +34,7 @@ sub startup {
     scope => 'https://www.googleapis.com/auth/plus.me',
     on_finished => sub {
         my ( $c, $access_token, $ref ) = @_;
-        print Dumper $ref;
+        debugf Dumper $ref;
         my $session = Plack::Session->new( $c->req->env );
         my $id = $m->find_id({google_id => $ref->{id}});
         $id = $m->insert_google_info($ref) unless(defined $id);
@@ -107,7 +107,8 @@ sub startup {
   # Delete pdf file after 5 min (assume that the download finishes in 5 min);
   $self->hook(after_dispatch => sub {
     my $c = shift;
-    if ($c->res->{content}->{headers}->{headers}->{'content-type'}->[0]->[0] =~ /application\/x-download;name=\"(\S+).pdf\"/){
+    if (defined $c->res->{content}->{headers}->{headers}->{'content-type'}->[0]->[0] 
+            && $c->res->{content}->{headers}->{headers}->{'content-type'}->[0]->[0] =~ /application\/x-download;name=\"(\S+).pdf\"/){
         debugf "Deleting $c->res->{content}->{asset}->{path}...";
         system 'sleep 300 && rm ' . $c->res->{content}->{asset}->{path} . ' &';
     }

@@ -20,7 +20,7 @@ sub create_form {
     }
 
     my $data = $self->req->json;
-    print Dumper $data;
+    debugf Dumper $data;
     $self->model->save_form($id, 'japan', $data);
     my $pdf_name = $self->pdfmaker->create('japan', 'form', $self->config, $data->{userinfo});
     debugf "PDF name: $pdf_name";
@@ -30,7 +30,7 @@ sub create_form {
 sub download_form {
     my $self = shift;
     my $file = $self->param('file');
-    print Dumper $file;
+    debugf "file name is $file";
     $self->render_file('filepath' => "/tmp/${file}", 'filename' => 'japan_visa_form.pdf');
 }
 
